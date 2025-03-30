@@ -1,0 +1,1511 @@
+# KrakenUniq v0.7.3 DATE:2023-09-09T07:00:36Z DB:./GTDB_KRAKENUNIQ_DB DB_SIZE:2826310297708 WD:/crex/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/sedaDNA/genomes
+# CL:perl /proj/uppstore2018095/private/NBIS_Demo/KrakenUniq_v0.7.3/KrakenUniq/krakenuniq --db GTDB_KRAKENUNIQ_DB --fastq-input sample_16_species.trimmed.fastq.gz --threads 20 --output sequences.krakenuniq_GTDB --report-file krakenuniq.output_GTDB --preload
+
+%	reads	taxReads	kmers	dup	cov	taxID	rank	taxName
+83.79	373390	373390	2881051	2.01	NA	0	no rank	unclassified
+16.21	72210	104	503252	2.06	2.137e-06	1	no rank	root
+16.18	72094	2062	502966	2.05	2.203e-06	3	domain	  Bacteria
+5.644	25148	44	171012	2.1	2.62e-06	156	phylum	    Pseudomonadota
+5.371	23932	82	167669	2.08	4.468e-06	390	class	      Gammaproteobacteria
+5.278	23518	0	165516	2.08	6.733e-05	1212	order	        Enterobacterales
+5.278	23518	494	165516	2.08	6.733e-05	3682	family	          Enterobacteriaceae
+5.154	22966	4732	160297	2.07	0.001762	28036	genus	            Yersinia
+4.073	18148	358	115094	2.05	0.03887	113028	species	              Yersinia pestis
+1.242	5534	5534	35119	2.03	0.03956	1009397683	sequence	                GCF_900460465.1_NZ_UAVH01000001.1|kraken:taxid|113028
+0.9946	4432	4432	29401	1.97	0.04092	1009397687	sequence	                GCF_900460465.1_NZ_UAVH01000006.1|kraken:taxid|113028
+0.7536	3358	3358	20692	2.08	0.03815	1009397690	sequence	                GCF_900460465.1_NZ_UAVH01000007.1|kraken:taxid|113028
+0.4785	2132	2132	13434	2.04	0.03936	1009397684	sequence	                GCF_900460465.1_NZ_UAVH01000008.1|kraken:taxid|113028
+0.3959	1764	1764	11877	2.08	0.04057	1009397685	sequence	                GCF_900460465.1_NZ_UAVH01000009.1|kraken:taxid|113028
+0.06463	288	288	1911	1.98	0.03663	1009397681	sequence	                GCF_900460465.1_NZ_UAVH01000012.1|kraken:taxid|113028
+0.06284	280	280	1570	2.04	0.03322	1009397682	sequence	                GCF_900460465.1_NZ_UAVH01000011.1|kraken:taxid|113028
+0.0004488	2	2	5	2	0.00499	1009397691	sequence	                GCF_900460465.1_NZ_UAVH01000005.1|kraken:taxid|113028
+0.01436	64	0	169	2.18	5.145e-05	113033	species	              Yersinia similis
+0.001795	8	8	36	2.78	0.000224	1004193049	sequence	                GCF_001053095.1_NZ_CGBP01000004.1|kraken:taxid|113033
+0.001346	6	6	28	2	0.0003722	1004193059	sequence	                GCF_001053095.1_NZ_CGBP01000014.1|kraken:taxid|113033
+0.001346	6	6	5	2	2.135e-05	1004193047	sequence	                GCF_001053095.1_NZ_CGBP01000002.1|kraken:taxid|113033
+0.0008977	4	4	23	2	0.0002194	1004193053	sequence	                GCF_001053095.1_NZ_CGBP01000008.1|kraken:taxid|113033
+0.0008977	4	4	14	2	0.0003373	1004193077	sequence	                GCF_001053095.1_NZ_CGBP01000032.1|kraken:taxid|113033
+0.0008977	4	4	13	2	0.0001436	1004193056	sequence	                GCF_001053095.1_NZ_CGBP01000011.1|kraken:taxid|113033
+0.0008977	4	4	4	2	2.162e-05	1004193048	sequence	                GCF_001053095.1_NZ_CGBP01000003.1|kraken:taxid|113033
+0.0008977	4	4	2	2	6.123e-05	1004193075	sequence	                GCF_001053095.1_NZ_CGBP01000030.1|kraken:taxid|113033
+0.0004488	2	2	7	2	2.793e-05	1004193046	sequence	                GCF_001053095.1_NZ_CGBP01000001.1|kraken:taxid|113033
+0.0004488	2	2	6	2	4.751e-05	1004193051	sequence	                GCF_001053095.1_NZ_CGBP01000006.1|kraken:taxid|113033
+0.0004488	2	2	5	2	0.0003473	1004193088	sequence	                GCF_001053095.1_NZ_CGBP01000043.1|kraken:taxid|113033
+0.0004488	2	2	5	2	0.0001047	1004193069	sequence	                GCF_001053095.1_NZ_CGBP01000024.1|kraken:taxid|113033
+0.0004488	2	2	3	2	6.224e-05	1004193067	sequence	                GCF_001053095.1_NZ_CGBP01000022.1|kraken:taxid|113033
+0.0004488	2	2	3	2	3.71e-05	1004193057	sequence	                GCF_001053095.1_NZ_CGBP01000012.1|kraken:taxid|113033
+0.0004488	2	2	3	2	3.171e-05	1004193054	sequence	                GCF_001053095.1_NZ_CGBP01000009.1|kraken:taxid|113033
+0.0004488	2	2	2	2	2.959e-05	1004193061	sequence	                GCF_001053095.1_NZ_CGBP01000016.1|kraken:taxid|113033
+0.0004488	2	2	1	4	4.611e-05	1004193087	sequence	                GCF_001053095.1_NZ_CGBP01000042.1|kraken:taxid|113033
+0.0004488	2	2	1	2	1.35e-05	1004193063	sequence	                GCF_001053095.1_NZ_CGBP01000018.1|kraken:taxid|113033
+0.0004488	2	2	1	2	2.434e-05	1004193070	sequence	                GCF_001053095.1_NZ_CGBP01000025.1|kraken:taxid|113033
+0.0004488	2	2	1	2	4.528e-05	1004193084	sequence	                GCF_001053095.1_NZ_CGBP01000039.1|kraken:taxid|113033
+0.001346	6	0	25	2	6.053e-06	113027	species	              Yersinia pekkanenii
+0.0004488	2	2	18	2	0.0003095	1004194657	sequence	                GCF_001152565.1_NZ_CQAZ01000025.1|kraken:taxid|113027
+0.0004488	2	2	3	2	7.35e-05	1004194671	sequence	                GCF_001152565.1_NZ_CQAZ01000039.1|kraken:taxid|113027
+0.0004488	2	2	2	2	4.187e-05	1004194659	sequence	                GCF_001152565.1_NZ_CQAZ01000027.1|kraken:taxid|113027
+0.0008977	4	0	14	2	3.216e-06	113024	species	              Yersinia massiliensis
+0.0004488	2	2	13	2	0.0001341	1004114603	sequence	                GCF_000312485.1_NZ_HE997652.1|kraken:taxid|113024
+0.0004488	2	2	1	2	2.132e-06	1004114596	sequence	                GCF_000312485.1_NZ_HE997645.1|kraken:taxid|113024
+0.0004488	2	0	4	2	1.08e-06	113020	species	              Yersinia frederiksenii
+0.0004488	2	2	4	2	1.091e-06	1008884672	sequence	                GCF_000754805.1_NZ_KN150731.1|kraken:taxid|113020
+0.0004488	2	0	3	2	8.454e-07	113016	species	              Yersinia canariae
+0.0004488	2	2	3	2	8.454e-07	1009162965	sequence	                GCF_009831415.1_NZ_CP043727.1|kraken:taxid|113016
+0.0004488	2	0	3	2	8.54e-07	113011	species	              Yersinia aldovae
+0.0004488	2	2	1	2	1.45e-05	1008806535	sequence	                GCF_000173735.1_NZ_ACCB01000015.1|kraken:taxid|113011
+0.0004488	2	0	2	2	7.415e-07	113029	species	              Yersinia proxima
+0.0004488	2	2	2	2	9.102e-06	1004718435	sequence	                GCF_902170785.1_NZ_CABHYG010000014.1|kraken:taxid|113029
+0.0004488	2	0	2	2	6.396e-07	113023	species	              Yersinia kristensenii
+0.0004488	2	2	2	2	6.444e-07	1011977377	sequence	                GCF_900460525.1_NZ_UHIY01000001.1|kraken:taxid|113023
+0.0004488	2	0	2	2	6.015e-07	113022	species	              Yersinia intermedia
+0.0004488	2	2	2	2	6.015e-07	1009401629	sequence	                GCF_900635455.1_NZ_LR134116.1|kraken:taxid|113022
+0.004039	18	2	44	2.05	6.705e-07	22149	genus	            Pectobacterium
+0.002693	12	0	15	2.13	6.835e-06	81078	species	              Pectobacterium brasiliense
+0.0008977	4	4	5	2.4	0.01157	1011685913	sequence	                GCF_000754695.1_NZ_JQOE01000077.1|kraken:taxid|81078
+0.0008977	4	4	5	2	0.01111	1011685906	sequence	                GCF_000754695.1_NZ_JQOE01000070.1|kraken:taxid|81078
+0.0008977	4	4	4	2	0.008989	1011685900	sequence	                GCF_000754695.1_NZ_JQOE01000064.1|kraken:taxid|81078
+0.0004488	2	0	17	2	5.454e-06	81083	species	              Pectobacterium fontis
+0.0004488	2	2	15	2	8.487e-05	1004175293	sequence	                GCF_000803215.1_NZ_JSXC01000002.1|kraken:taxid|81083
+0.0004488	2	0	1	2	4.91e-07	81079	species	              Pectobacterium brasiliense_A
+0.0004488	2	2	1	2	9.391e-05	1009206257	sequence	                GCF_013449685.1_NZ_JACDSF010000056.1|kraken:taxid|81079
+0.001346	6	0	12	2	5.711e-08	22052	genus	            Pantoea
+0.0008977	4	0	11	2	2.703e-06	80165	species	              Pantoea sp011752625
+0.0008977	4	4	11	2	0.01855	1011852674	sequence	                GCF_011752625.1_NZ_VWXD01000037.1|kraken:taxid|80165
+0.0004488	2	0	1	2	2.936e-07	80177	species	              Pantoea vagans_C
+0.0004488	2	2	1	2	2.936e-07	1011714813	sequence	                GCF_001506165.1_NZ_CP011427.1|kraken:taxid|80177
+0.0008977	4	0	20	2	3.271e-07	10705	genus	            Citrobacter
+0.0008977	4	0	20	2	5.211e-06	43322	species	              Citrobacter sp010231475
+0.0008977	4	4	17	2	0.02591	1009173114	sequence	                GCF_010231475.1_NZ_NRDO01000131.1|kraken:taxid|43322
+0.0008977	4	0	3	2	1.301e-07	24674	genus	            Serratia_A
+0.0004488	2	0	2	2	4.67e-07	95561	species	              Serratia_A sp000496755
+0.0004488	2	2	2	2	1.023e-05	1004143491	sequence	                GCF_000496755.2_NZ_AYKS02000033.1|kraken:taxid|95561
+0.0004488	2	0	1	2	1.993e-07	95562	species	              Serratia_A sp000633355
+0.0004488	2	2	1	2	2.27e-05	1008867353	sequence	                GCF_000633355.1_NZ_AYMQ01000004.1|kraken:taxid|95562
+0.0004488	2	0	11	2	1.775e-07	23375	genus	            Rahnella
+0.0004488	2	0	11	2	2.7e-06	89964	species	              Rahnella perminowiae
+0.0004488	2	2	11	2	0.0008729	1004610464	sequence	                GCF_019049755.1_NZ_JAFMOS010000544.1|kraken:taxid|89964
+0.0004488	2	0	9	2	1.889e-06	11630	genus	            Edaphovirga
+0.0004488	2	0	9	2	1.889e-06	48365	species	              Edaphovirga cremea
+0.0004488	2	2	9	2	0.0001254	1009051943	sequence	                GCF_003332275.1_NZ_QOVA01000020.1|kraken:taxid|48365
+0.0004488	2	0	5	2	9.91e-08	9123	genus	            Buttiauxella
+0.0004488	2	0	5	2	1.354e-06	37471	species	              Buttiauxella colo
+0.0004488	2	2	5	2	5.54e-05	1004483729	sequence	                GCF_011808225.1_NZ_SOYS01000013.1|kraken:taxid|37471
+0.0004488	2	0	4	2	3.172e-08	11727	genus	            Erwinia
+0.0004488	2	0	2	2	4.799e-07	49205	species	              Erwinia mallotivora
+0.0004488	2	2	2	2	1.204e-05	1004151366	sequence	                GCF_000590885.1_NZ_JFHN01000063.1|kraken:taxid|49205
+0.0004488	2	2	2	2	2.109e-08	28000	genus	            Xenorhabdus
+0.0004488	2	0	2	2	9.592e-08	25109	genus	            Tatumella
+0.0004488	2	0	2	2	5.02e-07	100189	species	              Tatumella citrea
+0.0004488	2	2	2	2	5.024e-07	1008995426	sequence	                GCF_002163585.1_NZ_CP015579.1|kraken:taxid|100189
+0.0004488	2	0	2	2	1.375e-06	24677	genus	            Serratia_D
+0.0004488	2	0	2	2	1.375e-06	95567	species	              Serratia_D symbiotica_A
+0.0004488	2	2	2	2	1.375e-06	1004733970	sequence	                GCA_000238975.1_CP002295.1|kraken:taxid|95567
+0.0004488	2	0	2	2	3.871e-08	22405	genus	            Providencia
+0.0004488	2	0	1	2	2.641e-07	85088	species	              Providencia heimbachae
+0.0004488	2	2	1	2	8.548e-06	1004248469	sequence	                GCF_001655055.1_NZ_LXEW01000042.1|kraken:taxid|85088
+0.0004488	2	2	1	2	1.979e-08	22401	genus	            Proteus
+0.0004488	2	0	1	2	8.314e-08	8463	genus	            Arsenophonus
+0.0004488	2	0	1	2	9.818e-07	33717	species	              Arsenophonus sp000757905
+0.0004488	2	2	1	2	9.966e-07	1004506040	sequence	                GCF_013460135.1_NZ_CP038155.1|kraken:taxid|33717
+0.0004488	2	0	1	2	1.132e-06	24516	genus	            SZZU01
+0.0004488	2	0	1	2	1.132e-06	94531	species	              SZZU01 sp009829985
+0.0004488	2	2	1	2	1.448e-05	1009162960	sequence	                GCF_009829985.1_NZ_SZZU01000004.1|kraken:taxid|94531
+0.0004488	2	0	1	2	2.139e-07	8099	genus	            Affinibrenneria
+0.0004488	2	0	1	2	2.139e-07	31115	species	              Affinibrenneria salicis
+0.0004488	2	2	1	2	2.186e-06	1004434098	sequence	                GCF_008710095.1_NZ_VYKJ01000002.1|kraken:taxid|31115
+0.0004488	2	0	1	2	1.975e-06	21181	genus	            Moranella
+0.0004488	2	0	1	2	1.975e-06	74429	species	              Moranella endobia
+0.0004488	2	2	1	2	1.975e-06	1011646030	sequence	                GCF_000219175.1_NC_015735.1|kraken:taxid|74429
+0.0368	164	0	490	2.04	1.119e-07	1213	order	        Enterobacterales_A
+0.03321	148	0	445	2.04	3.831e-07	7217	family	          Vibrionaceae
+0.03276	146	0	442	2.04	5.496e-07	27397	genus	            Vibrio
+0.03187	142	2	435	2.04	9.999e-05	111274	species	              Vibrio ouci
+0.002693	12	12	38	2	0.1134	1009105833	sequence	                GCF_004551525.1_NZ_SATR01000186.1|kraken:taxid|111274
+0.002244	10	10	33	2	0.1054	1009105797	sequence	                GCF_004551525.1_NZ_SATR01000154.1|kraken:taxid|111274
+0.001795	8	8	20	2	0.05571	1009105784	sequence	                GCF_004551525.1_NZ_SATR01000143.1|kraken:taxid|111274
+0.001795	8	8	19	2	0.0522	1009105998	sequence	                GCF_004551525.1_NZ_SATR01000332.1|kraken:taxid|111274
+0.001346	6	6	15	2.67	0.07109	1009106107	sequence	                GCF_004551525.1_NZ_SATR01000424.1|kraken:taxid|111274
+0.001346	6	6	14	2.29	0.07254	1009105899	sequence	                GCF_004551525.1_NZ_SATR01000245.1|kraken:taxid|111274
+0.001346	6	6	15	2	0.03589	1009105830	sequence	                GCF_004551525.1_NZ_SATR01000183.1|kraken:taxid|111274
+0.001346	6	6	14	2	0.0791	1009105869	sequence	                GCF_004551525.1_NZ_SATR01000218.1|kraken:taxid|111274
+0.001346	6	6	10	2	0.03185	1009106103	sequence	                GCF_004551525.1_NZ_SATR01000421.1|kraken:taxid|111274
+0.0008977	4	4	34	2	0.1709	1009106116	sequence	                GCF_004551525.1_NZ_SATR01000432.1|kraken:taxid|111274
+0.0008977	4	4	33	2	0.1897	1009105891	sequence	                GCF_004551525.1_NZ_SATR01000238.1|kraken:taxid|111274
+0.0008977	4	4	24	2	0.06723	1009106079	sequence	                GCF_004551525.1_NZ_SATR01000401.1|kraken:taxid|111274
+0.0008977	4	4	16	2	0.1039	1009105962	sequence	                GCF_004551525.1_NZ_SATR01000300.1|kraken:taxid|111274
+0.0008977	4	4	15	2	0.08876	1009105937	sequence	                GCF_004551525.1_NZ_SATR01000278.1|kraken:taxid|111274
+0.0008977	4	4	8	2	0.0625	1009105931	sequence	                GCF_004551525.1_NZ_SATR01000272.1|kraken:taxid|111274
+0.0008977	4	4	7	2	0.01461	1009105804	sequence	                GCF_004551525.1_NZ_SATR01000161.1|kraken:taxid|111274
+0.0008977	4	4	6	2	0.02655	1009106022	sequence	                GCF_004551525.1_NZ_SATR01000352.1|kraken:taxid|111274
+0.0008977	4	4	4	2	0.01282	1009105916	sequence	                GCF_004551525.1_NZ_SATR01000260.1|kraken:taxid|111274
+0.0008977	4	4	1	4	0.00361	1009106015	sequence	                GCF_004551525.1_NZ_SATR01000346.1|kraken:taxid|111274
+0.0004488	2	2	20	2	0.0885	1009105945	sequence	                GCF_004551525.1_NZ_SATR01000285.1|kraken:taxid|111274
+0.0004488	2	2	17	2	0.05015	1009106096	sequence	                GCF_004551525.1_NZ_SATR01000415.1|kraken:taxid|111274
+0.0004488	2	2	8	2	0.02286	1009106088	sequence	                GCF_004551525.1_NZ_SATR01000408.1|kraken:taxid|111274
+0.0004488	2	2	7	2	0.01036	1009105815	sequence	                GCF_004551525.1_NZ_SATR01000171.1|kraken:taxid|111274
+0.0004488	2	2	6	2	0.02007	1009105988	sequence	                GCF_004551525.1_NZ_SATR01000323.1|kraken:taxid|111274
+0.0004488	2	2	6	2	0.02479	1009106058	sequence	                GCF_004551525.1_NZ_SATR01000384.1|kraken:taxid|111274
+0.0004488	2	2	6	2	0.01719	1009106016	sequence	                GCF_004551525.1_NZ_SATR01000347.1|kraken:taxid|111274
+0.0004488	2	2	6	2	0.0163	1009106072	sequence	                GCF_004551525.1_NZ_SATR01000395.1|kraken:taxid|111274
+0.0004488	2	2	5	2	0.02907	1009105990	sequence	                GCF_004551525.1_NZ_SATR01000325.1|kraken:taxid|111274
+0.0004488	2	2	5	2	0.03876	1009106047	sequence	                GCF_004551525.1_NZ_SATR01000374.1|kraken:taxid|111274
+0.0004488	2	2	4	2	0.02439	1009106057	sequence	                GCF_004551525.1_NZ_SATR01000383.1|kraken:taxid|111274
+0.0004488	2	2	4	2	0.03448	1009105950	sequence	                GCF_004551525.1_NZ_SATR01000289.1|kraken:taxid|111274
+0.0004488	2	2	2	2	0.03509	1009106020	sequence	                GCF_004551525.1_NZ_SATR01000351.1|kraken:taxid|111274
+0.0004488	2	2	2	2	0.003135	1009105800	sequence	                GCF_004551525.1_NZ_SATR01000157.1|kraken:taxid|111274
+0.0004488	2	2	2	2	0.0008042	1009106157	sequence	                GCF_004551525.1_NZ_SATR01000077.1|kraken:taxid|111274
+0.0004488	2	2	1	2	0.002179	1009105906	sequence	                GCF_004551525.1_NZ_SATR01000251.1|kraken:taxid|111274
+0.0004488	2	0	3	2	6.412e-07	111306	species	              Vibrio sinensis
+0.0004488	2	2	3	2	0.01613	1011782994	sequence	                GCF_003605645.1_NZ_QVMU01000098.1|kraken:taxid|111306
+0.0004488	2	0	1	2	2.438e-07	111172	species	              Vibrio agarilyticus
+0.0004488	2	2	1	2	6.017e-06	1004486568	sequence	                GCF_012641465.1_NZ_JABAIK010000010.1|kraken:taxid|111172
+0.0004488	2	0	3	2	1.482e-07	24567	genus	            Salinivibrio
+0.0004488	2	0	3	2	9.817e-07	94894	species	              Salinivibrio proteolyticus
+0.0004488	2	2	3	2	1.158e-05	1008978924	sequence	                GCF_001996165.1_NZ_MUFP01000001.1|kraken:taxid|94894
+0.001346	6	0	11	2.55	4.334e-08	5849	family	          Pasteurellaceae
+0.0008977	4	0	5	3.2	4.718e-07	13103	genus	            Haemophilus
+0.0008977	4	0	5	3.2	9.262e-06	55526	species	              Haemophilus influenzae_G
+0.0008977	4	4	5	3.2	9.262e-06	1003909675	sequence	                GCA_923172585.1_OV298644.1|kraken:taxid|55526
+0.0004488	2	0	2	2	1.125e-07	13106	genus	            Haemophilus_D
+0.0004488	2	0	2	2	7.042e-06	55546	species	              Haemophilus_D sp015255025
+0.0004488	2	2	2	2	0.004577	1010168897	sequence	                GCA_015255025.1_JABZOY010000185.1|kraken:taxid|55546
+0.0008977	4	0	17	2	3.019e-08	6353	family	          Shewanellaceae
+0.0008977	4	0	17	2	3.542e-08	24688	genus	            Shewanella
+0.0008977	4	0	15	2	5.182e-06	95630	species	              Shewanella hafniensis
+0.0008977	4	4	15	2	0.05415	1011928190	sequence	                GCF_019655335.1_NZ_BPFD01000198.1|kraken:taxid|95630
+0.0008977	4	0	11	2	6.678e-09	2758	family	          Alteromonadaceae
+0.0008977	4	0	5	2	3.932e-08	10774	genus	            Colwellia
+0.0008977	4	0	5	2	1.796e-06	44261	species	              Colwellia marinimaniae
+0.0004488	2	2	3	2	0.01705	1011746256	sequence	                GCF_002207865.1_NZ_BDQM01000292.1|kraken:taxid|44261
+0.0004488	2	2	2	2	0.01036	1011746501	sequence	                GCF_002207865.1_NZ_BDQM01000537.1|kraken:taxid|44261
+0.0004488	2	0	5	2	2.525e-08	2744	family	          Aeromonadaceae
+0.0004488	2	0	5	2	4.492e-08	8082	genus	            Aeromonas
+0.0004488	2	0	5	2	1.965e-06	31055	species	              Aeromonas sanarellii
+0.0004488	2	2	5	2	0.01572	1004177355	sequence	                GCF_000820085.1_NZ_CDBN01000052.1|kraken:taxid|31055
+0.01706	76	0	183	2.13	1.367e-08	953	order	        Burkholderiales
+0.009874	44	0	128	2.09	1.015e-07	6042	family	          Rhodocyclaceae
+0.009874	44	0	128	2.09	6.288e-07	8547	genus	            Azonexus
+0.008079	36	0	90	2.13	3.114e-05	34319	species	              Azonexus sp016617495
+0.001795	8	8	10	3.2	0.09901	1010262759	sequence	                GCA_016617495.1_WYCU01000791.1|kraken:taxid|34319
+0.0004488	2	2	18	2	0.08491	1010262487	sequence	                GCA_016617495.1_WYCU01000537.1|kraken:taxid|34319
+0.0004488	2	2	9	2	0.04787	1010263753	sequence	                GCA_016617495.1_WYCU01000385.1|kraken:taxid|34319
+0.0004488	2	2	9	2	0.03	1010263517	sequence	                GCA_016617495.1_WYCU01000158.1|kraken:taxid|34319
+0.0004488	2	2	8	2	0.07843	1010262841	sequence	                GCA_016617495.1_WYCU01000867.1|kraken:taxid|34319
+0.0004488	2	2	7	2	0.02288	1010263600	sequence	                GCA_016617495.1_WYCU01000238.1|kraken:taxid|34319
+0.0004488	2	2	4	2	0.02073	1010263149	sequence	                GCA_016617495.1_WYCU01001150.1|kraken:taxid|34319
+0.0004488	2	2	4	2	0.02105	1010262523	sequence	                GCA_016617495.1_WYCU01000570.1|kraken:taxid|34319
+0.0004488	2	2	3	2	0.01429	1010262878	sequence	                GCA_016617495.1_WYCU01000901.1|kraken:taxid|34319
+0.0004488	2	2	3	2	0.006865	1010263528	sequence	                GCA_016617495.1_WYCU01000169.1|kraken:taxid|34319
+0.0004488	2	2	2	2	0.01183	1010262834	sequence	                GCA_016617495.1_WYCU01000860.1|kraken:taxid|34319
+0.0004488	2	2	1	2	0.005495	1010262954	sequence	                GCA_016617495.1_WYCU01000971.1|kraken:taxid|34319
+0.0004488	2	2	1	2	0.002123	1010262865	sequence	                GCA_016617495.1_WYCU01000049.1|kraken:taxid|34319
+0.0004488	2	2	1	2	0.004808	1010262576	sequence	                GCA_016617495.1_WYCU01000619.1|kraken:taxid|34319
+0.0004488	2	2	1	2	0.003584	1010262546	sequence	                GCA_016617495.1_WYCU01000591.1|kraken:taxid|34319
+0.001795	8	0	37	2	1.413e-05	34288	species	              Azonexus hortensis
+0.0008977	4	4	21	2	0.09417	1011835309	sequence	                GCF_009469765.1_NZ_SSSQ01000049.1|kraken:taxid|34288
+0.0004488	2	2	12	2	0.07843	1011835327	sequence	                GCF_009469765.1_NZ_SSSQ01000065.1|kraken:taxid|34288
+0.0004488	2	2	4	2	0.02041	1011835316	sequence	                GCF_009469765.1_NZ_SSSQ01000055.1|kraken:taxid|34288
+0.003591	16	2	25	2.4	6.287e-09	2997	family	          Burkholderiaceae_B
+0.001795	8	0	13	2	8.701e-08	8021	genus	            Acidovorax
+0.001795	8	0	13	2	3.249e-06	30276	species	              Acidovorax aporrectodeae
+0.0008977	4	4	6	2	0.04348	1004097173	sequence	                GCF_000193225.1_NZ_AFAL01000344.1|kraken:taxid|30276
+0.0004488	2	2	6	2	0.03409	1004096835	sequence	                GCF_000193225.1_NZ_AFAL01000682.1|kraken:taxid|30276
+0.0004488	2	2	1	2	0.009346	1004097506	sequence	                GCF_000193225.1_NZ_AFAL01000011.1|kraken:taxid|30276
+0.0008977	4	0	5	4	1.571e-06	24535	genus	            Saezia
+0.0008977	4	0	5	4	1.571e-06	94745	species	              Saezia sanguinis
+0.0008977	4	4	5	4	0.02232	1009083351	sequence	                GCF_003991585.1_NZ_PQSP01000028.1|kraken:taxid|94745
+0.0004488	2	0	4	2	8.645e-07	27442	genus	            WAJ17
+0.0004488	2	0	4	2	8.645e-07	111578	species	              WAJ17 sp014174515
+0.0004488	2	2	4	2	0.01067	1004515499	sequence	                GCF_014174515.1_NZ_JACJUG010000106.1|kraken:taxid|111578
+0.001346	6	0	10	2	5.061e-08	5704	family	          Neisseriaceae
+0.001346	6	0	10	2	1.022e-07	21367	genus	            Neisseria
+0.0008977	4	0	6	2	4.734e-06	76017	species	              Neisseria meningitidis_C
+0.0008977	4	4	6	2	4.734e-06	1008619820	sequence	                GCA_923184405.1_OV299793.1|kraken:taxid|76017
+0.0004488	2	0	4	2	7.219e-06	76024	species	              Neisseria polysaccharea
+0.0004488	2	2	4	2	0.007692	1004733473	sequence	                GCA_000176735.1_ADBE01000075.1|kraken:taxid|76024
+0.001346	6	0	6	2.33	1.526e-09	2995	family	          Burkholderiaceae
+0.0008977	4	0	3	2.67	4.412e-08	21471	genus	            Noviherbaspirillum
+0.0008977	4	0	3	2.67	6.334e-07	77377	species	              Noviherbaspirillum sp021821365
+0.0008977	4	4	3	2.67	0.0004164	1007427323	sequence	                GCA_021821365.1_JAKACN010000254.1|kraken:taxid|77377
+0.0004488	2	0	3	2	8.362e-08	20423	genus	            Limnobacter
+0.0004488	2	0	3	2	1.007e-06	69346	species	              Limnobacter sp024623725
+0.0004488	2	2	3	2	0.006637	1009362447	sequence	                GCF_024623725.1_NZ_JANKHG010000008.1|kraken:taxid|69346
+0.0008977	4	0	11	2	2.453e-07	3728	family	          Ferrovaceae
+0.0008977	4	0	11	2	7.781e-07	11959	genus	            Ferrovum
+0.0008977	4	0	11	2	9.272e-06	50784	species	              Ferrovum sp019456405
+0.0008977	4	4	11	2	0.01091	1002223579	sequence	                GCA_019456405.1_WJXM01000010.1|kraken:taxid|50784
+0.01077	48	0	87	2.67	1.005e-08	1969	order	        Pseudomonadales
+0.004488	20	2	12	6.83	1.485e-08	5651	family	          Moraxellaceae
+0.003591	16	0	6	11.7	1.32e-08	8028	genus	            Acinetobacter
+0.003591	16	0	6	11.7	1.527e-06	30377	species	              Acinetobacter bereziniae_A
+0.003591	16	16	6	11.7	0.0004985	1009891488	sequence	                GCA_009912575.1_WNDP01000118.1|kraken:taxid|30377
+0.0004488	2	0	1	2	4.765e-09	22518	genus	            Psychrobacter
+0.0004488	2	0	1	2	3.896e-07	86652	species	              Psychrobacter glaciei
+0.0004488	2	2	1	2	4.681e-06	1004534488	sequence	                GCF_014652895.1_NZ_BMZR01000004.1|kraken:taxid|86652
+0.003591	16	0	38	2	1.115e-08	5890	family	          Pseudomonadaceae
+0.001795	8	0	14	2	5.134e-09	22466	genus	            Pseudomonas_E
+0.0008977	4	0	7	2	1.69e-06	85707	species	              Pseudomonas_E dryadis
+0.0008977	4	4	7	2	0.04861	1009093048	sequence	                GCF_004327355.1_NZ_QJUM01000082.1|kraken:taxid|85707
+0.0004488	2	0	3	2	9.531e-07	86287	species	              Pseudomonas_E viridiflava_D
+0.0004488	2	2	3	2	0.01389	1009400327	sequence	                GCF_900590885.1_NZ_UUON01000044.1|kraken:taxid|86287
+0.0004488	2	0	3	2	1.304e-06	86239	species	              Pseudomonas_E sp902506505
+0.0004488	2	2	3	2	0.003359	1009404939	sequence	                GCF_902506505.1_NZ_LR733409.1|kraken:taxid|86239
+0.001346	6	0	23	2	2.253e-07	22464	genus	            Pseudomonas
+0.001346	6	0	23	2	6.43e-06	85593	species	              Pseudomonas sp017491605
+0.0008977	4	4	20	2	0.03466	1009276548	sequence	                GCF_017491605.1_NZ_JAFGYY010000073.1|kraken:taxid|85593
+0.0004488	2	2	1	2	0.002398	1009276246	sequence	                GCF_017491605.1_NZ_JAFGYY010000335.1|kraken:taxid|85593
+0.0004488	2	0	1	2	2.063e-08	22465	genus	            Pseudomonas_B
+0.0004488	2	0	1	2	2.629e-07	85603	species	              Pseudomonas_B psychrotolerans_C
+0.0004488	2	2	1	2	0.009009	1004419638	sequence	                GCF_007665395.1_NZ_VDND01000041.1|kraken:taxid|85603
+0.001346	6	0	18	2	5.145e-08	5709	family	          Nitrincolaceae
+0.001346	6	0	16	2	4.659e-07	20873	genus	            Marinobacterium_A
+0.001346	6	0	16	2	3.622e-06	71663	species	              Marinobacterium_A sp024267675
+0.0004488	2	2	11	2	0.06471	1009356740	sequence	                GCF_024267675.1_NZ_JALDYX010000246.1|kraken:taxid|71663
+0.0004488	2	2	3	2	0.01357	1009356534	sequence	                GCF_024267675.1_NZ_JALDYX010000117.1|kraken:taxid|71663
+0.0004488	2	2	2	2	0.007491	1009356512	sequence	                GCF_024267675.1_NZ_JALDYX010000098.1|kraken:taxid|71663
+0.0004488	2	0	3	2	2.296e-08	2752	family	          Alcanivoracaceae
+0.0004488	2	0	3	2	3.293e-08	8132	genus	            Alcanivorax
+0.0004488	2	0	3	2	9.427e-07	31475	species	              Alcanivorax hongdengensis
+0.0004488	2	2	3	2	0.09677	1004110778	sequence	                GCF_000300995.1_NZ_AMRJ01000061.1|kraken:taxid|31475
+0.0004488	2	0	1	2	2.036e-09	3306	family	          Cellvibrionaceae
+0.0004488	2	0	1	2	6.544e-09	21118	genus	            Microbulbifer
+0.0004488	2	0	1	2	2.151e-07	73939	species	              Microbulbifer sp023895975
+0.0004488	2	2	1	2	0.006135	1004665338	sequence	                GCF_023895975.1_NZ_JALBWM010000462.1|kraken:taxid|73939
+0.0004488	2	0	1	2	1.248e-09	4055	family	          Halomonadaceae
+0.0004488	2	0	1	2	4.063e-08	21576	genus	            Oceanospirillum
+0.0004488	2	0	1	2	2.872e-07	77990	species	              Oceanospirillum linum
+0.0004488	2	2	1	2	0.002315	1004267011	sequence	                GCF_001995095.2_NZ_MTSD02000062.1|kraken:taxid|77990
+0.004937	22	0	36	2	5.994e-08	1063	order	        Chromatiales
+0.004937	22	0	36	2	1.068e-07	3329	family	          Chromatiaceae
+0.002244	10	0	20	2	7.362e-07	10683	genus	            Chromatium
+0.002244	10	0	20	2	7.816e-06	43059	species	              Chromatium weissei
+0.0008977	4	4	13	2	0.03457	1009256426	sequence	                GCF_016583765.1_NZ_NRRR01000070.1|kraken:taxid|43059
+0.0004488	2	2	4	2	0.004515	1009256388	sequence	                GCF_016583765.1_NZ_NRRR01000032.1|kraken:taxid|43059
+0.0004488	2	2	1	2	0.003891	1009256443	sequence	                GCF_016583765.1_NZ_NRRR01000087.1|kraken:taxid|43059
+0.0004488	2	2	1	2	0.001608	1009256400	sequence	                GCF_016583765.1_NZ_NRRR01000044.1|kraken:taxid|43059
+0.001346	6	0	9	2	2.09e-07	25305	genus	            Thiohalocapsa
+0.001346	6	0	9	2	1.786e-06	101259	species	              Thiohalocapsa halophila
+0.001346	6	6	8	2	0.04734	1004564329	sequence	                GCF_016583825.1_NZ_NRRV01000166.1|kraken:taxid|101259
+0.0008977	4	0	3	2	6.455e-08	25290	genus	            Thiocapsa
+0.0008977	4	0	3	2	6.896e-07	101172	species	              Thiocapsa imhoffii
+0.0008977	4	4	3	2	0.006316	1011899118	sequence	                GCF_016583985.1_NZ_NRSD01000100.1|kraken:taxid|101172
+0.0004488	2	0	4	2	2.424e-07	25319	genus	            Thiorhodococcus
+0.0004488	2	0	4	2	7.918e-07	101384	species	              Thiorhodococcus violaceus_A
+0.0004488	2	2	4	2	0.008475	1009256191	sequence	                GCF_016583565.1_NZ_NRRF01000273.1|kraken:taxid|101384
+0.001795	8	0	43	2	1.855e-08	2555	order	        Xanthomonadales
+0.001346	6	0	27	2	2.097e-08	7348	family	          Xanthomonadaceae
+0.0008977	4	0	26	2	1.026e-07	24869	genus	            Stenotrophomonas
+0.0004488	2	0	17	2	6.762e-06	97397	species	              Stenotrophomonas indicatrix
+0.0004488	2	2	17	2	0.1126	1004297964	sequence	                GCF_002750975.1_NZ_PEJS01000007.1|kraken:taxid|97397
+0.0004488	2	0	9	2	3.206e-06	97443	species	              Stenotrophomonas rhizophila_C
+0.0004488	2	2	9	2	0.01148	1004631512	sequence	                GCF_020857975.1_NZ_JACWUO010000049.1|kraken:taxid|97443
+0.0004488	2	0	1	2	2.019e-08	25250	genus	            Thermomonas
+0.0004488	2	0	1	2	5.991e-07	100915	species	              Thermomonas alba
+0.0004488	2	2	1	2	0.003984	1009336409	sequence	                GCF_022419205.1_NZ_JAJOZU010000049.1|kraken:taxid|100915
+0.0004488	2	0	16	2	2.381e-08	6039	family	          Rhodanobacteraceae
+0.0004488	2	0	16	2	1.895e-07	11561	genus	            Dyella
+0.0004488	2	0	16	2	4.388e-06	47928	species	              Dyella sp003332825
+0.0004488	2	2	16	2	0.08649	1011775693	sequence	                GCF_003332825.1_NZ_QIRF01000033.1|kraken:taxid|47928
+0.001795	8	0	10	2	8.478e-08	1206	order	        Ectothiorhodospirales
+0.001795	8	0	10	2	2.325e-07	3672	family	          Ectothiorhodospiraceae
+0.001795	8	0	10	2	4.2e-07	11627	genus	            Ectothiorhodospira
+0.001346	6	0	9	2	4.38e-06	48323	species	              Ectothiorhodospira mobilis
+0.0008977	4	4	6	2	0.02239	1004564693	sequence	                GCF_016584115.1_NZ_NRSK01000080.1|kraken:taxid|48323
+0.0004488	2	2	3	2	0.03409	1004564701	sequence	                GCF_016584115.1_NZ_NRSK01000088.1|kraken:taxid|48323
+0.0004488	2	0	1	2	3.72e-07	48325	species	              Ectothiorhodospira shaposhnikovii
+0.0004488	2	2	1	2	0.003497	1011899231	sequence	                GCF_016584105.1_NZ_NRSM01000099.1|kraken:taxid|48325
+0.0008977	4	0	10	2	8.77e-07	1685	order	        JAHJQQ01
+0.0008977	4	0	10	2	8.77e-07	5112	family	          JAHJQQ01
+0.0008977	4	0	10	2	8.77e-07	18259	genus	            JAHJQQ01
+0.0008977	4	0	10	2	3.193e-06	64381	species	              JAHJQQ01 sp019911805
+0.0004488	2	2	7	2	0.008363	1002259514	sequence	                GCA_019911805.1_JAIOJV010000050.1|kraken:taxid|64381
+0.0004488	2	2	3	2	0.005917	1002259622	sequence	                GCA_019911805.1_JAIOJV010000005.1|kraken:taxid|64381
+0.0004488	2	0	5	2	3.772e-08	2246	order	        Thiotrichales
+0.0004488	2	0	5	2	3.772e-08	6505	family	          Thiotrichaceae
+0.0004488	2	0	5	2	6.441e-07	25297	genus	            Thiofilum
+0.0004488	2	0	5	2	1.214e-06	101224	species	              Thiofilum sp016711335
+0.0004488	2	2	5	2	1.314e-06	1010267635	sequence	                GCA_016711335.1_JADJTF010000001.1|kraken:taxid|101224
+0.263	1172	2	3536	2.91	1.291e-07	227	class	      Alphaproteobacteria
+0.1674	746	0	2314	2.83	2.339e-07	2027	order	        Rhizobiales
+0.1607	716	0	2247	2.85	1.363e-06	2952	family	          Beijerinckiaceae
+0.1602	714	0	2246	2.85	2.236e-05	21071	genus	            Methylocystis
+0.1602	714	0	2246	2.85	0.000598	73304	species	              Methylocystis sp011058845
+0.04039	180	180	569	3.28	0.223	1004478037	sequence	                GCF_011058845.1_NZ_JAAFZE010000057.1|kraken:taxid|73304
+0.03276	146	146	451	3.35	0.5202	1004478065	sequence	                GCF_011058845.1_NZ_JAAFZE010000082.1|kraken:taxid|73304
+0.01302	58	58	163	2.49	0.1691	1004478061	sequence	                GCF_011058845.1_NZ_JAAFZE010000079.1|kraken:taxid|73304
+0.01032	46	46	126	3.76	0.3043	1004477899	sequence	                GCF_011058845.1_NZ_JAAFZE010000104.1|kraken:taxid|73304
+0.005835	26	26	67	2.78	0.1362	1004478082	sequence	                GCF_011058845.1_NZ_JAAFZE010000098.1|kraken:taxid|73304
+0.004937	22	22	80	2.62	0.4061	1004477986	sequence	                GCF_011058845.1_NZ_JAAFZE010000183.1|kraken:taxid|73304
+0.004937	22	22	62	2.23	0.03917	1004478047	sequence	                GCF_011058845.1_NZ_JAAFZE010000066.1|kraken:taxid|73304
+0.004488	20	20	92	2.63	0.06225	1004478046	sequence	                GCF_011058845.1_NZ_JAAFZE010000065.1|kraken:taxid|73304
+0.004039	18	18	64	2.16	0.05556	1004478058	sequence	                GCF_011058845.1_NZ_JAAFZE010000076.1|kraken:taxid|73304
+0.003591	16	16	41	2.44	0.1971	1004477921	sequence	                GCF_011058845.1_NZ_JAAFZE010000124.1|kraken:taxid|73304
+0.003142	14	14	26	2.23	0.08874	1004477931	sequence	                GCF_011058845.1_NZ_JAAFZE010000133.1|kraken:taxid|73304
+0.002693	12	12	77	2.47	0.3105	1004477945	sequence	                GCF_011058845.1_NZ_JAAFZE010000146.1|kraken:taxid|73304
+0.002693	12	12	37	2.54	0.1796	1004477977	sequence	                GCF_011058845.1_NZ_JAAFZE010000175.1|kraken:taxid|73304
+0.002244	10	10	41	2	0.0865	1004477897	sequence	                GCF_011058845.1_NZ_JAAFZE010000102.1|kraken:taxid|73304
+0.002244	10	10	35	2.23	0.1163	1004477928	sequence	                GCF_011058845.1_NZ_JAAFZE010000130.1|kraken:taxid|73304
+0.002244	10	10	29	2	0.06004	1004478079	sequence	                GCF_011058845.1_NZ_JAAFZE010000095.1|kraken:taxid|73304
+0.002244	10	10	24	2.17	0.05442	1004477896	sequence	                GCF_011058845.1_NZ_JAAFZE010000101.1|kraken:taxid|73304
+0.001795	8	8	36	2	0.1885	1004477989	sequence	                GCF_011058845.1_NZ_JAAFZE010000186.1|kraken:taxid|73304
+0.001795	8	8	22	2	0.05805	1004477907	sequence	                GCF_011058845.1_NZ_JAAFZE010000111.1|kraken:taxid|73304
+0.001795	8	8	13	2	0.01389	1004478064	sequence	                GCF_011058845.1_NZ_JAAFZE010000081.1|kraken:taxid|73304
+0.001346	6	6	36	2	0.1173	1004477926	sequence	                GCF_011058845.1_NZ_JAAFZE010000129.1|kraken:taxid|73304
+0.001346	6	6	25	2	0.08929	1004477933	sequence	                GCF_011058845.1_NZ_JAAFZE010000135.1|kraken:taxid|73304
+0.001346	6	6	20	2	0.07435	1004477937	sequence	                GCF_011058845.1_NZ_JAAFZE010000139.1|kraken:taxid|73304
+0.0008977	4	4	19	2	0.095	1004477984	sequence	                GCF_011058845.1_NZ_JAAFZE010000181.1|kraken:taxid|73304
+0.0008977	4	4	11	2	0.026	1004477902	sequence	                GCF_011058845.1_NZ_JAAFZE010000107.1|kraken:taxid|73304
+0.0008977	4	4	9	2	0.05455	1004477983	sequence	                GCF_011058845.1_NZ_JAAFZE010000180.1|kraken:taxid|73304
+0.0008977	4	4	7	2	0.02431	1004477932	sequence	                GCF_011058845.1_NZ_JAAFZE010000134.1|kraken:taxid|73304
+0.0008977	4	4	7	2	0.02333	1004477929	sequence	                GCF_011058845.1_NZ_JAAFZE010000131.1|kraken:taxid|73304
+0.0008977	4	4	5	2.4	0.02392	1004477973	sequence	                GCF_011058845.1_NZ_JAAFZE010000171.1|kraken:taxid|73304
+0.0004488	2	2	19	2	0.08051	1004477951	sequence	                GCF_011058845.1_NZ_JAAFZE010000151.1|kraken:taxid|73304
+0.0004488	2	2	10	2	0.04367	1004477936	sequence	                GCF_011058845.1_NZ_JAAFZE010000138.1|kraken:taxid|73304
+0.0004488	2	2	8	2	0.008089	1004478060	sequence	                GCF_011058845.1_NZ_JAAFZE010000078.1|kraken:taxid|73304
+0.0004488	2	2	6	2	0.02691	1004477957	sequence	                GCF_011058845.1_NZ_JAAFZE010000157.1|kraken:taxid|73304
+0.0004488	2	2	4	2	0.01096	1004477914	sequence	                GCF_011058845.1_NZ_JAAFZE010000118.1|kraken:taxid|73304
+0.0004488	2	2	3	2	0.01395	1004477965	sequence	                GCF_011058845.1_NZ_JAAFZE010000164.1|kraken:taxid|73304
+0.0004488	2	2	2	2	0.009346	1004477966	sequence	                GCF_011058845.1_NZ_JAAFZE010000165.1|kraken:taxid|73304
+0.0004488	2	2	1	2	0.004292	1004477954	sequence	                GCF_011058845.1_NZ_JAAFZE010000154.1|kraken:taxid|73304
+0.0004488	2	0	1	2	2.141e-07	24550	genus	            Salinarimonas_A
+0.0004488	2	0	1	2	2.141e-07	94804	species	              Salinarimonas_A soli
+0.0004488	2	2	1	2	0.01613	1009140678	sequence	                GCF_008386575.1_NZ_VUOA01000121.1|kraken:taxid|94804
+0.004488	20	0	33	2.12	1.503e-08	7347	family	          Xanthobacteraceae
+0.001795	8	0	16	2	2.939e-07	27990	genus	            Xanthobacter
+0.001795	8	0	16	2	3.948e-06	112831	species	              Xanthobacter tagetidis
+0.0008977	4	4	5	2	0.01064	1004358760	sequence	                GCF_003667445.1_NZ_RCTF01000057.1|kraken:taxid|112831
+0.0004488	2	2	9	2	0.03719	1004358786	sequence	                GCF_003667445.1_NZ_RCTF01000080.1|kraken:taxid|112831
+0.0004488	2	2	2	2	0.006098	1004358751	sequence	                GCF_003667445.1_NZ_RCTF01000049.1|kraken:taxid|112831
+0.001795	8	0	10	2.4	7.939e-09	9078	genus	            Bradyrhizobium
+0.0008977	4	0	4	3	8.831e-07	36695	species	              Bradyrhizobium cajani
+0.0008977	4	4	4	3	0.01194	1009158770	sequence	                GCF_009759665.1_NZ_WQNE01000097.1|kraken:taxid|36695
+0.0004488	2	0	3	2	5.383e-07	36696	species	              Bradyrhizobium campsiandrae
+0.0004488	2	2	3	2	0.00974	1009220824	sequence	                GCF_014529705.1_NZ_JAANIH010000188.1|kraken:taxid|36696
+0.0004488	2	0	3	2	8.449e-07	36725	species	              Bradyrhizobium forestalis
+0.0004488	2	2	3	2	0.01014	1009013842	sequence	                GCF_002795245.1_NZ_PGVG01000137.1|kraken:taxid|36725
+0.0004488	2	0	5	2	1.844e-07	23437	genus	            Rhodoplanes
+0.0004488	2	0	5	2	8.783e-07	90875	species	              Rhodoplanes roseus
+0.0004488	2	2	5	2	0.02632	1011772559	sequence	                GCF_003258865.1_NZ_NPEX01000946.1|kraken:taxid|90875
+0.0004488	2	0	2	2	2.086e-08	8341	genus	            Ancylobacter
+0.0004488	2	0	2	2	3.654e-07	33016	species	              Ancylobacter sp012971745
+0.0004488	2	2	2	2	3.654e-07	1009196600	sequence	                GCF_012971745.1_NZ_CP048834.1|kraken:taxid|33016
+0.002244	10	0	31	2	7.744e-09	6037	family	          Rhizobiaceae
+0.0008977	4	0	12	2	1.795e-08	23404	genus	            Rhizobium
+0.0004488	2	0	9	2	1.93e-06	90342	species	              Rhizobium sp902706285
+0.0004488	2	2	9	2	0.03103	1009405685	sequence	                GCF_902706285.1_NZ_CACSKD010000193.1|kraken:taxid|90342
+0.0004488	2	0	3	2	7.69e-07	90263	species	              Rhizobium mesosinicum
+0.0004488	2	2	3	2	0.01463	1004617191	sequence	                GCF_019511345.1_NZ_JAEUAK010000040.1|kraken:taxid|90263
+0.0004488	2	0	12	2	1.787e-07	8959	genus	            Bartonella
+0.0004488	2	0	12	2	1.098e-05	35608	species	              Bartonella vinsonii
+0.0004488	2	2	3	2	0.008427	1009407226	sequence	                GCF_902825235.1_NZ_CADEAJ010000061.1|kraken:taxid|35608
+0.0004488	2	0	4	2	1.682e-08	8220	genus	            Allorhizobium
+0.0004488	2	0	4	2	9.102e-07	32217	species	              Allorhizobium sp012276985
+0.0004488	2	2	4	2	0.01034	1011854502	sequence	                GCF_012276985.1_NZ_JAAXMM010000045.1|kraken:taxid|32217
+0.0004488	2	0	3	2	4.719e-09	20966	genus	            Mesorhizobium
+0.0004488	2	0	3	2	6.938e-07	72398	species	              Mesorhizobium sp006442965
+0.0004488	2	2	3	2	0.007126	1009120532	sequence	                GCF_006442965.1_NZ_VFWX01000037.1|kraken:taxid|72398
+0.08259	368	0	1142	3.06	2.352e-07	2029	order	        Rhodobacterales
+0.08259	368	0	1142	3.06	2.352e-07	6040	family	          Rhodobacteraceae
+0.07855	350	0	1088	3.1	0.0001227	22125	genus	            Paroceanicella
+0.07855	350	0	1088	3.1	0.0002459	80866	species	              Paroceanicella sp003448965
+0.05655	252	252	820	3.14	0.4893	1009059542	sequence	                GCF_003448965.1_NZ_QRGC01000074.1|kraken:taxid|80866
+0.01167	52	52	143	3.13	0.2014	1009059568	sequence	                GCF_003448965.1_NZ_QRGC01000098.1|kraken:taxid|80866
+0.01032	46	46	125	2.82	0.1662	1009059567	sequence	                GCF_003448965.1_NZ_QRGC01000097.1|kraken:taxid|80866
+0.001346	6	0	28	2	2.037e-06	23399	genus	            Rhabdonatronobacter
+0.001346	6	0	28	2	8.255e-06	90181	species	              Rhabdonatronobacter sediminivivens
+0.0008977	4	4	11	2	0.01877	1011862170	sequence	                GCF_013415485.1_NZ_JACBXS010000139.1|kraken:taxid|90181
+0.0004488	2	2	17	2	0.04762	1011862154	sequence	                GCF_013415485.1_NZ_JACBXS010000124.1|kraken:taxid|90181
+0.001346	6	0	16	2.38	8.503e-08	23539	genus	            Ruegeria
+0.001346	6	0	16	2.38	3.737e-06	91696	species	              Ruegeria haliotis
+0.0004488	2	2	10	2	0.02494	1009204370	sequence	                GCF_013377785.1_NZ_JABXWT010000113.1|kraken:taxid|91696
+0.0004488	2	2	4	3.5	0.01072	1009204363	sequence	                GCF_013377785.1_NZ_JABXWT010000107.1|kraken:taxid|91696
+0.0004488	2	2	2	2	0.00354	1009204351	sequence	                GCF_013377785.1_NZ_JABXWT010000096.1|kraken:taxid|91696
+0.0008977	4	0	8	2	5.478e-07	13215	genus	            Halovulum
+0.0008977	4	0	8	2	2.037e-06	56352	species	              Halovulum sediminis
+0.0004488	2	2	5	2	0.07353	1004337463	sequence	                GCF_003265325.1_NZ_QGNX01000062.1|kraken:taxid|56352
+0.0004488	2	2	3	2	0.01775	1004337405	sequence	                GCF_003265325.1_NZ_QGNX01000119.1|kraken:taxid|56352
+0.0004488	2	0	2	2	1.194e-08	24909	genus	            Sulfitobacter
+0.0004488	2	0	2	2	5.667e-07	99179	species	              Sulfitobacter sp013139555
+0.0004488	2	2	2	2	0.004184	1009301739	sequence	                GCF_019392245.1_NZ_JAHXRL010000026.1|kraken:taxid|99179
+0.01032	46	0	47	3.91	1.324e-08	2172	order	        Sphingomonadales
+0.01032	46	0	47	3.91	1.401e-08	6371	family	          Sphingomonadaceae
+0.009874	44	0	44	4.05	5.399e-08	24799	genus	            Sphingomonas
+0.008977	40	0	39	4.31	1.786e-05	96663	species	              Sphingomonas sp005773165
+0.008977	40	40	39	4.31	0.006776	1005423450	sequence	                GCA_005773165.1_SXHP01000252.1|kraken:taxid|96663
+0.0008977	4	0	5	2	1.463e-06	96545	species	              Sphingomonas glacialis
+0.0004488	2	2	4	2	0.01434	1009231911	sequence	                GCF_014653575.1_NZ_BNAQ01000047.1|kraken:taxid|96545
+0.0004488	2	2	1	2	0.001927	1009231910	sequence	                GCF_014653575.1_NZ_BNAQ01000046.1|kraken:taxid|96545
+0.0004488	2	0	3	2	1.017e-08	24796	genus	            Sphingobium
+0.0004488	2	0	3	2	1.129e-06	96426	species	              Sphingobium sp019097845
+0.0004488	2	2	3	2	0.001729	1009298592	sequence	                GCF_019097845.1_NZ_JAHRGM010000070.1|kraken:taxid|96426
+0.0008977	4	0	22	2	1.289e-08	1051	order	        Caulobacterales
+0.0008977	4	0	22	2	1.509e-07	5848	family	          Parvularculaceae
+0.0008977	4	0	22	2	9.157e-07	22133	genus	            Parvularcula
+0.0008977	4	0	22	2	6.686e-06	80934	species	              Parvularcula marina
+0.0008977	4	4	22	2	0.04052	1004344660	sequence	                GCF_003399445.1_NZ_QUQO01000012.1|kraken:taxid|80934
+0.0008977	4	0	8	2	2.07e-08	2030	order	        Rhodospirillales
+0.0008977	4	0	8	2	3.968e-08	5573	family	          Magnetospirillaceae
+0.0008977	4	0	8	2	1.332e-07	22222	genus	            Phaeospirillum
+0.0008977	4	0	8	2	2.105e-06	82546	species	              Phaeospirillum magnetica_A
+0.0004488	2	2	7	2	0.04459	1008155043	sequence	                GCA_902729415.1_CACVCF010000781.1|kraken:taxid|82546
+0.0004488	2	2	1	2	0.005747	1008154951	sequence	                GCA_902729415.1_CACVCF010000688.1|kraken:taxid|82546
+0.0004488	2	0	1	2	1.707e-09	1947	order	        Pelagibacterales
+0.0004488	2	0	1	2	1.805e-09	5853	family	          Pelagibacteraceae
+0.0004488	2	0	1	2	1.487e-08	22160	genus	            Pelagibacter_A
+0.0004488	2	0	1	2	2.624e-06	82140	species	              Pelagibacter_A sp902536085
+0.0004488	2	2	1	2	3.003e-05	1011261266	sequence	                GCA_902536085.1_CACAWF010000006.1|kraken:taxid|82140
+5.283	23542	22	169000	1.99	5.547e-06	11	phylum	    Actinomycetota
+5.275	23504	624	168300	2	6.504e-06	224	class	      Actinomycetia
+5.066	22574	2	157236	2.02	8.294e-05	2182	order	        Streptosporangiales
+5.066	22572	1200	157236	2.02	8.359e-05	6387	family	          Streptosporangiaceae
+4.769	21252	5792	142712	2.01	0.002011	24894	genus	            Streptosporangium
+3.437	15314	8	94814	1.98	0.01726	98996	species	              Streptosporangium roseum
+3.424	15256	15256	94419	1.98	0.01727	1011642776	sequence	                GCF_000024865.1_NC_013595.1|kraken:taxid|98996
+0.01122	50	50	379	2	0.01527	1011642777	sequence	                GCF_000024865.1_NC_013596.1|kraken:taxid|98996
+0.01077	48	0	162	2	3.933e-05	98993	species	              Streptosporangium canum
+0.001346	6	6	12	2	5.861e-05	1009379812	sequence	                GCF_900113865.1_NZ_FOQY01000005.1|kraken:taxid|98993
+0.0008977	4	4	32	2	0.001376	1009379845	sequence	                GCF_900113865.1_NZ_FOQY01000045.1|kraken:taxid|98993
+0.0008977	4	4	23	2	0.0001197	1009379786	sequence	                GCF_900113865.1_NZ_FOQY01000004.1|kraken:taxid|98993
+0.0008977	4	4	16	2	0.0002685	1009379822	sequence	                GCF_900113865.1_NZ_FOQY01000027.1|kraken:taxid|98993
+0.0008977	4	4	11	2	9.143e-05	1009379810	sequence	                GCF_900113865.1_NZ_FOQY01000009.1|kraken:taxid|98993
+0.0004488	2	2	18	2	6.546e-05	1009379804	sequence	                GCF_900113865.1_NZ_FOQY01000002.1|kraken:taxid|98993
+0.0004488	2	2	15	2	7.541e-05	1009379838	sequence	                GCF_900113865.1_NZ_FOQY01000001.1|kraken:taxid|98993
+0.0004488	2	2	8	2	0.0002673	1009379847	sequence	                GCF_900113865.1_NZ_FOQY01000046.1|kraken:taxid|98993
+0.0004488	2	2	5	2	4.777e-05	1009379815	sequence	                GCF_900113865.1_NZ_FOQY01000010.1|kraken:taxid|98993
+0.0004488	2	2	4	2	3.68e-05	1009379807	sequence	                GCF_900113865.1_NZ_FOQY01000011.1|kraken:taxid|98993
+0.0004488	2	2	3	2	7.155e-05	1009379817	sequence	                GCF_900113865.1_NZ_FOQY01000023.1|kraken:taxid|98993
+0.0004488	2	2	3	2	3.388e-05	1009379801	sequence	                GCF_900113865.1_NZ_FOQY01000012.1|kraken:taxid|98993
+0.0004488	2	2	2	2	7.401e-05	1009379843	sequence	                GCF_900113865.1_NZ_FOQY01000044.1|kraken:taxid|98993
+0.0004488	2	2	2	2	0.000158	1009379846	sequence	                GCF_900113865.1_NZ_FOQY01000055.1|kraken:taxid|98993
+0.0004488	2	2	2	2	2.39e-05	1009379793	sequence	                GCF_900113865.1_NZ_FOQY01000020.1|kraken:taxid|98993
+0.0004488	2	2	2	2	6.043e-05	1009379787	sequence	                GCF_900113865.1_NZ_FOQY01000040.1|kraken:taxid|98993
+0.0004488	2	2	1	2	1.393e-05	1009379837	sequence	                GCF_900113865.1_NZ_FOQY01000014.1|kraken:taxid|98993
+0.0004488	2	2	1	2	1.497e-05	1009379788	sequence	                GCF_900113865.1_NZ_FOQY01000022.1|kraken:taxid|98993
+0.007181	32	0	104	2	2.357e-05	98994	species	              Streptosporangium minutum
+0.0008977	4	4	19	2	0.004135	1004275455	sequence	                GCF_002149035.1_NZ_NGFP01000263.1|kraken:taxid|98994
+0.0004488	2	2	13	2	0.001197	1004275309	sequence	                GCF_002149035.1_NZ_NGFP01000131.1|kraken:taxid|98994
+0.0004488	2	2	12	2	0.00174	1004275389	sequence	                GCF_002149035.1_NZ_NGFP01000203.1|kraken:taxid|98994
+0.0004488	2	2	11	2	0.0005349	1004275551	sequence	                GCF_002149035.1_NZ_NGFP01000035.1|kraken:taxid|98994
+0.0004488	2	2	10	2	0.0008133	1004275782	sequence	                GCF_002149035.1_NZ_NGFP01000063.1|kraken:taxid|98994
+0.0004488	2	2	8	2	0.0005212	1004275799	sequence	                GCF_002149035.1_NZ_NGFP01000079.1|kraken:taxid|98994
+0.0004488	2	2	7	2	0.00152	1004275374	sequence	                GCF_002149035.1_NZ_NGFP01000190.1|kraken:taxid|98994
+0.0004488	2	2	4	2	0.0002724	1004275792	sequence	                GCF_002149035.1_NZ_NGFP01000072.1|kraken:taxid|98994
+0.0004488	2	2	3	2	0.0002356	1004275292	sequence	                GCF_002149035.1_NZ_NGFP01000116.1|kraken:taxid|98994
+0.0004488	2	2	3	2	0.0006357	1004275422	sequence	                GCF_002149035.1_NZ_NGFP01000233.1|kraken:taxid|98994
+0.0004488	2	2	2	2	8.636e-05	1004275307	sequence	                GCF_002149035.1_NZ_NGFP01000013.1|kraken:taxid|98994
+0.0004488	2	2	2	2	0.000233	1004275402	sequence	                GCF_002149035.1_NZ_NGFP01000215.1|kraken:taxid|98994
+0.0004488	2	2	1	2	0.0001686	1004275414	sequence	                GCF_002149035.1_NZ_NGFP01000226.1|kraken:taxid|98994
+0.0004488	2	2	1	2	9.822e-05	1004275807	sequence	                GCF_002149035.1_NZ_NGFP01000086.1|kraken:taxid|98994
+0.0004488	2	2	1	2	8.337e-05	1004275312	sequence	                GCF_002149035.1_NZ_NGFP01000134.1|kraken:taxid|98994
+0.004488	20	0	64	2	9.37e-06	98990	species	              Streptosporangium album
+0.003142	14	14	55	2	1.496e-05	1011870396	sequence	                GCF_014203795.1_NZ_JACHJU010000001.1|kraken:taxid|98990
+0.0004488	2	2	7	2	7.542e-06	1011870397	sequence	                GCF_014203795.1_NZ_JACHJU010000002.1|kraken:taxid|98990
+0.0004488	2	2	1	2	2.604e-06	1011870399	sequence	                GCF_014203795.1_NZ_JACHJU010000004.1|kraken:taxid|98990
+0.0004488	2	2	1	2	1.482e-06	1011870398	sequence	                GCF_014203795.1_NZ_JACHJU010000003.1|kraken:taxid|98990
+0.003591	16	0	34	2	3.8e-06	98999	species	              Streptosporangium subroseum
+0.0008977	4	4	11	2	4.087e-05	1009394563	sequence	                GCF_900188345.1_NZ_FZOD01000005.1|kraken:taxid|98999
+0.0004488	2	2	6	2	9.878e-05	1009394615	sequence	                GCF_900188345.1_NZ_FZOD01000054.1|kraken:taxid|98999
+0.0004488	2	2	3	2	0.0001029	1009394524	sequence	                GCF_900188345.1_NZ_FZOD01000085.1|kraken:taxid|98999
+0.0004488	2	2	2	2	2.821e-05	1009394585	sequence	                GCF_900188345.1_NZ_FZOD01000041.1|kraken:taxid|98999
+0.0004488	2	2	2	2	6.637e-06	1009394570	sequence	                GCF_900188345.1_NZ_FZOD01000002.1|kraken:taxid|98999
+0.0004488	2	2	1	2	0.0001895	1009394550	sequence	                GCF_900188345.1_NZ_FZOD01000130.1|kraken:taxid|98999
+0.0004488	2	2	1	2	1.076e-05	1009394543	sequence	                GCF_900188345.1_NZ_FZOD01000025.1|kraken:taxid|98999
+0.002693	12	0	29	2	5.707e-06	99000	species	              Streptosporangium violaceochromogenes
+0.001795	8	8	19	2	0.03675	1009232185	sequence	                GCF_014654615.1_NZ_BNBB01000084.1|kraken:taxid|99000
+0.0004488	2	2	6	2	0.02281	1009232213	sequence	                GCF_014654615.1_NZ_BNBB01000112.1|kraken:taxid|99000
+0.0004488	2	2	4	2	0.03478	1009232168	sequence	                GCF_014654615.1_NZ_BNBB01000067.1|kraken:taxid|99000
+0.001346	6	0	11	2	1.507e-06	98997	species	              Streptosporangium saharense
+0.0004488	2	2	5	2	7.843e-06	1011870372	sequence	                GCF_014203715.1_NZ_JACHJP010000003.1|kraken:taxid|98997
+0.0004488	2	2	4	2	1.163e-05	1011870375	sequence	                GCF_014203715.1_NZ_JACHJP010000006.1|kraken:taxid|98997
+0.0004488	2	2	2	2	1.248e-06	1011870370	sequence	                GCF_014203715.1_NZ_JACHJP010000001.1|kraken:taxid|98997
+0.001346	6	0	9	2	1.144e-06	98991	species	              Streptosporangium amethystogenes
+0.0004488	2	2	3	2	2.069e-05	1004164269	sequence	                GCF_000721075.1_NZ_JOEQ01000023.1|kraken:taxid|98991
+0.0004488	2	2	3	2	3.571e-05	1004164272	sequence	                GCF_000721075.1_NZ_JOEQ01000026.1|kraken:taxid|98991
+0.0004488	2	2	2	2	6.617e-06	1004164258	sequence	                GCF_000721075.1_NZ_JOEQ01000012.1|kraken:taxid|98991
+0.0008977	4	0	2	2	5.914e-07	98998	species	              Streptosporangium sandarakinum
+0.0008977	4	4	2	2	2.413e-06	1004504666	sequence	                GCF_013409935.1_NZ_JACCCO010000002.1|kraken:taxid|98998
+0.0004488	2	0	2	2	3.171e-07	98992	species	              Streptosporangium becharense
+0.0004488	2	2	2	2	3.188e-07	1009214964	sequence	                GCF_014204985.1_NZ_JACHMP010000001.1|kraken:taxid|98992
+0.01481	66	0	246	2	6.133e-07	24820	genus	            Spirillospora
+0.01391	62	0	244	2	4.197e-05	96954	species	              Spirillospora cremea
+0.001795	8	8	28	2	0.07507	1011876128	sequence	                GCF_014648495.1_NZ_BMRF01000130.1|kraken:taxid|96954
+0.001795	8	8	17	2	0.05537	1011876313	sequence	                GCF_014648495.1_NZ_BMRF01000315.1|kraken:taxid|96954
+0.0008977	4	4	48	2	0.03315	1011876089	sequence	                GCF_014648495.1_NZ_BMRF01000091.1|kraken:taxid|96954
+0.0008977	4	4	19	2	0.02544	1011876198	sequence	                GCF_014648495.1_NZ_BMRF01000200.1|kraken:taxid|96954
+0.0008977	4	4	2	2	0.002275	1011876064	sequence	                GCF_014648495.1_NZ_BMRF01000066.1|kraken:taxid|96954
+0.0004488	2	2	45	2	0.03571	1011876096	sequence	                GCF_014648495.1_NZ_BMRF01000098.1|kraken:taxid|96954
+0.0004488	2	2	22	2	0.0301	1011876188	sequence	                GCF_014648495.1_NZ_BMRF01000190.1|kraken:taxid|96954
+0.0004488	2	2	11	2	0.01221	1011876108	sequence	                GCF_014648495.1_NZ_BMRF01000110.1|kraken:taxid|96954
+0.0004488	2	2	7	2	0.01386	1011876275	sequence	                GCF_014648495.1_NZ_BMRF01000277.1|kraken:taxid|96954
+0.0004488	2	2	7	2	0.01357	1011876245	sequence	                GCF_014648495.1_NZ_BMRF01000247.1|kraken:taxid|96954
+0.0004488	2	2	7	2	0.00565	1011876100	sequence	                GCF_014648495.1_NZ_BMRF01000102.1|kraken:taxid|96954
+0.0004488	2	2	6	2	0.01217	1011876297	sequence	                GCF_014648495.1_NZ_BMRF01000299.1|kraken:taxid|96954
+0.0004488	2	2	4	2	0.007619	1011876250	sequence	                GCF_014648495.1_NZ_BMRF01000252.1|kraken:taxid|96954
+0.0004488	2	2	4	2	0.00759	1011876234	sequence	                GCF_014648495.1_NZ_BMRF01000236.1|kraken:taxid|96954
+0.0004488	2	2	4	2	0.007968	1011876218	sequence	                GCF_014648495.1_NZ_BMRF01000220.1|kraken:taxid|96954
+0.0004488	2	2	3	2	0.02041	1011876085	sequence	                GCF_014648495.1_NZ_BMRF01000087.1|kraken:taxid|96954
+0.0004488	2	2	3	2	0.00358	1011876134	sequence	                GCF_014648495.1_NZ_BMRF01000136.1|kraken:taxid|96954
+0.0004488	2	2	2	2	5.815e-06	1011876002	sequence	                GCF_014648495.1_NZ_BMRF01000004.1|kraken:taxid|96954
+0.0004488	2	2	2	2	0.003454	1011876227	sequence	                GCF_014648495.1_NZ_BMRF01000229.1|kraken:taxid|96954
+0.0004488	2	2	1	2	0.00157	1011876214	sequence	                GCF_014648495.1_NZ_BMRF01000216.1|kraken:taxid|96954
+0.0004488	2	2	1	2	0.0006583	1011876063	sequence	                GCF_014648495.1_NZ_BMRF01000065.1|kraken:taxid|96954
+0.0004488	2	2	1	2	0.002123	1011876300	sequence	                GCF_014648495.1_NZ_BMRF01000302.1|kraken:taxid|96954
+0.0004488	2	0	1	2	1.707e-07	96997	species	              Spirillospora sp008327685
+0.0004488	2	2	1	2	2.416e-06	1011829234	sequence	                GCF_008327685.1_NZ_BDDE01000014.1|kraken:taxid|96997
+0.0004488	2	0	1	2	1.625e-07	96992	species	              Spirillospora sp004348535
+0.0004488	2	2	1	2	6.225e-05	1004387878	sequence	                GCF_004348535.1_NZ_SMJX01000160.1|kraken:taxid|96992
+0.004937	22	8	75	2	1.715e-07	21462	genus	            Nonomuraea
+0.0004488	2	0	17	2	1.817e-06	77289	species	              Nonomuraea typhae
+0.0004488	2	2	17	2	2.928e-05	1004452931	sequence	                GCF_009760925.1_NZ_VRLV01000005.1|kraken:taxid|77289
+0.0004488	2	0	11	2	1.153e-06	77252	species	              Nonomuraea endophytica
+0.0004488	2	2	11	2	1.805e-05	1004518559	sequence	                GCF_014203235.1_NZ_JACHIN010000004.1|kraken:taxid|77252
+0.0004488	2	0	7	2	9.15e-07	77255	species	              Nonomuraea glycinis
+0.0004488	2	2	6	2	3.601e-05	1004529863	sequence	                GCF_014646515.1_NZ_BMNK01000016.1|kraken:taxid|77255
+0.0004488	2	0	7	2	6.977e-07	77275	species	              Nonomuraea solani
+0.0004488	2	2	7	2	6.777e-06	1009374050	sequence	                GCF_900108335.1_NZ_FNVT01000001.1|kraken:taxid|77275
+0.0004488	2	0	6	2	9.611e-07	77242	species	              Nonomuraea aridisoli
+0.0004488	2	2	6	2	0.03468	1011770756	sequence	                GCF_003236395.1_NZ_POUD01000719.1|kraken:taxid|77242
+0.0004488	2	0	2	2	2.67e-07	77254	species	              Nonomuraea gerenzanensis
+0.0004488	2	2	2	2	2.688e-07	1004623577	sequence	                GCF_020215645.1_NZ_CP084058.1|kraken:taxid|77254
+0.0004488	2	0	2	2	3.478e-07	77258	species	              Nonomuraea indica
+0.0004488	2	2	2	2	2.871e-05	1004303955	sequence	                GCF_002850745.1_NZ_KZ559485.1|kraken:taxid|77258
+0.002244	10	2	31	2	1.244e-06	22293	genus	            Planobispora
+0.0008977	4	0	14	2	2.355e-06	83170	species	              Planobispora longispora
+0.0004488	2	2	12	2	0.0002416	1004573844	sequence	                GCF_016863135.1_NZ_BOOH01000062.1|kraken:taxid|83170
+0.0004488	2	2	2	2	3.667e-05	1004573800	sequence	                GCF_016863135.1_NZ_BOOH01000018.1|kraken:taxid|83170
+0.0004488	2	0	14	2	2.369e-06	83171	species	              Planobispora rosea
+0.0004488	2	2	1	2	1.573e-05	1011875620	sequence	                GCF_014648175.1_NZ_BMQP01000030.1|kraken:taxid|83171
+0.0004488	2	0	1	2	1.94e-07	83173	species	              Planobispora takensis
+0.0004488	2	2	1	2	1.635e-05	1011902902	sequence	                GCF_016863195.1_NZ_BOOK01000045.1|kraken:taxid|83173
+0.0008977	4	0	7	2	2.256e-07	8034	genus	            Actinoallomurus
+0.0008977	4	0	7	2	8.216e-07	30552	species	              Actinoallomurus bryophytorum
+0.0008977	4	4	7	2	9.91e-07	1011819777	sequence	                GCF_006716425.1_NZ_VFOZ01000001.1|kraken:taxid|30552
+0.0004488	2	0	5	2	5.499e-07	19555	genus	            JAKNTW01
+0.0004488	2	0	5	2	5.499e-07	66300	species	              JAKNTW01 sp022213955
+0.0004488	2	2	5	2	2.532e-05	1004644476	sequence	                GCF_022213955.1_NZ_JAKNTW010000023.1|kraken:taxid|66300
+0.0004488	2	0	5	2	1.478e-06	25212	genus	            Thermobispora
+0.0004488	2	0	5	2	1.478e-06	100735	species	              Thermobispora bispora
+0.0004488	2	2	5	2	1.478e-06	1008803111	sequence	                GCF_000092645.1_NC_014165.1|kraken:taxid|100735
+0.0004488	2	0	3	2	2.794e-07	22295	genus	            Planomonospora
+0.0004488	2	0	3	2	5.853e-07	83214	species	              Planomonospora parontospora
+0.0004488	2	2	3	2	1.52e-05	1010132050	sequence	                GCA_014647935.1_BMQD01000012.1|kraken:taxid|83214
+0.0004488	2	0	3	2	2.551e-07	22296	genus	            Planomonospora_A
+0.0004488	2	0	3	2	5.035e-07	83216	species	              Planomonospora_A sp015711605
+0.0004488	2	2	3	2	1.576e-06	1004551702	sequence	                GCF_015711605.1_NZ_JABTEZ010000001.1|kraken:taxid|83216
+0.0004488	2	0	3	2	2.108e-07	24722	genus	            Sinosporangium
+0.0004488	2	0	3	2	4.843e-07	95885	species	              Sinosporangium album
+0.0004488	2	2	3	2	3.492e-05	1004687002	sequence	                GCF_900100605.1_NZ_FNCN01000023.1|kraken:taxid|95885
+0.0004488	2	0	2	2	4.74e-07	19125	genus	            JAJYTD01
+0.0004488	2	0	2	2	4.74e-07	65519	species	              JAJYTD01 sp021793235
+0.0004488	2	2	2	2	3.934e-05	1002607055	sequence	                GCA_021793235.1_JAJYTD010000025.1|kraken:taxid|65519
+0.0004488	2	0	1	2	6.785e-08	8047	genus	            Actinomadura_C
+0.0004488	2	0	1	2	1.385e-07	30606	species	              Actinomadura_C sp014323665
+0.0004488	2	2	1	2	0.001076	1009219307	sequence	                GCF_014323665.1_NZ_JABVEB010000412.1|kraken:taxid|30606
+0.0004488	2	0	1	2	9.85e-08	9046	genus	            Bog-532
+0.0004488	2	0	1	2	2.614e-07	36370	species	              Bog-532 sp019240215
+0.0004488	2	2	1	2	7.222e-06	1002165493	sequence	                GCA_019240215.1_JAFAYQ010000038.1|kraken:taxid|36370
+0.0004488	2	0	1	2	2.946e-08	22298	genus	            Planotetraspora
+0.0004488	2	0	1	2	1.596e-07	83223	species	              Planotetraspora phitsanulokensis
+0.0004488	2	2	1	2	6.042e-06	1009264978	sequence	                GCF_016863295.1_NZ_BOOP01000022.1|kraken:taxid|83223
+0.02469	110	0	279	2.14	4.707e-08	2181	order	        Streptomycetales
+0.02424	108	2	276	2.14	4.731e-08	6386	family	          Streptomycetaceae
+0.02289	102	10	270	2.15	5.076e-08	24890	genus	            Streptomyces
+0.004039	18	0	34	2	9.412e-06	98820	species	              Streptomyces sp020873915
+0.0008977	4	4	12	2	0.03209	1004633809	sequence	                GCF_020873915.1_NZ_JAHWGP010000203.1|kraken:taxid|98820
+0.0008977	4	4	5	2	0.01429	1004634234	sequence	                GCF_020873915.1_NZ_JAHWGP010000564.1|kraken:taxid|98820
+0.0004488	2	2	4	2	0.007547	1004633738	sequence	                GCF_020873915.1_NZ_JAHWGP010000140.1|kraken:taxid|98820
+0.0004488	2	2	3	2	0.00885	1004634320	sequence	                GCF_020873915.1_NZ_JAHWGP010000638.1|kraken:taxid|98820
+0.0004488	2	2	2	2	0.01026	1004633618	sequence	                GCF_020873915.1_NZ_JAHWGP010000683.1|kraken:taxid|98820
+0.0004488	2	2	2	2	0.006329	1004633808	sequence	                GCF_020873915.1_NZ_JAHWGP010000202.1|kraken:taxid|98820
+0.0004488	2	2	1	2	0.003876	1004633816	sequence	                GCF_020873915.1_NZ_JAHWGP010000209.1|kraken:taxid|98820
+0.002693	12	0	27	2	5.902e-06	98487	species	              Streptomyces sabulosicollis
+0.001795	8	8	23	2	0.0659	1004554251	sequence	                GCF_016103465.1_NZ_JAEEAP010001089.1|kraken:taxid|98487
+0.0008977	4	4	4	2	0.0146	1004554400	sequence	                GCF_016103465.1_NZ_JAEEAP010001221.1|kraken:taxid|98487
+0.002244	10	0	38	2.16	1.274e-05	98272	species	              Streptomyces griseoincarnatus
+0.001346	6	6	15	2.4	0.03979	1001278046	sequence	                GCA_014649575.1_BMTH01000103.1|kraken:taxid|98272
+0.0004488	2	2	22	2	0.2222	1001278027	sequence	                GCA_014649575.1_BMTH01000084.1|kraken:taxid|98272
+0.0004488	2	2	1	2	0.002079	1001278006	sequence	                GCA_014649575.1_BMTH01000063.1|kraken:taxid|98272
+0.001346	6	0	11	2	1.831e-06	98243	species	              Streptomyces fumigatiscleroticus
+0.0008977	4	4	9	2	0.03371	1011875567	sequence	                GCF_014647975.1_NZ_BMQF01000410.1|kraken:taxid|98243
+0.0004488	2	2	2	2	0.02381	1011875390	sequence	                GCF_014647975.1_NZ_BMQF01000233.1|kraken:taxid|98243
+0.001346	6	0	10	2.2	3.133e-06	98631	species	              Streptomyces sp002939385
+0.001346	6	6	10	2.2	0.01751	1004312636	sequence	                GCF_002939385.1_NZ_MULI01000170.1|kraken:taxid|98631
+0.001346	6	0	3	4.67	6.493e-07	98098	species	              Streptomyces aurantiacus_A
+0.001346	6	6	2	6	0.0001493	1008844175	sequence	                GCF_000414115.1_NZ_AOPZ01000202.1|kraken:taxid|98098
+0.0008977	4	0	19	2	4.137e-06	98827	species	              Streptomyces sp021696945
+0.0004488	2	2	15	2	0.03326	1009328377	sequence	                GCF_021696945.1_NZ_JACYHE010000190.1|kraken:taxid|98827
+0.0004488	2	2	4	2	0.006319	1009328350	sequence	                GCF_021696945.1_NZ_JACYHE010000171.1|kraken:taxid|98827
+0.0008977	4	0	12	3	2.628e-06	98326	species	              Streptomyces kurssanovii
+0.0008977	4	4	12	3	0.03235	1004532004	sequence	                GCF_014649695.1_NZ_BMTN01000049.1|kraken:taxid|98326
+0.0008977	4	0	9	2	1.302e-06	98498	species	              Streptomyces shenzhenensis_A
+0.0004488	2	2	6	2	0.0121	1004360114	sequence	                GCF_003688995.1_NZ_PENI01000109.1|kraken:taxid|98498
+0.0004488	2	2	2	2	0.003817	1004360118	sequence	                GCF_003688995.1_NZ_PENI01000113.1|kraken:taxid|98498
+0.0008977	4	0	3	3.33	7.025e-07	98819	species	              Streptomyces sp020873895
+0.0008977	4	4	3	3.33	0.007538	1004632964	sequence	                GCF_020873895.1_NZ_JAHWGT010000407.1|kraken:taxid|98819
+0.0004488	2	0	16	2	3.703e-06	98151	species	              Streptomyces capoamus
+0.0004488	2	2	15	2	0.08242	1009232531	sequence	                GCF_014654935.1_NZ_BNBF01000139.1|kraken:taxid|98151
+0.0004488	2	0	9	2	2.169e-06	98790	species	              Streptomyces sp018638295
+0.0004488	2	2	7	2	0.03139	1011919814	sequence	                GCF_018638295.1_NZ_JABTTS010000102.1|kraken:taxid|98790
+0.0004488	2	0	8	2	2.018e-06	98705	species	              Streptomyces sp009783685
+0.0004488	2	2	8	2	0.0013	1000829199	sequence	                GCA_009783685.1_WRCZ01000306.1|kraken:taxid|98705
+0.0004488	2	0	7	2	1.663e-06	98140	species	              Streptomyces calidiresistens
+0.0004488	2	2	7	2	0.02083	1011865996	sequence	                GCF_014141525.1_NZ_VKHS01001503.1|kraken:taxid|98140
+0.0004488	2	0	5	2	1.411e-06	98290	species	              Streptomyces harenosi
+0.0004488	2	2	5	2	0.009615	1004474398	sequence	                GCF_011008945.1_NZ_WYCT01000703.1|kraken:taxid|98290
+0.0004488	2	0	1	2	2.559e-07	98359	species	              Streptomyces malachitofuscus
+0.0004488	2	2	1	2	0.001456	1009230014	sequence	                GCF_014650055.1_NZ_BMUF01000037.1|kraken:taxid|98359
+0.0004488	2	0	1	2	1.689e-07	98330	species	              Streptomyces lasiicapitis
+0.0004488	2	2	1	2	3.645e-06	1011874434	sequence	                GCF_014646335.1_NZ_BMNG01000008.1|kraken:taxid|98330
+0.0004488	2	0	1	2	2.452e-07	98772	species	              Streptomyces sp018070345
+0.0004488	2	2	1	2	0.003861	1011914924	sequence	                GCF_018070345.1_NZ_JAGPXX010000076.1|kraken:taxid|98772
+0.0004488	2	0	1	2	3.626e-07	98191	species	              Streptomyces cyaneogriseus
+0.0004488	2	2	1	2	3.626e-07	1008893546	sequence	                GCF_000931445.1_NZ_CP010849.1|kraken:taxid|98191
+0.0008977	4	0	4	2	1.349e-08	20189	genus	            Kitasatospora
+0.0004488	2	0	2	2	3.566e-07	67443	species	              Kitasatospora gansuensis
+0.0004488	2	2	2	2	3.614e-07	1009214789	sequence	                GCF_014203705.1_NZ_JACHJR010000001.1|kraken:taxid|67443
+0.0004488	2	0	2	2	3.677e-07	67461	species	              Kitasatospora sp000719705
+0.0004488	2	2	2	2	5.034e-05	1008876319	sequence	                GCF_000719705.1_NZ_JOHO01000045.1|kraken:taxid|67461
+0.0004488	2	0	3	2	3.411e-08	3301	family	          Catenulisporaceae
+0.0004488	2	0	3	2	1.242e-07	8058	genus	            Actinospica
+0.0004488	2	0	3	2	3.513e-07	30795	species	              Actinospica robiniae
+0.0004488	2	2	3	2	3.513e-07	1008858675	sequence	                GCF_000504285.1_NZ_KI632511.1|kraken:taxid|30795
+0.01975	88	0	227	2	3.536e-08	836	order	        Actinomycetales
+0.006284	28	0	85	2	6.226e-08	5635	family	          Micrococcaceae
+0.001795	8	0	27	2	6.839e-07	21993	genus	            Paeniglutamicibacter
+0.001795	8	0	27	2	6.767e-06	79753	species	              Paeniglutamicibacter antarcticus
+0.001346	6	6	18	2	0.008596	1004678914	sequence	                GCF_900010755.1_NZ_CZJT01000051.1|kraken:taxid|79753
+0.0004488	2	2	9	2	0.01202	1004678886	sequence	                GCF_900010755.1_NZ_CZJT01000023.1|kraken:taxid|79753
+0.001346	6	0	18	2	1.71e-07	8470	genus	            Arthrobacter_D
+0.0008977	4	0	9	2	2.935e-06	33891	species	              Arthrobacter_D sp002929375
+0.0008977	4	4	9	2	0.02118	1011759341	sequence	                GCF_002929375.1_NZ_PJIP01000093.1|kraken:taxid|33891
+0.0004488	2	0	9	2	2.917e-06	33887	species	              Arthrobacter_D sp001428435
+0.0004488	2	2	9	2	0.01661	1004211592	sequence	                GCF_001428435.1_NZ_LMSO01000006.1|kraken:taxid|33887
+0.0008977	4	0	15	2	1.987e-07	21392	genus	            Nesterenkonia
+0.0008977	4	0	15	2	6.17e-06	76227	species	              Nesterenkonia natronophila
+0.0008977	4	4	15	2	0.1261	1009064786	sequence	                GCF_003595215.1_NZ_QYZP01000010.1|kraken:taxid|76227
+0.0008977	4	0	7	2	8.093e-08	24785	genus	            Specibacter
+0.0008977	4	0	7	2	1.634e-06	96230	species	              Specibacter sp002929305
+0.0008977	4	4	7	2	0.009655	1009025007	sequence	                GCF_002929305.1_NZ_PJIO01000058.1|kraken:taxid|96230
+0.0004488	2	0	12	2	1.826e-07	23511	genus	            Rothia
+0.0004488	2	0	11	2	1.166e-05	91473	species	              Rothia nasimurium_E
+0.0004488	2	2	11	2	0.02926	1011986553	sequence	                GCF_928382285.1_NZ_CAKMSS010000026.1|kraken:taxid|91473
+0.0004488	2	0	5	2	4.554e-08	21960	genus	            Paenarthrobacter
+0.0004488	2	0	5	2	1.261e-06	79389	species	              Paenarthrobacter nitroguajacolicus_A
+0.0004488	2	2	5	2	0.0122	1011824149	sequence	                GCF_007786235.1_NZ_VNFK01000065.1|kraken:taxid|79389
+0.0004488	2	0	1	2	2.505e-09	8467	genus	            Arthrobacter
+0.0004488	2	0	1	2	2.656e-07	33778	species	              Arthrobacter sp002929215
+0.0004488	2	2	1	2	0.001859	1009024790	sequence	                GCF_002929215.1_NZ_PJII01000071.1|kraken:taxid|33778
+0.005386	24	2	80	2	3.275e-08	5634	family	          Microbacteriaceae
+0.004039	18	2	71	2	8.875e-08	21115	genus	            Microbacterium
+0.001795	8	0	41	2	1.914e-05	73614	species	              Microbacterium arborescens
+0.0008977	4	4	26	2	0.04276	1000457134	sequence	                GCA_003339645.1_QNUV01000044.1|kraken:taxid|73614
+0.0004488	2	2	9	2	0.02179	1000457066	sequence	                GCA_003339645.1_QNUV01000042.1|kraken:taxid|73614
+0.0004488	2	2	6	2	0.02429	1000457177	sequence	                GCA_003339645.1_QNUV01000036.1|kraken:taxid|73614
+0.001346	6	0	21	2	5.786e-06	73861	species	              Microbacterium sp902706225
+0.0008977	4	4	4	2	0.008909	1008153457	sequence	                GCA_902706225.1_CACSKB010000189.1|kraken:taxid|73861
+0.0004488	2	2	17	2	0.06028	1008153787	sequence	                GCA_902706225.1_CACSKB010000519.1|kraken:taxid|73861
+0.0004488	2	0	1	2	3.169e-07	73667	species	              Microbacterium kyungheense
+0.0004488	2	2	1	2	5.72e-06	1009124174	sequence	                GCF_006783905.1_NZ_VFPE01000007.1|kraken:taxid|73667
+0.0008977	4	0	8	2	5.553e-08	10863	genus	            Curtobacterium
+0.0008977	4	0	8	2	2.966e-06	45653	species	              Curtobacterium pusillum_B
+0.0008977	4	4	8	2	0.06957	1009130440	sequence	                GCF_007680845.1_NZ_VEIY01000024.1|kraken:taxid|45653
+0.003591	16	0	23	2	4.071e-08	3594	family	          Dermatophilaceae
+0.002244	10	0	15	2	1.845e-06	21640	genus	            Ornithinimicrobium_A
+0.002244	10	0	15	2	6.6e-06	78428	species	              Ornithinimicrobium_A laminariae
+0.0008977	4	4	3	2	0.01415	1009304423	sequence	                GCF_019457945.1_NZ_JAHZSU010000029.1|kraken:taxid|78428
+0.0004488	2	2	7	2	0.03004	1009304413	sequence	                GCF_019457945.1_NZ_JAHZSU010000020.1|kraken:taxid|78428
+0.0004488	2	2	4	2	0.01198	1009304405	sequence	                GCF_019457945.1_NZ_JAHZSU010000014.1|kraken:taxid|78428
+0.0004488	2	2	1	2	0.005128	1009304421	sequence	                GCF_019457945.1_NZ_JAHZSU010000027.1|kraken:taxid|78428
+0.0004488	2	0	3	2	8.679e-08	22154	genus	            Pedococcus
+0.0004488	2	0	3	2	7.997e-07	81242	species	              Pedococcus sp001426245
+0.0004488	2	2	3	2	7.473e-06	1011711007	sequence	                GCF_001426245.1_NZ_LMCM01000007.1|kraken:taxid|81242
+0.0004488	2	0	1	2	2.82e-07	23537	genus	            Rudaeicoccus
+0.0004488	2	0	1	2	2.82e-07	91675	species	              Rudaeicoccus suwonensis
+0.0004488	2	2	1	2	4.4e-07	1004421908	sequence	                GCF_007829035.1_NZ_VIVQ01000001.1|kraken:taxid|91675
+0.0004488	2	0	1	2	1.204e-07	25165	genus	            Tetrasphaera
+0.0004488	2	0	1	2	2.221e-07	100553	species	              Tetrasphaera japonica
+0.0004488	2	2	1	2	2.221e-07	1004192378	sequence	                GCF_001046855.1_NZ_HF570958.1|kraken:taxid|100553
+0.003142	14	0	27	2	8.906e-08	2957	family	          Bifidobacteriaceae
+0.003142	14	0	27	2	1.126e-07	8989	genus	            Bifidobacterium
+0.001346	6	0	14	2	5.909e-06	35846	species	              Bifidobacterium tibiigranuli
+0.0008977	4	4	12	2	0.08759	1009147218	sequence	                GCF_009371885.1_NZ_QLZA01000024.1|kraken:taxid|35846
+0.0004488	2	2	2	2	0.02564	1009147216	sequence	                GCF_009371885.1_NZ_QLZA01000022.1|kraken:taxid|35846
+0.001346	6	0	10	2	5.332e-06	35811	species	              Bifidobacterium pullorum_C
+0.0008977	4	4	3	2	0.0102	1004575820	sequence	                GCF_016899725.1_NZ_JACLYU010000259.1|kraken:taxid|35811
+0.0004488	2	2	6	2	0.01263	1004575903	sequence	                GCF_016899725.1_NZ_JACLYU010000057.1|kraken:taxid|35811
+0.0004488	2	0	3	2	1.409e-06	35797	species	              Bifidobacterium moukalabense
+0.0004488	2	2	3	2	9.114e-06	1008860929	sequence	                GCF_000522505.1_NZ_AZMV01000004.1|kraken:taxid|35797
+0.0008977	4	0	3	2	4.692e-09	3304	family	          Cellulomonadaceae
+0.0004488	2	0	2	2	3.003e-08	8060	genus	            Actinotalea
+0.0004488	2	0	2	2	6.474e-07	30820	species	              Actinotalea carbonis
+0.0004488	2	2	2	2	0.003096	1004527357	sequence	                GCF_014636275.1_NZ_BMEB01000020.1|kraken:taxid|30820
+0.0004488	2	0	1	2	4.202e-09	10598	genus	            Cellulomonas
+0.0004488	2	0	1	2	3.087e-07	42473	species	              Cellulomonas denverensis
+0.0004488	2	2	1	2	2.28e-06	1004486154	sequence	                GCF_012396125.1_NZ_JAAXOX010000003.1|kraken:taxid|42473
+0.0004488	2	0	1	2	2.232e-09	2737	family	          Actinomycetaceae
+0.0004488	2	0	1	2	9.626e-08	21163	genus	            Mobiluncus
+0.0004488	2	0	1	2	4.967e-07	74353	species	              Mobiluncus sp943914685
+0.0004488	2	2	1	2	6.43e-06	1008681016	sequence	                GCA_943914685.1_CALUCZ010000002.1|kraken:taxid|74353
+0.01885	84	6	168	2.19	1.887e-08	1871	order	        Mycobacteriales
+0.008079	36	0	63	2.03	1.491e-08	5657	family	          Mycobacteriaceae
+0.004039	18	0	33	2	3.88e-08	21450	genus	            Nocardia
+0.0008977	4	0	12	2	2.717e-06	76862	species	              Nocardia cyriacigeorgica_E
+0.0008977	4	4	11	2	0.07483	1009179072	sequence	                GCF_010858045.1_NZ_JAAGVC010000266.1|kraken:taxid|76862
+0.0008977	4	0	5	2	1.188e-06	76897	species	              Nocardia nova_B
+0.0008977	4	4	5	2	0.005669	1009025457	sequence	                GCF_002933465.1_NZ_PSZE01000096.1|kraken:taxid|76897
+0.0008977	4	0	4	2	7.615e-07	76861	species	              Nocardia cyriacigeorgica_D
+0.0004488	2	2	3	2	0.01339	1009179415	sequence	                GCF_010868145.1_NZ_JAAGUY010000063.1|kraken:taxid|76861
+0.0004488	2	2	1	2	0.005952	1009179446	sequence	                GCF_010868145.1_NZ_JAAGUY010000091.1|kraken:taxid|76861
+0.0004488	2	0	3	2	4.85e-07	76849	species	              Nocardia brevicatena
+0.0004488	2	2	3	2	0.03409	1008824100	sequence	                GCF_000308495.1_NZ_BAFU01000138.1|kraken:taxid|76849
+0.0004488	2	0	3	2	4.526e-07	76879	species	              Nocardia inohanensis
+0.0004488	2	2	3	2	6.549e-06	1004239707	sequence	                GCF_001612945.1_NZ_BDBK01000017.1|kraken:taxid|76879
+0.0004488	2	0	1	2	1.44e-07	76837	species	              Nocardia aurantia
+0.0004488	2	2	1	2	0.00202	1011836182	sequence	                GCF_009604425.1_NZ_WEGI01000054.1|kraken:taxid|76837
+0.002693	12	2	14	2.14	7.499e-09	21218	genus	            Mycobacterium
+0.001795	8	0	11	2.18	3.763e-06	74931	species	              Mycobacterium ostraviense
+0.0008977	4	4	4	2.5	0.0127	1011753113	sequence	                GCF_002705925.1_NZ_NKRE01000137.1|kraken:taxid|74931
+0.0004488	2	2	6	2	0.08108	1011753200	sequence	                GCF_002705925.1_NZ_NKRE01000004.1|kraken:taxid|74931
+0.0004488	2	2	1	2	0.003636	1011753142	sequence	                GCF_002705925.1_NZ_NKRE01000162.1|kraken:taxid|74931
+0.0004488	2	0	1	2	1.969e-07	74791	species	              Mycobacterium asiaticum_A
+0.0004488	2	2	1	2	0.0005546	1011725876	sequence	                GCF_001673365.1_NZ_LZLS01000095.1|kraken:taxid|74791
+0.0008977	4	0	10	2	1.754e-07	11527	genus	            Dietzia
+0.0004488	2	0	8	2	3.129e-06	47626	species	              Dietzia sp003052165
+0.0004488	2	2	8	2	3.129e-06	1011765026	sequence	                GCF_003052165.1_NZ_CP024869.1|kraken:taxid|47626
+0.0004488	2	0	2	2	1.527e-06	47622	species	              Dietzia massiliensis
+0.0004488	2	2	2	2	0.006061	1009285887	sequence	                GCF_018390595.1_NZ_JAHBAV010000247.1|kraken:taxid|47622
+0.0004488	2	0	4	2	1.591e-08	12908	genus	            Gordonia
+0.0004488	2	0	4	2	9.423e-07	54734	species	              Gordonia sp020438995
+0.0004488	2	2	4	2	0.0003125	1007115055	sequence	                GCA_020438995.1_JAGQTN010000050.1|kraken:taxid|54734
+0.003591	16	0	41	2.2	2.1e-07	3741	family	          Frankiaceae
+0.003591	16	6	41	2.2	2.13e-07	12055	genus	            Frankia
+0.001346	6	0	11	2.73	1.7e-06	52007	species	              Frankia canadensis
+0.0008977	4	4	8	3	0.01951	1009395833	sequence	                GCF_900197875.1_NZ_FZMO01000510.1|kraken:taxid|52007
+0.0004488	2	2	3	2	0.03409	1009395353	sequence	                GCF_900197875.1_NZ_FZMO01000486.1|kraken:taxid|52007
+0.0004488	2	0	6	2	1.324e-06	52032	species	              Frankia sp917627385
+0.0004488	2	2	6	2	0.0001851	1009412503	sequence	                GCF_917627385.1_NZ_CAKJTL010000141.1|kraken:taxid|52032
+0.0004488	2	0	2	2	3.978e-07	52006	species	              Frankia californiensis
+0.0004488	2	2	2	2	4.373e-05	1009401599	sequence	                GCF_900634715.1_NZ_CAAAFO010000129.1|kraken:taxid|52006
+0.003591	16	2	29	2	1.366e-08	5891	family	          Pseudonocardiaceae
+0.0008977	4	2	7	2	1.301e-08	8284	genus	            Amycolatopsis
+0.0004488	2	0	1	2	1.476e-07	32535	species	              Amycolatopsis balhimycina
+0.0004488	2	2	1	2	1.476e-07	1011663202	sequence	                GCF_000384295.1_NZ_KB913037.1|kraken:taxid|32535
+0.0008977	4	2	6	2	7.183e-08	20174	genus	            Kibdelosporangium
+0.0004488	2	0	4	2	4.492e-07	67363	species	              Kibdelosporangium persicum
+0.0004488	2	2	4	2	2.826e-05	1009201292	sequence	                GCF_013280595.1_NZ_JAAATY010000023.1|kraken:taxid|67363
+0.0004488	2	0	2	2	1.857e-07	22700	genus	            Qaidamihabitans
+0.0004488	2	0	2	2	3.919e-07	87328	species	              Qaidamihabitans shujinwangii
+0.0004488	2	2	2	2	6.01e-06	1004319301	sequence	                GCF_003001955.1_NZ_PVNH01000007.1|kraken:taxid|87328
+0.0004488	2	0	2	2	4.592e-08	24528	genus	            Saccharomonospora
+0.0004488	2	0	2	2	8.498e-07	94702	species	              Saccharomonospora halophila
+0.0004488	2	2	2	2	4.81e-05	1004132149	sequence	                GCF_000383775.1_NZ_KB912498.1|kraken:taxid|94702
+0.0004488	2	0	1	2	6.678e-09	8059	genus	            Actinosynnema
+0.0004488	2	0	1	2	1.432e-07	30803	species	              Actinosynnema ecbatanense
+0.0004488	2	2	1	2	1.432e-07	1004519123	sequence	                GCF_014205015.1_NZ_JACHMO010000001.1|kraken:taxid|30803
+0.002244	10	0	24	2	1.331e-08	5640	family	          Micromonosporaceae
+0.001795	8	0	22	2	3.585e-08	21129	genus	            Micromonospora
+0.0008977	4	0	9	2	1.45e-06	74032	species	              Micromonospora echinofusca_A
+0.0008977	4	4	9	2	0.03422	1011912470	sequence	                GCF_017614955.1_NZ_WVUH01000747.1|kraken:taxid|74032
+0.0004488	2	0	6	2	1.38e-06	74041	species	              Micromonospora globispora
+0.0004488	2	2	6	2	0.0003325	1009076842	sequence	                GCF_003857015.1_NZ_QGGF01000293.1|kraken:taxid|74041
+0.0004488	2	0	2	2	4.073e-07	74034	species	              Micromonospora endolithica
+0.0004488	2	2	2	2	4.974e-06	1009069032	sequence	                GCF_003626595.1_NZ_RBAK01000003.1|kraken:taxid|74034
+0.0004488	2	0	2	2	5.645e-08	22257	genus	            Phytohabitans
+0.0004488	2	0	2	2	2.487e-07	82917	species	              Phytohabitans flavus
+0.0004488	2	2	2	2	2.487e-07	1004483099	sequence	                GCF_011764545.1_NZ_AP022870.1|kraken:taxid|82917
+0.003142	14	0	23	2	1.352e-08	1965	order	        Propionibacteriales
+0.001795	8	0	9	2	9.365e-09	5718	family	          Nocardioidaceae
+0.001795	8	0	9	2	1.321e-08	21451	genus	            Nocardioides
+0.0008977	4	0	5	2	1.468e-06	76961	species	              Nocardioides antri
+0.0004488	2	2	4	2	0.01527	1004432776	sequence	                GCF_008373765.1_NZ_VUJW01000065.1|kraken:taxid|76961
+0.0004488	2	2	1	2	0.004149	1004432574	sequence	                GCF_008373765.1_NZ_VUJW01000094.1|kraken:taxid|76961
+0.0004488	2	0	2	2	4.888e-07	77000	species	              Nocardioides humilatus
+0.0004488	2	2	1	2	0.005051	1009140405	sequence	                GCF_008373755.1_NZ_VUJV01000196.1|kraken:taxid|77000
+0.0004488	2	0	2	2	5.323e-07	77057	species	              Nocardioides sp001429555
+0.0004488	2	2	2	2	0.02899	1009434181	sequence	                GCA_001429555.1_LMSR01000012.1|kraken:taxid|77057
+0.0008977	4	0	7	2	3.17e-08	5477	family	          Kribbellaceae
+0.0008977	4	0	7	2	3.17e-08	20224	genus	            Kribbella
+0.0008977	4	0	7	2	1.014e-06	67674	species	              Kribbella sandramycini
+0.0004488	2	2	5	2	0.008741	1004493645	sequence	                GCF_013131805.1_NZ_JABJRC010000026.1|kraken:taxid|67674
+0.0004488	2	2	2	2	0.002903	1004493642	sequence	                GCF_013131805.1_NZ_JABJRC010000023.1|kraken:taxid|67674
+0.0004488	2	0	7	2	1.521e-07	2738	family	          Actinopolymorphaceae
+0.0004488	2	0	7	2	2.062e-07	8055	genus	            Actinopolymorpha
+0.0004488	2	0	7	2	9.381e-07	30779	species	              Actinopolymorpha alba
+0.0004488	2	2	7	2	6.694e-05	1008839089	sequence	                GCF_000373925.1_NZ_KB892748.1|kraken:taxid|30779
+0.001795	8	0	6	2.67	1.107e-08	1880	order	        Nanopelagicales
+0.001346	6	0	5	2.8	1.809e-08	5687	family	          Nanopelagicaceae
+0.0008977	4	0	3	3.33	8.316e-08	21708	genus	            PALSA-747
+0.0008977	4	0	3	3.33	2.399e-06	78715	species	              PALSA-747 sp903916385
+0.0008977	4	4	3	3.33	0.0005637	1003682020	sequence	                GCA_903916385.1_CAIWWH010000023.1|kraken:taxid|78715
+0.0004488	2	0	2	2	4.293e-07	24354	genus	            SYAN01
+0.0004488	2	0	2	2	2.4e-06	94132	species	              SYAN01 sp009704555
+0.0004488	2	2	2	2	0.0003945	1000805657	sequence	                GCA_009704555.1_WLDY01000065.1|kraken:taxid|94132
+0.0004488	2	0	1	2	6.892e-09	6088	family	          S36-B12
+0.0004488	2	0	1	2	3.592e-08	25478	genus	            UBA10649
+0.0004488	2	0	1	2	3.22e-07	102299	species	              UBA10649 sp016125355
+0.0004488	2	2	1	2	1.254e-05	1006167659	sequence	                GCA_016125355.1_WGLX01000025.1|kraken:taxid|102299
+0.0004488	2	0	2	2	3.091e-08	1219	order	        Euzebyales
+0.0004488	2	0	2	2	2.818e-07	5046	family	          JAHELV01
+0.0004488	2	0	2	2	2.818e-07	17925	genus	            JAHELV01
+0.0004488	2	0	2	2	5.271e-07	63985	species	              JAHELV01 sp024644015
+0.0004488	2	2	2	2	0.0001531	1007917262	sequence	                GCA_024644015.1_JAHELV010000067.1|kraken:taxid|63985
+0.001795	8	0	7	2	7.729e-09	655	class	      Thermoleophilia
+0.001795	8	0	7	2	1.337e-08	2160	order	        Solirubrobacterales
+0.001346	6	0	6	2	1.751e-08	6359	family	          Solirubrobacteraceae
+0.0008977	4	0	5	2	1.843e-07	24759	genus	            Solirubrobacter
+0.0008977	4	0	5	2	7.759e-07	96151	species	              Solirubrobacter sp003344625
+0.0004488	2	2	3	2	0.00187	1004341688	sequence	                GCF_003344625.1_NZ_QPKJ02000045.1|kraken:taxid|96151
+0.0004488	2	2	2	2	0.002817	1004341517	sequence	                GCF_003344625.1_NZ_QPKJ02000226.1|kraken:taxid|96151
+0.0004488	2	0	1	2	3.251e-08	22137	genus	            Patulibacter
+0.0004488	2	0	1	2	2.771e-07	80958	species	              Patulibacter sp009699505
+0.0004488	2	2	1	2	0.0001388	1000800394	sequence	                GCA_009699505.1_WLOB01000204.1|kraken:taxid|80958
+0.0004488	2	0	1	2	8.164e-09	2671	family	          70-9
+0.0004488	2	0	1	2	2.375e-08	7766	genus	            67-14
+0.0004488	2	0	1	2	4.854e-07	29053	species	              67-14 sp020438345
+0.0004488	2	2	1	2	6.739e-05	1002337239	sequence	                GCA_020438345.1_JAGQUU010000253.1|kraken:taxid|29053
+0.0008977	4	0	3	2	2.849e-09	306	class	      Coriobacteriia
+0.0008977	4	0	3	2	3.195e-09	1073	order	        Coriobacteriales
+0.0008977	4	0	3	2	8.246e-09	3674	family	          Eggerthellaceae
+0.0008977	4	0	3	2	8.005e-08	8328	genus	            Anaerotardibacter
+0.0008977	4	0	3	2	1.768e-06	32896	species	              Anaerotardibacter muris
+0.0004488	2	2	2	2	0.003436	1011986616	sequence	                GCF_943192915.1_NZ_CALPCD010000012.1|kraken:taxid|32896
+0.0004488	2	2	1	2	0.005348	1011986617	sequence	                GCF_943192915.1_NZ_CALPCD010000013.1|kraken:taxid|32896
+0.0004488	2	0	13	2	1.466e-07	696	class	      UBA4738
+0.0004488	2	0	13	2	3.162e-07	2376	order	        UBA4738
+0.0004488	2	0	13	2	4.916e-06	4562	family	          JACQTL01
+0.0004488	2	0	13	2	4.916e-06	15453	genus	            JACQTL01
+0.0004488	2	0	13	2	4.916e-06	60504	species	              JACQTL01 sp016210805
+0.0004488	2	2	13	2	0.000739	1001454359	sequence	                GCA_016210805.1_JACQTL010000207.1|kraken:taxid|60504
+0.0004488	2	0	7	2	3.114e-09	223	class	      Acidimicrobiia
+0.0004488	2	0	7	2	3.679e-09	829	order	        Acidimicrobiales
+0.0004488	2	0	5	2	4.822e-08	5835	family	          Palsa-688
+0.0004488	2	0	5	2	3.238e-07	19356	genus	            JAKAQB01
+0.0004488	2	0	5	2	1.198e-06	66010	species	              JAKAQB01 sp021809885
+0.0004488	2	2	5	2	0.001177	1010858015	sequence	                GCA_021809885.1_JAJZJY010000298.1|kraken:taxid|66010
+4.705	20964	0	140756	2.12	5.877e-06	26	phylum	    Bacillota_A
+4.705	20964	142	140698	2.12	5.903e-06	304	class	      Clostridia
+4.636	20658	2	137591	2.13	0.0001607	1068	order	        Clostridiales
+4.636	20656	350	137530	2.13	0.0001681	3337	family	          Clostridiaceae
+4.539	20226	4330	133114	2.12	0.007785	10743	genus	            Clostridium_F
+3.41	15194	16	89440	2.12	0.04076	43570	species	              Clostridium_F botulinum
+0.8671	3864	3864	23990	2.07	0.04356	1004199856	sequence	                GCF_001276985.1_NZ_LHUL01000008.1|kraken:taxid|43570
+0.6917	3082	3082	18151	2.07	0.04203	1004199852	sequence	                GCF_001276985.1_NZ_LHUL01000004.1|kraken:taxid|43570
+0.6867	3060	3060	18544	2.1	0.04443	1004199848	sequence	                GCF_001276985.1_NZ_LHUL01000026.1|kraken:taxid|43570
+0.3407	1518	1518	8755	2.04	0.04001	1004199849	sequence	                GCF_001276985.1_NZ_LHUL01000027.1|kraken:taxid|43570
+0.2832	1262	1262	7496	2.1	0.04552	1004199832	sequence	                GCF_001276985.1_NZ_LHUL01000011.1|kraken:taxid|43570
+0.2374	1058	1058	6141	2.05	0.03343	1004199851	sequence	                GCF_001276985.1_NZ_LHUL01000003.1|kraken:taxid|43570
+0.1127	502	502	3006	2.02	0.0443	1004199838	sequence	                GCF_001276985.1_NZ_LHUL01000017.1|kraken:taxid|43570
+0.09111	406	406	2714	2.1	0.05621	1004199855	sequence	                GCF_001276985.1_NZ_LHUL01000007.1|kraken:taxid|43570
+0.05251	234	234	1360	2.05	0.04952	1004199854	sequence	                GCF_001276985.1_NZ_LHUL01000006.1|kraken:taxid|43570
+0.02648	118	118	678	2.05	0.04034	1004199857	sequence	                GCF_001276985.1_NZ_LHUL01000009.1|kraken:taxid|43570
+0.003591	16	16	78	2	0.06605	1004199850	sequence	                GCF_001276985.1_NZ_LHUL01000028.1|kraken:taxid|43570
+0.002244	10	10	73	2	0.04047	1004199839	sequence	                GCF_001276985.1_NZ_LHUL01000018.1|kraken:taxid|43570
+0.002244	10	10	47	2	0.0009524	1004199830	sequence	                GCF_001276985.1_NZ_LHUL01000001.1|kraken:taxid|43570
+0.001795	8	8	46	2	0.02407	1004199833	sequence	                GCF_001276985.1_NZ_LHUL01000012.1|kraken:taxid|43570
+0.001346	6	6	40	2	0.005774	1004199831	sequence	                GCF_001276985.1_NZ_LHUL01000010.1|kraken:taxid|43570
+0.001346	6	6	33	2	0.2797	1004199837	sequence	                GCF_001276985.1_NZ_LHUL01000016.1|kraken:taxid|43570
+0.0008977	4	4	41	2	0.06868	1004199845	sequence	                GCF_001276985.1_NZ_LHUL01000023.1|kraken:taxid|43570
+0.0008977	4	4	20	2.2	0.2381	1004199841	sequence	                GCF_001276985.1_NZ_LHUL01000002.1|kraken:taxid|43570
+0.0008977	4	4	22	2	0.02997	1004199836	sequence	                GCF_001276985.1_NZ_LHUL01000015.1|kraken:taxid|43570
+0.0004488	2	2	12	2	0.02985	1004199835	sequence	                GCF_001276985.1_NZ_LHUL01000014.1|kraken:taxid|43570
+0.0004488	2	2	11	2	0.007763	1004199853	sequence	                GCF_001276985.1_NZ_LHUL01000005.1|kraken:taxid|43570
+0.0004488	2	2	8	2	0.2353	1004199842	sequence	                GCF_001276985.1_NZ_LHUL01000020.1|kraken:taxid|43570
+0.07092	316	0	1184	2.01	0.0005531	43571	species	              Clostridium_F botulinum_A
+0.07092	316	316	1184	2.01	0.0005531	1011732407	sequence	                GCF_001889325.1_NZ_CP013243.1|kraken:taxid|43571
+0.03591	160	0	641	2.04	0.0003007	43575	species	              Clostridium_F sporogenes
+0.03591	160	160	641	2.04	0.0003007	1008903733	sequence	                GCF_001020205.1_NZ_CP011663.1|kraken:taxid|43575
+0.02648	118	0	352	2.1	0.0001507	43573	species	              Clostridium_F sp001276215
+0.02648	118	118	352	2.1	0.0001507	1004620815	sequence	                GCF_019933195.1_NZ_CP082942.1|kraken:taxid|43573
+0.01212	54	0	153	2	8.538e-05	43576	species	              Clostridium_F tepidum
+0.002693	12	12	51	2	0.000655	1008980432	sequence	                GCF_002008345.1_NZ_MRAE01000004.1|kraken:taxid|43576
+0.001795	8	8	6	2	6.145e-05	1008980421	sequence	                GCF_002008345.1_NZ_MRAE01000003.1|kraken:taxid|43576
+0.0008977	4	4	7	2	5.633e-05	1008980371	sequence	                GCF_002008345.1_NZ_MRAE01000001.1|kraken:taxid|43576
+0.0008977	4	4	6	2	8.618e-05	1008980465	sequence	                GCF_002008345.1_NZ_MRAE01000007.1|kraken:taxid|43576
+0.0008977	4	4	4	2	0.0001023	1008980417	sequence	                GCF_002008345.1_NZ_MRAE01000017.1|kraken:taxid|43576
+0.0004488	2	2	23	2	0.003562	1008980452	sequence	                GCF_002008345.1_NZ_MRAE01000049.1|kraken:taxid|43576
+0.0004488	2	2	20	2	0.003715	1008980464	sequence	                GCF_002008345.1_NZ_MRAE01000060.1|kraken:taxid|43576
+0.0004488	2	2	12	2	0.0002291	1008980384	sequence	                GCF_002008345.1_NZ_MRAE01000012.1|kraken:taxid|43576
+0.0004488	2	2	8	2	0.0001781	1008980498	sequence	                GCF_002008345.1_NZ_MRAE01000010.1|kraken:taxid|43576
+0.0004488	2	2	5	2	4.967e-05	1008980372	sequence	                GCF_002008345.1_NZ_MRAE01000002.1|kraken:taxid|43576
+0.0004488	2	2	2	2	9.093e-05	1008980429	sequence	                GCF_002008345.1_NZ_MRAE01000028.1|kraken:taxid|43576
+0.0004488	2	2	2	2	8.41e-05	1008980425	sequence	                GCF_002008345.1_NZ_MRAE01000024.1|kraken:taxid|43576
+0.0004488	2	2	2	2	8.007e-05	1008980423	sequence	                GCF_002008345.1_NZ_MRAE01000022.1|kraken:taxid|43576
+0.0004488	2	2	2	2	5.424e-05	1008980416	sequence	                GCF_002008345.1_NZ_MRAE01000016.1|kraken:taxid|43576
+0.0004488	2	2	1	2	0.0001002	1008980444	sequence	                GCF_002008345.1_NZ_MRAE01000041.1|kraken:taxid|43576
+0.0004488	2	2	1	2	3.696e-05	1008980426	sequence	                GCF_002008345.1_NZ_MRAE01000025.1|kraken:taxid|43576
+0.01167	52	2	151	2.04	5.699e-05	43574	species	              Clostridium_F sp943736985
+0.002244	10	10	24	2	3.588e-05	1009413334	sequence	                GCF_943736985.1_NZ_CALSFS010000001.1|kraken:taxid|43574
+0.001795	8	8	21	2	6.553e-05	1009413335	sequence	                GCF_943736985.1_NZ_CALSFS010000002.1|kraken:taxid|43574
+0.001795	8	8	12	2	6.258e-05	1009413338	sequence	                GCF_943736985.1_NZ_CALSFS010000005.1|kraken:taxid|43574
+0.001346	6	6	17	2.35	0.0003009	1009413348	sequence	                GCF_943736985.1_NZ_CALSFS010000015.1|kraken:taxid|43574
+0.0008977	4	4	8	2	6.248e-05	1009413343	sequence	                GCF_943736985.1_NZ_CALSFS010000010.1|kraken:taxid|43574
+0.0008977	4	4	5	2	6.234e-05	1009413346	sequence	                GCF_943736985.1_NZ_CALSFS010000013.1|kraken:taxid|43574
+0.0004488	2	2	18	2	0.0001012	1009413336	sequence	                GCF_943736985.1_NZ_CALSFS010000003.1|kraken:taxid|43574
+0.0004488	2	2	7	2	9.596e-05	1009413349	sequence	                GCF_943736985.1_NZ_CALSFS010000016.1|kraken:taxid|43574
+0.0004488	2	2	7	2	4.254e-05	1009413340	sequence	                GCF_943736985.1_NZ_CALSFS010000007.1|kraken:taxid|43574
+0.0004488	2	2	1	2	9.628e-06	1009413341	sequence	                GCF_943736985.1_NZ_CALSFS010000008.1|kraken:taxid|43574
+0.0004488	2	2	1	2	6.342e-06	1009413339	sequence	                GCF_943736985.1_NZ_CALSFS010000006.1|kraken:taxid|43574
+0.0004488	2	0	5	2	2.477e-06	43572	species	              Clostridium_F niameyense
+0.0004488	2	2	5	2	2.643e-06	1008908018	sequence	                GCF_001243045.1_NZ_LN849007.1|kraken:taxid|43572
+0.004937	22	2	38	2.16	7.311e-07	10747	genus	            Clostridium_J
+0.002244	10	0	21	2.29	6.891e-06	43597	species	              Clostridium_J senegalense
+0.002244	10	10	21	2.29	6.241e-05	1004108060	sequence	                GCF_000285575.1_NZ_HE611053.1|kraken:taxid|43597
+0.0008977	4	0	7	2	2.201e-06	43598	species	              Clostridium_J sp002316385
+0.0008977	4	4	7	2	8.902e-05	1009500307	sequence	                GCA_002316385.1_DCDL01000006.1|kraken:taxid|43598
+0.0004488	2	0	4	2	1.377e-06	43594	species	              Clostridium_J faecium
+0.0004488	2	2	4	2	4.211e-05	1009237304	sequence	                GCF_014836835.1_NZ_JACSQB010000036.1|kraken:taxid|43594
+0.0004488	2	0	3	2	1.123e-06	43592	species	              Clostridium_J argentinense
+0.0004488	2	2	3	2	1.304e-05	1004176589	sequence	                GCF_000816675.1_NZ_AYSO01000019.1|kraken:taxid|43592
+0.0004488	2	0	1	2	3.307e-07	43602	species	              Clostridium_J sp002455975
+0.0004488	2	2	1	2	2.676e-05	1000235571	sequence	                GCA_002455975.1_DKLM01000104.1|kraken:taxid|43602
+0.004039	18	2	40	3.1	1.495e-07	10718	genus	            Clostridium
+0.001795	8	0	13	5.38	5.165e-06	43477	species	              Clostridium taeniosporum
+0.001795	8	8	13	5.38	5.554e-06	1008965550	sequence	                GCF_001735765.2_NZ_CP017253.2|kraken:taxid|43477
+0.0004488	2	0	11	2	3.345e-06	43417	species	              Clostridium sardiniense
+0.0004488	2	2	11	2	2.666e-05	1011905630	sequence	                GCF_016907995.1_NZ_JAFBDA010000001.1|kraken:taxid|43417
+0.0004488	2	0	7	2	1.581e-06	43391	species	              Clostridium beijerinckii_A
+0.0004488	2	2	7	2	1.406e-05	1004154474	sequence	                GCF_000621745.1_NZ_KK211335.1|kraken:taxid|43391
+0.0004488	2	0	1	2	3.246e-07	43434	species	              Clostridium sp015058405
+0.0004488	2	2	1	2	1.446e-05	1010149590	sequence	                GCA_015058405.1_SVCL01000010.1|kraken:taxid|43434
+0.0004488	2	0	1	2	3.037e-07	43480	species	              Clostridium uliginosum
+0.0004488	2	2	1	2	7.21e-06	1004696316	sequence	                GCF_900112485.1_NZ_FOMG01000006.1|kraken:taxid|43480
+0.001346	6	0	13	2	4.029e-07	10730	genus	            Clostridium_AM
+0.0008977	4	0	8	2	1.41e-06	43518	species	              Clostridium_AM magnum
+0.0004488	2	2	6	2	1.48e-05	1004241855	sequence	                GCF_001623875.1_NZ_LWAE01000004.1|kraken:taxid|43518
+0.0004488	2	2	2	2	1.48e-06	1004241852	sequence	                GCF_001623875.1_NZ_LWAE01000001.1|kraken:taxid|43518
+0.0004488	2	0	5	2	1.1e-06	43515	species	              Clostridium_AM aciditolerans
+0.0004488	2	2	1	2	3.32e-06	1004557272	sequence	                GCF_016316925.1_NZ_JAEEGB010000006.1|kraken:taxid|43515
+0.0008977	4	0	14	2	5.193e-06	10736	genus	            Clostridium_AS
+0.0008977	4	0	14	2	5.193e-06	43540	species	              Clostridium_AS rectalis
+0.0008977	4	4	14	2	4.296e-05	1004716216	sequence	                GCF_900626095.1_NZ_UYZZ01000003.1|kraken:taxid|43540
+0.0008977	4	0	10	2	1.771e-07	10723	genus	            Clostridium_AD
+0.0004488	2	0	8	2	2.406e-06	43497	species	              Clostridium_AD psychrophilum
+0.0004488	2	2	8	2	0.0001645	1004606247	sequence	                GCF_018861705.1_NZ_JAHLEC010000010.1|kraken:taxid|43497
+0.0004488	2	0	2	2	4.869e-07	43490	species	              Clostridium_AD bowmanii
+0.0004488	2	2	2	2	1.147e-05	1009293463	sequence	                GCF_018861315.1_NZ_JAHLDL010000004.1|kraken:taxid|43490
+0.0008977	4	0	7	2	7.215e-07	13230	genus	            Hathewaya
+0.0004488	2	0	3	2	1.225e-06	56398	species	              Hathewaya sp003288255
+0.0004488	2	2	3	2	1.312e-06	1000456435	sequence	                GCA_003288255.1_CP026600.1|kraken:taxid|56398
+0.0004488	2	0	2	2	8.818e-07	56395	species	              Hathewaya histolytica
+0.0004488	2	2	2	2	8.818e-07	1004718112	sequence	                GCF_901482605.1_NZ_LR590481.1|kraken:taxid|56395
+0.0008977	4	0	5	2	6.151e-07	10749	genus	            Clostridium_L
+0.0004488	2	0	4	2	1.211e-06	43610	species	              Clostridium_L simiarum
+0.0004488	2	2	4	2	2.693e-06	1011923069	sequence	                GCF_018919175.1_NZ_JAHLQL010000001.1|kraken:taxid|43610
+0.0004488	2	0	1	2	4.703e-07	43608	species	              Clostridium_L algidicarnis
+0.0004488	2	2	1	2	2.515e-05	1004311669	sequence	                GCF_002934235.1_NZ_PTIS01000018.1|kraken:taxid|43608
+0.0004488	2	0	6	2	1.709e-07	10739	genus	            Clostridium_B
+0.0004488	2	0	6	2	1.893e-06	43559	species	              Clostridium_B sp022482905
+0.0004488	2	2	6	2	1.893e-06	1002730817	sequence	                GCA_022482905.1_JAKVOI010000001.1|kraken:taxid|43559
+0.0004488	2	0	4	2	3.051e-07	24589	genus	            Sarcina
+0.0004488	2	0	4	2	1.321e-06	94979	species	              Sarcina massiliamazoniense
+0.0004488	2	2	4	2	2.336e-06	1008916301	sequence	                GCF_001403635.1_NZ_LN879468.1|kraken:taxid|94979
+0.0004488	2	2	4	2	4.072e-07	10732	genus	            Clostridium_AO
+0.0004488	2	0	4	2	2.135e-07	10746	genus	            Clostridium_I
+0.0004488	2	0	4	2	1.122e-06	43590	species	              Clostridium_I pasteurianum
+0.0004488	2	2	4	2	1.122e-06	1008890089	sequence	                GCF_000807255.1_NZ_CP009268.1|kraken:taxid|43590
+0.0004488	2	0	3	2	4.224e-07	10720	genus	            Clostridium_AA
+0.0004488	2	0	3	2	7.802e-07	43484	species	              Clostridium_AA amylolyticum
+0.0004488	2	2	3	2	3.589e-06	1009384800	sequence	                GCF_900142075.1_NZ_FQZO01000001.1|kraken:taxid|43484
+0.0004488	2	0	3	2	1.595e-07	10745	genus	            Clostridium_H
+0.0004488	2	0	3	2	1.75e-06	43580	species	              Clostridium_H botulinum_B
+0.0004488	2	2	3	2	2.094e-06	1011645176	sequence	                GCF_000204565.1_NC_015425.1|kraken:taxid|43580
+0.0004488	2	0	2	2	9.625e-07	10727	genus	            Clostridium_AH
+0.0004488	2	0	2	2	9.625e-07	43507	species	              Clostridium_AH fallax
+0.0004488	2	2	2	2	1.96e-05	1009383628	sequence	                GCF_900129365.1_NZ_FQVM01000006.1|kraken:taxid|43507
+0.0004488	2	2	2	2	4.134e-07	26593	genus	            UBA699
+0.0004488	2	0	1	2	1.08e-07	10756	genus	            Clostridium_X
+0.0004488	2	0	1	2	2.914e-07	43643	species	              Clostridium_X sp002423705
+0.0004488	2	2	1	2	1.854e-05	1000213450	sequence	                GCA_002423705.1_DINW01000036.1|kraken:taxid|43643
+0.02334	104	0	230	2.47	2.752e-08	1800	order	        Lachnospirales
+0.02289	102	4	225	2.48	2.884e-08	5495	family	          Lachnospiraceae
+0.0202	90	0	173	2.59	2.917e-06	24608	genus	            Schaedlerella
+0.0202	90	16	173	2.59	5.51e-05	95194	species	              Schaedlerella sp004556565
+0.004488	20	20	41	2.63	0.006037	1000639704	sequence	                GCA_004556565.1_SFGN01000095.1|kraken:taxid|95194
+0.003142	14	14	40	2.3	0.01178	1000639793	sequence	                GCA_004556565.1_SFGN01000169.1|kraken:taxid|95194
+0.002693	12	12	11	3.45	0.003984	1000639844	sequence	                GCA_004556565.1_SFGN01000209.1|kraken:taxid|95194
+0.002244	10	10	19	2.11	0.006774	1000639819	sequence	                GCA_004556565.1_SFGN01000189.1|kraken:taxid|95194
+0.002244	10	10	19	2	0.003093	1000639724	sequence	                GCA_004556565.1_SFGN01000113.1|kraken:taxid|95194
+0.001346	6	6	17	2	0.00898	1000639659	sequence	                GCA_004556565.1_SFGN01000290.1|kraken:taxid|95194
+0.0004488	2	2	7	2	0.006518	1000639771	sequence	                GCA_004556565.1_SFGN01000152.1|kraken:taxid|95194
+0.0008977	4	0	37	2	1.683e-07	9030	genus	            Blautia_A
+0.0008977	4	0	37	2	1.509e-05	36254	species	              Blautia_A sp900763175
+0.0008977	4	4	37	2	0.06314	1008100928	sequence	                GCA_900763175.1_CAAFJI010000252.1|kraken:taxid|36254
+0.0004488	2	0	10	2	7.755e-08	20314	genus	            Lacrimispora
+0.0004488	2	0	10	2	5.313e-06	68068	species	              Lacrimispora sphenoides
+0.0004488	2	2	10	2	5.313e-06	1004690395	sequence	                GCF_900105615.1_NZ_LT630003.1|kraken:taxid|68068
+0.0004488	2	0	2	2	1.88e-08	26037	genus	            UBA2868
+0.0004488	2	0	2	2	1.065e-06	105231	species	              UBA2868 sp017620345
+0.0004488	2	2	2	2	8.204e-05	1001880729	sequence	                GCA_017620345.1_JAFZQP010000062.1|kraken:taxid|105231
+0.0004488	2	0	2	2	2.115e-08	3305	family	          Cellulosilyticaceae
+0.0004488	2	0	2	2	4.08e-08	10601	genus	            Cellulosilyticum
+0.0004488	2	0	2	2	6.987e-07	42579	species	              Cellulosilyticum sp023457875
+0.0004488	2	2	2	2	0.0001173	1003058201	sequence	                GCA_023457875.1_JAEXBC010000460.1|kraken:taxid|42579
+0.008079	36	0	90	2.78	1.121e-08	1906	order	        Oscillospirales
+0.004039	18	0	23	4.52	1.023e-08	5751	family	          Oscillospiraceae
+0.004039	18	0	20	4.9	1.903e-07	27394	genus	            Vescimonas
+0.004039	18	0	20	4.9	1.301e-05	111102	species	              Vescimonas sp004557655
+0.004039	18	18	20	4.9	0.01972	1009776096	sequence	                GCA_004557655.1_SFGJ01000095.1|kraken:taxid|111102
+0.002693	12	0	41	2.29	1.972e-08	2739	family	          Acutalibacteraceae
+0.002244	10	0	35	2.34	9.005e-07	10555	genus	            Caproicibacter
+0.002244	10	0	35	2.34	1.236e-05	42190	species	              Caproicibacter sp900184925
+0.001346	6	6	13	2.92	0.03171	1003250103	sequence	                GCA_900184925.1_FXYJ02000029.1|kraken:taxid|42190
+0.0004488	2	2	14	2	0.02941	1003250064	sequence	                GCA_900184925.1_FXYJ02000065.1|kraken:taxid|42190
+0.0004488	2	2	7	2	0.01559	1003250085	sequence	                GCA_900184925.1_FXYJ02000043.1|kraken:taxid|42190
+0.0004488	2	0	5	2	6.118e-07	13288	genus	            Howiella
+0.0004488	2	0	5	2	2.763e-06	56761	species	              Howiella sp019417145
+0.0004488	2	2	5	2	0.0007354	1010634490	sequence	                GCA_019417145.1_DXVY01000087.1|kraken:taxid|56761
+0.0008977	4	0	13	2	6.665e-09	6056	family	          Ruminococcaceae
+0.0008977	4	0	10	2	2.18e-06	9022	genus	            Bittarella
+0.0008977	4	0	10	2	4.853e-06	36067	species	              Bittarella massiliensis_A
+0.0004488	2	2	7	2	0.02834	1004586787	sequence	                GCF_017566145.1_NZ_JABFCL010000042.1|kraken:taxid|36067
+0.0004488	2	2	3	2	0.01042	1004586687	sequence	                GCF_017566145.1_NZ_JABFCL010000031.1|kraken:taxid|36067
+0.0004488	2	0	13	2	6.243e-08	3001	family	          Butyricicoccaceae
+0.0004488	2	0	13	2	2.428e-07	8107	genus	            Agathobaculum
+0.0004488	2	0	13	2	9.256e-06	31215	species	              Agathobaculum sp944376955
+0.0004488	2	2	13	2	0.004668	1003996715	sequence	                GCA_944376955.1_CALWEB010000208.1|kraken:taxid|31215
+0.002693	12	0	27	2	2.539e-08	1949	order	        Peptostreptococcales
+0.001346	6	0	20	2	1.228e-07	5857	family	          Peptostreptococcaceae
+0.0008977	4	2	12	2	6.167e-07	10716	genus	            Clostridioides
+0.0004488	2	0	4	2	1.847e-06	43379	species	              Clostridioides difficile
+0.0004488	2	2	4	2	1.876e-06	1004194230	sequence	                GCF_001077535.1_NZ_CP011968.1|kraken:taxid|43379
+0.0004488	2	0	7	2	3.019e-07	25162	genus	            Terrisporobacter
+0.0004488	2	0	7	2	2.683e-06	100538	species	              Terrisporobacter petrolearius
+0.0004488	2	2	7	2	0.0001992	1004629614	sequence	                GCF_020748185.1_NZ_JAHZMO010000024.1|kraken:taxid|100538
+0.0004488	2	0	4	2	4.222e-08	2724	family	          Acidaminobacteraceae
+0.0004488	2	0	4	2	2.2e-07	14558	genus	            JABXKX01
+0.0004488	2	0	4	2	6.915e-07	59301	species	              JABXKX01 sp022496765
+0.0004488	2	2	4	2	0.02759	1004650371	sequence	                GCF_022496765.1_NZ_VANV01000079.1|kraken:taxid|59301
+0.0004488	2	0	2	2	3.309e-09	2777	family	          Anaerovoracaceae
+0.0004488	2	0	2	2	2.653e-08	20366	genus	            Lentihominibacter
+0.0004488	2	0	2	2	1.846e-06	68611	species	              Lentihominibacter sp024403155
+0.0004488	2	2	2	2	7.7e-05	1007880145	sequence	                GCA_024403155.1_JAKSSH010000004.1|kraken:taxid|68611
+0.0004488	2	0	1	2	2.278e-08	6493	family	          Thermotaleaceae
+0.0004488	2	0	1	2	3.512e-07	16147	genus	            JADPRS01
+0.0004488	2	0	1	2	3.512e-07	61537	species	              JADPRS01 sp015686845
+0.0004488	2	2	1	2	9.745e-06	1006163855	sequence	                GCA_015686845.1_JADPRS010000007.1|kraken:taxid|61537
+0.0008977	4	0	11	2	2.29e-08	2249	order	        Tissierellales
+0.0008977	4	0	3	2	1.502e-08	5856	family	          Peptoniphilaceae
+0.0004488	2	0	2	2	2.968e-07	11994	genus	            Finegoldia
+0.0004488	2	0	2	2	1.991e-06	51117	species	              Finegoldia sp910589545
+0.0004488	2	2	2	2	0.007018	1008572983	sequence	                GCA_910589545.1_CAJUSY010000029.1|kraken:taxid|51117
+0.0004488	2	2	1	2	5.347e-08	22195	genus	            Peptoniphilus_A
+0.0004488	2	0	7	2	1.312e-08	2200	order	        TANB77
+0.0004488	2	0	7	2	1.513e-08	3046	family	          CAG-508
+0.0004488	2	0	1	2	5.044e-08	20941	genus	            Merdicola
+0.0004488	2	0	1	2	1.92e-06	72131	species	              Merdicola sp934155165
+0.0004488	2	2	1	2	5.462e-05	1011552462	sequence	                GCA_934155165.1_CAKPGS010000003.1|kraken:taxid|72131
+0.0004488	2	0	5	2	1.209e-07	1814	order	        Lutisporales
+0.0004488	2	0	5	2	1.209e-07	5517	family	          Lutisporaceae
+0.0004488	2	0	5	2	1.174e-06	11215	genus	            DUSG01
+0.0004488	2	0	5	2	2.941e-06	46556	species	              DUSG01 sp012842725
+0.0004488	2	2	5	2	0.002274	1001064633	sequence	                GCA_012842725.1_DUSG01000013.1|kraken:taxid|46556
+0.0004488	2	0	2	2	5.395e-09	822	order	        Acetivibrionales
+0.0004488	2	0	2	2	3.437e-08	2718	family	          Acetivibrionaceae
+0.0004488	2	0	2	2	1.789e-07	13261	genus	            Herbivorax
+0.0004488	2	0	2	2	1.625e-06	56618	species	              Herbivorax sp012841175
+0.0004488	2	2	2	2	0.0002789	1001060118	sequence	                GCA_012841175.1_DUVG01000046.1|kraken:taxid|56618
+0.0004488	2	0	1	2	3.701e-10	1062	order	        Christensenellales
+0.0004488	2	0	1	2	1.066e-09	3049	family	          CAG-74
+0.0004488	2	0	1	2	1.014e-08	27385	genus	            Ventricola
+0.0004488	2	0	1	2	4.917e-07	111042	species	              Ventricola sp944363005
+0.0004488	2	2	1	2	0.0001084	1008702619	sequence	                GCA_944363005.1_CALVTV010000212.1|kraken:taxid|111042
+0.04219	188	0	503	2.13	4.086e-08	25	phylum	    Bacillota
+0.04219	188	0	503	2.13	4.086e-08	259	class	      Bacilli
+0.01212	54	0	187	2.21	4.447e-07	921	order	        Bacillales_H
+0.01212	54	0	187	2.21	1.448e-06	6341	family	          Salisediminibacteriaceae
+0.01212	54	0	187	2.21	9.523e-06	8239	genus	            Alteribacter
+0.01212	54	0	187	2.21	4.948e-05	32344	species	              Alteribacter natronophilus
+0.008528	38	38	148	2.18	0.1764	1011816567	sequence	                GCF_006007885.1_NZ_VCRO01000013.1|kraken:taxid|32344
+0.003142	14	14	35	2.4	0.05824	1011816569	sequence	                GCF_006007885.1_NZ_VCRO01000015.1|kraken:taxid|32344
+0.0004488	2	2	4	2	0.01794	1011816594	sequence	                GCF_006007885.1_NZ_VCRO01000029.1|kraken:taxid|32344
+0.00763	34	0	76	2.21	9.489e-08	917	order	        Bacillales_D
+0.00763	34	0	76	2.21	1.402e-07	2767	family	          Amphibacillaceae
+0.003142	14	0	28	2.57	5.489e-07	20362	genus	            Lentibacillus
+0.002693	12	0	22	2.73	7.653e-06	68572	species	              Lentibacillus lipolyticus
+0.0008977	4	4	10	2.8	0.02469	1000600296	sequence	                GCA_004145795.1_SEIO01000134.1|kraken:taxid|68572
+0.0008977	4	4	8	2.5	0.02204	1000600317	sequence	                GCA_004145795.1_SEIO01000144.1|kraken:taxid|68572
+0.0008977	4	4	4	3	0.007678	1000600293	sequence	                GCA_004145795.1_SEIO01000131.1|kraken:taxid|68572
+0.0004488	2	0	6	2	1.677e-06	68575	species	              Lentibacillus salicampi
+0.0004488	2	2	6	2	0.009464	1009106195	sequence	                GCF_004565465.1_NZ_SRHY01000117.1|kraken:taxid|68575
+0.002244	10	0	29	2	2.555e-07	21572	genus	            Oceanobacillus
+0.002244	10	0	29	2	8.631e-06	77953	species	              Oceanobacillus alkalisoli
+0.0008977	4	4	3	2	0.01695	1004639468	sequence	                GCF_021556485.1_NZ_JAKGBW010000101.1|kraken:taxid|77953
+0.0004488	2	2	13	2	0.05078	1004639451	sequence	                GCF_021556485.1_NZ_JAKGBW010000089.1|kraken:taxid|77953
+0.0004488	2	2	11	2	0.05473	1004639478	sequence	                GCF_021556485.1_NZ_JAKGBW010000105.1|kraken:taxid|77953
+0.0004488	2	2	2	2	0.007905	1004639470	sequence	                GCF_021556485.1_NZ_JAKGBW010000102.1|kraken:taxid|77953
+0.002244	10	0	19	2	2.491e-06	27406	genus	            Virgibacillus_G
+0.001346	6	0	11	2	2.75e-06	111422	species	              Virgibacillus_G profundi
+0.0008977	4	4	8	2	0.02676	1009007383	sequence	                GCF_002287375.1_NZ_NPOA01000073.1|kraken:taxid|111422
+0.0004488	2	2	3	2	0.006818	1009007349	sequence	                GCF_002287375.1_NZ_NPOA01000042.1|kraken:taxid|111422
+0.0008977	4	0	8	2	2.22e-06	111421	species	              Virgibacillus_G indicus
+0.0008977	4	4	8	2	0.02346	1011748967	sequence	                GCF_002266285.1_NZ_NPMS01000032.1|kraken:taxid|111421
+0.005386	24	0	69	2.06	2.672e-08	1937	order	        Paenibacillales
+0.005386	24	0	66	2.06	3.462e-08	5828	family	          Paenibacillaceae
+0.003142	14	0	31	2.13	4.16e-08	21961	genus	            Paenibacillus
+0.001346	6	0	11	2.36	1.89e-06	79535	species	              Paenibacillus tengchongensis
+0.001346	6	6	11	2.36	0.03323	1004435811	sequence	                GCF_008973665.1_NZ_WACP01000071.1|kraken:taxid|79535
+0.0008977	4	0	16	2	3.674e-06	79496	species	              Paenibacillus sp001955535
+0.0004488	2	2	14	2	0.02597	1011735505	sequence	                GCF_001955535.1_NZ_MPVN01000025.1|kraken:taxid|79496
+0.0004488	2	2	2	2	0.00597	1011735504	sequence	                GCF_001955535.1_NZ_MPVN01000024.1|kraken:taxid|79496
+0.0008977	4	0	4	2	9.171e-07	79428	species	              Paenibacillus dakarensis
+0.0008977	4	4	4	2	0.005587	1004204572	sequence	                GCF_001373415.1_NZ_CDSE01000102.1|kraken:taxid|79428
+0.001346	6	0	22	2	5.693e-07	21987	genus	            Paenibacillus_O
+0.001346	6	0	22	2	5.111e-06	79705	species	              Paenibacillus_O herberti
+0.0008977	4	4	9	2	0.01376	1011747448	sequence	                GCF_002233675.1_NZ_NMUQ01000013.1|kraken:taxid|79705
+0.0004488	2	2	13	2	0.02584	1011747451	sequence	                GCF_002233675.1_NZ_NMUQ01000015.1|kraken:taxid|79705
+0.0004488	2	0	4	2	1.543e-08	22366	genus	            Pristimantibacillus
+0.0004488	2	0	4	2	5.952e-07	84507	species	              Pristimantibacillus sp001956095
+0.0004488	2	2	4	2	0.01923	1004264911	sequence	                GCF_001956095.1_NZ_MRTK01000181.1|kraken:taxid|84507
+0.0004488	2	0	2	2	9.691e-09	10770	genus	            Cohnella
+0.0004488	2	0	2	2	3.071e-07	43728	species	              Cohnella sp020731285
+0.0004488	2	2	2	2	0.02062	1009316842	sequence	                GCF_020731285.1_NZ_JAJFOW010000407.1|kraken:taxid|43728
+0.005386	24	0	62	2.03	7.479e-07	923	order	        Bacillales_K
+0.005386	24	0	62	2.03	7.479e-07	6378	family	          Sporolactobacillaceae
+0.005386	24	0	62	2.03	1.197e-06	24847	genus	            Sporolactobacillus
+0.001795	8	0	31	2	1.08e-05	97143	species	              Sporolactobacillus sp004153165
+0.0008977	4	4	18	2	0.05114	1009091361	sequence	                GCF_004153165.1_NZ_SEMD01000047.1|kraken:taxid|97143
+0.0008977	4	4	13	2	0.04869	1009091365	sequence	                GCF_004153165.1_NZ_SEMD01000049.1|kraken:taxid|97143
+0.001795	8	0	25	2	8.886e-06	97144	species	              Sporolactobacillus sp004153195
+0.001346	6	6	10	2	0.03145	1004379341	sequence	                GCF_004153195.1_NZ_SEMC01000073.1|kraken:taxid|97144
+0.0004488	2	2	15	2	0.02075	1004379302	sequence	                GCF_004153195.1_NZ_SEMC01000058.1|kraken:taxid|97144
+0.001795	8	0	6	2.33	2.114e-06	97145	species	              Sporolactobacillus sp004153225
+0.0008977	4	4	1	4	0.001368	1009091433	sequence	                GCF_004153225.1_NZ_SEMB01000089.1|kraken:taxid|97145
+0.0004488	2	2	4	2	0.004678	1009091425	sequence	                GCF_004153225.1_NZ_SEMB01000085.1|kraken:taxid|97145
+0.0004488	2	2	1	2	0.001068	1009091417	sequence	                GCF_004153225.1_NZ_SEMB01000081.1|kraken:taxid|97145
+0.004937	22	0	45	2.04	2.221e-08	1801	order	        Lactobacillales
+0.004039	18	0	37	2.05	7.924e-08	6385	family	          Streptococcaceae
+0.004039	18	2	37	2.05	9.281e-08	24887	genus	            Streptococcus
+0.001795	8	0	14	2	1.343e-05	97879	species	              Streptococcus sp000187445
+0.0004488	2	2	5	2	0.00846	1000898762	sequence	                GCA_010604095.1_JAABLG010000057.1|kraken:taxid|97879
+0.0004488	2	2	4	2	0.008889	1000898784	sequence	                GCA_010604095.1_JAABLG010000077.1|kraken:taxid|97879
+0.0004488	2	2	3	2	0.005629	1000898754	sequence	                GCA_010604095.1_JAABLG010000049.1|kraken:taxid|97879
+0.0004488	2	2	2	2	0.003795	1000898770	sequence	                GCA_010604095.1_JAABLG010000064.1|kraken:taxid|97879
+0.0008977	4	0	14	2	4.987e-05	97715	species	              Streptococcus mitis_BB
+0.0008977	4	4	14	2	0.01731	1009112860	sequence	                GCF_005144795.1_NZ_SWFJ01000024.1|kraken:taxid|97715
+0.0004488	2	0	5	2	1.017e-05	97942	species	              Streptococcus sp902836505
+0.0004488	2	2	5	2	0.002268	1008265226	sequence	                GCA_902836505.1_CADFQU010000035.1|kraken:taxid|97942
+0.0004488	2	0	1	2	2.732e-06	97762	species	              Streptococcus oralis_BD
+0.0004488	2	2	1	2	0.002801	1004377343	sequence	                GCF_004127215.1_NZ_QEWJ01000152.1|kraken:taxid|97762
+0.0008977	4	0	8	2	8.964e-09	5497	family	          Lactobacillaceae
+0.0008977	4	0	8	2	9.737e-08	20435	genus	            Limosilactobacillus
+0.0004488	2	0	5	2	3.617e-06	69510	species	              Limosilactobacillus avistercoris
+0.0004488	2	2	5	2	0.01506	1009237150	sequence	                GCF_014836425.1_NZ_JACSQW010000056.1|kraken:taxid|69510
+0.0004488	2	0	3	2	1.715e-06	69508	species	              Limosilactobacillus alvi
+0.0004488	2	2	3	2	0.01186	1004576778	sequence	                GCF_016900115.1_NZ_JACJJQ010000099.1|kraken:taxid|69508
+0.004039	18	0	40	2.05	1.404e-08	916	order	        Bacillales
+0.001795	8	0	17	2	2.334e-08	3419	family	          DSM-18226
+0.001346	6	0	15	2	5.693e-08	21372	genus	            Neobacillus
+0.001346	6	0	15	2	3.63e-06	76119	species	              Neobacillus sp023512145
+0.0008977	4	4	6	2	0.0008688	1011084703	sequence	                GCA_023512145.1_JAIMAD010000224.1|kraken:taxid|76119
+0.0004488	2	2	9	2	0.001117	1011084642	sequence	                GCA_023512145.1_JAIMAD010000168.1|kraken:taxid|76119
+0.0004488	2	0	2	2	2.236e-07	16340	genus	            JAEVLT01
+0.0004488	2	0	2	2	3.803e-07	61819	species	              JAEVLT01 sp024494385
+0.0004488	2	2	2	2	2.875e-05	1009359951	sequence	                GCF_024494385.1_NZ_JAEVLT010000023.1|kraken:taxid|61819
+0.0008977	4	0	11	2	1.59e-08	5868	family	          Planococcaceae
+0.0004488	2	0	10	2	7.136e-07	20985	genus	            Metasolibacillus
+0.0004488	2	0	10	2	3.068e-06	72544	species	              Metasolibacillus fluoroglycofenilyticus
+0.0004488	2	2	10	2	0.1149	1004324088	sequence	                GCF_003049645.1_NZ_PYWK01000021.1|kraken:taxid|72544
+0.0004488	2	0	1	2	4.258e-08	20234	genus	            Kurthia
+0.0004488	2	0	1	2	3.439e-07	67718	species	              Kurthia massiliensis
+0.0004488	2	2	1	2	0.01852	1004108020	sequence	                GCF_000285555.1_NZ_CAEU01000108.1|kraken:taxid|67718
+0.0008977	4	0	1	4	1.515e-08	2940	family	          Bacillaceae_L
+0.0008977	4	0	1	4	2.413e-08	11948	genus	            Ferdinandcohnia
+0.0008977	4	0	1	4	2.341e-07	50706	species	              Ferdinandcohnia aciditolerans
+0.0008977	4	4	1	4	0.001862	1000554219	sequence	                GCA_003640645.1_QGHH01000617.1|kraken:taxid|50706
+0.0004488	2	0	11	2	4.438e-08	2935	family	          Bacillaceae_G
+0.0004488	2	0	11	2	6.419e-08	8891	genus	            Bacillus_A
+0.0004488	2	0	11	2	4.28e-06	35148	species	              Bacillus_A cereus_AK
+0.0004488	2	2	11	2	0.1964	1000253583	sequence	                GCA_002578045.1_NUMR01000231.1|kraken:taxid|35148
+0.001795	8	0	11	2	7.49e-08	920	order	        Bacillales_G
+0.0008977	4	0	7	2	7.237e-08	3733	family	          Fictibacillaceae
+0.0008977	4	0	7	2	1.333e-07	11974	genus	            Fictibacillus
+0.0008977	4	0	7	2	3.408e-06	50974	species	              Fictibacillus phosphorivorans_C
+0.0008977	4	4	7	2	0.04094	1009129156	sequence	                GCF_007673525.1_NZ_VDZU01000012.1|kraken:taxid|50974
+0.0008977	4	0	4	2	9.887e-08	3996	family	          HB172195
+0.0008977	4	0	4	2	1.111e-07	8294	genus	            Anaerobacillus_A
+0.0008977	4	0	4	2	1.286e-06	32658	species	              Anaerobacillus_A hwajinpoensis_A
+0.0008977	4	4	4	2	0.01375	1004401674	sequence	                GCF_005144865.1_NZ_SWFM01000022.1|kraken:taxid|32658
+0.0008977	4	0	4	2	3.283e-08	2222	order	        Thermoactinomycetales
+0.0008977	4	0	4	2	1.081e-07	3435	family	          DSM-45169
+0.0008977	4	0	4	2	1.109e-06	22044	genus	            Paludifilum
+0.0008977	4	0	4	2	1.109e-06	80075	species	              Paludifilum halophilum
+0.0004488	2	2	3	2	0.005282	1008999840	sequence	                GCF_002245355.1_NZ_NOWF01000035.1|kraken:taxid|80075
+0.0004488	2	2	1	2	0.003021	1008999910	sequence	                GCF_002245355.1_NZ_NOWF01000099.1|kraken:taxid|80075
+0.0175	78	0	198	2.01	6.017e-09	34	phylum	    Bacteroidota
+0.0175	78	4	197	2.01	6.421e-09	261	class	      Bacteroidia
+0.008528	38	0	107	2	9.028e-09	925	order	        Bacteroidales
+0.003142	14	4	31	2	1.438e-07	5579	family	          Marinifilaceae
+0.001346	6	0	8	2	3.499e-07	20852	genus	            Marinifilum
+0.001346	6	0	8	2	1.739e-06	71452	species	              Marinifilum sp009295825
+0.001346	6	6	8	2	0.0362	1004437118	sequence	                GCF_009295825.1_NZ_WHKF01000061.1|kraken:taxid|71452
+0.0008977	4	0	5	2	1.348e-06	8343	genus	            Ancylomarina_A
+0.0008977	4	0	5	2	1.348e-06	33030	species	              Ancylomarina_A longa
+0.0004488	2	2	4	2	0.02581	1009084455	sequence	                GCF_003996985.1_NZ_RJJX01000184.1|kraken:taxid|33030
+0.0004488	2	2	1	2	0.00578	1009084399	sequence	                GCF_003996985.1_NZ_RJJX01000135.1|kraken:taxid|33030
+0.002244	10	0	27	2	1.539e-07	5580	family	          Marinilabiliaceae
+0.001795	8	0	23	2	6.335e-07	24522	genus	            Saccharicrinis
+0.001795	8	0	23	2	3.88e-06	94572	species	              Saccharicrinis sediminis
+0.0004488	2	2	16	2	0.02957	1004406688	sequence	                GCF_005877885.1_NZ_VCHY01000264.1|kraken:taxid|94572
+0.0004488	2	2	3	2	0.003141	1004406513	sequence	                GCF_005877885.1_NZ_VCHY01000106.1|kraken:taxid|94572
+0.0004488	2	2	2	2	0.00197	1004406524	sequence	                GCF_005877885.1_NZ_VCHY01000116.1|kraken:taxid|94572
+0.0004488	2	2	2	2	0.005025	1004406746	sequence	                GCF_005877885.1_NZ_VCHY01000316.1|kraken:taxid|94572
+0.0004488	2	0	4	2	6.553e-07	20068	genus	            JC017
+0.0004488	2	0	4	2	6.553e-07	66948	species	              JC017 sp004296775
+0.0004488	2	2	4	2	0.02649	1009761331	sequence	                GCA_004296775.1_RHGE01000504.1|kraken:taxid|66948
+0.0008977	4	0	20	2	1.65e-06	3843	family	          GCA-2711565
+0.0008977	4	0	20	2	1.65e-06	12455	genus	            GCA-2711565
+0.0008977	4	0	20	2	6.032e-06	53098	species	              GCA-2711565 sp003353955
+0.0008977	4	4	20	2	0.1739	1005218127	sequence	                GCA_003353955.1_PIVJ01000160.1|kraken:taxid|53098
+0.0008977	4	0	7	2	2.774e-08	3650	family	          Dysgonomonadaceae
+0.0008977	4	0	7	2	6.68e-08	11565	genus	            Dysgonomonas
+0.0008977	4	0	7	2	2.494e-06	47971	species	              Dysgonomonas sp010501065
+0.0004488	2	2	5	2	0.01639	1011845464	sequence	                GCF_010501065.1_NZ_QVMM01000048.1|kraken:taxid|47971
+0.0004488	2	2	2	2	0.006645	1011845466	sequence	                GCF_010501065.1_NZ_QVMM01000049.1|kraken:taxid|47971
+0.0004488	2	0	15	2	3.284e-08	5882	family	          Prolixibacteraceae
+0.0004488	2	0	15	2	2.843e-06	23681	genus	            SACZ01
+0.0004488	2	0	15	2	2.843e-06	92426	species	              SACZ01 sp023369685
+0.0004488	2	2	15	2	0.05556	1011020364	sequence	                GCA_023369685.1_SACZ01000022.1|kraken:taxid|92426
+0.0004488	2	0	5	2	2.033e-08	6442	family	          Tannerellaceae
+0.0004488	2	0	5	2	8.507e-07	8954	genus	            Barb7
+0.0004488	2	0	5	2	1.784e-06	35529	species	              Barb7 sp010500925
+0.0004488	2	2	5	2	0.006143	1009173805	sequence	                GCF_010500925.1_NZ_QVMG01000041.1|kraken:taxid|35529
+0.0004488	2	0	2	2	2.866e-09	5839	family	          Paludibacteraceae
+0.0004488	2	0	2	2	6.376e-09	22841	genus	            RF16
+0.0004488	2	0	2	2	1.053e-06	88014	species	              RF16 sp905233415
+0.0004488	2	2	2	2	6.742e-06	1008517053	sequence	                GCA_905233415.1_CAJOEX010000005.1|kraken:taxid|88014
+0.004488	20	0	41	2	5.517e-09	1238	order	        Flavobacteriales
+0.003591	16	0	26	2	5.261e-09	3738	family	          Flavobacteriaceae
+0.002244	10	0	20	2	5.265e-07	28101	genus	            Zobellia
+0.002244	10	0	20	2	6.519e-06	113253	species	              Zobellia laminariae
+0.0008977	4	4	11	2	0.006505	1009155828	sequence	                GCF_009725995.1_NZ_RCNS01000009.1|kraken:taxid|113253
+0.0008977	4	4	8	2	0.008658	1009155826	sequence	                GCF_009725995.1_NZ_RCNS01000007.1|kraken:taxid|113253
+0.0004488	2	2	1	2	0.0009756	1009155809	sequence	                GCF_009725995.1_NZ_RCNS01000014.1|kraken:taxid|113253
+0.0008977	4	0	3	2	2.063e-09	12020	genus	            Flavobacterium
+0.0008977	4	0	3	2	1.871e-06	51808	species	              Flavobacterium sp903920835
+0.0008977	4	4	3	2	0.0007155	1008431006	sequence	                GCA_903920835.1_CAIXNQ010000177.1|kraken:taxid|51808
+0.0004488	2	0	1	2	3.889e-08	24559	genus	            Salinimicrobium
+0.0004488	2	0	1	2	3.104e-07	94863	species	              Salinimicrobium nanhaiense
+0.0004488	2	2	1	2	0.003185	1005748190	sequence	                GCA_012038135.1_JAAVJQ010000055.1|kraken:taxid|94863
+0.0004488	2	0	13	2	1.325e-08	7324	family	          Weeksellaceae
+0.0004488	2	0	13	2	6.009e-06	17162	genus	            JAGLBA01
+0.0004488	2	0	13	2	6.009e-06	62947	species	              JAGLBA01 sp018260475
+0.0004488	2	2	13	2	0.03812	1006779875	sequence	                GCA_018260475.1_JAGLBA010000152.1|kraken:taxid|62947
+0.0004488	2	0	2	2	1.767e-07	5364	family	          JALEGO01
+0.0004488	2	0	2	2	3.963e-07	19645	genus	            JALEGO01
+0.0004488	2	0	2	2	3.963e-07	66401	species	              JALEGO01 sp022763165
+0.0004488	2	2	2	2	0.0003949	1007544469	sequence	                GCA_022763165.1_JALEGO010000392.1|kraken:taxid|66401
+0.001795	8	0	18	2	1.021e-08	2171	order	        Sphingobacteriales
+0.001795	8	0	18	2	1.028e-08	6370	family	          Sphingobacteriaceae
+0.001795	8	0	15	2	2.835e-08	21192	genus	            Mucilaginibacter
+0.001795	8	0	15	2	4.102e-06	74518	species	              Mucilaginibacter hurinus
+0.0004488	2	2	5	2	0.03937	1009051631	sequence	                GCF_003324525.1_NZ_QGDC01000029.1|kraken:taxid|74518
+0.0004488	2	2	5	2	0.05952	1009051620	sequence	                GCF_003324525.1_NZ_QGDC01000021.1|kraken:taxid|74518
+0.0004488	2	2	4	2	0.03101	1009051621	sequence	                GCF_003324525.1_NZ_QGDC01000022.1|kraken:taxid|74518
+0.0004488	2	2	1	2	0.006452	1009051619	sequence	                GCF_003324525.1_NZ_QGDC01000020.1|kraken:taxid|74518
+0.001346	6	0	6	2	1.607e-09	1079	order	        Cytophagales
+0.0004488	2	0	3	2	1.476e-07	2765	family	          Amoebophilaceae
+0.0004488	2	0	3	2	1.608e-06	13715	genus	            JAAGZN01
+0.0004488	2	0	3	2	1.608e-06	57910	species	              JAAGZN01 sp024206165
+0.0004488	2	2	3	2	0.005445	1003089935	sequence	                GCA_024206165.1_JAAGZN010000131.1|kraken:taxid|57910
+0.0004488	2	0	2	2	1.399e-09	3358	family	          Cyclobacteriaceae
+0.0004488	2	0	2	2	3.496e-08	10876	genus	            Cyclobacterium
+0.0004488	2	0	2	2	3.917e-07	45773	species	              Cyclobacterium jeungdonense
+0.0004488	2	2	2	2	0.005571	1004473476	sequence	                GCF_010994275.1_NZ_WMCD01000034.1|kraken:taxid|45773
+0.0004488	2	0	1	2	9.598e-10	6373	family	          Spirosomaceae
+0.0004488	2	0	1	2	3.396e-09	11560	genus	            Dyadobacter
+0.0004488	2	0	1	2	1.433e-07	47915	species	              Dyadobacter subterraneus
+0.0004488	2	2	1	2	0.001289	1009244312	sequence	                GCF_015221875.1_NZ_JACYGY010000015.1|kraken:taxid|47915
+0.0004488	2	0	19	2	4.056e-09	1057	order	        Chitinophagales
+0.0004488	2	0	19	2	6.912e-09	3322	family	          Chitinophagaceae
+0.0004488	2	0	19	2	3.888e-08	10665	genus	            Chitinophaga
+0.0004488	2	0	19	2	2.372e-06	42775	species	              Chitinophaga agrisoli
+0.0004488	2	2	19	2	0.0313	1009141118	sequence	                GCF_008386695.1_NZ_VUOC01000083.1|kraken:taxid|42775
+0.006732	30	0	70	3.09	1.738e-08	139	phylum	    Myxococcota
+0.006732	30	0	70	3.09	7.557e-08	557	class	      Myxococcia
+0.006732	30	0	70	3.09	7.622e-08	1873	order	        Myxococcales
+0.006732	30	0	70	3.09	9.724e-08	5660	family	          Myxococcaceae
+0.004937	22	0	48	3.5	2.441e-07	21232	genus	            Myxococcus
+0.004937	22	0	48	3.5	5.272e-06	75301	species	              Myxococcus llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogochensis
+0.004937	22	22	48	3.5	0.1215	1004416003	sequence	                GCF_006636215.1_NZ_VIFM01000819.1|kraken:taxid|75301
+0.001795	8	0	14	2	1.152e-07	10816	genus	            Corallococcus
+0.001346	6	0	9	2	1.503e-06	44688	species	              Corallococcus sicarius
+0.0008977	4	4	3	2	0.006652	1004355263	sequence	                GCF_003611735.1_NZ_RAWG01000702.1|kraken:taxid|44688
+0.0004488	2	2	6	2	0.0229	1004355317	sequence	                GCF_003611735.1_NZ_RAWG01000751.1|kraken:taxid|44688
+0.0004488	2	0	5	2	9.75e-07	44684	species	              Corallococcus interemptor
+0.0004488	2	2	5	2	0.02347	1004359557	sequence	                GCF_003668875.1_NZ_RAWM01000449.1|kraken:taxid|44684
+0.005386	24	0	28	3.86	2.913e-08	28	phylum	    Bacillota_C
+0.005386	24	0	28	3.86	2.913e-08	562	class	      Negativicutes
+0.005386	24	0	24	4.17	1.673e-07	827	order	        Acidaminococcales
+0.005386	24	0	24	4.17	1.695e-07	2725	family	          Acidaminococcaceae
+0.005386	24	0	24	4.17	7.139e-07	7987	genus	            Acidaminococcus
+0.005386	24	0	24	4.17	1.421e-05	30076	species	              Acidaminococcus fermentans_A
+0.005386	24	24	24	4.17	0.0116	1000638367	sequence	                GCA_004555735.1_SFHH01000222.1|kraken:taxid|30076
+0.002693	12	0	33	2	8.364e-09	65	phylum	    Desulfobacterota
+0.001346	6	0	11	2	6.518e-08	636	class	      Syntrophobacteria
+0.001346	6	0	11	2	8.396e-08	2193	order	        Syntrophobacterales
+0.001346	6	0	11	2	1.042e-07	6406	family	          Syntrophobacteraceae
+0.001346	6	0	11	2	1.258e-06	11474	genus	            Desulforhabdus
+0.001346	6	0	11	2	2.346e-06	47235	species	              Desulforhabdus sp022836495
+0.0008977	4	4	5	2	0.01199	1011947614	sequence	                GCF_022836495.1_NZ_BQXM01000154.1|kraken:taxid|47235
+0.0004488	2	2	6	2	0.01917	1011947648	sequence	                GCF_022836495.1_NZ_BQXM01000188.1|kraken:taxid|47235
+0.0004488	2	0	12	2	1.386e-08	350	class	      Desulfovibrionia
+0.0004488	2	0	12	2	1.386e-08	1184	order	        Desulfovibrionales
+0.0004488	2	0	12	2	1.665e-08	3627	family	          Desulfovibrionaceae
+0.0004488	2	0	12	2	2.632e-07	20834	genus	            Maridesulfovibrio
+0.0004488	2	0	12	2	3.052e-06	71382	species	              Maridesulfovibrio sp004923195
+0.0004488	2	2	12	2	0.05063	1005416652	sequence	                GCA_004923195.1_RDSB01000103.1|kraken:taxid|71382
+0.0004488	2	0	7	2	1.13e-08	346	class	      Desulfobulbia
+0.0004488	2	0	7	2	1.13e-08	1180	order	        Desulfobulbales
+0.0004488	2	0	4	2	2.608e-08	3605	family	          Desulfobulbaceae
+0.0004488	2	0	4	2	3.215e-07	11655	genus	            Electrothrix
+0.0004488	2	0	4	2	1.21e-06	48511	species	              Electrothrix sp022766165
+0.0004488	2	2	4	2	0.02174	1002805062	sequence	                GCA_022766165.1_QYLO01000152.1|kraken:taxid|48511
+0.0004488	2	0	1	2	8.355e-10	345	class	      Desulfobacteria
+0.0004488	2	0	1	2	8.677e-10	1179	order	        Desulfobacterales
+0.0004488	2	0	1	2	1.478e-07	4184	family	          JAAELO01
+0.0004488	2	0	1	2	1.478e-07	13646	genus	            JAAELO01
+0.0004488	2	0	1	2	1.478e-07	57803	species	              JAAELO01 sp024226555
+0.0004488	2	2	1	2	0.002208	1011101535	sequence	                GCA_024226555.1_JAAELO010000566.1|kraken:taxid|57803
+0.002693	12	0	14	2.14	2.585e-09	54	phylum	    Cyanobacteriota
+0.002244	10	0	12	2	2.818e-09	307	class	      Cyanobacteriia
+0.001795	8	0	9	2	3.622e-09	1078	order	        Cyanobacteriales
+0.0008977	4	0	6	2	4.874e-09	5720	family	          Nostocaceae
+0.0004488	2	0	3	2	1.112e-07	22168	genus	            Pelatocladus
+0.0004488	2	0	3	2	6.429e-07	82271	species	              Pelatocladus muscicola_A
+0.0004488	2	2	3	2	0.006977	1004116112	sequence	                GCF_000317245.1_NZ_AJLJ01000330.1|kraken:taxid|82271
+0.0004488	2	0	2	2	8.147e-09	21466	genus	            Nostoc
+0.0004488	2	0	2	2	5.83e-07	77332	species	              Nostoc sp014222285
+0.0004488	2	2	2	2	0.005714	1009216448	sequence	                GCF_014222285.1_NZ_JACKZS010000539.1|kraken:taxid|77332
+0.0004488	2	0	2	2	3.703e-07	3107	family	          CAISPN01
+0.0004488	2	0	2	2	3.703e-07	9612	genus	            CAISPN01
+0.0004488	2	0	2	2	7.194e-07	40023	species	              CAISPN01 sp903887375
+0.0004488	2	2	2	2	0.000118	1011393304	sequence	                GCA_903887375.1_CAISPN010000073.1|kraken:taxid|40023
+0.0004488	2	0	1	2	2.017e-08	5638	family	          Microcystaceae_A
+0.0004488	2	0	1	2	4.142e-08	10843	genus	            Crocosphaera
+0.0004488	2	0	1	2	2.073e-07	45011	species	              Crocosphaera chwakensis
+0.0004488	2	2	1	2	0.002309	1008805338	sequence	                GCF_000169335.1_NZ_AAXW01000147.1|kraken:taxid|45011
+0.0004488	2	0	3	2	2.421e-08	1968	order	        Pseudanabaenales
+0.0004488	2	0	3	2	2.421e-08	5888	family	          Pseudanabaenaceae
+0.0004488	2	0	3	2	6.237e-07	26698	genus	            UBA8156
+0.0004488	2	0	3	2	1.393e-06	108353	species	              UBA8156 sp003456125
+0.0004488	2	2	3	2	0.0005958	1009678071	sequence	                GCA_003456125.1_DMPD01000138.1|kraken:taxid|108353
+0.0004488	2	0	2	3	1.826e-09	743	class	      Vampirovibrionia
+0.0004488	2	0	2	3	9.125e-08	773	order	        2-02-FULL-35-15
+0.0004488	2	0	2	3	9.125e-08	2602	family	          2-02-FULL-35-15
+0.0004488	2	0	2	3	3.512e-07	7547	genus	            2-02-FULL-35-15
+0.0004488	2	0	2	3	9.933e-07	28479	species	              2-02-FULL-35-15 sp023250195
+0.0004488	2	2	2	3	3.484e-06	1010996183	sequence	                GCA_023250195.1_JAHFBF010000001.1|kraken:taxid|28479
+0.001795	8	0	13	2	1.785e-09	154	phylum	    Planctomycetota
+0.001346	6	0	12	2	3.241e-09	582	class	      Planctomycetia
+0.0008977	4	0	11	2	1.218e-08	1956	order	        Planctomycetales
+0.0008977	4	0	11	2	1.218e-08	5867	family	          Planctomycetaceae
+0.0008977	4	0	11	2	5.963e-07	22284	genus	            Planctopirus
+0.0008977	4	0	11	2	2.48e-06	83015	species	              Planctopirus hydrillae
+0.0008977	4	4	11	2	0.0347	1008963383	sequence	                GCF_001707835.1_NZ_LYDR01000053.1|kraken:taxid|83015
+0.0004488	2	0	1	2	4.763e-10	1954	order	        Pirellulales
+0.0004488	2	0	1	2	3.311e-09	6479	family	          Thermoguttaceae
+0.0004488	2	0	1	2	5.616e-08	25243	genus	            Thermogutta
+0.0004488	2	0	1	2	2.094e-07	100900	species	              Thermogutta sp020721965
+0.0004488	2	2	1	2	1.926e-05	1007163971	sequence	                GCA_020721965.1_DYLS01000017.1|kraken:taxid|100900
+0.0004488	2	0	1	2	2.25e-08	243	class	      B15-G4
+0.0004488	2	0	1	2	2.25e-08	870	order	        B15-G4
+0.0004488	2	0	1	2	5.114e-08	4693	family	          JADJEK01
+0.0004488	2	0	1	2	9.99e-08	15535	genus	            JACQZJ01
+0.0004488	2	0	1	2	2.124e-07	60597	species	              JACQZJ01 sp016213895
+0.0004488	2	2	1	2	5.974e-05	1006233176	sequence	                GCA_016213895.1_JACQZJ010000177.1|kraken:taxid|60597
+0.001346	6	0	10	2	1.756e-09	202	phylum	    Verrucomicrobiota
+0.0008977	4	0	9	2	1.247e-08	527	class	      Lentisphaeria
+0.0004488	2	0	5	2	1.203e-08	2518	order	        Victivallales
+0.0004488	2	0	5	2	2.293e-08	7220	family	          Victivallaceae
+0.0004488	2	0	5	2	7.097e-07	28108	genus	            Zth2
+0.0004488	2	0	5	2	1.248e-06	113290	species	              Zth2 sp024225035
+0.0004488	2	2	5	2	0.004717	1003098444	sequence	                GCA_024225035.1_JAAEMX010000468.1|kraken:taxid|113290
+0.0004488	2	0	4	2	1.141e-07	1453	order	        JABSQK01
+0.0004488	2	0	4	2	2.316e-07	5218	family	          JAJFLO01
+0.0004488	2	0	4	2	1.043e-06	18735	genus	            JAJFLP01
+0.0004488	2	0	4	2	1.043e-06	65009	species	              JAJFLP01 sp021772635
+0.0004488	2	2	4	2	0.0001326	1007323064	sequence	                GCA_021772635.1_JAJFLP010000024.1|kraken:taxid|65009
+0.0004488	2	0	1	2	2.418e-10	744	class	      Verrucomicrobiae
+0.0004488	2	0	1	2	7.947e-10	1905	order	        Opitutales
+0.0004488	2	0	1	2	1.316e-09	5749	family	          Opitutaceae
+0.0004488	2	0	1	2	2.807e-08	9643	genus	            CAITWF01
+0.0004488	2	0	1	2	3.364e-07	40087	species	              CAITWF01 sp005799525
+0.0004488	2	2	1	2	0.0006456	1005436975	sequence	                GCA_005799525.1_SYGN01000079.1|kraken:taxid|40087
+0.001346	6	0	6	2	9.715e-10	50	phylum	    Chloroflexota
+0.0008977	4	0	2	2	5.554e-10	231	class	      Anaerolineae
+0.0004488	2	0	1	2	5.736e-09	800	order	        4572-78
+0.0004488	2	0	1	2	4.55e-08	5663	family	          NAK82
+0.0004488	2	0	1	2	1.606e-07	21241	genus	            NAK82
+0.0004488	2	0	1	2	2.931e-07	75335	species	              NAK82 sp003130875
+0.0004488	2	2	1	2	0.0004409	1005079131	sequence	                GCA_003130875.1_QEXY01000165.1|kraken:taxid|75335
+0.0004488	2	0	1	2	7.513e-10	846	order	        Anaerolineales
+0.0004488	2	0	1	2	1.853e-09	3685	family	          EnvOPS12
+0.0004488	2	0	1	2	1.619e-08	25647	genus	            UBA12294
+0.0004488	2	0	1	2	5.717e-07	103256	species	              UBA12294 sp022181005
+0.0004488	2	2	1	2	0.0001291	1002705484	sequence	                GCA_022181005.1_BQMV01000027.1|kraken:taxid|103256
+0.0004488	2	0	2	2	3.567e-09	300	class	      Chloroflexia
+0.0004488	2	0	2	2	6.15e-09	1061	order	        Chloroflexales
+0.0004488	2	0	2	2	2.081e-08	6050	family	          Roseiflexaceae
+0.0004488	2	0	2	2	1.056e-07	20221	genus	            Kouleothrix
+0.0004488	2	0	2	2	3.101e-07	67657	species	              Kouleothrix sp016722075
+0.0004488	2	2	2	2	3.925e-07	1001521891	sequence	                GCA_016722075.1_JADKGW010000001.1|kraken:taxid|67657
+0.0008977	4	0	16	2	9.157e-08	84	phylum	    Fusobacteriota
+0.0008977	4	0	16	2	9.157e-08	376	class	      Fusobacteriia
+0.0008977	4	0	16	2	9.235e-08	1241	order	        Fusobacteriales
+0.0008977	4	0	16	2	1.335e-07	3743	family	          Fusobacteriaceae
+0.0004488	2	0	11	2	4.448e-07	12090	genus	            Fusobacterium
+0.0004488	2	0	10	2	6.359e-06	52193	species	              Fusobacterium nucleatum_E
+0.0004488	2	2	10	2	0.01721	1004143227	sequence	                GCF_000493815.1_NZ_AXUR01000142.1|kraken:taxid|52193
+0.0004488	2	0	5	2	1.591e-07	12091	genus	            Fusobacterium_A
+0.0004488	2	0	5	2	4.516e-06	52215	species	              Fusobacterium_A sp900555845
+0.0004488	2	2	5	2	0.0001388	1011481552	sequence	                GCA_905200055.1_CAJKIS010000011.1|kraken:taxid|52215
+0.0008977	4	0	11	2	4.229e-09	153	phylum	    Patescibacteria
+0.0004488	2	0	6	2	1.714e-08	623	class	      Saccharimonadia
+0.0004488	2	0	6	2	1.803e-08	2153	order	        Saccharimonadales
+0.0004488	2	0	6	2	3.572e-07	5691	family	          Nanosynbacteraceae
+0.0004488	2	0	6	2	4.065e-07	21326	genus	            Nanosynbacter
+0.0004488	2	0	6	2	3.346e-05	75692	species	              Nanosynbacter sp915070155
+0.0004488	2	2	6	2	0.007398	1008618005	sequence	                GCA_915070155.1_CAJZFK010000058.1|kraken:taxid|75692
+0.0004488	2	0	5	2	1.174e-08	218	class	      ABY1
+0.0004488	2	0	5	2	7.379e-08	903	order	        BM507
+0.0004488	2	0	4	2	3.146e-06	5021	family	          JAGXOH01
+0.0004488	2	0	4	2	6.053e-06	17711	genus	            JAGXOH01
+0.0004488	2	0	4	2	6.053e-06	63672	species	              JAGXOH01 sp023659985
+0.0004488	2	2	4	2	0.0003262	1003073660	sequence	                GCA_023659985.1_JAGXOH010000016.1|kraken:taxid|63672
+0.0004488	2	0	13	2	1.833e-08	16	phylum	    Armatimonadota
+0.0004488	2	0	13	2	4.678e-07	277	class	      CAIYQO01
+0.0004488	2	0	13	2	1.615e-06	2539	order	        WVXJ01
+0.0004488	2	0	13	2	5.082e-06	7315	family	          WVXJ01
+0.0004488	2	0	13	2	5.082e-06	27883	genus	            WVXJ01
+0.0004488	2	0	13	2	5.082e-06	112389	species	              WVXJ01 sp011773575
+0.0004488	2	2	13	2	0.07647	1005734576	sequence	                GCA_011773575.1_WVXJ01000174.1|kraken:taxid|112389
+0.0004488	2	0	12	2	1.085e-08	48	phylum	    Campylobacterota
+0.0004488	2	0	12	2	1.11e-08	295	class	      Campylobacteria
+0.0004488	2	0	12	2	1.121e-08	1047	order	        Campylobacterales
+0.0004488	2	0	12	2	7.039e-08	4060	family	          Helicobacteraceae
+0.0004488	2	0	12	2	1.181e-05	12977	genus	            HGM08974
+0.0004488	2	0	12	2	1.181e-05	55050	species	              HGM08974 sp900766555
+0.0004488	2	2	12	2	0.1846	1008103773	sequence	                GCA_900766555.1_CAAFVR010000029.1|kraken:taxid|55050
+0.0004488	2	0	7	2	6.054e-09	35	phylum	    Bdellovibrionota
+0.0004488	2	0	2	2	1.241e-08	571	class	      Oligoflexia
+0.0004488	2	0	2	2	4.781e-08	2158	order	        Silvanigrellales
+0.0004488	2	0	2	2	4.781e-08	6355	family	          Silvanigrellaceae
+0.0004488	2	0	2	2	9.907e-08	24705	genus	            Silvanigrella
+0.0004488	2	0	2	2	8.868e-07	95806	species	              Silvanigrella cienkowskii
+0.0004488	2	2	2	2	0.02353	1000456961	sequence	                GCA_003339605.1_QOVW01000126.1|kraken:taxid|95806
+0.002693	12	0	38	2.16	5.317e-09	2	domain	  Archaea
+0.002244	10	0	30	2.2	2.004e-07	134	phylum	    Methanobacteriota_B
+0.002244	10	0	30	2.2	2.004e-07	651	class	      Thermococci
+0.002244	10	0	30	2.2	2.479e-07	2226	order	        Thermococcales
+0.002244	10	0	30	2.2	2.479e-07	6470	family	          Thermococcaceae
+0.002244	10	0	30	2.2	4.154e-07	25220	genus	            Thermococcus
+0.002244	10	0	30	2.2	1.57e-05	100790	species	              Thermococcus sp012027595
+0.001795	8	8	23	2.26	0.05066	1004484351	sequence	                GCF_012027595.1_NZ_SNUR01000011.1|kraken:taxid|100790
+0.0004488	2	2	7	2	0.03365	1004484352	sequence	                GCF_012027595.1_NZ_SNUR01000012.1|kraken:taxid|100790
+0.0004488	2	0	7	2	1.087e-08	143	phylum	    Nanoarchaeota
+0.0004488	2	0	7	2	1.087e-08	559	class	      Nanoarchaeia
+0.0004488	2	0	7	2	1.782e-08	2544	order	        Woesearchaeales
+0.0004488	2	0	7	2	8.776e-07	7265	family	          WJKL01
+0.0004488	2	0	7	2	6.268e-06	17577	genus	            JAGVIO01
+0.0004488	2	0	7	2	6.268e-06	63487	species	              JAGVIO01 sp020056025
+0.0004488	2	2	7	2	0.03318	1002280849	sequence	                GCA_020056025.1_JAGVIO010000116.1|kraken:taxid|63487

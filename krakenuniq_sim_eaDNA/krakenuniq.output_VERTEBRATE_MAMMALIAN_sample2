@@ -1,0 +1,851 @@
+# KrakenUniq v0.7.3 DATE:2023-09-09T08:39:08Z DB:./DBDIR_VERTEBRATE_MAMMALIAN DB_SIZE:1398065884864 WD:/crex/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/sedaDNA/genomes
+# CL:perl /proj/uppstore2018095/private/NBIS_Demo/KrakenUniq_v0.7.3/KrakenUniq/krakenuniq --db DBDIR_VERTEBRATE_MAMMALIAN --fastq-input sample_16_species.trimmed.fastq.gz --threads 20 --output sequences.krakenuniq_VERTEBRATE_MAMMALIAN --report-file krakenuniq.output_VERTEBRATE_MAMMALIAN --preload
+
+%	reads	taxReads	kmers	dup	cov	taxID	rank	taxName
+78.09	347968	347968	2661538	2.02	NA	0	no rank	unclassified
+21.91	97632	0	709808	2.03	6.092e-06	1	no rank	root
+21.91	97632	0	709808	2.03	6.092e-06	131567	no rank	  cellular organisms
+21.91	97632	0	709808	2.03	6.092e-06	2759	superkingdom	    Eukaryota
+21.91	97632	0	709808	2.03	6.092e-06	33154	clade	      Opisthokonta
+21.91	97632	0	709808	2.03	6.092e-06	33208	kingdom	        Metazoa
+21.91	97632	0	709808	2.03	6.092e-06	6072	clade	          Eumetazoa
+21.91	97632	0	709808	2.03	6.092e-06	33213	clade	            Bilateria
+21.91	97632	0	709808	2.03	6.092e-06	33511	clade	              Deuterostomia
+21.91	97632	0	709808	2.03	6.092e-06	7711	phylum	                Chordata
+21.91	97632	0	709808	2.03	6.092e-06	89593	subphylum	                  Craniata
+21.91	97632	0	709808	2.03	6.092e-06	7742	clade	                    Vertebrata
+21.91	97632	0	709808	2.03	6.092e-06	7776	clade	                      Gnathostomata
+21.91	97632	0	709808	2.03	6.092e-06	117570	clade	                        Teleostomi
+21.91	97632	0	709808	2.03	6.092e-06	117571	clade	                          Euteleostomi
+21.91	97632	0	709808	2.03	6.092e-06	8287	superclass	                            Sarcopterygii
+21.91	97632	0	709808	2.03	6.092e-06	1338369	clade	                              Dipnotetrapodomorpha
+21.91	97632	0	709808	2.03	6.092e-06	32523	clade	                                Tetrapoda
+21.91	97632	0	709808	2.03	6.092e-06	32524	clade	                                  Amniota
+21.91	97632	98	709808	2.03	6.092e-06	40674	class	                                    Mammalia
+21.88	97504	74	709504	2.03	6.242e-06	32525	clade	                                      Theria
+21.86	97392	356	707458	2.04	7.001e-06	9347	clade	                                        Eutheria
+16.48	73424	514	530929	2.04	5.512e-06	1437010	clade	                                          Boreoeutheria
+10.85	48358	232	351573	2.01	7.535e-06	314145	superorder	                                            Laurasiatheria
+5.421	24156	0	173428	2.02	2.681e-05	9397	order	                                              Chiroptera
+5.421	24156	80	173428	2.02	2.681e-05	30560	suborder	                                                Microchiroptera
+5.398	24052	0	172364	2.01	0.0001226	9431	family	                                                  Vespertilionidae
+5.398	24052	0	172364	2.01	0.0001226	27671	genus	                                                    Pipistrellus
+5.398	24052	0	172364	2.01	0.0001226	59472	species	                                                      Pipistrellus kuhlii
+5.398	24052	1322	172364	2.01	0.0001226	1000029120	assembly	                                                        GCF_014108245.1 Pipistrellus kuhlii
+0.5494	2448	2448	16946	2.02	0.0001118	1000029121	sequence	                                                          NW_023425404.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_1, whole genome shotgun sequence
+0.5444	2426	2426	17137	1.98	0.0001186	1000029246	sequence	                                                          NW_023425529.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_3, whole genome shotgun sequence
+0.5184	2310	2310	16805	2.01	0.000115	1000029232	sequence	                                                          NW_023425515.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_2, whole genome shotgun sequence
+0.2864	1276	1276	8968	2.02	0.0001195	1000029257	sequence	                                                          NW_023425540.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_4, whole genome shotgun sequence
+0.2464	1098	1098	7491	2.01	0.0001152	1000029290	sequence	                                                          NW_023425573.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_7, whole genome shotgun sequence
+0.2392	1066	1066	7378	2.03	0.00011	1000029268	sequence	                                                          NW_023425551.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_5, whole genome shotgun sequence
+0.232	1034	1034	7507	1.97	0.0001145	1000029279	sequence	                                                          NW_023425562.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_6, whole genome shotgun sequence
+0.2154	960	960	6876	1.98	0.0001268	1000029312	sequence	                                                          NW_023425595.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_9, whole genome shotgun sequence
+0.1984	884	884	6281	2.03	0.0001099	1000029301	sequence	                                                          NW_023425584.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_8, whole genome shotgun sequence
+0.1755	782	782	5546	1.99	0.0001195	1000029122	sequence	                                                          NW_023425405.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_10, whole genome shotgun sequence
+0.1732	772	772	5145	2	0.0001208	1000029144	sequence	                                                          NW_023425427.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_12, whole genome shotgun sequence
+0.1598	712	712	5330	1.98	0.0001243	1000029133	sequence	                                                          NW_023425416.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_11, whole genome shotgun sequence
+0.1463	652	652	4594	1.99	0.0001185	1000029166	sequence	                                                          NW_023425449.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_14, whole genome shotgun sequence
+0.1414	630	630	4312	1.96	0.000112	1000029177	sequence	                                                          NW_023425460.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_15, whole genome shotgun sequence
+0.14	624	624	4500	2.03	0.0001104	1000029155	sequence	                                                          NW_023425438.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_13, whole genome shotgun sequence
+0.09201	410	410	2596	1.99	9.474e-05	1000029188	sequence	                                                          NW_023425471.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_16, whole genome shotgun sequence
+0.08214	366	366	2606	2.01	0.0001212	1000029210	sequence	                                                          NW_023425493.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_18, whole genome shotgun sequence
+0.08214	366	366	2523	2	0.0001042	1000029199	sequence	                                                          NW_023425482.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_17, whole genome shotgun sequence
+0.06822	304	304	2301	1.96	0.0001409	1000029233	sequence	                                                          NW_023425516.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_20, whole genome shotgun sequence
+0.06059	270	270	1938	1.97	0.0001096	1000029221	sequence	                                                          NW_023425504.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_19, whole genome shotgun sequence
+0.04803	214	214	1569	2	0.0001321	1000029237	sequence	                                                          NW_023425520.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_21, whole genome shotgun sequence
+0.03456	154	154	1031	2	0.000108	1000029240	sequence	                                                          NW_023425523.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_24, whole genome shotgun sequence
+0.03411	152	152	1221	2.01	0.0001199	1000029238	sequence	                                                          NW_023425521.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_22, whole genome shotgun sequence
+0.02693	120	120	869	2	9.205e-05	1000029239	sequence	                                                          NW_023425522.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_23, whole genome shotgun sequence
+0.02603	116	116	758	2	9.931e-05	1000029242	sequence	                                                          NW_023425525.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_26, whole genome shotgun sequence
+0.02558	114	114	852	2	0.0001076	1000029241	sequence	                                                          NW_023425524.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_25, whole genome shotgun sequence
+0.02154	96	96	702	2	0.0001402	1000029245	sequence	                                                          NW_023425528.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_29, whole genome shotgun sequence
+0.02154	96	96	651	2	0.0001104	1000029244	sequence	                                                          NW_023425527.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_28, whole genome shotgun sequence
+0.0211	94	94	697	2	0.0001246	1000029243	sequence	                                                          NW_023425526.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_27, whole genome shotgun sequence
+0.0193	86	86	494	2	0.000116	1000029250	sequence	                                                          NW_023425533.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_33, whole genome shotgun sequence
+0.01885	84	84	653	2	0.000125	1000029248	sequence	                                                          NW_023425531.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_31, whole genome shotgun sequence
+0.01885	84	84	519	2	0.0001022	1000029249	sequence	                                                          NW_023425532.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_32, whole genome shotgun sequence
+0.01706	76	76	448	2.04	9.948e-05	1000029253	sequence	                                                          NW_023425536.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_36, whole genome shotgun sequence
+0.01661	74	74	511	2	0.0001135	1000029252	sequence	                                                          NW_023425535.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_35, whole genome shotgun sequence
+0.01661	74	74	421	2	8.438e-05	1000029247	sequence	                                                          NW_023425530.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_30, whole genome shotgun sequence
+0.01481	66	66	530	2	0.0001173	1000029251	sequence	                                                          NW_023425534.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_34, whole genome shotgun sequence
+0.01436	64	64	419	2	0.0001251	1000029256	sequence	                                                          NW_023425539.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_39, whole genome shotgun sequence
+0.01391	62	62	372	2	0.0001202	1000029258	sequence	                                                          NW_023425541.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_40, whole genome shotgun sequence
+0.01212	54	54	311	2	9.634e-05	1000029259	sequence	                                                          NW_023425542.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_41, whole genome shotgun sequence
+0.01167	52	52	439	2	9.885e-05	1000029254	sequence	                                                          NW_023425537.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_37, whole genome shotgun sequence
+0.01167	52	52	394	2	0.0001062	1000029255	sequence	                                                          NW_023425538.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_38, whole genome shotgun sequence
+0.01077	48	48	368	2	0.0001243	1000029260	sequence	                                                          NW_023425543.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_42, whole genome shotgun sequence
+0.01077	48	48	263	2	0.0001501	1000029267	sequence	                                                          NW_023425550.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_49, whole genome shotgun sequence
+0.009874	44	44	279	2	0.0001419	1000029263	sequence	                                                          NW_023425546.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_45, whole genome shotgun sequence
+0.008977	40	40	276	2	0.0001621	1000029272	sequence	                                                          NW_023425555.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_53, whole genome shotgun sequence
+0.008528	38	38	250	2	0.0001533	1000029271	sequence	                                                          NW_023425554.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_52, whole genome shotgun sequence
+0.008079	36	36	266	2	0.0001538	1000029265	sequence	                                                          NW_023425548.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_47, whole genome shotgun sequence
+0.00763	34	34	178	2	0.0001293	1000029276	sequence	                                                          NW_023425559.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_57, whole genome shotgun sequence
+0.007181	32	32	238	2	8.11e-05	1000029261	sequence	                                                          NW_023425544.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_43, whole genome shotgun sequence
+0.006732	30	30	160	2	9.574e-05	1000029264	sequence	                                                          NW_023425547.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_46, whole genome shotgun sequence
+0.006732	30	30	148	2	9.682e-05	1000029270	sequence	                                                          NW_023425553.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_51, whole genome shotgun sequence
+0.006284	28	28	270	2	0.0002084	1000029278	sequence	                                                          NW_023425561.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_59, whole genome shotgun sequence
+0.006284	28	28	204	2	0.0001117	1000029266	sequence	                                                          NW_023425549.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_48, whole genome shotgun sequence
+0.006284	28	28	182	2	0.0001217	1000029269	sequence	                                                          NW_023425552.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_50, whole genome shotgun sequence
+0.006284	28	28	180	2	0.0001274	1000029274	sequence	                                                          NW_023425557.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_55, whole genome shotgun sequence
+0.005835	26	26	154	2	0.0001072	1000029273	sequence	                                                          NW_023425556.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_54, whole genome shotgun sequence
+0.005835	26	26	117	2	8.633e-05	1000029283	sequence	                                                          NW_023425566.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_63, whole genome shotgun sequence
+0.005386	24	24	185	2	6.814e-05	1000029262	sequence	                                                          NW_023425545.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_44, whole genome shotgun sequence
+0.005386	24	24	134	2	9.098e-05	1000029280	sequence	                                                          NW_023425563.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_60, whole genome shotgun sequence
+0.004937	22	22	202	2	0.0001823	1000029288	sequence	                                                          NW_023425571.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_68, whole genome shotgun sequence
+0.004937	22	22	162	2	0.0002665	1000029313	sequence	                                                          NW_023425596.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_90, whole genome shotgun sequence
+0.004937	22	22	83	2	6.971e-05	1000029284	sequence	                                                          NW_023425567.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_64, whole genome shotgun sequence
+0.004488	20	20	164	2	0.0001298	1000029287	sequence	                                                          NW_023425570.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_67, whole genome shotgun sequence
+0.004488	20	20	159	2	0.000141	1000029282	sequence	                                                          NW_023425565.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_62, whole genome shotgun sequence
+0.004488	20	20	118	2	0.0001283	1000029293	sequence	                                                          NW_023425576.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_72, whole genome shotgun sequence
+0.004039	18	18	173	2	0.0002086	1000029292	sequence	                                                          NW_023425575.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_71, whole genome shotgun sequence
+0.004039	18	18	139	2	0.0001347	1000029289	sequence	                                                          NW_023425572.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_69, whole genome shotgun sequence
+0.004039	18	18	121	2	0.0001556	1000029308	sequence	                                                          NW_023425591.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_86, whole genome shotgun sequence
+0.004039	18	18	116	2	8.835e-05	1000029285	sequence	                                                          NW_023425568.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_65, whole genome shotgun sequence
+0.003591	16	16	110	2	0.0001454	1000029307	sequence	                                                          NW_023425590.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_85, whole genome shotgun sequence
+0.003591	16	16	108	2	7.865e-05	1000029277	sequence	                                                          NW_023425560.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_58, whole genome shotgun sequence
+0.003591	16	16	92	2	9.667e-05	1000029291	sequence	                                                          NW_023425574.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_70, whole genome shotgun sequence
+0.003142	14	14	130	2	0.0001707	1000029298	sequence	                                                          NW_023425581.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_77, whole genome shotgun sequence
+0.003142	14	14	127	2	0.0001868	1000029306	sequence	                                                          NW_023425589.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_84, whole genome shotgun sequence
+0.003142	14	14	110	2	0.000259	1000029132	sequence	                                                          NW_023425415.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_109, whole genome shotgun sequence
+0.003142	14	14	104	2	7.097e-05	1000029275	sequence	                                                          NW_023425558.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_56, whole genome shotgun sequence
+0.003142	14	14	104	2	0.0001232	1000029296	sequence	                                                          NW_023425579.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_75, whole genome shotgun sequence
+0.003142	14	14	101	2	0.0001447	1000029305	sequence	                                                          NW_023425588.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_83, whole genome shotgun sequence
+0.003142	14	14	100	2	9.526e-05	1000029286	sequence	                                                          NW_023425569.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_66, whole genome shotgun sequence
+0.003142	14	14	90	2	0.0002347	1000029137	sequence	                                                          NW_023425420.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_113, whole genome shotgun sequence
+0.002693	12	12	143	2	0.0002354	1000029314	sequence	                                                          NW_023425597.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_91, whole genome shotgun sequence
+0.002693	12	12	114	2	0.0002768	1000029134	sequence	                                                          NW_023425417.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_110, whole genome shotgun sequence
+0.002693	12	12	96	2	0.0002955	1000029145	sequence	                                                          NW_023425428.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_120, whole genome shotgun sequence
+0.002693	12	12	96	2	0.0001339	1000029309	sequence	                                                          NW_023425592.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_87, whole genome shotgun sequence
+0.002693	12	12	92	2	0.0001043	1000029299	sequence	                                                          NW_023425582.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_78, whole genome shotgun sequence
+0.002693	12	12	67	2	4.914e-05	1000029281	sequence	                                                          NW_023425564.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_61, whole genome shotgun sequence
+0.002693	12	12	58	2	6.997e-05	1000029302	sequence	                                                          NW_023425585.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_80, whole genome shotgun sequence
+0.002693	12	12	56	2	6.965e-05	1000029295	sequence	                                                          NW_023425578.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_74, whole genome shotgun sequence
+0.002244	10	10	112	2	0.0004031	1000029152	sequence	                                                          NW_023425435.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_127, whole genome shotgun sequence
+0.002244	10	10	86	2	0.0001567	1000029316	sequence	                                                          NW_023425599.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_93, whole genome shotgun sequence
+0.002244	10	10	78	2	0.0002451	1000029142	sequence	                                                          NW_023425425.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_118, whole genome shotgun sequence
+0.002244	10	10	52	2	0.0001075	1000029126	sequence	                                                          NW_023425409.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_103, whole genome shotgun sequence
+0.002244	10	10	31	2	6.607e-05	1000029319	sequence	                                                          NW_023425602.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_96, whole genome shotgun sequence
+0.001795	8	8	78	2	9.257e-05	1000029300	sequence	                                                          NW_023425583.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_79, whole genome shotgun sequence
+0.001795	8	8	68	2	0.000117	1000029318	sequence	                                                          NW_023425601.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_95, whole genome shotgun sequence
+0.001795	8	8	65	2	8.005e-05	1000029303	sequence	                                                          NW_023425586.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_81, whole genome shotgun sequence
+0.001795	8	8	62	2	0.0001274	1000029124	sequence	                                                          NW_023425407.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_101, whole genome shotgun sequence
+0.001795	8	8	59	2	0.0001239	1000029129	sequence	                                                          NW_023425412.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_106, whole genome shotgun sequence
+0.001795	8	8	50	2	0.0001051	1000029128	sequence	                                                          NW_023425411.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_105, whole genome shotgun sequence
+0.001795	8	8	37	2	0.0001408	1000029147	sequence	                                                          NW_023425430.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_122, whole genome shotgun sequence
+0.001795	8	8	32	2	5.139e-05	1000029311	sequence	                                                          NW_023425594.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_89, whole genome shotgun sequence
+0.001795	8	8	27	2	6.467e-05	1000029131	sequence	                                                          NW_023425414.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_108, whole genome shotgun sequence
+0.001346	6	6	74	2	0.0002326	1000029141	sequence	                                                          NW_023425424.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_117, whole genome shotgun sequence
+0.001346	6	6	64	2	0.0001175	1000029317	sequence	                                                          NW_023425600.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_94, whole genome shotgun sequence
+0.001346	6	6	55	2	0.000774	1000029200	sequence	                                                          NW_023425483.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_170, whole genome shotgun sequence
+0.001346	6	6	46	2	0.0002676	1000029167	sequence	                                                          NW_023425450.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_140, whole genome shotgun sequence
+0.001346	6	6	31	2	4.374e-05	1000029297	sequence	                                                          NW_023425580.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_76, whole genome shotgun sequence
+0.001346	6	6	30	2	0.0001245	1000029150	sequence	                                                          NW_023425433.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_125, whole genome shotgun sequence
+0.001346	6	6	26	2	4.587e-05	1000029320	sequence	                                                          NW_023425603.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_97, whole genome shotgun sequence
+0.001346	6	6	25	2	0.0001137	1000029151	sequence	                                                          NW_023425434.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_126, whole genome shotgun sequence
+0.001346	6	6	25	2	9.724e-05	1000029156	sequence	                                                          NW_023425439.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_130, whole genome shotgun sequence
+0.0008977	4	4	45	2	5.69e-05	1000029304	sequence	                                                          NW_023425587.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_82, whole genome shotgun sequence
+0.0008977	4	4	42	2	0.0002998	1000029180	sequence	                                                          NW_023425463.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_152, whole genome shotgun sequence
+0.0008977	4	4	41	2	0.0006489	1000029208	sequence	                                                          NW_023425491.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_178, whole genome shotgun sequence
+0.0008977	4	4	36	2	0.0001479	1000029159	sequence	                                                          NW_023425442.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_133, whole genome shotgun sequence
+0.0008977	4	4	35	2	5.25e-05	1000029310	sequence	                                                          NW_023425593.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_88, whole genome shotgun sequence
+0.0008977	4	4	33	2	0.0001619	1000029163	sequence	                                                          NW_023425446.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_137, whole genome shotgun sequence
+0.0008977	4	4	30	2	4.316e-05	1000029315	sequence	                                                          NW_023425598.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_92, whole genome shotgun sequence
+0.0008977	4	4	29	2	3.355e-05	1000029294	sequence	                                                          NW_023425577.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_73, whole genome shotgun sequence
+0.0008977	4	4	27	2	5.779e-05	1000029321	sequence	                                                          NW_023425604.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_98, whole genome shotgun sequence
+0.0008977	4	4	19	2	5.419e-05	1000029140	sequence	                                                          NW_023425423.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_116, whole genome shotgun sequence
+0.0008977	4	4	17	2	5.894e-05	1000029149	sequence	                                                          NW_023425432.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_124, whole genome shotgun sequence
+0.0008977	4	4	15	2	5.497e-05	1000029146	sequence	                                                          NW_023425429.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_121, whole genome shotgun sequence
+0.0008977	4	4	13	2	4.946e-05	1000029143	sequence	                                                          NW_023425426.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_119, whole genome shotgun sequence
+0.0008977	4	4	9	2	0.0001176	1000029193	sequence	                                                          NW_023425476.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_164, whole genome shotgun sequence
+0.0008977	4	4	6	2	3.583e-05	1000029178	sequence	                                                          NW_023425461.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_150, whole genome shotgun sequence
+0.0008977	4	4	5	2	9.634e-06	1000029123	sequence	                                                          NW_023425406.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_100, whole genome shotgun sequence
+0.0004488	2	2	52	2	0.0005115	1000029187	sequence	                                                          NW_023425470.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_159, whole genome shotgun sequence
+0.0004488	2	2	27	2	0.0003193	1000029196	sequence	                                                          NW_023425479.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_167, whole genome shotgun sequence
+0.0004488	2	2	25	2	0.0001905	1000029176	sequence	                                                          NW_023425459.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_149, whole genome shotgun sequence
+0.0004488	2	2	24	2	0.000696	1000029223	sequence	                                                          NW_023425506.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_191, whole genome shotgun sequence
+0.0004488	2	2	22	2	0.0001873	1000029172	sequence	                                                          NW_023425455.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_145, whole genome shotgun sequence
+0.0004488	2	2	21	2	0.0002296	1000029189	sequence	                                                          NW_023425472.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_160, whole genome shotgun sequence
+0.0004488	2	2	20	2	0.0002793	1000029190	sequence	                                                          NW_023425473.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_161, whole genome shotgun sequence
+0.0004488	2	2	20	2	0.0001398	1000029179	sequence	                                                          NW_023425462.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_151, whole genome shotgun sequence
+0.0004488	2	2	19	2	0.0002087	1000029191	sequence	                                                          NW_023425474.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_162, whole genome shotgun sequence
+0.0004488	2	2	19	2	7.775e-05	1000029148	sequence	                                                          NW_023425431.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_123, whole genome shotgun sequence
+0.0004488	2	2	19	2	4.972e-05	1000029135	sequence	                                                          NW_023425418.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_111, whole genome shotgun sequence
+0.0004488	2	2	18	2	0.000161	1000029186	sequence	                                                          NW_023425469.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_158, whole genome shotgun sequence
+0.0004488	2	2	17	2	0.0003681	1000029203	sequence	                                                          NW_023425486.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_173, whole genome shotgun sequence
+0.0004488	2	2	16	2	0.0006309	1000029225	sequence	                                                          NW_023425508.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_193, whole genome shotgun sequence
+0.0004488	2	2	16	2	0.0005158	1000029217	sequence	                                                          NW_023425500.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_186, whole genome shotgun sequence
+0.0004488	2	2	16	2	8.545e-05	1000029160	sequence	                                                          NW_023425443.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_134, whole genome shotgun sequence
+0.0004488	2	2	16	2	0.001148	1000029235	sequence	                                                          NW_023425518.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_201, whole genome shotgun sequence
+0.0004488	2	2	15	2	0.0001225	1000029175	sequence	                                                          NW_023425458.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_148, whole genome shotgun sequence
+0.0004488	2	2	13	2	3.095e-05	1000029127	sequence	                                                          NW_023425410.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_104, whole genome shotgun sequence
+0.0004488	2	2	13	2	7.214e-05	1000029165	sequence	                                                          NW_023425448.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_139, whole genome shotgun sequence
+0.0004488	2	2	11	2	0.0001808	1000029206	sequence	                                                          NW_023425489.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_176, whole genome shotgun sequence
+0.0004488	2	2	11	2	0.0001115	1000029184	sequence	                                                          NW_023425467.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_156, whole genome shotgun sequence
+0.0004488	2	2	10	2	2.85e-05	1000029130	sequence	                                                          NW_023425413.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_107, whole genome shotgun sequence
+0.0004488	2	2	10	2	4.309e-05	1000029154	sequence	                                                          NW_023425437.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_129, whole genome shotgun sequence
+0.0004488	2	2	10	2	8.349e-05	1000029170	sequence	                                                          NW_023425453.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_143, whole genome shotgun sequence
+0.0004488	2	2	9	2	8.851e-05	1000029171	sequence	                                                          NW_023425454.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_144, whole genome shotgun sequence
+0.0004488	2	2	9	2	5.323e-05	1000029162	sequence	                                                          NW_023425445.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_136, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.0001061	1000029185	sequence	                                                          NW_023425468.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_157, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.0001257	1000029197	sequence	                                                          NW_023425480.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_168, whole genome shotgun sequence
+0.0004488	2	2	5	2	1.107e-05	1000029125	sequence	                                                          NW_023425408.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_102, whole genome shotgun sequence
+0.0004488	2	2	4	2	8.435e-06	1000029322	sequence	                                                          NW_023425605.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_99, whole genome shotgun sequence
+0.0004488	2	2	3	2	8.424e-06	1000029139	sequence	                                                          NW_023425422.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_115, whole genome shotgun sequence
+0.0004488	2	2	2	2	5.61e-05	1000029212	sequence	                                                          NW_023425495.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_181, whole genome shotgun sequence
+0.0004488	2	2	2	2	9.17e-06	1000029161	sequence	                                                          NW_023425444.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_135, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.019e-05	1000029182	sequence	                                                          NW_023425465.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_154, whole genome shotgun sequence
+0.003142	14	2	22	2	6.597e-09	9415	family	                                                  Phyllostomidae
+0.001795	8	0	11	2	6.897e-09	40237	subfamily	                                                    Desmodontinae
+0.001795	8	0	11	2	6.897e-09	9429	genus	                                                      Desmodus
+0.001795	8	0	11	2	6.897e-09	9430	species	                                                        Desmodus rotundus
+0.001795	8	2	11	2	6.897e-09	1000000001	assembly	                                                          GCF_002940915.2 Desmodus rotundus
+0.0004488	2	2	2	2	1.249e-07	1000027360	sequence	                                                            NW_020093628.1 Desmodus rotundus isolate DRU21DN04 unplaced genomic scaffold, ASM294091v2 ScWXtkA_678, whole genome shotgun sequence
+0.0004488	2	2	2	2	8.292e-08	1000027132	sequence	                                                            NW_020093376.1 Desmodus rotundus isolate DRU21DN04 unplaced genomic scaffold, ASM294091v2 ScWXtkA_45, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.949e-08	1000025398	sequence	                                                            NW_020091471.1 Desmodus rotundus isolate DRU21DN04 unplaced genomic scaffold, ASM294091v2 ScWXtkA_20, whole genome shotgun sequence
+0.0008977	4	0	9	2	5.464e-09	40238	subfamily	                                                    Phyllostominae
+0.0008977	4	0	9	2	5.464e-09	9422	genus	                                                      Phyllostomus
+0.0008977	4	0	9	2	5.464e-09	89673	species	                                                        Phyllostomus discolor
+0.0008977	4	0	9	2	5.464e-09	1000061784	assembly	                                                          GCF_004126475.2 Phyllostomus discolor
+0.0004488	2	2	6	2	3.595e-08	1000061787	sequence	                                                            NC_040905.2 Phyllostomus discolor isolate MPI-MPIP mPhyDis1 chromosome 3, mPhyDis1.pri.v3, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.336e-08	1000061794	sequence	                                                            NC_040912.2 Phyllostomus discolor isolate MPI-MPIP mPhyDis1 chromosome 10, mPhyDis1.pri.v3, whole genome shotgun sequence
+0.002244	10	0	28	2.14	1.635e-08	58055	family	                                                  Rhinolophidae
+0.002244	10	0	28	2.14	1.635e-08	186995	subfamily	                                                    Rhinolophinae
+0.002244	10	0	28	2.14	1.635e-08	49442	genus	                                                      Rhinolophus
+0.002244	10	0	28	2.14	1.635e-08	59479	species	                                                        Rhinolophus ferrumequinum
+0.002244	10	0	28	2.14	1.635e-08	1000162802	assembly	                                                          GCF_004115265.1 Rhinolophus ferrumequinum
+0.0004488	2	2	8	2	1.152e-07	1000162816	sequence	                                                            NC_046295.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 12, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0004488	2	2	6	2	8.243e-08	1000162808	sequence	                                                            NC_046288.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 5, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0004488	2	2	5	2	8.435e-08	1000162819	sequence	                                                            NC_046297.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 14, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0004488	2	2	2	4	2.413e-08	1000162811	sequence	                                                            NC_046290.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 7, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0004488	2	2	2	2	2.772e-08	1000162815	sequence	                                                            NC_046294.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 11, mRhiFer1_v1.p, whole genome shotgun sequence
+5.368	23922	262	171674	2.03	9.943e-06	91561	order	                                              Artiodactyla
+5.274	23502	0	167039	2.03	6.002e-05	35497	suborder	                                                Suina
+5.274	23502	10324	167039	2.03	6.002e-05	9821	family	                                                  Suidae
+2.93	13056	0	73282	2.04	8.041e-05	9822	genus	                                                    Sus
+2.93	13056	0	73282	2.04	8.041e-05	9823	species	                                                      Sus scrofa
+2.93	13056	350	73282	2.04	8.041e-05	1000099841	assembly	                                                        GCF_000003025.6 Sus scrofa breed=Duroc
+0.3106	1384	1384	7712	2	8.09e-05	1000099842	sequence	                                                          NC_010443.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 1, Sscrofa11.1, whole genome shotgun sequence
+0.2298	1024	1024	5927	2.01	8.252e-05	1000099854	sequence	                                                          NC_010455.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 13, Sscrofa11.1, whole genome shotgun sequence
+0.1984	884	884	4958	2	8.844e-05	1000099843	sequence	                                                          NC_010444.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 2, Sscrofa11.1, whole genome shotgun sequence
+0.1979	882	882	4923	2.03	7.618e-05	1000099847	sequence	                                                          NC_010448.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 6, Sscrofa11.1, whole genome shotgun sequence
+0.1795	800	800	4590	2.03	8.752e-05	1000099850	sequence	                                                          NC_010451.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 9, Sscrofa11.1, whole genome shotgun sequence
+0.1652	736	736	4209	2.03	8.09e-05	1000099849	sequence	                                                          NC_010450.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 8, Sscrofa11.1, whole genome shotgun sequence
+0.1643	732	732	4442	2.01	8.613e-05	1000099855	sequence	                                                          NC_010456.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 14, Sscrofa11.1, whole genome shotgun sequence
+0.1562	696	696	4131	2.01	8.079e-05	1000099844	sequence	                                                          NC_010445.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 3, Sscrofa11.1, whole genome shotgun sequence
+0.1513	674	674	3939	1.99	8.007e-05	1000099856	sequence	                                                          NC_010457.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 15, Sscrofa11.1, whole genome shotgun sequence
+0.1414	630	630	3467	1.95	7.148e-05	1000099845	sequence	                                                          NC_010446.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 4, Sscrofa11.1, whole genome shotgun sequence
+0.1346	600	600	3796	1.96	8.435e-05	1000099848	sequence	                                                          NC_010449.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 7, Sscrofa11.1, whole genome shotgun sequence
+0.127	566	566	3234	2	8.34e-05	1000099860	sequence	                                                          NC_010461.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome X, Sscrofa11.1, whole genome shotgun sequence
+0.1194	532	532	3054	2.01	7.756e-05	1000099846	sequence	                                                          NC_010447.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 5, Sscrofa11.1, whole genome shotgun sequence
+0.1014	452	452	2669	2.02	8.404e-05	1000099852	sequence	                                                          NC_010453.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 11, Sscrofa11.1, whole genome shotgun sequence
+0.09785	436	436	2403	1.99	8.088e-05	1000099857	sequence	                                                          NC_010458.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 16, Sscrofa11.1, whole genome shotgun sequence
+0.08752	390	390	2108	2.05	7.548e-05	1000099851	sequence	                                                          NC_010452.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 10, Sscrofa11.1, whole genome shotgun sequence
+0.06957	310	310	1783	1.99	7.401e-05	1000099858	sequence	                                                          NC_010459.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 17, Sscrofa11.1, whole genome shotgun sequence
+0.06957	310	310	1635	2	6.688e-05	1000099853	sequence	                                                          NC_010454.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 12, Sscrofa11.1, whole genome shotgun sequence
+0.06508	290	290	1649	1.99	7.253e-05	1000099859	sequence	                                                          NC_010460.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 18, Sscrofa11.1, whole genome shotgun sequence
+0.0184	82	82	565	2	0.0001342	1000099861	sequence	                                                          NC_010462.3 Sus scrofa isolate TJ Tabasco breed Duroc chromosome Y, Sscrofa11.1, whole genome shotgun sequence
+0.005386	24	24	128	2	6.999e-05	1000100064	sequence	                                                          NW_018084979.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1914, whole genome shotgun sequence
+0.004937	22	22	72	2	7.534e-05	1000100053	sequence	                                                          NW_018084968.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1878, whole genome shotgun sequence
+0.004039	18	18	59	2	0.0001705	1000100441	sequence	                                                          NW_018085356.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig944, whole genome shotgun sequence
+0.003591	16	16	77	2	6.305e-05	1000100185	sequence	                                                          NW_018085100.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2471, whole genome shotgun sequence
+0.003142	14	14	100	2	0.0001604	1000100089	sequence	                                                          NW_018085004.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2026, whole genome shotgun sequence
+0.002693	12	12	61	2	5.824e-05	1000099918	sequence	                                                          NW_018084833.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1206, whole genome shotgun sequence
+0.001795	8	8	50	2	7.418e-05	1000100285	sequence	                                                          NW_018085200.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig42, whole genome shotgun sequence
+0.001795	8	8	46	2	0.0001116	1000099863	sequence	                                                          NW_018084778.1 Sus scrofa isolate TJ Tabasco breed Duroc chromosome Y unlocalized genomic scaffold, Sscrofa11.1 Y_unloc_scaf2, whole genome shotgun sequence
+0.001795	8	8	24	2	0.0001733	1000100320	sequence	                                                          NW_018085235.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig524, whole genome shotgun sequence
+0.001346	6	6	50	2	0.0003257	1000100196	sequence	                                                          NW_018085111.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2507, whole genome shotgun sequence
+0.001346	6	6	45	2	0.0002989	1000100103	sequence	                                                          NW_018085018.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2094, whole genome shotgun sequence
+0.001346	6	6	37	2	0.0001423	1000099986	sequence	                                                          NW_018084901.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1537, whole genome shotgun sequence
+0.001346	6	6	29	2	0.0001335	1000100175	sequence	                                                          NW_018085090.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2442, whole genome shotgun sequence
+0.001346	6	6	28	2	7.974e-05	1000100378	sequence	                                                          NW_018085293.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig702, whole genome shotgun sequence
+0.001346	6	6	13	2	1.215e-05	1000100342	sequence	                                                          NW_018085257.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig59, whole genome shotgun sequence
+0.0008977	4	4	45	2	0.0003816	1000100279	sequence	                                                          NW_018085194.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig40, whole genome shotgun sequence
+0.0008977	4	4	36	2	6.415e-05	1000100322	sequence	                                                          NW_018085237.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig53, whole genome shotgun sequence
+0.0008977	4	4	27	2	0.0001172	1000099951	sequence	                                                          NW_018084866.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig138, whole genome shotgun sequence
+0.0008977	4	4	22	2	0.00156	1000100266	sequence	                                                          NW_018085181.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig34, whole genome shotgun sequence
+0.0008977	4	4	10	2	0.0001141	1000099889	sequence	                                                          NW_018084804.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1052, whole genome shotgun sequence
+0.0008977	4	4	6	2	0.0002037	1000100005	sequence	                                                          NW_018084920.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1617, whole genome shotgun sequence
+0.0004488	2	2	38	2	0.000408	1000100312	sequence	                                                          NW_018085227.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig498, whole genome shotgun sequence
+0.0004488	2	2	30	2	0.0002284	1000099865	sequence	                                                          NW_018084780.1 Sus scrofa isolate TJ Tabasco breed Duroc chromosome Y unlocalized genomic scaffold, Sscrofa11.1 Y_unloc_scaf4, whole genome shotgun sequence
+0.0004488	2	2	27	2	0.0002206	1000100135	sequence	                                                          NW_018085050.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2200, whole genome shotgun sequence
+0.0004488	2	2	26	2	0.003029	1000099907	sequence	                                                          NW_018084822.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1134, whole genome shotgun sequence
+0.0004488	2	2	26	2	0.0001826	1000100179	sequence	                                                          NW_018085094.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2453, whole genome shotgun sequence
+0.0004488	2	2	24	2	0.0003789	1000100311	sequence	                                                          NW_018085226.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig490, whole genome shotgun sequence
+0.0004488	2	2	20	2	0.002476	1000100262	sequence	                                                          NW_018085177.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig327, whole genome shotgun sequence
+0.0004488	2	2	19	2	0.0001096	1000100429	sequence	                                                          NW_018085344.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig905, whole genome shotgun sequence
+0.0004488	2	2	19	2	0.0008999	1000100124	sequence	                                                          NW_018085039.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2167, whole genome shotgun sequence
+0.0004488	2	2	18	2	0.005282	1000099933	sequence	                                                          NW_018084848.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1259, whole genome shotgun sequence
+0.0004488	2	2	17	2	0.0006288	1000100271	sequence	                                                          NW_018085186.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig36, whole genome shotgun sequence
+0.0004488	2	2	16	2	0.001314	1000100302	sequence	                                                          NW_018085217.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig465, whole genome shotgun sequence
+0.0004488	2	2	15	2	0.001705	1000100276	sequence	                                                          NW_018085191.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig384, whole genome shotgun sequence
+0.0004488	2	2	14	2	0.0002609	1000100275	sequence	                                                          NW_018085190.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig38, whole genome shotgun sequence
+0.0004488	2	2	14	2	0.0007056	1000099970	sequence	                                                          NW_018084885.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1458, whole genome shotgun sequence
+0.0004488	2	2	12	2	0.0002052	1000100102	sequence	                                                          NW_018085017.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2093, whole genome shotgun sequence
+0.0004488	2	2	10	2	0.0001691	1000100078	sequence	                                                          NW_018084993.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1966, whole genome shotgun sequence
+0.0004488	2	2	10	2	0.001902	1000100024	sequence	                                                          NW_018084939.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1735, whole genome shotgun sequence
+0.0004488	2	2	10	2	0.0007884	1000100315	sequence	                                                          NW_018085230.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig51, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.0003349	1000100263	sequence	                                                          NW_018085178.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig33, whole genome shotgun sequence
+0.0004488	2	2	9	2	2.666e-05	1000099862	sequence	                                                          NW_018084777.1 Sus scrofa isolate TJ Tabasco breed Duroc chromosome Y unlocalized genomic scaffold, Sscrofa11.1 Y_unloc_scaf1, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.0003877	1000100008	sequence	                                                          NW_018084923.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1630, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.0003667	1000100172	sequence	                                                          NW_018085087.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2418, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.0002342	1000100385	sequence	                                                          NW_018085300.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig726, whole genome shotgun sequence
+0.0004488	2	2	8	2	5.964e-05	1000099920	sequence	                                                          NW_018084835.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1214, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.001132	1000100067	sequence	                                                          NW_018084982.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1928, whole genome shotgun sequence
+0.0004488	2	2	7	2	9.567e-05	1000099868	sequence	                                                          NW_018084783.1 Sus scrofa isolate TJ Tabasco breed Duroc chromosome Y unlocalized genomic scaffold, Sscrofa11.1 Y_unloc_scaf7, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.0002508	1000100261	sequence	                                                          NW_018085176.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig324, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.001488	1000100105	sequence	                                                          NW_018085020.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2099, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.0005025	1000100050	sequence	                                                          NW_018084965.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1862, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.003339	1000100112	sequence	                                                          NW_018085027.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2129, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.000659	1000099957	sequence	                                                          NW_018084872.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1424, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.0003874	1000100125	sequence	                                                          NW_018085040.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2174, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.0008726	1000100149	sequence	                                                          NW_018085064.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2295, whole genome shotgun sequence
+0.0004488	2	2	5	2	6.324e-05	1000100110	sequence	                                                          NW_018085025.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2118, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.000138	1000100025	sequence	                                                          NW_018084940.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1741, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.0003128	1000099897	sequence	                                                          NW_018084812.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1081, whole genome shotgun sequence
+0.0004488	2	2	3	2	1.495e-05	1000100388	sequence	                                                          NW_018085303.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig740, whole genome shotgun sequence
+0.0004488	2	2	3	2	0.0002251	1000100235	sequence	                                                          NW_018085150.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2697, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0002053	1000100173	sequence	                                                          NW_018085088.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2425, whole genome shotgun sequence
+0.0004488	2	2	2	2	8.421e-06	1000100387	sequence	                                                          NW_018085302.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig74, whole genome shotgun sequence
+0.0004488	2	2	2	2	3.838e-05	1000100207	sequence	                                                          NW_018085122.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig255, whole genome shotgun sequence
+0.0004488	2	2	2	2	9.538e-06	1000100353	sequence	                                                          NW_018085268.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig621, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0005752	1000100195	sequence	                                                          NW_018085110.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2501, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0004436	1000099958	sequence	                                                          NW_018084873.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1426, whole genome shotgun sequence
+0.0004488	2	2	1	2	6.246e-05	1000100141	sequence	                                                          NW_018085056.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2239, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.798e-05	1000100345	sequence	                                                          NW_018085260.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig597, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.439e-05	1000100083	sequence	                                                          NW_018084998.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1995, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.841e-05	1000100282	sequence	                                                          NW_018085197.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig41, whole genome shotgun sequence
+0.0004488	2	2	1	2	8.136e-05	1000100116	sequence	                                                          NW_018085031.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2147, whole genome shotgun sequence
+0.0004488	2	2	1	2	8.586e-05	1000100421	sequence	                                                          NW_018085336.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig874, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.0001283	1000099984	sequence	                                                          NW_018084899.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig1518, whole genome shotgun sequence
+0.0004488	2	2	1	2	4.967e-05	1000100198	sequence	                                                          NW_018085113.1 Sus scrofa isolate TJ Tabasco breed Duroc unplaced genomic scaffold, Sscrofa11.1 Contig2509, whole genome shotgun sequence
+0.02738	122	0	246	2	2.742e-07	41425	genus	                                                    Phacochoerus
+0.02738	122	0	246	2	2.742e-07	41426	species	                                                      Phacochoerus africanus
+0.02738	122	4	246	2	2.742e-07	1000190483	assembly	                                                        GCF_016906955.1 Phacochoerus africanus
+0.003591	16	16	25	2	3.882e-07	1000190491	sequence	                                                          NC_062551.1 Phacochoerus africanus isolate WHEZ1 chromosome 8, ROS_Pafr_v1, whole genome shotgun sequence
+0.002693	12	12	20	2	3.901e-07	1000190498	sequence	                                                          NC_062558.1 Phacochoerus africanus isolate WHEZ1 chromosome 15, ROS_Pafr_v1, whole genome shotgun sequence
+0.002693	12	12	7	2	1.352e-07	1000190493	sequence	                                                          NC_062553.1 Phacochoerus africanus isolate WHEZ1 chromosome 10, ROS_Pafr_v1, whole genome shotgun sequence
+0.002244	10	10	26	2	2.65e-07	1000190485	sequence	                                                          NC_062545.1 Phacochoerus africanus isolate WHEZ1 chromosome 2, ROS_Pafr_v1, whole genome shotgun sequence
+0.002244	10	10	24	2	2.36e-07	1000190484	sequence	                                                          NC_062544.1 Phacochoerus africanus isolate WHEZ1 chromosome 1, ROS_Pafr_v1, whole genome shotgun sequence
+0.001795	8	8	30	2	7.095e-07	1000190500	sequence	                                                          NC_062560.1 Phacochoerus africanus isolate WHEZ1 chromosome X, ROS_Pafr_v1, whole genome shotgun sequence
+0.001795	8	8	23	2	4.11e-07	1000190487	sequence	                                                          NC_062547.1 Phacochoerus africanus isolate WHEZ1 chromosome 4, ROS_Pafr_v1, whole genome shotgun sequence
+0.001795	8	8	7	2	1.343e-07	1000190494	sequence	                                                          NC_062554.1 Phacochoerus africanus isolate WHEZ1 chromosome 11, ROS_Pafr_v1, whole genome shotgun sequence
+0.001346	6	6	16	2	3.285e-07	1000190489	sequence	                                                          NC_062549.1 Phacochoerus africanus isolate WHEZ1 chromosome 6, ROS_Pafr_v1, whole genome shotgun sequence
+0.001346	6	6	11	2	1.488e-07	1000190486	sequence	                                                          NC_062546.1 Phacochoerus africanus isolate WHEZ1 chromosome 3, ROS_Pafr_v1, whole genome shotgun sequence
+0.001346	6	6	4	2	9.783e-08	1000190490	sequence	                                                          NC_062550.1 Phacochoerus africanus isolate WHEZ1 chromosome 7, ROS_Pafr_v1, whole genome shotgun sequence
+0.0008977	4	4	14	2	6.188e-07	1000190499	sequence	                                                          NC_062559.1 Phacochoerus africanus isolate WHEZ1 chromosome 16, ROS_Pafr_v1, whole genome shotgun sequence
+0.0008977	4	4	3	2	5.724e-08	1000190488	sequence	                                                          NC_062548.1 Phacochoerus africanus isolate WHEZ1 chromosome 5, ROS_Pafr_v1, whole genome shotgun sequence
+0.0004488	2	2	6	2	1.263e-07	1000190492	sequence	                                                          NC_062552.1 Phacochoerus africanus isolate WHEZ1 chromosome 9, ROS_Pafr_v1, whole genome shotgun sequence
+0.0004488	2	2	6	2	1.98e-07	1000190495	sequence	                                                          NC_062555.1 Phacochoerus africanus isolate WHEZ1 chromosome 12, ROS_Pafr_v1, whole genome shotgun sequence
+0.0004488	2	2	2	2	6.333e-08	1000190496	sequence	                                                          NC_062556.1 Phacochoerus africanus isolate WHEZ1 chromosome 13, ROS_Pafr_v1, whole genome shotgun sequence
+0.0004488	2	2	1	2	4.125e-08	1000190497	sequence	                                                          NC_062557.1 Phacochoerus africanus isolate WHEZ1 chromosome 14, ROS_Pafr_v1, whole genome shotgun sequence
+0.03142	140	0	483	2.4	9.866e-08	2653789	suborder	                                                Whippomorpha
+0.03142	140	6	483	2.4	9.866e-08	9721	infraorder	                                                  Cetacea
+0.02962	132	4	444	2.44	1.412e-07	9722	parvorder	                                                    Odontoceti
+0.02738	122	0	422	2.46	4.126e-07	9750	family	                                                      Physeteridae
+0.02738	122	0	422	2.46	4.126e-07	9753	genus	                                                        Physeter
+0.02738	122	0	422	2.46	4.126e-07	9755	species	                                                          Physeter catodon
+0.02738	122	34	422	2.46	4.126e-07	1000046959	assembly	                                                            GCF_002837175.2 Physeter catodon
+0.01167	52	52	183	2.2	0.05281	1000049738	sequence	                                                              NW_021148044.1 Physeter catodon isolate SW-GA unplaced genomic scaffold, ASM283717v2 random_2759, whole genome shotgun sequence
+0.004937	22	22	48	2.67	0.0229	1000053516	sequence	                                                              NW_021151822.1 Physeter catodon isolate SW-GA unplaced genomic scaffold, ASM283717v2 random_5965, whole genome shotgun sequence
+0.0008977	4	4	10	3.6	0.01269	1000054062	sequence	                                                              NW_021152368.1 Physeter catodon isolate SW-GA unplaced genomic scaffold, ASM283717v2 random_7083, whole genome shotgun sequence
+0.0004488	2	2	2	2	4.348e-08	1000046977	sequence	                                                              NC_041231.1 Physeter catodon isolate SW-GA chromosome 18, ASM283717v2, whole genome shotgun sequence
+0.0004488	2	2	2	2	2.788e-08	1000046970	sequence	                                                              NC_041224.1 Physeter catodon isolate SW-GA chromosome 11, ASM283717v2, whole genome shotgun sequence
+0.0004488	2	2	2	2	3.099e-08	1000046966	sequence	                                                              NC_041220.1 Physeter catodon isolate SW-GA chromosome 7, ASM283717v2, whole genome shotgun sequence
+0.0004488	2	2	2	2	5.065e-08	1000046972	sequence	                                                              NC_041226.1 Physeter catodon isolate SW-GA chromosome 13, ASM283717v2, whole genome shotgun sequence
+0.0004488	2	2	1	2	4.239e-08	1000046976	sequence	                                                              NC_041230.1 Physeter catodon isolate SW-GA chromosome 17, ASM283717v2, whole genome shotgun sequence
+0.0008977	4	0	3	2	4.02e-09	9726	family	                                                      Delphinidae
+0.0008977	4	0	3	2	4.02e-09	9738	genus	                                                        Tursiops
+0.0008977	4	0	3	2	4.02e-09	9739	species	                                                          Tursiops truncatus
+0.0008977	4	0	3	2	4.02e-09	1000089204	assembly	                                                            GCF_011762595.1 Tursiops truncatus
+0.0004488	2	2	2	2	6.72e-08	1000089217	sequence	                                                              NC_047046.1 Tursiops truncatus isolate mTurTru1 chromosome 13, mTurTru1.mat.Y, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.785e-08	1000089210	sequence	                                                              NC_047039.1 Tursiops truncatus isolate mTurTru1 chromosome 6, mTurTru1.mat.Y, whole genome shotgun sequence
+0.0004488	2	0	5	2	6.504e-09	9740	family	                                                      Phocoenidae
+0.0004488	2	0	5	2	6.504e-09	9741	genus	                                                        Phocoena
+0.0004488	2	0	5	2	6.504e-09	42100	species	                                                          Phocoena sinus
+0.0004488	2	0	5	2	6.504e-09	1000190678	assembly	                                                            GCF_008692025.1 Phocoena sinus
+0.0004488	2	2	2	2	3.546e-08	1000190680	sequence	                                                              NC_045764.1 Phocoena sinus isolate mPhoSin1 chromosome 2, mPhoSin1.pri, whole genome shotgun sequence
+0.0004488	2	0	10	2	1.033e-08	9761	parvorder	                                                    Mysticeti
+0.0004488	2	0	10	2	1.033e-08	9765	family	                                                      Balaenopteridae
+0.0004488	2	0	10	2	1.033e-08	9766	genus	                                                        Balaenoptera
+0.0004488	2	0	10	2	1.033e-08	9771	species	                                                          Balaenoptera musculus
+0.0004488	2	0	10	2	1.033e-08	1000198788	assembly	                                                            GCF_009873245.2 Balaenoptera musculus
+0.0004488	2	2	1	2	2.652e-08	1000198800	sequence	                                                              NC_045796.1 Balaenoptera musculus isolate JJ_BM4_2016_0621 chromosome 12, mBalMus1.pri.v3, whole genome shotgun sequence
+0.003591	16	0	24	2	3.235e-09	9845	suborder	                                                Ruminantia
+0.003591	16	2	24	2	3.235e-09	35500	infraorder	                                                  Pecora
+0.002693	12	4	20	2	3.804e-09	9895	family	                                                    Bovidae
+0.001346	6	4	12	2	4.643e-09	27592	subfamily	                                                      Bovinae
+0.0004488	2	0	4	2	4.327e-09	9918	genus	                                                        Bubalus
+0.0004488	2	0	4	2	4.327e-09	89462	species	                                                          Bubalus bubalis
+0.0004488	2	0	4	2	4.327e-09	1000061862	assembly	                                                            GCF_019923935.1 Bubalus bubalis breed=Murrah
+0.0004488	2	2	4	2	1.133e-07	1000061873	sequence	                                                              NC_059167.1 Bubalus bubalis isolate 160015118507 breed Murrah chromosome 11, NDDB_SH_1, whole genome shotgun sequence
+0.0004488	2	0	4	2	1.753e-09	9963	subfamily	                                                      Caprinae
+0.0004488	2	0	3	2	3.639e-09	9935	genus	                                                        Ovis
+0.0004488	2	0	3	2	3.639e-09	9940	species	                                                          Ovis aries
+0.0004488	2	0	3	2	3.639e-09	1000190984	assembly	                                                            GCF_016772045.1 Ovis aries breed=Rambouillet, /strain=OAR_USU_Benz2616
+0.0004488	2	2	3	2	1.974e-07	1000191010	sequence	                                                              NC_056079.1 Ovis aries strain OAR_USU_Benz2616 breed Rambouillet chromosome 26, ARS-UI_Ramb_v2.0, whole genome shotgun sequence
+0.0004488	2	0	2	2	1.182e-09	9850	family	                                                    Cervidae
+0.0004488	2	0	2	2	1.182e-09	34878	subfamily	                                                      Cervinae
+0.0004488	2	2	2	2	1.182e-09	9859	genus	                                                        Cervus
+0.0004488	2	0	22	2	1.079e-08	9834	suborder	                                                Tylopoda
+0.0004488	2	0	22	2	1.079e-08	9835	family	                                                  Camelidae
+0.0004488	2	2	22	2	1.079e-08	9836	genus	                                                    Camelus
+0.007181	32	4	85	2	4.272e-09	33554	order	                                              Carnivora
+0.004488	20	2	47	2	3.555e-09	379584	suborder	                                                Caniformia
+0.002244	10	6	24	2	8.638e-09	9608	family	                                                  Canidae
+0.0008977	4	0	14	2	1.524e-08	9625	genus	                                                    Vulpes
+0.0008977	4	0	14	2	1.524e-08	494514	species	                                                      Vulpes lagopus
+0.0008977	4	0	14	2	1.524e-08	1000465839	assembly	                                                        GCF_018345385.1 Vulpes lagopus strain=Blue_001
+0.0008977	4	4	3	2	6.002e-08	1000465846	sequence	                                                          NC_054830.1 Vulpes lagopus strain Blue_001 chromosome 7, ASM1834538v1, whole genome shotgun sequence
+0.0008977	4	0	3	2	1.814e-09	9632	family	                                                  Ursidae
+0.0008977	4	0	3	2	1.814e-09	9645	genus	                                                    Ailuropoda
+0.0008977	4	0	3	2	1.814e-09	9646	species	                                                      Ailuropoda melanoleuca
+0.0008977	4	0	3	2	1.814e-09	1000332822	assembly	                                                        GCF_002007445.2 Ailuropoda melanoleuca
+0.0004488	2	2	1	2	6.88e-09	1000332823	sequence	                                                          NC_048218.1 Ailuropoda melanoleuca isolate Jingjing chromosome 1, ASM200744v2, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.118e-08	1000332830	sequence	                                                          NC_048225.1 Ailuropoda melanoleuca isolate Jingjing chromosome 8, ASM200744v2, whole genome shotgun sequence
+0.0004488	2	2	6	2	1.083e-09	9655	family	                                                  Mustelidae
+0.0004488	2	0	2	2	1.547e-09	9702	family	                                                  Otariidae
+0.0004488	2	0	2	2	1.547e-09	9703	genus	                                                    Zalophus
+0.0004488	2	0	2	2	1.547e-09	9704	species	                                                      Zalophus californianus
+0.0004488	2	0	2	2	1.547e-09	1000190435	assembly	                                                        GCF_009762305.2 Zalophus californianus
+0.0004488	2	2	2	2	1.834e-08	1000190437	sequence	                                                          NC_045596.1 Zalophus californianus isolate mZalCal1 chromosome 2, mZalCal1.pri.v2, whole genome shotgun sequence
+0.001795	8	0	27	2	4.122e-09	379583	suborder	                                                Feliformia
+0.0008977	4	0	13	2	7.258e-09	9697	family	                                                  Herpestidae
+0.0008977	4	0	13	2	7.258e-09	37031	genus	                                                    Suricata
+0.0008977	4	0	13	2	7.258e-09	37032	species	                                                      Suricata suricatta
+0.0008977	4	0	13	2	7.258e-09	1000199433	assembly	                                                        GCF_006229205.1 Suricata suricatta
+0.0004488	2	2	9	2	7.902e-08	1000199439	sequence	                                                          NC_043705.1 Suricata suricatta isolate VVHF042 chromosome 6, meerkat_22Aug2017_6uvM2_HiC, whole genome shotgun sequence
+0.0004488	2	2	4	2	3.75e-08	1000199442	sequence	                                                          NC_043708.1 Suricata suricatta isolate VVHF042 chromosome 9, meerkat_22Aug2017_6uvM2_HiC, whole genome shotgun sequence
+0.0008977	4	4	12	2	2.56e-09	9681	family	                                                  Felidae
+0.003591	16	0	46	2	1.607e-08	9787	order	                                              Perissodactyla
+0.003591	16	0	46	2	1.607e-08	9788	family	                                                Equidae
+0.003591	16	14	46	2	1.607e-08	9789	genus	                                                  Equus
+0.0004488	2	0	4	2	7.254e-09	9796	species	                                                    Equus caballus
+0.0004488	2	0	4	2	7.254e-09	1000138836	assembly	                                                      GCF_002863925.1 Equus caballus breed=thoroughbred
+0.0004488	2	2	1	2	8.299e-08	1000138859	sequence	                                                        NC_009166.3 Equus caballus isolate Twilight breed thoroughbred chromosome 23, EquCab3.0, whole genome shotgun sequence
+5.51	24552	118	178127	2.02	3.598e-06	314146	superorder	                                            Euarchontoglires
+5.469	24372	306	176273	2.01	1.065e-05	9443	order	                                              Primates
+5.398	24052	0	172963	1.99	1.333e-05	376913	suborder	                                                Haplorrhini
+5.398	24052	1540	172963	1.99	1.333e-05	314293	infraorder	                                                  Simiiformes
+5.044	22476	3276	155625	2	1.441e-05	9526	parvorder	                                                    Catarrhini
+4.272	19036	2934	120078	2	2.279e-05	314295	superfamily	                                                      Hominoidea
+3.603	16054	2410	94520	1.99	2.6e-05	9604	family	                                                        Hominidae
+3.05	13590	7522	78315	1.96	3.392e-05	207598	subfamily	                                                          Homininae
+1.344	5988	0	30669	2.01	7.303e-05	9605	genus	                                                            Homo
+1.344	5988	0	30669	2.01	7.303e-05	9606	species	                                                              Homo sapiens
+1.344	5988	5988	30669	2.01	7.303e-05	1000425964	assembly	                                                                GCF_000001405.40 Homo sapiens
+0.009425	42	0	73	2	1.333e-07	9592	genus	                                                            Gorilla
+0.009425	42	0	73	2	1.333e-07	9593	species	                                                              Gorilla gorilla
+0.009425	42	0	73	2	1.333e-07	9595	subspecies	                                                                Gorilla gorilla gorilla
+0.009425	42	4	73	2	1.333e-07	1000193301	assembly	                                                                  GCF_008122165.1 Gorilla gorilla gorilla breed=western lowland gorilla
+0.0008977	4	4	12	2	8.406e-07	1000193526	sequence	                                                                    NC_044618.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 16, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0008977	4	4	9	2	3.169e-07	1000193307	sequence	                                                                    NC_044607.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 5, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0008977	4	4	9	2	3.704e-07	1000193520	sequence	                                                                    NC_044612.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 10, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0008977	4	4	4	2	5.139e-07	1000193529	sequence	                                                                    NC_044621.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 19, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0008977	4	4	3	2	1.057e-07	1000193518	sequence	                                                                    NC_044610.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 8, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0004488	2	2	5	2	2.11e-07	1000193533	sequence	                                                                    NC_044625.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome X, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0004488	2	2	4	2	1.019e-07	1000193302	sequence	                                                                    NC_044602.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 1, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0004488	2	2	3	2	1.665e-07	1000193523	sequence	                                                                    NC_044615.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 13, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0004488	2	2	2	2	1.248e-07	1000193524	sequence	                                                                    NC_044616.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 14, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0004488	2	2	2	2	7.241e-05	1000193559	sequence	                                                                    NW_022149462.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla unplaced genomic scaffold, Kamilah_GGO_v0 000369F_1122173_qpdss1sc, whole genome shotgun sequence
+0.0004488	2	2	1	2	3.607e-08	1000193517	sequence	                                                                    NC_044609.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 7, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0004488	2	2	1	2	7.066e-08	1000193525	sequence	                                                                    NC_044617.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 15, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.002237	1000193592	sequence	                                                                    NW_022149495.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla unplaced genomic scaffold, Kamilah_GGO_v0 000634F_424807_qpdss157277sc, whole genome shotgun sequence
+0.0004488	2	2	1	2	5.21e-06	1000198755	sequence	                                                                    NW_022154658.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla unplaced genomic scaffold, Kamilah_GGO_v0 Super_Scaffold_638, whole genome shotgun sequence
+0.008528	38	18	69	2	1.133e-07	9596	genus	                                                            Pan
+0.003142	14	0	14	2	8.506e-08	9598	species	                                                              Pan troglodytes
+0.003142	14	0	14	2	8.506e-08	1000134489	assembly	                                                                GCF_002880755.1 Pan troglodytes
+0.0008977	4	4	5	2	1.419e-06	1000134511	sequence	                                                                  NC_036896.1 Pan troglodytes isolate Yerkes chimp pedigree #C0471 (Clint) chromosome 17, Clint_PTRv2, whole genome shotgun sequence
+0.0004488	2	2	2	2	2.027e-07	1000134493	sequence	                                                                  NC_036882.1 Pan troglodytes isolate Yerkes chimp pedigree #C0471 (Clint) chromosome 3, Clint_PTRv2, whole genome shotgun sequence
+0.0004488	2	2	2	2	3.974e-07	1000134506	sequence	                                                                  NC_036892.1 Pan troglodytes isolate Yerkes chimp pedigree #C0471 (Clint) chromosome 13, Clint_PTRv2, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0001407	1000135206	sequence	                                                                  NW_019933574.1 Pan troglodytes isolate Yerkes chimp pedigree #C0471 (Clint) unplaced genomic scaffold, Clint_PTRv2 001270F_qp_73k, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.275e-07	1000134501	sequence	                                                                  NC_036887.1 Pan troglodytes isolate Yerkes chimp pedigree #C0471 (Clint) chromosome 8, Clint_PTRv2, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.567e-07	1000134505	sequence	                                                                  NC_036891.1 Pan troglodytes isolate Yerkes chimp pedigree #C0471 (Clint) chromosome 12, Clint_PTRv2, whole genome shotgun sequence
+0.001346	6	0	13	2	8.007e-08	9597	species	                                                              Pan paniscus
+0.001346	6	0	13	2	8.007e-08	1000084910	assembly	                                                                GCF_013052645.1 Pan paniscus
+0.0004488	2	2	7	2	6.43e-07	1000084911	sequence	                                                                  NC_048239.1 Pan paniscus isolate Mhudiblu (Carbone #601152) chromosome 1, Mhudiblu_PPA_v0, whole genome shotgun sequence
+0.0004488	2	2	4	2	2.386e-06	1000084933	sequence	                                                                  NC_048261.1 Pan paniscus isolate Mhudiblu (Carbone #601152) chromosome 22, Mhudiblu_PPA_v0, whole genome shotgun sequence
+0.0004488	2	2	2	2	2.621e-07	1000084919	sequence	                                                                  NC_048247.1 Pan paniscus isolate Mhudiblu (Carbone #601152) chromosome 8, Mhudiblu_PPA_v0, whole genome shotgun sequence
+0.01212	54	0	134	2	1.345e-07	607660	subfamily	                                                          Ponginae
+0.01212	54	0	134	2	1.345e-07	9599	genus	                                                            Pongo
+0.01212	54	0	134	2	1.345e-07	9601	species	                                                              Pongo abelii
+0.01212	54	0	134	2	1.345e-07	1000091997	assembly	                                                                GCF_002880775.1 Pongo abelii
+0.002244	10	10	15	2	1.973e-07	1000091998	sequence	                                                                  NC_036903.1 Pongo abelii isolate Susie chromosome 1, Susie_PABv2, whole genome shotgun sequence
+0.001346	6	6	16	2	3.65e-07	1000092058	sequence	                                                                  NC_036926.1 Pongo abelii isolate Susie chromosome X, Susie_PABv2, whole genome shotgun sequence
+0.001346	6	6	9	2	1.558e-07	1000092009	sequence	                                                                  NC_036909.1 Pongo abelii isolate Susie chromosome 6, Susie_PABv2, whole genome shotgun sequence
+0.0008977	4	4	7	2	1.051e-07	1000092006	sequence	                                                                  NC_036907.1 Pongo abelii isolate Susie chromosome 4, Susie_PABv2, whole genome shotgun sequence
+0.0008977	4	4	5	2	1.652e-07	1000092030	sequence	                                                                  NC_036917.1 Pongo abelii isolate Susie chromosome 14, Susie_PABv2, whole genome shotgun sequence
+0.0008977	4	4	3	2	7.984e-08	1000092017	sequence	                                                                  NC_036912.1 Pongo abelii isolate Susie chromosome 9, Susie_PABv2, whole genome shotgun sequence
+0.0004488	2	2	24	2	6.958e-07	1000092029	sequence	                                                                  NC_036916.1 Pongo abelii isolate Susie chromosome 13, Susie_PABv2, whole genome shotgun sequence
+0.0004488	2	2	15	2	5.541e-07	1000092048	sequence	                                                                  NC_036921.1 Pongo abelii isolate Susie chromosome 18, Susie_PABv2, whole genome shotgun sequence
+0.0004488	2	2	13	2	2.917e-07	1000092028	sequence	                                                                  NC_036915.1 Pongo abelii isolate Susie chromosome 12, Susie_PABv2, whole genome shotgun sequence
+0.0004488	2	2	11	2	4.429e-07	1000092042	sequence	                                                                  NC_036920.1 Pongo abelii isolate Susie chromosome 17, Susie_PABv2, whole genome shotgun sequence
+0.0004488	2	2	4	2	8.191e-08	1000092011	sequence	                                                                  NC_036910.1 Pongo abelii isolate Susie chromosome 7, Susie_PABv2, whole genome shotgun sequence
+0.0004488	2	2	3	2	1.225e-07	1000092036	sequence	                                                                  NC_036919.1 Pongo abelii isolate Susie chromosome 16, Susie_PABv2, whole genome shotgun sequence
+0.0004488	2	2	3	2	1.401e-07	1000092050	sequence	                                                                  NC_036923.1 Pongo abelii isolate Susie chromosome 20, Susie_PABv2, whole genome shotgun sequence
+0.0004488	2	2	2	2	1.042e-07	1000092049	sequence	                                                                  NC_036922.1 Pongo abelii isolate Susie chromosome 19, Susie_PABv2, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.603e-08	1000092008	sequence	                                                                  NC_036908.1 Pongo abelii isolate Susie chromosome 5, Susie_PABv2, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.513e-08	1000092004	sequence	                                                                  NC_036906.1 Pongo abelii isolate Susie chromosome 3, Susie_PABv2, whole genome shotgun sequence
+0.01077	48	0	118	2	1.086e-07	9577	family	                                                        Hylobatidae
+0.01077	48	0	118	2	1.086e-07	325165	genus	                                                          Nomascus
+0.01077	48	0	118	2	1.086e-07	61853	species	                                                            Nomascus leucogenys
+0.01077	48	4	118	2	1.086e-07	1000089744	assembly	                                                              GCF_006542625.1 Nomascus leucogenys
+0.001795	8	8	15	2	3.577e-07	1000089759	sequence	                                                                NC_044395.1 Nomascus leucogenys isolate Asia chromosome 15, Asia_NLE_v1, whole genome shotgun sequence
+0.0008977	4	4	9	2	1.9e-07	1000089750	sequence	                                                                NC_044386.1 Nomascus leucogenys isolate Asia chromosome 6, Asia_NLE_v1, whole genome shotgun sequence
+0.0008977	4	4	4	2	6.449e-08	1000089746	sequence	                                                                NC_044382.1 Nomascus leucogenys isolate Asia chromosome 2, Asia_NLE_v1, whole genome shotgun sequence
+0.0008977	4	4	4	2	9.647e-08	1000089745	sequence	                                                                NC_044381.1 Nomascus leucogenys isolate Asia chromosome 1a, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	18	2	4.78e-07	1000089754	sequence	                                                                NC_044390.1 Nomascus leucogenys isolate Asia chromosome 10, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	17	2	4.79e-07	1000089761	sequence	                                                                NC_044397.1 Nomascus leucogenys isolate Asia chromosome 17, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	11	2	1.789e-07	1000089748	sequence	                                                                NC_044384.1 Nomascus leucogenys isolate Asia chromosome 4, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	7	2	5.045e-06	1000089774	sequence	                                                                NW_022095770.1 Nomascus leucogenys isolate Asia unplaced genomic scaffold, Asia_NLE_v1 Super-Scaffold_285, whole genome shotgun sequence
+0.0004488	2	2	6	2	1.41e-07	1000089757	sequence	                                                                NC_044393.1 Nomascus leucogenys isolate Asia chromosome 13, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	6	2	9.884e-08	1000089747	sequence	                                                                NC_044383.1 Nomascus leucogenys isolate Asia chromosome 3, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	5	2	1.08e-07	1000089770	sequence	                                                                NC_044406.1 Nomascus leucogenys isolate Asia chromosome X, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	2	2	4.424e-08	1000089755	sequence	                                                                NC_044391.1 Nomascus leucogenys isolate Asia chromosome 11, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	2	2	5.647e-08	1000089758	sequence	                                                                NC_044394.1 Nomascus leucogenys isolate Asia chromosome 14, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	2	2	5.911e-08	1000089765	sequence	                                                                NC_044401.1 Nomascus leucogenys isolate Asia chromosome 21, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.35e-08	1000089751	sequence	                                                                NC_044387.1 Nomascus leucogenys isolate Asia chromosome 7b, Asia_NLE_v1, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.65e-08	1000089760	sequence	                                                                NC_044396.1 Nomascus leucogenys isolate Asia chromosome 16, Asia_NLE_v1, whole genome shotgun sequence
+0.0368	164	0	393	2.01	8.234e-08	314294	superfamily	                                                      Cercopithecoidea
+0.0368	164	24	393	2.01	8.234e-08	9527	family	                                                        Cercopithecidae
+0.01661	74	12	159	2	8.19e-08	9569	subfamily	                                                          Colobinae
+0.008079	36	0	67	2	8.076e-08	591932	genus	                                                            Piliocolobus
+0.008079	36	0	67	2	8.076e-08	591936	species	                                                              Piliocolobus tephrosceles
+0.008079	36	0	67	2	8.076e-08	1000425965	assembly	                                                                GCF_002776525.4 Piliocolobus tephrosceles
+0.001795	8	8	11	2	1.832e-07	1000425966	sequence	                                                                  NC_045434.1 Piliocolobus tephrosceles isolate RC106 chromosome 1, ASM277652v3, whole genome shotgun sequence
+0.001346	6	6	13	2	2.371e-07	1000425968	sequence	                                                                  NC_045436.1 Piliocolobus tephrosceles isolate RC106 chromosome 3, ASM277652v3, whole genome shotgun sequence
+0.0008977	4	4	8	2	2.653e-07	1000425980	sequence	                                                                  NC_045448.1 Piliocolobus tephrosceles isolate RC106 chromosome 15, ASM277652v3, whole genome shotgun sequence
+0.0004488	2	2	8	2	3.804e-07	1000425984	sequence	                                                                  NC_045452.1 Piliocolobus tephrosceles isolate RC106 chromosome 19, ASM277652v3, whole genome shotgun sequence
+0.0004488	2	2	5	2	1.043e-07	1000425970	sequence	                                                                  NC_045438.1 Piliocolobus tephrosceles isolate RC106 chromosome 5, ASM277652v3, whole genome shotgun sequence
+0.0004488	2	2	5	2	9.736e-08	1000425969	sequence	                                                                  NC_045437.1 Piliocolobus tephrosceles isolate RC106 chromosome 4, ASM277652v3, whole genome shotgun sequence
+0.0004488	2	2	3	2	9.832e-08	1000425979	sequence	                                                                  NC_045447.1 Piliocolobus tephrosceles isolate RC106 chromosome 14, ASM277652v3, whole genome shotgun sequence
+0.0004488	2	2	3	2	5.477e-08	1000425967	sequence	                                                                  NC_045435.1 Piliocolobus tephrosceles isolate RC106 chromosome 2, ASM277652v3, whole genome shotgun sequence
+0.0004488	2	2	2	2	4.661e-08	1000425972	sequence	                                                                  NC_045440.1 Piliocolobus tephrosceles isolate RC106 chromosome 7, ASM277652v3, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.555e-07	1000425988	sequence	                                                                  NC_045456.1 Piliocolobus tephrosceles isolate RC106 chromosome Y, ASM277652v3, whole genome shotgun sequence
+0.0004488	2	2	1	2	3.438e-08	1000425987	sequence	                                                                  NC_045455.1 Piliocolobus tephrosceles isolate RC106 chromosome X, ASM277652v3, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.847e-08	1000425978	sequence	                                                                  NC_045446.1 Piliocolobus tephrosceles isolate RC106 chromosome 13, ASM277652v3, whole genome shotgun sequence
+0.005835	26	0	71	2	8.751e-08	542827	genus	                                                            Rhinopithecus
+0.005835	26	0	71	2	8.751e-08	61622	species	                                                              Rhinopithecus roxellana
+0.005835	26	0	71	2	8.751e-08	1000476121	assembly	                                                                GCF_007565055.1 Rhinopithecus roxellana
+0.0008977	4	4	9	2	1.644e-07	1000476123	sequence	                                                                  NC_044550.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 2, ASM756505v1, whole genome shotgun sequence
+0.0008977	4	4	8	2	1.451e-07	1000476122	sequence	                                                                  NC_044549.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 1, ASM756505v1, whole genome shotgun sequence
+0.0004488	2	2	14	2	4.51e-07	1000476138	sequence	                                                                  NC_044565.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 17, ASM756505v1, whole genome shotgun sequence
+0.0004488	2	2	5	2	1.27e-07	1000476134	sequence	                                                                  NC_044561.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 13, ASM756505v1, whole genome shotgun sequence
+0.0004488	2	2	5	2	2.193e-07	1000476141	sequence	                                                                  NC_044568.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 20, ASM756505v1, whole genome shotgun sequence
+0.0004488	2	2	3	2	8.671e-08	1000476128	sequence	                                                                  NC_044555.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 7, ASM756505v1, whole genome shotgun sequence
+0.0004488	2	2	3	2	8.199e-08	1000476131	sequence	                                                                  NC_044558.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 10, ASM756505v1, whole genome shotgun sequence
+0.0004488	2	2	3	2	8.585e-08	1000476136	sequence	                                                                  NC_044563.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 15, ASM756505v1, whole genome shotgun sequence
+0.0004488	2	2	2	2	6.308e-08	1000476137	sequence	                                                                  NC_044564.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 16, ASM756505v1, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.979e-08	1000476124	sequence	                                                                  NC_044551.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 3, ASM756505v1, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.098e-08	1000476125	sequence	                                                                  NC_044552.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 4, ASM756505v1, whole genome shotgun sequence
+0.01481	66	20	141	2.01	6.759e-08	9528	subfamily	                                                          Cercopithecinae
+0.005386	24	6	34	2	4.991e-08	9539	genus	                                                            Macaca
+0.002244	10	0	16	2	9.008e-08	9544	species	                                                              Macaca mulatta
+0.002244	10	0	16	2	9.008e-08	1000462899	assembly	                                                                GCF_003339765.1 Macaca mulatta
+0.0004488	2	2	6	2	8.554e-07	1000463207	sequence	                                                                  NC_041774.1 Macaca mulatta isolate AG07107 chromosome X, Mmul_10, whole genome shotgun sequence
+0.0004488	2	2	5	2	4.391e-07	1000462972	sequence	                                                                  NC_041758.1 Macaca mulatta isolate AG07107 chromosome 5, Mmul_10, whole genome shotgun sequence
+0.0004488	2	2	2	2	1.622e-07	1000462900	sequence	                                                                  NC_041754.1 Macaca mulatta isolate AG07107 chromosome 1, Mmul_10, whole genome shotgun sequence
+0.0004488	2	2	2	2	1.855e-07	1000462933	sequence	                                                                  NC_041756.1 Macaca mulatta isolate AG07107 chromosome 3, Mmul_10, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.187e-07	1000463022	sequence	                                                                  NC_041761.1 Macaca mulatta isolate AG07107 chromosome 8, Mmul_10, whole genome shotgun sequence
+0.001795	8	0	8	2	4.818e-08	9541	species	                                                              Macaca fascicularis
+0.001795	8	0	8	2	4.818e-08	1000199002	assembly	                                                                GCF_012559485.2 Macaca fascicularis
+0.0004488	2	2	2	2	1.596e-07	1000199003	sequence	                                                                  NC_052255.1 Macaca fascicularis isolate CE1976F chromosome 1, MFA1912RKSv2, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0004309	1000199105	sequence	                                                                  NW_025540920.1 Macaca fascicularis isolate CE1976F unplaced genomic scaffold, MFA1912RKSv2 chrUn_253, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.035e-07	1000199009	sequence	                                                                  NC_052261.1 Macaca fascicularis isolate CE1976F chromosome 7, MFA1912RKSv2, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.422e-07	1000199023	sequence	                                                                  NC_052275.1 Macaca fascicularis isolate CE1976F chromosome X, MFA1912RKSv2, whole genome shotgun sequence
+0.003142	14	0	32	2.06	1.126e-07	9554	genus	                                                            Papio
+0.003142	14	0	32	2.06	1.126e-07	9555	species	                                                              Papio anubis
+0.003142	14	0	32	2.06	1.126e-07	1000412959	assembly	                                                                GCF_008728515.1 Papio anubis
+0.001795	8	8	21	2.1	0.01484	1000419357	sequence	                                                                  NW_022165502.1 Papio anubis isolate 15944 unplaced genomic scaffold, Panubis1.0 scaffold5293, whole genome shotgun sequence
+0.0004488	2	2	3	2	3.92e-07	1000412977	sequence	                                                                  NC_044993.1 Papio anubis isolate 15944 chromosome 18, Panubis1.0, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0004946	1000416544	sequence	                                                                  NW_022162689.1 Papio anubis isolate 15944 unplaced genomic scaffold, Panubis1.0 scaffold2610, whole genome shotgun sequence
+0.0004488	2	2	1	2	6.349e-08	1000412965	sequence	                                                                  NC_044981.1 Papio anubis isolate 15944 chromosome 6, Panubis1.0, whole genome shotgun sequence
+0.001795	8	0	8	2	2.983e-08	9564	genus	                                                            Theropithecus
+0.001795	8	0	8	2	2.983e-08	9565	species	                                                              Theropithecus gelada
+0.001795	8	0	8	2	2.983e-08	1000061889	assembly	                                                                GCF_003255815.1 Theropithecus gelada
+0.0008977	4	4	5	2	4.307e-07	1000061901	sequence	                                                                  NC_037679.1 Theropithecus gelada isolate Dixy chromosome 11, Tgel_1.0, whole genome shotgun sequence
+0.0004488	2	2	2	2	3.769e-07	1000061896	sequence	                                                                  NC_037674.1 Theropithecus gelada isolate Dixy chromosome 7a, Tgel_1.0, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.015e-07	1000061900	sequence	                                                                  NC_037678.1 Theropithecus gelada isolate Dixy chromosome 10, Tgel_1.0, whole genome shotgun sequence
+0.008079	36	0	90	2	4.542e-08	9479	parvorder	                                                    Platyrrhini
+0.008079	36	0	90	2	4.542e-08	9498	family	                                                      Cebidae
+0.008079	36	0	90	2	4.542e-08	9480	subfamily	                                                        Callitrichinae
+0.008079	36	0	90	2	4.542e-08	9481	genus	                                                          Callithrix
+0.008079	36	0	90	2	4.542e-08	1965096	subgenus	                                                            Callithrix
+0.008079	36	0	90	2	4.542e-08	9483	species	                                                              Callithrix jacchus
+0.008079	36	4	90	2	4.542e-08	1000161837	assembly	                                                                GCF_009663435.1 Callithrix jacchus strain=cj1700
+0.001346	6	6	18	2	1.65e-07	1000161846	sequence	                                                                  NC_048389.1 Callithrix jacchus strain cj1700 chromosome 7, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0008977	4	4	11	2	9.84e-08	1000161844	sequence	                                                                  NC_048387.1 Callithrix jacchus strain cj1700 chromosome 5, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0008977	4	4	4	2	4.412e-08	1000161848	sequence	                                                                  NC_048391.1 Callithrix jacchus strain cj1700 chromosome 9, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0008977	4	4	2	2	2.375e-08	1000161857	sequence	                                                                  NC_048395.1 Callithrix jacchus strain cj1700 chromosome 13, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0004488	2	2	10	2	1.442e-07	1000161861	sequence	                                                                  NC_048397.1 Callithrix jacchus strain cj1700 chromosome 15, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0004488	2	2	9	2	8.033e-08	1000161845	sequence	                                                                  NC_048388.1 Callithrix jacchus strain cj1700 chromosome 6, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0004488	2	2	6	2	1.628e-07	1000161867	sequence	                                                                  NC_048403.1 Callithrix jacchus strain cj1700 chromosome 21, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0004488	2	2	3	2	2.121e-08	1000161841	sequence	                                                                  NC_048384.1 Callithrix jacchus strain cj1700 chromosome 2, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0004488	2	2	3	2	3.34e-08	1000161847	sequence	                                                                  NC_048390.1 Callithrix jacchus strain cj1700 chromosome 8, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0004488	2	2	2	2	2.356e-08	1000161854	sequence	                                                                  NC_048394.1 Callithrix jacchus strain cj1700 chromosome 12, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0004488	2	2	2	2	2.592e-08	1000161859	sequence	                                                                  NC_048396.1 Callithrix jacchus strain cj1700 chromosome 14, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.003142	14	0	64	2	1.806e-08	376911	suborder	                                                Strepsirrhini
+0.003142	14	4	64	2	1.806e-08	376915	infraorder	                                                  Lemuriformes
+0.001346	6	0	29	2	1.792e-08	9445	family	                                                    Lemuridae
+0.001346	6	0	29	2	1.792e-08	9446	genus	                                                      Lemur
+0.001346	6	0	29	2	1.792e-08	9447	species	                                                        Lemur catta
+0.001346	6	0	29	2	1.792e-08	1000190798	assembly	                                                          GCF_020740605.2 Lemur catta
+0.0004488	2	2	19	2	8.638e-08	1000190799	sequence	                                                            NC_059128.1 Lemur catta isolate mLemCat1 chromosome 1, mLemCat1.pri, whole genome shotgun sequence
+0.0004488	2	2	8	2	1.301e-07	1000190820	sequence	                                                            NC_059140.1 Lemur catta isolate mLemCat1 chromosome 13, mLemCat1.pri, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.268e-08	1000190805	sequence	                                                            NC_059134.1 Lemur catta isolate mLemCat1 chromosome 7, mLemCat1.pri, whole genome shotgun sequence
+0.0008977	4	0	27	2	1.49e-08	30615	family	                                                    Cheirogaleidae
+0.0008977	4	0	27	2	1.49e-08	13149	genus	                                                      Microcebus
+0.0008977	4	0	27	2	1.49e-08	30608	species	                                                        Microcebus murinus
+0.0008977	4	0	27	2	1.49e-08	1000077198	assembly	                                                          GCF_000165445.2 Microcebus murinus
+0.0004488	2	2	11	2	2.006e-07	1000077718	sequence	                                                            NC_033663.1 Microcebus murinus isolate mixed chromosome 4, Mmur_3.0, whole genome shotgun sequence
+0.0004488	2	2	4	2	4.744e-08	1000077199	sequence	                                                            NC_033660.1 Microcebus murinus isolate mixed chromosome 1, Mmur_3.0, whole genome shotgun sequence
+0.01391	62	0	172	2.09	5.224e-09	314147	clade	                                              Glires
+0.01212	54	0	135	2.12	4.613e-09	9989	order	                                                Rodentia
+0.008977	40	0	107	2.15	4.516e-09	1963758	suborder	                                                  Myomorpha
+0.008528	38	4	100	2.16	4.629e-09	337687	clade	                                                    Muroidea
+0.004937	22	0	63	2	5.481e-09	10066	family	                                                      Muridae
+0.004937	22	2	63	2	5.481e-09	39107	subfamily	                                                        Murinae
+0.002244	10	0	31	2	6.653e-09	10088	genus	                                                          Mus
+0.002244	10	0	31	2	1.06e-08	862507	subgenus	                                                            Mus
+0.002244	10	0	31	2	2.495e-08	10089	species	                                                              Mus caroli
+0.002244	10	0	31	2	2.495e-08	1000130925	assembly	                                                                GCF_900094665.1 Mus caroli
+0.001346	6	6	15	2	0.005993	1000132537	sequence	                                                                  NW_018390024.1 Mus caroli unplaced genomic scaffold, CAROLI_EIJ_v1.1 scaffold_26121_1, whole genome shotgun sequence
+0.0004488	2	2	15	2	0.006821	1000132316	sequence	                                                                  NW_018389803.1 Mus caroli unplaced genomic scaffold, CAROLI_EIJ_v1.1 scaffold_26321_1, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.0004608	1000133837	sequence	                                                                  NW_018391324.1 Mus caroli unplaced genomic scaffold, CAROLI_EIJ_v1.1 scaffold_26319_1, whole genome shotgun sequence
+0.0008977	4	2	7	2	2.298e-09	10114	genus	                                                          Rattus
+0.0004488	2	0	6	2	5.262e-09	10117	species	                                                            Rattus rattus
+0.0004488	2	0	6	2	5.262e-09	1000191127	assembly	                                                              GCF_011064425.1 Rattus rattus
+0.0004488	2	2	4	2	8.99e-08	1000191136	sequence	                                                                NC_046162.1 Rattus rattus isolate New Zealand chromosome 9, Rrattus_CSIRO_v1, whole genome shotgun sequence
+0.0008977	4	0	5	2	2.794e-09	61153	genus	                                                          Arvicanthis
+0.0008977	4	0	5	2	2.794e-09	61156	species	                                                            Arvicanthis niloticus
+0.0008977	4	0	5	2	2.794e-09	1000461258	assembly	                                                              GCF_011762505.1 Arvicanthis niloticus
+0.0008977	4	4	3	2	2.765e-08	1000461260	sequence	                                                                NC_047659.1 Arvicanthis niloticus isolate mArvNil1 chromosome 2, mArvNil1.pat.X, whole genome shotgun sequence
+0.0004488	2	0	3	2	1.728e-09	30639	genus	                                                          Mastomys
+0.0004488	2	0	3	2	1.728e-09	35658	species	                                                            Mastomys coucha
+0.0004488	2	0	3	2	1.728e-09	1000199404	assembly	                                                              GCF_008632895.1 Mastomys coucha
+0.0004488	2	2	3	2	2.536e-08	1000199413	sequence	                                                                NW_022196897.1 Mastomys coucha isolate ucsf_1 unplaced genomic scaffold, UCSF_Mcou_1 pScaffold15, whole genome shotgun sequence
+0.002693	12	0	27	2.59	2.694e-09	337677	family	                                                      Cricetidae
+0.001795	8	0	12	3.33	2.545e-09	337963	subfamily	                                                        Neotominae
+0.001346	6	0	9	3.78	3.214e-09	10040	genus	                                                          Peromyscus
+0.001346	6	0	9	3.78	8.596e-09	10042	species	                                                            Peromyscus maniculatus
+0.001346	6	0	9	3.78	8.596e-09	230844	subspecies	                                                              Peromyscus maniculatus bairdii
+0.001346	6	0	9	3.78	8.596e-09	1000150022	assembly	                                                                GCF_003704035.1 Peromyscus maniculatus bairdii
+0.0008977	4	4	8	4	6.259e-05	1000150056	sequence	                                                                  NW_024590025.1 Peromyscus maniculatus bairdii isolate BW unplaced genomic scaffold, HU_Pman_2.1.3 scaffold00327, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.7e-08	1000150036	sequence	                                                                  NC_056021.1 Peromyscus maniculatus bairdii isolate BW chromosome 14, HU_Pman_2.1.3, whole genome shotgun sequence
+0.0004488	2	0	3	2	1.752e-09	38667	genus	                                                          Onychomys
+0.0004488	2	0	3	2	1.752e-09	38674	species	                                                            Onychomys torridus
+0.0004488	2	0	3	2	1.752e-09	1000409500	assembly	                                                              GCF_903995425.1 Onychomys torridus
+0.0004488	2	2	3	2	2.801e-08	1000409504	sequence	                                                                NC_050446.1 Onychomys torridus chromosome 4, mOncTor1.1, whole genome shotgun sequence
+0.0004488	2	0	10	2	2.965e-09	39087	subfamily	                                                        Arvicolinae
+0.0004488	2	0	7	2	4.519e-09	10053	genus	                                                          Microtus
+0.0004488	2	0	7	2	4.519e-09	79684	species	                                                            Microtus ochrogaster
+0.0004488	2	0	7	2	4.519e-09	1000143686	assembly	                                                              GCF_000317375.1 Microtus ochrogaster
+0.0004488	2	2	7	2	1.857e-06	1000143735	sequence	                                                                NW_004949115.1 Microtus ochrogaster isolate Prairie Vole_2 unplaced genomic scaffold, MicOch1.0 UNK17, whole genome shotgun sequence
+0.0004488	2	0	3	2	1.626e-09	10026	subfamily	                                                        Cricetinae
+0.0004488	2	0	3	2	1.626e-09	10028	genus	                                                          Cricetulus
+0.0004488	2	0	3	2	1.626e-09	10029	species	                                                            Cricetulus griseus
+0.0004488	2	0	3	2	1.626e-09	1000406337	assembly	                                                              GCF_003668045.3 Cricetulus griseus strain=17A/GY
+0.0004488	2	2	3	2	8.245e-09	1000406340	sequence	                                                                NC_048595.1 Cricetulus griseus strain 17A/GY chromosome 2, alternate assembly CriGri-PICRH-1.0, whole genome shotgun sequence
+0.0004488	2	0	7	2	3.363e-09	1963761	superfamily	                                                    Dipodoidea
+0.0004488	2	0	7	2	3.363e-09	30648	family	                                                      Dipodidae
+0.0004488	2	0	7	2	3.363e-09	35737	subfamily	                                                        Dipodinae
+0.0004488	2	0	7	2	3.363e-09	48867	genus	                                                          Jaculus
+0.0004488	2	0	7	2	3.363e-09	51337	species	                                                            Jaculus jaculus
+0.0004488	2	0	7	2	3.363e-09	1000163022	assembly	                                                              GCF_020740685.1 Jaculus jaculus
+0.0004488	2	2	6	2	4.267e-08	1000163025	sequence	                                                                NC_059104.1 Jaculus jaculus isolate mJacJac1 chromosome 3, mJacJac1.mat.Y.cur, whole genome shotgun sequence
+0.002693	12	0	11	2	2.702e-09	33553	suborder	                                                  Sciuromorpha
+0.002693	12	2	11	2	2.702e-09	55153	family	                                                    Sciuridae
+0.001346	6	0	4	2	2.11e-09	337726	subfamily	                                                      Xerinae
+0.001346	6	0	4	2	2.11e-09	337730	tribe	                                                        Marmotini
+0.001346	6	0	4	2	2.11e-09	1141640	genus	                                                          Ictidomys
+0.001346	6	0	4	2	2.11e-09	43179	species	                                                            Ictidomys tridecemlineatus
+0.001346	6	0	4	2	2.11e-09	1000039771	assembly	                                                              GCF_016881025.1 Ictidomys tridecemlineatus
+0.0004488	2	2	1	2	8.488e-09	1000040433	sequence	                                                                NW_024405602.1 Ictidomys tridecemlineatus isolate GS200 unplaced genomic scaffold, HiC_Itri_2 Itri7, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.973e-08	1000040132	sequence	                                                                NW_024405301.1 Ictidomys tridecemlineatus isolate GS200 unplaced genomic scaffold, HiC_Itri_2 Itri15, whole genome shotgun sequence
+0.0004488	2	2	1	2	1.37e-08	1000041123	sequence	                                                                NW_024406292.1 Ictidomys tridecemlineatus isolate GS200 unplaced genomic scaffold, HiC_Itri_2 Itri12, whole genome shotgun sequence
+0.0008977	4	0	4	2	1.878e-09	9991	subfamily	                                                      Sciurinae
+0.0008977	4	0	4	2	1.878e-09	337752	tribe	                                                        Sciurini
+0.0008977	4	0	4	2	1.878e-09	2895726	genus	                                                          Neosciurus
+0.0008977	4	0	4	2	1.878e-09	30640	species	                                                            Neosciurus carolinensis
+0.0008977	4	0	4	2	1.878e-09	1000460433	assembly	                                                              GCF_902686445.1 Neosciurus carolinensis
+0.0008977	4	4	2	2	1.392e-08	1000460436	sequence	                                                                NC_062215.1 Neosciurus carolinensis chromosome 3, mSciCar1.2, whole genome shotgun sequence
+0.0004488	2	0	9	2	6.02e-09	1963757	suborder	                                                  Castorimorpha
+0.0004488	2	0	9	2	6.02e-09	10015	family	                                                    Heteromyidae
+0.0004488	2	0	9	2	6.02e-09	38663	subfamily	                                                      Perognathinae
+0.0004488	2	0	9	2	6.02e-09	37442	genus	                                                        Perognathus
+0.0004488	2	0	9	2	6.02e-09	38669	species	                                                          Perognathus longimembris
+0.0004488	2	0	9	2	6.02e-09	214514	subspecies	                                                            Perognathus longimembris pacificus
+0.0004488	2	0	9	2	6.02e-09	1000184254	assembly	                                                              GCF_023159225.1 Perognathus longimembris pacificus
+0.0004488	2	2	8	2	1.427e-07	1000184264	sequence	                                                                NC_063170.1 Perognathus longimembris pacificus isolate PPM17 chromosome 10, ASM2315922v1, whole genome shotgun sequence
+0.001795	8	0	37	2	1.012e-08	9975	order	                                                Lagomorpha
+0.001795	8	0	33	2	1.665e-08	9979	family	                                                  Leporidae
+0.001795	8	0	33	2	1.665e-08	9984	genus	                                                    Oryctolagus
+0.001795	8	0	33	2	1.665e-08	9986	species	                                                      Oryctolagus cuniculus
+0.001795	8	0	33	2	1.665e-08	1000158547	assembly	                                                        GCF_000003625.3 Oryctolagus cuniculus breed=Thorbecke inbred
+0.0004488	2	2	11	2	0.001596	1000160710	sequence	                                                          NW_003161465.1 Oryctolagus cuniculus breed Thorbecke inbred unplaced genomic scaffold, OryCun2.0 chrUn2142, whole genome shotgun sequence
+0.0004488	2	2	9	2	7.576e-08	1000158561	sequence	                                                          NC_013682.1 Oryctolagus cuniculus breed Thorbecke inbred chromosome 14, OryCun2.0, whole genome shotgun sequence
+0.0004488	2	2	4	2	4.646e-08	1000158556	sequence	                                                          NC_013677.1 Oryctolagus cuniculus breed Thorbecke inbred chromosome 9, OryCun2.0, whole genome shotgun sequence
+0.0004488	2	2	4	2	5.148e-08	1000158569	sequence	                                                          NC_013690.1 Oryctolagus cuniculus breed Thorbecke inbred chromosome X, OryCun2.0, whole genome shotgun sequence
+5.297	23604	0	166037	2.06	7.11e-05	311790	superorder	                                          Afrotheria
+5.297	23604	0	166037	2.06	7.11e-05	9779	order	                                            Proboscidea
+5.297	23604	0	166037	2.06	7.11e-05	9780	family	                                              Elephantidae
+5.297	23604	0	166037	2.06	7.11e-05	9784	genus	                                                Loxodonta
+5.297	23604	0	166037	2.06	7.11e-05	9785	species	                                                  Loxodonta africana
+5.297	23604	2778	166037	2.06	7.11e-05	1000029323	assembly	                                                    GCF_000001905.1 Loxodonta africana
+0.2343	1044	1044	7165	2.02	7.596e-05	1000029324	sequence	                                                      NW_003573420.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_0, whole genome shotgun sequence
+0.2038	908	908	6055	1.97	7.798e-05	1000029326	sequence	                                                      NW_003573422.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_2, whole genome shotgun sequence
+0.2002	892	892	5839	2.01	7.292e-05	1000029325	sequence	                                                      NW_003573421.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_1, whole genome shotgun sequence
+0.1845	822	822	5495	1.98	7.473e-05	1000029329	sequence	                                                      NW_003573425.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_5, whole genome shotgun sequence
+0.1804	804	804	5691	1.99	7.52e-05	1000029327	sequence	                                                      NW_003573423.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_3, whole genome shotgun sequence
+0.1782	794	794	5317	1.98	7.622e-05	1000029330	sequence	                                                      NW_003573426.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_6, whole genome shotgun sequence
+0.1724	768	768	4932	2.04	7.386e-05	1000029331	sequence	                                                      NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_7, whole genome shotgun sequence
+0.1598	712	712	5246	1.99	7.23e-05	1000029328	sequence	                                                      NW_003573424.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_4, whole genome shotgun sequence
+0.1522	678	678	4950	2.02	7.994e-05	1000029333	sequence	                                                      NW_003573429.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_9, whole genome shotgun sequence
+0.1459	650	650	4306	2.07	6.797e-05	1000029332	sequence	                                                      NW_003573428.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_8, whole genome shotgun sequence
+0.1391	620	620	4036	1.96	8.133e-05	1000029336	sequence	                                                      NW_003573432.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_12, whole genome shotgun sequence
+0.1212	540	540	3710	1.97	7.52e-05	1000029335	sequence	                                                      NW_003573431.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_11, whole genome shotgun sequence
+0.1154	514	514	3392	2.02	6.599e-05	1000029334	sequence	                                                      NW_003573430.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_10, whole genome shotgun sequence
+0.1091	486	486	3270	1.98	8.575e-05	1000029340	sequence	                                                      NW_003573436.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_16, whole genome shotgun sequence
+0.1073	478	478	2943	1.99	6.405e-05	1000029337	sequence	                                                      NW_003573433.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_13, whole genome shotgun sequence
+0.1059	472	472	3237	2	8.069e-05	1000029338	sequence	                                                      NW_003573434.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_14, whole genome shotgun sequence
+0.09695	432	432	3002	2.01	8.228e-05	1000029342	sequence	                                                      NW_003573438.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_18, whole genome shotgun sequence
+0.09605	428	428	3115	1.99	8.448e-05	1000029341	sequence	                                                      NW_003573437.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_17, whole genome shotgun sequence
+0.0947	422	422	3172	1.99	7.892e-05	1000029339	sequence	                                                      NW_003573435.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_15, whole genome shotgun sequence
+0.09022	402	402	2654	2.02	7.679e-05	1000029344	sequence	                                                      NW_003573440.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_20, whole genome shotgun sequence
+0.08887	396	396	2414	2.01	6.624e-05	1000029343	sequence	                                                      NW_003573439.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_19, whole genome shotgun sequence
+0.08303	370	370	2499	1.99	7.788e-05	1000029346	sequence	                                                      NW_003573442.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_22, whole genome shotgun sequence
+0.07136	318	318	2137	1.99	6.497e-05	1000029345	sequence	                                                      NW_003573441.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_21, whole genome shotgun sequence
+0.07047	314	314	2189	2.01	7.369e-05	1000029347	sequence	                                                      NW_003573443.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_23, whole genome shotgun sequence
+0.06957	310	310	2053	2	7.816e-05	1000029351	sequence	                                                      NW_003573447.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_27, whole genome shotgun sequence
+0.06777	302	302	2205	2.02	8.375e-05	1000029350	sequence	                                                      NW_003573446.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_26, whole genome shotgun sequence
+0.06014	268	268	1852	2	6.991e-05	1000029352	sequence	                                                      NW_003573448.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_28, whole genome shotgun sequence
+0.05566	248	248	1792	2.05	6.812e-05	1000029349	sequence	                                                      NW_003573445.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_25, whole genome shotgun sequence
+0.05476	244	244	1608	2	7.483e-05	1000029354	sequence	                                                      NW_003573450.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_30, whole genome shotgun sequence
+0.05431	242	242	1816	1.98	7.541e-05	1000029353	sequence	                                                      NW_003573449.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_29, whole genome shotgun sequence
+0.05341	238	238	1609	2	7.098e-05	1000029355	sequence	                                                      NW_003573451.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_31, whole genome shotgun sequence
+0.05296	236	236	1511	2	7.593e-05	1000029358	sequence	                                                      NW_003573454.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_34, whole genome shotgun sequence
+0.04713	210	210	1451	2	8.557e-05	1000029361	sequence	                                                      NW_003573457.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_37, whole genome shotgun sequence
+0.04309	192	192	1245	2	6.715e-05	1000029360	sequence	                                                      NW_003573456.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_36, whole genome shotgun sequence
+0.04174	186	186	1284	2	7.418e-05	1000029359	sequence	                                                      NW_003573455.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_35, whole genome shotgun sequence
+0.03905	174	174	1228	2	9.333e-05	1000029372	sequence	                                                      NW_003573468.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_48, whole genome shotgun sequence
+0.03905	174	174	1104	2	6.753e-05	1000029362	sequence	                                                      NW_003573458.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_38, whole genome shotgun sequence
+0.03636	162	162	1178	2	6.2e-05	1000029357	sequence	                                                      NW_003573453.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_33, whole genome shotgun sequence
+0.03546	158	158	1041	2	8.429e-05	1000029370	sequence	                                                      NW_003573466.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_46, whole genome shotgun sequence
+0.03501	156	156	1007	2	8.191e-05	1000029375	sequence	                                                      NW_003573471.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_51, whole genome shotgun sequence
+0.03456	154	154	1014	2	7.181e-05	1000029366	sequence	                                                      NW_003573462.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_42, whole genome shotgun sequence
+0.03366	150	150	989	2	6.315e-05	1000029365	sequence	                                                      NW_003573461.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_41, whole genome shotgun sequence
+0.03276	146	146	904	2	6.349e-05	1000029367	sequence	                                                      NW_003573463.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_43, whole genome shotgun sequence
+0.03142	140	140	864	2	5.937e-05	1000029364	sequence	                                                      NW_003573460.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_40, whole genome shotgun sequence
+0.03097	138	138	995	2	9.319e-05	1000029378	sequence	                                                      NW_003573474.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_54, whole genome shotgun sequence
+0.03097	138	138	952	2	8.409e-05	1000029379	sequence	                                                      NW_003573475.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_55, whole genome shotgun sequence
+0.03097	138	138	923	2	6.865e-05	1000029373	sequence	                                                      NW_003573469.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_49, whole genome shotgun sequence
+0.03007	134	134	800	2	6.412e-05	1000029376	sequence	                                                      NW_003573472.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_52, whole genome shotgun sequence
+0.03007	134	134	769	2	5.555e-05	1000029368	sequence	                                                      NW_003573464.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_44, whole genome shotgun sequence
+0.02962	132	132	948	2	6.721e-05	1000029369	sequence	                                                      NW_003573465.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_45, whole genome shotgun sequence
+0.02917	130	130	922	2	7.973e-05	1000029377	sequence	                                                      NW_003573473.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_53, whole genome shotgun sequence
+0.02783	124	124	883	2	9.838e-05	1000029387	sequence	                                                      NW_003573483.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_63, whole genome shotgun sequence
+0.02783	124	124	796	2	8.079e-05	1000029384	sequence	                                                      NW_003573480.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_60, whole genome shotgun sequence
+0.02783	124	124	779	2	7.899e-05	1000029386	sequence	                                                      NW_003573482.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_62, whole genome shotgun sequence
+0.02738	122	122	793	2	5.974e-05	1000029371	sequence	                                                      NW_003573467.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_47, whole genome shotgun sequence
+0.02603	116	116	712	2	5.784e-05	1000029374	sequence	                                                      NW_003573470.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_50, whole genome shotgun sequence
+0.02424	108	108	946	2	0.0001078	1000029392	sequence	                                                      NW_003573488.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_68, whole genome shotgun sequence
+0.02379	106	106	608	2	5.523e-05	1000029383	sequence	                                                      NW_003573479.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_59, whole genome shotgun sequence
+0.02334	104	104	608	2	5.335e-05	1000029381	sequence	                                                      NW_003573477.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_57, whole genome shotgun sequence
+0.02244	100	100	601	2	5.672e-05	1000029382	sequence	                                                      NW_003573478.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_58, whole genome shotgun sequence
+0.0202	90	90	519	2	6.069e-05	1000029393	sequence	                                                      NW_003573489.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_69, whole genome shotgun sequence
+0.0184	82	82	504	2	7.699e-05	1000029400	sequence	                                                      NW_003573496.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_76, whole genome shotgun sequence
+0.01526	68	68	491	2	8.643e-05	1000029404	sequence	                                                      NW_003573500.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_80, whole genome shotgun sequence
+0.01302	58	58	296	2	5.765e-05	1000029407	sequence	                                                      NW_003573503.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_83, whole genome shotgun sequence
+0.01077	48	48	287	2	6.34e-05	1000029412	sequence	                                                      NW_003573508.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_88, whole genome shotgun sequence
+0.00763	34	34	230	2	9.314e-05	1000029433	sequence	                                                      NW_003573529.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_109, whole genome shotgun sequence
+0.004937	22	22	176	2	4.923e-05	1000029425	sequence	                                                      NW_003573521.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_101, whole genome shotgun sequence
+0.003142	14	14	142	2	0.0001072	1000029461	sequence	                                                      NW_003573557.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_137, whole genome shotgun sequence
+0.001346	6	6	11	2	1.278e-06	1000029394	sequence	                                                      NW_003573490.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_70, whole genome shotgun sequence
+0.0008977	4	4	17	2	4.342e-05	1000029504	sequence	                                                      NW_003573600.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_180, whole genome shotgun sequence
+0.0008977	4	4	16	2	4.027e-06	1000029413	sequence	                                                      NW_003573509.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_89, whole genome shotgun sequence
+0.0008977	4	4	8	2	1.017e-06	1000029397	sequence	                                                      NW_003573493.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_73, whole genome shotgun sequence
+0.0008977	4	4	8	2	3.126e-07	1000029348	sequence	                                                      NW_003573444.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_24, whole genome shotgun sequence
+0.0008977	4	4	6	2	6.177e-07	1000029380	sequence	                                                      NW_003573476.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_56, whole genome shotgun sequence
+0.0008977	4	4	5	2	8.764e-07	1000029402	sequence	                                                      NW_003573498.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_78, whole genome shotgun sequence
+0.0008977	4	4	4	2	2.08e-07	1000029356	sequence	                                                      NW_003573452.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_32, whole genome shotgun sequence
+0.0008977	4	4	3	2	3.358e-07	1000029385	sequence	                                                      NW_003573481.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_61, whole genome shotgun sequence
+0.0008977	4	4	2	2	4.62e-06	1000029501	sequence	                                                      NW_003573597.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_177, whole genome shotgun sequence
+0.0004488	2	2	10	2	4.514e-06	1000029430	sequence	                                                      NW_003573526.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_106, whole genome shotgun sequence
+0.0004488	2	2	8	2	1.344e-06	1000029401	sequence	                                                      NW_003573497.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_77, whole genome shotgun sequence
+0.0004488	2	2	8	2	2.095e-06	1000029411	sequence	                                                      NW_003573507.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_87, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.01028	1000030964	sequence	                                                      NW_003575060.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_1641, whole genome shotgun sequence
+0.0004488	2	2	7	2	1.107e-05	1000029482	sequence	                                                      NW_003573578.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_158, whole genome shotgun sequence
+0.0004488	2	2	7	2	1.153e-06	1000029403	sequence	                                                      NW_003573499.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_79, whole genome shotgun sequence
+0.0004488	2	2	5	2	1.346e-06	1000029416	sequence	                                                      NW_003573512.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_92, whole genome shotgun sequence
+0.0004488	2	2	5	2	1.41e-06	1000029417	sequence	                                                      NW_003573513.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_93, whole genome shotgun sequence
+0.0004488	2	2	5	2	3.192e-07	1000029363	sequence	                                                      NW_003573459.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_39, whole genome shotgun sequence
+0.0004488	2	2	5	2	8.274e-06	1000029468	sequence	                                                      NW_003573564.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_144, whole genome shotgun sequence
+0.0004488	2	2	4	2	4.458e-07	1000029390	sequence	                                                      NW_003573486.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_66, whole genome shotgun sequence
+0.0004488	2	2	3	2	1.954e-06	1000029452	sequence	                                                      NW_003573548.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_128, whole genome shotgun sequence
+0.0004488	2	2	3	2	3.464e-07	1000029391	sequence	                                                      NW_003573487.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_67, whole genome shotgun sequence
+0.0004488	2	2	3	2	3.9e-07	1000029399	sequence	                                                      NW_003573495.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_75, whole genome shotgun sequence
+0.0004488	2	2	2	2	9.506e-07	1000029441	sequence	                                                      NW_003573537.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_117, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0001109	1000029930	sequence	                                                      NW_003574026.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_606, whole genome shotgun sequence
+0.0004488	2	2	2	2	5.681e-07	1000029414	sequence	                                                      NW_003573510.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_90, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.935e-07	1000029424	sequence	                                                      NW_003573520.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_100, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.815e-07	1000029421	sequence	                                                      NW_003573517.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_97, whole genome shotgun sequence
+0.0004488	2	2	1	2	3.217e-05	1000029724	sequence	                                                      NW_003573820.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_400, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.776e-07	1000029418	sequence	                                                      NW_003573514.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_94, whole genome shotgun sequence
+0.001795	8	0	17	2	7.341e-09	9348	superorder	                                          Xenarthra
+0.001795	8	0	17	2	7.341e-09	948950	order	                                            Pilosa
+0.001795	8	0	17	2	7.341e-09	948953	suborder	                                              Folivora
+0.001795	8	0	17	2	7.341e-09	227508	family	                                                Megalonychidae
+0.001795	8	0	17	2	7.341e-09	9357	genus	                                                  Choloepus
+0.001795	8	0	17	2	7.341e-09	27675	species	                                                    Choloepus didactylus
+0.001795	8	2	17	2	7.341e-09	1000061637	assembly	                                                      GCF_015220235.1 Choloepus didactylus
+0.0004488	2	2	9	2	6.373e-08	1000061641	sequence	                                                        NC_051310.1 Choloepus didactylus isolate mChoDid1 chromosome 4, mChoDid1.pri, whole genome shotgun sequence
+0.0004488	2	2	3	2	2.667e-08	1000061646	sequence	                                                        NC_051312.1 Choloepus didactylus isolate mChoDid1 chromosome 6, mChoDid1.pri, whole genome shotgun sequence
+0.0004488	2	2	1	2	6.102e-09	1000061640	sequence	                                                        NC_051309.1 Choloepus didactylus isolate mChoDid1 chromosome 3, mChoDid1.pri, whole genome shotgun sequence
+0.008528	38	16	129	2	1.023e-08	9263	clade	                                        Metatheria
+0.002244	10	0	21	2	4.155e-09	38605	order	                                          Didelphimorphia
+0.002244	10	0	21	2	4.155e-09	9265	family	                                            Didelphidae
+0.002244	10	2	21	2	4.155e-09	126287	subfamily	                                              Didelphinae
+0.0008977	4	0	10	2	4.062e-09	13615	genus	                                                Monodelphis
+0.0008977	4	0	10	2	4.062e-09	13616	species	                                                  Monodelphis domestica
+0.0008977	4	0	10	2	4.062e-09	1000323940	assembly	                                                    GCF_000002295.2 Monodelphis domestica
+0.0004488	2	2	3	2	8.164e-09	1000323942	sequence	                                                      NC_008802.1 Monodelphis domestica chromosome 2, MonDom5, whole genome shotgun sequence
+0.0004488	2	2	3	2	0.01657	1000327282	sequence	                                                      NW_001585860.1 Monodelphis domestica unplaced genomic scaffold, MonDom5, whole genome shotgun sequence
+0.0008977	4	0	5	2	2.04e-09	126288	genus	                                                Gracilinanus
+0.0008977	4	0	5	2	2.04e-09	191870	species	                                                  Gracilinanus agilis
+0.0008977	4	0	5	2	2.04e-09	1000263225	assembly	                                                    GCF_016433145.1 Gracilinanus agilis
+0.0004488	2	2	4	2	8.914e-09	1000263228	sequence	                                                      NC_058132.1 Gracilinanus agilis isolate LMUSP501 chromosome 3, AgileGrace, whole genome shotgun sequence
+0.0004488	2	2	1	2	2.077e-09	1000263227	sequence	                                                      NC_058131.1 Gracilinanus agilis isolate LMUSP501 chromosome 2, AgileGrace, whole genome shotgun sequence
+0.001795	8	0	32	2	1.239e-08	38609	order	                                          Diprotodontia
+0.001795	8	0	32	2	1.239e-08	9335	family	                                            Phalangeridae
+0.001795	8	0	32	2	1.239e-08	9336	genus	                                              Trichosurus
+0.001795	8	0	32	2	1.239e-08	9337	species	                                                Trichosurus vulpecula
+0.001795	8	0	32	2	1.239e-08	1000479379	assembly	                                                  GCF_011100635.1 Trichosurus vulpecula
+0.0008977	4	4	26	2	1.086e-07	1000479384	sequence	                                                    NC_050577.1 Trichosurus vulpecula isolate mTriVul1 chromosome 5, mTriVul1.pri, whole genome shotgun sequence
+0.0004488	2	2	5	2	1.164e-08	1000479380	sequence	                                                    NC_050573.1 Trichosurus vulpecula isolate mTriVul1 chromosome 1, mTriVul1.pri, whole genome shotgun sequence
+0.0004488	2	2	1	2	4.84e-09	1000479387	sequence	                                                    NC_050580.1 Trichosurus vulpecula isolate mTriVul1 chromosome 8, mTriVul1.pri, whole genome shotgun sequence
+0.0004488	2	0	9	2	3.669e-09	38607	order	                                          Microbiotheria
+0.0004488	2	0	9	2	3.669e-09	30660	family	                                            Microbiotheriidae
+0.0004488	2	0	9	2	3.669e-09	33561	genus	                                              Dromiciops
+0.0004488	2	0	9	2	3.669e-09	33562	species	                                                Dromiciops gliroides
+0.0004488	2	0	9	2	3.669e-09	1000409482	assembly	                                                  GCF_019393635.1 Dromiciops gliroides
+0.0004488	2	2	9	2	1.607e-08	1000409483	sequence	                                                    NC_057861.1 Dromiciops gliroides isolate mDroGli1 chromosome 1, mDroGli1.pri, whole genome shotgun sequence
+0.0004488	2	0	7	2	2.946e-09	38608	order	                                          Dasyuromorphia
+0.0004488	2	0	7	2	2.946e-09	9277	family	                                            Dasyuridae
+0.0004488	2	0	7	2	2.946e-09	9304	genus	                                              Sarcophilus
+0.0004488	2	0	7	2	2.946e-09	9305	species	                                                Sarcophilus harrisii
+0.0004488	2	0	7	2	2.946e-09	1000198895	assembly	                                                  GCF_902635505.1 Sarcophilus harrisii
+0.0004488	2	2	6	2	9.541e-08	1000198902	sequence	                                                    NC_045432.1 Sarcophilus harrisii chromosome X, mSarHar1.11, whole genome shotgun sequence
+0.006732	30	0	82	2	2.9e-08	9254	clade	                                      Prototheria
+0.006732	30	14	82	2	2.9e-08	9255	order	                                        Monotremata
+0.002244	10	0	28	2	2.073e-08	9256	family	                                          Ornithorhynchidae
+0.002244	10	0	28	2	2.073e-08	9257	genus	                                            Ornithorhynchus
+0.002244	10	0	28	2	2.073e-08	9258	species	                                              Ornithorhynchus anatinus
+0.002244	10	0	28	2	2.073e-08	1000412450	assembly	                                                GCF_004115215.2 Ornithorhynchus anatinus
+0.0008977	4	4	13	2	2.949e-07	1000412462	sequence	                                                  NC_041739.1 Ornithorhynchus anatinus isolate Pmale09 chromosome 12, mOrnAna1.pri.v4, whole genome shotgun sequence
+0.0008977	4	4	5	2	5.663e-08	1000412472	sequence	                                                  NC_041749.1 Ornithorhynchus anatinus isolate Pmale09 chromosome X1, mOrnAna1.pri.v4, whole genome shotgun sequence
+0.0004488	2	2	2	2	3.814e-08	1000412458	sequence	                                                  NC_041735.1 Ornithorhynchus anatinus isolate Pmale09 chromosome 8, mOrnAna1.pri.v4, whole genome shotgun sequence
+0.001346	6	0	13	2	9.392e-09	9259	family	                                          Tachyglossidae
+0.001346	6	0	13	2	9.392e-09	9260	genus	                                            Tachyglossus
+0.001346	6	0	13	2	9.392e-09	9261	species	                                              Tachyglossus aculeatus
+0.001346	6	0	13	2	9.392e-09	1000130614	assembly	                                                GCF_015852505.1 Tachyglossus aculeatus
+0.0008977	4	4	3	2	9.761e-08	1000130626	sequence	                                                  NC_052077.1 Tachyglossus aculeatus isolate mTacAcu1 chromosome 12, mTacAcu1.pri, whole genome shotgun sequence
+0.0004488	2	2	5	2	5.649e-08	1000130659	sequence	                                                  NC_052101.1 Tachyglossus aculeatus isolate mTacAcu1 chromosome X1, mTacAcu1.pri, whole genome shotgun sequence

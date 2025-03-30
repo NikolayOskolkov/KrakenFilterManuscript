@@ -1,0 +1,556 @@
+# KrakenUniq v0.7.3 DATE:2023-09-09T08:30:50Z DB:./DBDIR_PLANT DB_SIZE:501484808956 WD:/crex/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/sedaDNA/genomes
+# CL:perl /proj/uppstore2018095/private/NBIS_Demo/KrakenUniq_v0.7.3/KrakenUniq/krakenuniq --db DBDIR_PLANT --fastq-input sample_16_species.trimmed.fastq.gz --threads 20 --output sequences.krakenuniq_PLANT --report-file krakenuniq.output_PLANT --preload
+
+%	reads	taxReads	kmers	dup	cov	taxID	rank	taxName
+83.13	370440	370440	2813189	2.03	NA	0	no rank	unclassified
+16.87	75160	0	574136	1.95	1.374e-05	1	no rank	root
+16.87	75160	0	574136	1.95	1.374e-05	131567	no rank	  cellular organisms
+16.87	75160	0	574136	1.95	1.374e-05	2759	superkingdom	    Eukaryota
+16.87	75160	8	574136	1.95	1.374e-05	33090	kingdom	      Viridiplantae
+16.86	75144	0	574083	1.95	1.377e-05	35493	phylum	        Streptophyta
+16.86	75144	0	574083	1.95	1.377e-05	131221	subphylum	          Streptophytina
+16.86	75144	8	574083	1.95	1.377e-05	3193	clade	            Embryophyta
+16.86	75136	0	573897	1.95	1.387e-05	58023	clade	              Tracheophyta
+16.86	75136	0	573897	1.95	1.387e-05	78536	clade	                Euphyllophyta
+16.86	75136	0	573897	1.95	1.387e-05	58024	clade	                  Spermatophyta
+16.86	75136	26	573897	1.95	1.387e-05	3398	class	                    Magnoliopsida
+16.85	75084	40	573897	1.95	1.397e-05	1437183	clade	                      Mesangiospermae
+16.84	75032	0	573744	1.95	2.349e-05	71240	clade	                        eudicotyledons
+16.84	75032	0	573744	1.95	2.349e-05	91827	clade	                          Gunneridae
+16.84	75032	42	573744	1.95	2.349e-05	1437201	clade	                            Pentapetalae
+11.18	49824	26	373082	1.98	2.665e-05	71275	clade	                              rosids
+5.667	25254	34	187318	2	1.899e-05	91835	clade	                                fabids
+5.617	25028	6	185709	2	0.0002335	3646	order	                                  Malpighiales
+5.615	25022	0	185709	2	0.0006565	3688	family	                                    Salicaceae
+5.615	25022	0	185709	2	0.0006565	238069	tribe	                                      Saliceae
+5.615	25022	0	185709	2	0.0006565	3689	genus	                                        Populus
+5.615	25022	0	185709	2	0.0006565	3694	species	                                          Populus trichocarpa
+5.615	25022	3246	185709	2	0.0006565	1000609718	assembly	                                            GCF_000002775.4 Populus trichocarpa
+0.5646	2516	2516	17585	1.99	0.000539	1000609719	sequence	                                              NC_037285.1 Populus trichocarpa isolate Nisqually-1 chromosome 1, Pop_tri_v3, whole genome shotgun sequence
+0.3362	1498	1498	10935	1.98	0.0005843	1000609724	sequence	                                              NC_037290.1 Populus trichocarpa isolate Nisqually-1 chromosome 6, Pop_tri_v3, whole genome shotgun sequence
+0.3061	1364	1364	9475	2.05	0.0005556	1000609723	sequence	                                              NC_037289.1 Populus trichocarpa isolate Nisqually-1 chromosome 5, Pop_tri_v3, whole genome shotgun sequence
+0.2944	1312	1312	8683	2.03	0.0005004	1000609720	sequence	                                              NC_037286.1 Populus trichocarpa isolate Nisqually-1 chromosome 2, Pop_tri_v3, whole genome shotgun sequence
+0.2796	1246	1246	8978	2	0.0005895	1000609728	sequence	                                              NC_037294.1 Populus trichocarpa isolate Nisqually-1 chromosome 10, Pop_tri_v3, whole genome shotgun sequence
+0.2792	1244	1244	8754	2.02	0.0005693	1000609722	sequence	                                              NC_037288.1 Populus trichocarpa isolate Nisqually-1 chromosome 4, Pop_tri_v3, whole genome shotgun sequence
+0.2518	1122	1122	8234	2.04	0.0005717	1000609721	sequence	                                              NC_037287.1 Populus trichocarpa isolate Nisqually-1 chromosome 3, Pop_tri_v3, whole genome shotgun sequence
+0.2504	1116	1116	7834	1.99	0.0005792	1000609726	sequence	                                              NC_037292.1 Populus trichocarpa isolate Nisqually-1 chromosome 8, Pop_tri_v3, whole genome shotgun sequence
+0.232	1034	1034	7649	1.99	0.0006146	1000609732	sequence	                                              NC_037298.1 Populus trichocarpa isolate Nisqually-1 chromosome 14, Pop_tri_v3, whole genome shotgun sequence
+0.2101	936	936	6275	2.05	0.0005491	1000609729	sequence	                                              NC_037295.1 Populus trichocarpa isolate Nisqually-1 chromosome 11, Pop_tri_v3, whole genome shotgun sequence
+0.202	900	900	6510	2.03	0.0006339	1000609725	sequence	                                              NC_037291.1 Populus trichocarpa isolate Nisqually-1 chromosome 7, Pop_tri_v3, whole genome shotgun sequence
+0.2011	896	896	6117	1.99	0.0005822	1000609731	sequence	                                              NC_037297.1 Populus trichocarpa isolate Nisqually-1 chromosome 13, Pop_tri_v3, whole genome shotgun sequence
+0.1948	868	868	6265	2	0.0006074	1000609733	sequence	                                              NC_037299.1 Populus trichocarpa isolate Nisqually-1 chromosome 15, Pop_tri_v3, whole genome shotgun sequence
+0.1845	822	822	6165	1.95	0.0006002	1000609736	sequence	                                              NC_037302.1 Populus trichocarpa isolate Nisqually-1 chromosome 18, Pop_tri_v3, whole genome shotgun sequence
+0.184	820	820	5981	1.97	0.000594	1000609730	sequence	                                              NC_037296.1 Populus trichocarpa isolate Nisqually-1 chromosome 12, Pop_tri_v3, whole genome shotgun sequence
+0.1791	798	798	5697	1.98	0.0006037	1000609735	sequence	                                              NC_037301.1 Populus trichocarpa isolate Nisqually-1 chromosome 17, Pop_tri_v3, whole genome shotgun sequence
+0.1683	750	750	5060	2	0.0005849	1000609737	sequence	                                              NC_037303.1 Populus trichocarpa isolate Nisqually-1 chromosome 19, Pop_tri_v3, whole genome shotgun sequence
+0.1625	724	724	5306	2.04	0.0005673	1000609727	sequence	                                              NC_037293.1 Populus trichocarpa isolate Nisqually-1 chromosome 9, Pop_tri_v3, whole genome shotgun sequence
+0.1544	688	688	4949	1.97	0.0005198	1000609734	sequence	                                              NC_037300.1 Populus trichocarpa isolate Nisqually-1 chromosome 16, Pop_tri_v3, whole genome shotgun sequence
+0.01032	46	46	299	2	0.0007024	1000609738	sequence	                                              NW_020167869.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_20, whole genome shotgun sequence
+0.008528	38	38	220	2	0.0006757	1000609740	sequence	                                              NW_020167871.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_22, whole genome shotgun sequence
+0.008079	36	36	222	2	0.0006239	1000609739	sequence	                                              NW_020167870.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_21, whole genome shotgun sequence
+0.006732	30	30	203	2	0.001055	1000609748	sequence	                                              NW_020167879.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_30, whole genome shotgun sequence
+0.005835	26	26	189	2	0.0008752	1000609742	sequence	                                              NW_020167873.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_24, whole genome shotgun sequence
+0.004488	20	20	141	2	0.0006329	1000609747	sequence	                                              NW_020167878.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_29, whole genome shotgun sequence
+0.004488	20	20	88	2	0.0002908	1000609743	sequence	                                              NW_020167874.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_25, whole genome shotgun sequence
+0.004039	18	18	143	2	0.001298	1000609753	sequence	                                              NW_020167884.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_35, whole genome shotgun sequence
+0.004039	18	18	105	2	0.0008449	1000609749	sequence	                                              NW_020167880.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_31, whole genome shotgun sequence
+0.004039	18	18	66	2	0.0002616	1000609741	sequence	                                              NW_020167872.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_23, whole genome shotgun sequence
+0.003591	16	16	133	2	0.001008	1000609760	sequence	                                              NW_020167891.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_45, whole genome shotgun sequence
+0.003591	16	16	96	2	0.0005834	1000609752	sequence	                                              NW_020167883.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_34, whole genome shotgun sequence
+0.003142	14	14	77	2	0.0005357	1000609745	sequence	                                              NW_020167876.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_27, whole genome shotgun sequence
+0.003142	14	14	61	2	0.0008335	1000609767	sequence	                                              NW_020167898.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_53, whole genome shotgun sequence
+0.002693	12	12	87	2	0.0008018	1000609763	sequence	                                              NW_020167894.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_49, whole genome shotgun sequence
+0.002693	12	12	56	2	0.000572	1000609756	sequence	                                              NW_020167887.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_38, whole genome shotgun sequence
+0.002693	12	12	42	2	0.0009336	1000609798	sequence	                                              NW_020167929.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_99, whole genome shotgun sequence
+0.002244	10	10	87	2	0.0004271	1000609754	sequence	                                              NW_020167885.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_36, whole genome shotgun sequence
+0.002244	10	10	75	2	0.0009215	1000609766	sequence	                                              NW_020167897.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_52, whole genome shotgun sequence
+0.002244	10	10	75	2	0.001439	1000609780	sequence	                                              NW_020167911.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_74, whole genome shotgun sequence
+0.002244	10	10	72	2	0.0007729	1000609757	sequence	                                              NW_020167888.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_39, whole genome shotgun sequence
+0.002244	10	10	68	2	0.0004891	1000609750	sequence	                                              NW_020167881.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_32, whole genome shotgun sequence
+0.002244	10	10	67	2	0.0004956	1000609746	sequence	                                              NW_020167877.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_28, whole genome shotgun sequence
+0.002244	10	10	56	2	0.000612	1000609765	sequence	                                              NW_020167896.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_51, whole genome shotgun sequence
+0.002244	10	10	51	2	0.0004238	1000609744	sequence	                                              NW_020167875.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_26, whole genome shotgun sequence
+0.002244	10	10	38	2	0.0004203	1000609762	sequence	                                              NW_020167893.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_48, whole genome shotgun sequence
+0.002244	10	10	23	2	0.0008208	1000609814	sequence	                                              NW_020167945.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_128, whole genome shotgun sequence
+0.001795	8	8	97	2	0.0007371	1000609751	sequence	                                              NW_020167882.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_33, whole genome shotgun sequence
+0.001795	8	8	74	2	0.001687	1000609779	sequence	                                              NW_020167910.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_73, whole genome shotgun sequence
+0.001795	8	8	58	2	0.001281	1000609781	sequence	                                              NW_020167912.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_75, whole genome shotgun sequence
+0.001795	8	8	57	2	0.0008825	1000609768	sequence	                                              NW_020167899.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_56, whole genome shotgun sequence
+0.001795	8	8	45	2	0.001801	1000609805	sequence	                                              NW_020167936.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_114, whole genome shotgun sequence
+0.001795	8	8	42	2	0.001249	1000609797	sequence	                                              NW_020167928.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_96, whole genome shotgun sequence
+0.001795	8	8	42	2	0.0004027	1000609759	sequence	                                              NW_020167890.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_42, whole genome shotgun sequence
+0.001795	8	8	41	2	0.0009108	1000609788	sequence	                                              NW_020167919.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_82, whole genome shotgun sequence
+0.001795	8	8	35	2	0.0005333	1000609812	sequence	                                              NW_020167943.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_126, whole genome shotgun sequence
+0.001795	8	8	27	2	0.0005572	1000609803	sequence	                                              NW_020167934.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_111, whole genome shotgun sequence
+0.001346	6	6	64	2	0.001154	1000609782	sequence	                                              NW_020167913.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_76, whole genome shotgun sequence
+0.001346	6	6	56	2	0.0004521	1000609755	sequence	                                              NW_020167886.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_37, whole genome shotgun sequence
+0.001346	6	6	43	2	0.0006406	1000609809	sequence	                                              NW_020167940.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_122, whole genome shotgun sequence
+0.001346	6	6	38	2	0.001309	1000609801	sequence	                                              NW_020167932.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_107, whole genome shotgun sequence
+0.001346	6	6	38	2	0.0004207	1000609777	sequence	                                              NW_020167908.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_69, whole genome shotgun sequence
+0.001346	6	6	33	2	0.00244	1000609907	sequence	                                              NW_020168038.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_391, whole genome shotgun sequence
+0.001346	6	6	29	2	0.0006234	1000609776	sequence	                                              NW_020167907.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_68, whole genome shotgun sequence
+0.001346	6	6	28	2	0.0002	1000609758	sequence	                                              NW_020167889.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_41, whole genome shotgun sequence
+0.001346	6	6	26	2	0.001309	1000609859	sequence	                                              NW_020167990.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_221, whole genome shotgun sequence
+0.001346	6	6	22	2	0.0004566	1000609787	sequence	                                              NW_020167918.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_81, whole genome shotgun sequence
+0.001346	6	6	15	2	0.0002748	1000609775	sequence	                                              NW_020167906.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_67, whole genome shotgun sequence
+0.001346	6	6	13	2	0.0001491	1000609761	sequence	                                              NW_020167892.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_47, whole genome shotgun sequence
+0.001346	6	6	12	2	0.0002049	1000609773	sequence	                                              NW_020167904.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_65, whole genome shotgun sequence
+0.001346	6	6	10	2	0.0003857	1000609818	sequence	                                              NW_020167949.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_136, whole genome shotgun sequence
+0.001346	6	6	8	2	0.0001382	1000609774	sequence	                                              NW_020167905.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_66, whole genome shotgun sequence
+0.0008977	4	4	55	2	0.002607	1000609861	sequence	                                              NW_020167992.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_223, whole genome shotgun sequence
+0.0008977	4	4	50	2	0.007987	1000610008	sequence	                                              NW_020168139.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_676, whole genome shotgun sequence
+0.0008977	4	4	39	2	0.001151	1000609783	sequence	                                              NW_020167914.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_77, whole genome shotgun sequence
+0.0008977	4	4	36	2	0.002476	1000609873	sequence	                                              NW_020168004.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_252, whole genome shotgun sequence
+0.0008977	4	4	34	2	0.000736	1000609795	sequence	                                              NW_020167926.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_94, whole genome shotgun sequence
+0.0008977	4	4	32	2	0.003288	1000610042	sequence	                                              NW_020168173.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_771, whole genome shotgun sequence
+0.0008977	4	4	31	2	0.0009612	1000609863	sequence	                                              NW_020167994.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_226, whole genome shotgun sequence
+0.0008977	4	4	31	2	0.001534	1000609856	sequence	                                              NW_020167987.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_218, whole genome shotgun sequence
+0.0008977	4	4	31	2	0.0006235	1000609829	sequence	                                              NW_020167960.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_158, whole genome shotgun sequence
+0.0008977	4	4	30	2	0.01678	1000610749	sequence	                                              NW_020168880.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2581, whole genome shotgun sequence
+0.0008977	4	4	29	2	0.001046	1000609804	sequence	                                              NW_020167935.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_112, whole genome shotgun sequence
+0.0008977	4	4	28	2	0.0006737	1000609796	sequence	                                              NW_020167927.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_95, whole genome shotgun sequence
+0.0008977	4	4	27	2	0.00332	1000609919	sequence	                                              NW_020168050.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_434, whole genome shotgun sequence
+0.0008977	4	4	27	2	0.0007196	1000609791	sequence	                                              NW_020167922.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_87, whole genome shotgun sequence
+0.0008977	4	4	25	2	0.002071	1000609979	sequence	                                              NW_020168110.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_589, whole genome shotgun sequence
+0.0008977	4	4	25	2	0.001028	1000609810	sequence	                                              NW_020167941.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_123, whole genome shotgun sequence
+0.0008977	4	4	25	2	0.001619	1000609895	sequence	                                              NW_020168026.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_321, whole genome shotgun sequence
+0.0008977	4	4	24	2	0.0007916	1000609833	sequence	                                              NW_020167964.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_169, whole genome shotgun sequence
+0.0008977	4	4	20	2	0.0004428	1000609772	sequence	                                              NW_020167903.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_64, whole genome shotgun sequence
+0.0008977	4	4	20	2	0.0007668	1000609832	sequence	                                              NW_020167963.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_168, whole genome shotgun sequence
+0.0008977	4	4	20	2	0.005013	1000610102	sequence	                                              NW_020168233.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_925, whole genome shotgun sequence
+0.0008977	4	4	20	2	0.0002303	1000609764	sequence	                                              NW_020167895.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_50, whole genome shotgun sequence
+0.0008977	4	4	18	2	0.0006274	1000609816	sequence	                                              NW_020167947.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_134, whole genome shotgun sequence
+0.0008977	4	4	17	2	0.0008641	1000609906	sequence	                                              NW_020168037.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_388, whole genome shotgun sequence
+0.0008977	4	4	17	2	0.00134	1000609941	sequence	                                              NW_020168072.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_480, whole genome shotgun sequence
+0.0008977	4	4	16	2	0.003535	1000610067	sequence	                                              NW_020168198.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_833, whole genome shotgun sequence
+0.0008977	4	4	15	2	0.0007762	1000609891	sequence	                                              NW_020168022.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_299, whole genome shotgun sequence
+0.0008977	4	4	14	2	0.001827	1000609991	sequence	                                              NW_020168122.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_615, whole genome shotgun sequence
+0.0008977	4	4	14	2	0.0003223	1000609769	sequence	                                              NW_020167900.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_57, whole genome shotgun sequence
+0.0008977	4	4	14	2	0.0004047	1000609813	sequence	                                              NW_020167944.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_127, whole genome shotgun sequence
+0.0008977	4	4	12	2	0.0006205	1000609865	sequence	                                              NW_020167996.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_230, whole genome shotgun sequence
+0.0008977	4	4	10	2	0.000844	1000609973	sequence	                                              NW_020168104.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_578, whole genome shotgun sequence
+0.0008977	4	4	10	2	0.0001853	1000609799	sequence	                                              NW_020167930.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_102, whole genome shotgun sequence
+0.0008977	4	4	10	2	0.0004261	1000609841	sequence	                                              NW_020167972.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_183, whole genome shotgun sequence
+0.0008977	4	4	9	2	0.003932	1000610106	sequence	                                              NW_020168237.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_938, whole genome shotgun sequence
+0.0008977	4	4	9	2	0.000328	1000609886	sequence	                                              NW_020168017.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_283, whole genome shotgun sequence
+0.0008977	4	4	8	2	0.000691	1000609969	sequence	                                              NW_020168100.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_567, whole genome shotgun sequence
+0.0008977	4	4	8	2	0.002217	1000610096	sequence	                                              NW_020168227.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_912, whole genome shotgun sequence
+0.0008977	4	4	8	2	8.071e-05	1000609770	sequence	                                              NW_020167901.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_61, whole genome shotgun sequence
+0.0008977	4	4	5	2	8.626e-05	1000609786	sequence	                                              NW_020167917.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_80, whole genome shotgun sequence
+0.0008977	4	4	5	2	0.0001049	1000609785	sequence	                                              NW_020167916.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_79, whole genome shotgun sequence
+0.0004488	2	2	52	2	0.01705	1000610431	sequence	                                              NW_020168562.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1895, whole genome shotgun sequence
+0.0004488	2	2	51	2	0.004492	1000609928	sequence	                                              NW_020168059.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_456, whole genome shotgun sequence
+0.0004488	2	2	45	2	0.02726	1000610214	sequence	                                              NW_020168345.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1304, whole genome shotgun sequence
+0.0004488	2	2	38	2	0.01973	1000610466	sequence	                                              NW_020168597.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1982, whole genome shotgun sequence
+0.0004488	2	2	38	2	0.007327	1000610054	sequence	                                              NW_020168185.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_811, whole genome shotgun sequence
+0.0004488	2	2	35	2	0.001576	1000609866	sequence	                                              NW_020167997.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_232, whole genome shotgun sequence
+0.0004488	2	2	35	2	0.001588	1000609887	sequence	                                              NW_020168018.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_289, whole genome shotgun sequence
+0.0004488	2	2	34	2	0.02029	1000610266	sequence	                                              NW_020168397.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1447, whole genome shotgun sequence
+0.0004488	2	2	30	2	0.003238	1000610030	sequence	                                              NW_020168161.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_742, whole genome shotgun sequence
+0.0004488	2	2	30	2	0.01532	1000610205	sequence	                                              NW_020168336.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1282, whole genome shotgun sequence
+0.0004488	2	2	29	2	0.004492	1000610028	sequence	                                              NW_020168159.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_733, whole genome shotgun sequence
+0.0004488	2	2	29	2	0.007889	1000610210	sequence	                                              NW_020168341.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1295, whole genome shotgun sequence
+0.0004488	2	2	27	2	0.007434	1000610120	sequence	                                              NW_020168251.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_982, whole genome shotgun sequence
+0.0004488	2	2	25	2	0.0004963	1000609771	sequence	                                              NW_020167902.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_63, whole genome shotgun sequence
+0.0004488	2	2	25	2	0.0007441	1000609806	sequence	                                              NW_020167937.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_116, whole genome shotgun sequence
+0.0004488	2	2	25	2	0.002142	1000609997	sequence	                                              NW_020168128.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_644, whole genome shotgun sequence
+0.0004488	2	2	24	2	0.02131	1000610578	sequence	                                              NW_020168709.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2234, whole genome shotgun sequence
+0.0004488	2	2	23	2	0.003371	1000610010	sequence	                                              NW_020168141.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_679, whole genome shotgun sequence
+0.0004488	2	2	23	2	0.007154	1000610153	sequence	                                              NW_020168284.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1123, whole genome shotgun sequence
+0.0004488	2	2	23	2	0.003716	1000610080	sequence	                                              NW_020168211.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_867, whole genome shotgun sequence
+0.0004488	2	2	23	2	0.002985	1000609996	sequence	                                              NW_020168127.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_633, whole genome shotgun sequence
+0.0004488	2	2	22	2	0.01753	1000610635	sequence	                                              NW_020168766.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2339, whole genome shotgun sequence
+0.0004488	2	2	22	2	0.006552	1000610081	sequence	                                              NW_020168212.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_871, whole genome shotgun sequence
+0.0004488	2	2	21	2	0.003821	1000610006	sequence	                                              NW_020168137.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_671, whole genome shotgun sequence
+0.0004488	2	2	21	2	0.001854	1000610051	sequence	                                              NW_020168182.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_800, whole genome shotgun sequence
+0.0004488	2	2	21	2	0.00461	1000610175	sequence	                                              NW_020168306.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1193, whole genome shotgun sequence
+0.0004488	2	2	20	2	0.005956	1000610334	sequence	                                              NW_020168465.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1633, whole genome shotgun sequence
+0.0004488	2	2	20	2	0.01664	1000610587	sequence	                                              NW_020168718.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2247, whole genome shotgun sequence
+0.0004488	2	2	19	2	0.001421	1000609878	sequence	                                              NW_020168009.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_263, whole genome shotgun sequence
+0.0004488	2	2	18	2	0.001699	1000609957	sequence	                                              NW_020168088.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_531, whole genome shotgun sequence
+0.0004488	2	2	17	2	0.001712	1000609955	sequence	                                              NW_020168086.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_525, whole genome shotgun sequence
+0.0004488	2	2	17	2	0.004984	1000610075	sequence	                                              NW_020168206.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_861, whole genome shotgun sequence
+0.0004488	2	2	17	2	0.00158	1000610014	sequence	                                              NW_020168145.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_696, whole genome shotgun sequence
+0.0004488	2	2	17	2	0.0138	1000610626	sequence	                                              NW_020168757.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2328, whole genome shotgun sequence
+0.0004488	2	2	17	2	0.0007271	1000609800	sequence	                                              NW_020167931.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_104, whole genome shotgun sequence
+0.0004488	2	2	17	2	0.00105	1000609894	sequence	                                              NW_020168025.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_318, whole genome shotgun sequence
+0.0004488	2	2	17	2	0.002374	1000610029	sequence	                                              NW_020168160.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_737, whole genome shotgun sequence
+0.0004488	2	2	16	2	0.0004334	1000609817	sequence	                                              NW_020167948.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_135, whole genome shotgun sequence
+0.0004488	2	2	16	2	0.002249	1000609934	sequence	                                              NW_020168065.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_466, whole genome shotgun sequence
+0.0004488	2	2	16	2	0.0004239	1000609815	sequence	                                              NW_020167946.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_131, whole genome shotgun sequence
+0.0004488	2	2	16	2	0.0008614	1000609850	sequence	                                              NW_020167981.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_201, whole genome shotgun sequence
+0.0004488	2	2	15	2	0.01728	1000611037	sequence	                                              NW_020169168.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_3236, whole genome shotgun sequence
+0.0004488	2	2	15	2	0.0004079	1000609793	sequence	                                              NW_020167924.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_92, whole genome shotgun sequence
+0.0004488	2	2	15	2	0.001608	1000609917	sequence	                                              NW_020168048.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_422, whole genome shotgun sequence
+0.0004488	2	2	15	2	0.002034	1000610003	sequence	                                              NW_020168134.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_662, whole genome shotgun sequence
+0.0004488	2	2	15	2	0.0006962	1000609860	sequence	                                              NW_020167991.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_222, whole genome shotgun sequence
+0.0004488	2	2	14	2	0.004704	1000610151	sequence	                                              NW_020168282.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1114, whole genome shotgun sequence
+0.0004488	2	2	14	2	0.0005682	1000609822	sequence	                                              NW_020167953.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_145, whole genome shotgun sequence
+0.0004488	2	2	14	2	0.001557	1000609944	sequence	                                              NW_020168075.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_484, whole genome shotgun sequence
+0.0004488	2	2	14	2	0.0006222	1000609838	sequence	                                              NW_020167969.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_178, whole genome shotgun sequence
+0.0004488	2	2	13	2	0.002054	1000610063	sequence	                                              NW_020168194.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_824, whole genome shotgun sequence
+0.0004488	2	2	13	2	0.002199	1000610035	sequence	                                              NW_020168166.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_752, whole genome shotgun sequence
+0.0004488	2	2	13	2	0.0007232	1000609843	sequence	                                              NW_020167974.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_185, whole genome shotgun sequence
+0.0004488	2	2	12	2	0.000777	1000609893	sequence	                                              NW_020168024.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_316, whole genome shotgun sequence
+0.0004488	2	2	12	2	0.001969	1000610005	sequence	                                              NW_020168136.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_670, whole genome shotgun sequence
+0.0004488	2	2	12	2	0.00885	1000610525	sequence	                                              NW_020168656.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2109, whole genome shotgun sequence
+0.0004488	2	2	12	2	0.001221	1000609952	sequence	                                              NW_020168083.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_514, whole genome shotgun sequence
+0.0004488	2	2	12	2	0.004847	1000610022	sequence	                                              NW_020168153.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_717, whole genome shotgun sequence
+0.0004488	2	2	12	2	0.01116	1000610490	sequence	                                              NW_020168621.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2035, whole genome shotgun sequence
+0.0004488	2	2	12	2	0.0003878	1000609794	sequence	                                              NW_020167925.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_93, whole genome shotgun sequence
+0.0004488	2	2	12	2	0.0005164	1000609847	sequence	                                              NW_020167978.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_194, whole genome shotgun sequence
+0.0004488	2	2	11	2	0.001475	1000610079	sequence	                                              NW_020168210.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_866, whole genome shotgun sequence
+0.0004488	2	2	11	2	0.003039	1000610059	sequence	                                              NW_020168190.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_819, whole genome shotgun sequence
+0.0004488	2	2	11	2	0.0007417	1000609951	sequence	                                              NW_020168082.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_508, whole genome shotgun sequence
+0.0004488	2	2	11	2	0.004576	1000610297	sequence	                                              NW_020168428.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1527, whole genome shotgun sequence
+0.0004488	2	2	11	2	0.002451	1000610157	sequence	                                              NW_020168288.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1134, whole genome shotgun sequence
+0.0004488	2	2	11	2	0.004946	1000610354	sequence	                                              NW_020168485.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1687, whole genome shotgun sequence
+0.0004488	2	2	10	2	0.001355	1000610101	sequence	                                              NW_020168232.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_923, whole genome shotgun sequence
+0.0004488	2	2	10	2	0.006472	1000610746	sequence	                                              NW_020168877.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2575, whole genome shotgun sequence
+0.0004488	2	2	10	2	0.0009757	1000610011	sequence	                                              NW_020168142.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_684, whole genome shotgun sequence
+0.0004488	2	2	10	2	0.0006481	1000609864	sequence	                                              NW_020167995.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_229, whole genome shotgun sequence
+0.0004488	2	2	10	2	0.001356	1000610103	sequence	                                              NW_020168234.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_927, whole genome shotgun sequence
+0.0004488	2	2	10	2	0.0009946	1000609961	sequence	                                              NW_020168092.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_545, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.002852	1000610105	sequence	                                              NW_020168236.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_933, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.007098	1000610697	sequence	                                              NW_020168828.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2483, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.0002095	1000609790	sequence	                                              NW_020167921.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_86, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.007647	1000610616	sequence	                                              NW_020168747.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2314, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.007347	1000610654	sequence	                                              NW_020168785.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2379, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.001091	1000609923	sequence	                                              NW_020168054.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_445, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.002493	1000610312	sequence	                                              NW_020168443.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1563, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.01069	1000610509	sequence	                                              NW_020168640.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2068, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.01073	1000610532	sequence	                                              NW_020168663.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2134, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.007725	1000610592	sequence	                                              NW_020168723.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2258, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.0005069	1000609922	sequence	                                              NW_020168053.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_442, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.001098	1000609902	sequence	                                              NW_020168033.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_375, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.0008211	1000609931	sequence	                                              NW_020168062.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_462, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.0008255	1000610002	sequence	                                              NW_020168133.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_658, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.003775	1000610167	sequence	                                              NW_020168298.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1170, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.003041	1000610260	sequence	                                              NW_020168391.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1435, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.003426	1000610332	sequence	                                              NW_020168463.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1631, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.002495	1000610124	sequence	                                              NW_020168255.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_991, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.001419	1000609942	sequence	                                              NW_020168073.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_481, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.001304	1000610099	sequence	                                              NW_020168230.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_918, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.005483	1000610539	sequence	                                              NW_020168670.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2151, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.007421	1000610736	sequence	                                              NW_020168867.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2560, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.0199	1000610982	sequence	                                              NW_020169113.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_3100, whole genome shotgun sequence
+0.0004488	2	2	8	2	0.008299	1000610648	sequence	                                              NW_020168779.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2370, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.0002431	1000609836	sequence	                                              NW_020167967.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_174, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.0005485	1000609901	sequence	                                              NW_020168032.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_357, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.0002676	1000609839	sequence	                                              NW_020167970.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_179, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.0004719	1000609888	sequence	                                              NW_020168019.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_291, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.000307	1000609828	sequence	                                              NW_020167959.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_156, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.0002847	1000609857	sequence	                                              NW_020167988.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_219, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.005912	1000610370	sequence	                                              NW_020168501.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1736, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.0001967	1000609824	sequence	                                              NW_020167955.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_148, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.0007051	1000610034	sequence	                                              NW_020168165.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_750, whole genome shotgun sequence
+0.0004488	2	2	7	2	0.002856	1000610280	sequence	                                              NW_020168411.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1480, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.004084	1000610182	sequence	                                              NW_020168313.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1203, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.0002168	1000609867	sequence	                                              NW_020167998.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_233, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.002216	1000610272	sequence	                                              NW_020168403.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1464, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.0004217	1000609925	sequence	                                              NW_020168056.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_447, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.00531	1000610465	sequence	                                              NW_020168596.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1981, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.01535	1000611098	sequence	                                              NW_020169229.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_3364, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.005571	1000610535	sequence	                                              NW_020168666.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2141, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.0001867	1000609792	sequence	                                              NW_020167923.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_90, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.0007921	1000610187	sequence	                                              NW_020168318.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1213, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.0005348	1000609990	sequence	                                              NW_020168121.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_613, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.0004535	1000609927	sequence	                                              NW_020168058.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_455, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.0002941	1000609896	sequence	                                              NW_020168027.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_322, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.001169	1000610004	sequence	                                              NW_020168135.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_669, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.0006316	1000609936	sequence	                                              NW_020168067.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_472, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.0002139	1000609853	sequence	                                              NW_020167984.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_207, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.0005821	1000609938	sequence	                                              NW_020168069.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_476, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.0003819	1000609870	sequence	                                              NW_020168001.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_240, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.0001444	1000609844	sequence	                                              NW_020167975.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_186, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.009132	1000611061	sequence	                                              NW_020169192.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_3289, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.0002837	1000609905	sequence	                                              NW_020168036.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_384, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.001022	1000610094	sequence	                                              NW_020168225.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_908, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.0001904	1000609882	sequence	                                              NW_020168013.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_270, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.001363	1000610128	sequence	                                              NW_020168259.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1005, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.0009953	1000610173	sequence	                                              NW_020168304.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1183, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.0003132	1000609868	sequence	                                              NW_020167999.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_237, whole genome shotgun sequence
+0.0004488	2	2	3	2	0.0001638	1000609830	sequence	                                              NW_020167961.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_162, whole genome shotgun sequence
+0.0004488	2	2	3	2	0.000511	1000609960	sequence	                                              NW_020168091.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_541, whole genome shotgun sequence
+0.0004488	2	2	3	2	0.0001225	1000609854	sequence	                                              NW_020167985.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_213, whole genome shotgun sequence
+0.0004488	2	2	3	2	0.000145	1000609840	sequence	                                              NW_020167971.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_181, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.002762	1000610691	sequence	                                              NW_020168822.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2474, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.000296	1000609970	sequence	                                              NW_020168101.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_570, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0001316	1000609967	sequence	                                              NW_020168098.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_560, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0007788	1000610255	sequence	                                              NW_020168386.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1425, whole genome shotgun sequence
+0.0004488	2	2	2	2	8.763e-05	1000609837	sequence	                                              NW_020167968.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_175, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0001225	1000609851	sequence	                                              NW_020167982.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_204, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.001695	1000610930	sequence	                                              NW_020169061.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2987, whole genome shotgun sequence
+0.0004488	2	2	2	2	7.014e-05	1000609778	sequence	                                              NW_020167909.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_71, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0002001	1000609858	sequence	                                              NW_020167989.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_220, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0003072	1000609958	sequence	                                              NW_020168089.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_533, whole genome shotgun sequence
+0.0004488	2	2	2	2	6.654e-05	1000609823	sequence	                                              NW_020167954.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_146, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.0009221	1000610444	sequence	                                              NW_020168575.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1928, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.0002997	1000610209	sequence	                                              NW_020168340.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1292, whole genome shotgun sequence
+0.0004488	2	2	1	2	8.815e-05	1000609881	sequence	                                              NW_020168012.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_268, whole genome shotgun sequence
+0.0004488	2	2	1	2	8.322e-05	1000609862	sequence	                                              NW_020167993.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_224, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.0007605	1000610693	sequence	                                              NW_020168824.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2476, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.00105	1000610618	sequence	                                              NW_020168749.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2316, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.001139	1000610686	sequence	                                              NW_020168817.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_2463, whole genome shotgun sequence
+0.0004488	2	2	1	2	9.043e-05	1000609911	sequence	                                              NW_020168042.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_400, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.0003542	1000610381	sequence	                                              NW_020168512.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1769, whole genome shotgun sequence
+0.0004488	2	2	1	2	4.438e-05	1000609835	sequence	                                              NW_020167966.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_172, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.0003604	1000610310	sequence	                                              NW_020168441.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1558, whole genome shotgun sequence
+0.0004488	2	2	1	2	3.661e-05	1000609846	sequence	                                              NW_020167977.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_190, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.0003923	1000610118	sequence	                                              NW_020168249.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_975, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.0007042	1000610441	sequence	                                              NW_020168572.1 Populus trichocarpa isolate Nisqually-1 unplaced genomic scaffold, Pop_tri_v3 scaffold_1920, whole genome shotgun sequence
+0.02783	124	0	562	2.57	1.259e-07	72025	order	                                  Fabales
+0.02783	124	0	562	2.57	1.259e-07	3803	family	                                    Fabaceae
+0.02783	124	0	562	2.57	1.259e-07	3814	subfamily	                                      Papilionoideae
+0.02783	124	0	562	2.57	1.259e-07	2231393	clade	                                        50 kb inversion clade
+0.02738	122	0	560	2.58	1.936e-07	2231382	clade	                                          NPAAA clade
+0.02693	120	0	559	2.58	2.653e-07	2233855	clade	                                            indigoferoid/millettioid clade
+0.02693	120	0	559	2.58	2.653e-07	163735	tribe	                                              Phaseoleae
+0.02693	120	0	559	2.58	6.63e-07	3913	genus	                                                Vigna
+0.02558	114	0	537	2.56	2.144e-06	3914	species	                                                  Vigna angularis
+0.02558	114	0	537	2.56	2.144e-06	1000572342	assembly	                                                    GCF_001190045.1 Vigna angularis cultivar=Jingnong 6
+0.0184	82	82	433	2.23	0.2154	1000572954	sequence	                                                      NW_016115435.1 Vigna angularis cultivar Jingnong 6 unplaced genomic scaffold, Vigan1.1 scaffold1223, whole genome shotgun sequence
+0.007181	32	32	104	3.96	0.4047	1000598458	sequence	                                                      NW_016140939.1 Vigna angularis cultivar Jingnong 6 unplaced genomic scaffold, Vigan1.1 C3085423, whole genome shotgun sequence
+0.001346	6	0	22	2.91	8.602e-08	157791	species	                                                  Vigna radiata
+0.001346	6	0	22	2.91	8.602e-08	3916	varietas	                                                    Vigna radiata var. radiata
+0.001346	6	0	22	2.91	8.602e-08	1000534048	assembly	                                                      GCF_000741045.1 Vigna radiata var. radiata cultivar=VC1973A
+0.001346	6	6	22	2.91	0.01059	1000536170	sequence	                                                        NW_014543891.1 Vigna radiata var. radiata cultivar VC1973A unplaced genomic scaffold, Vradiata_ver6 scaffold_1200, whole genome shotgun sequence
+0.0004488	2	0	1	2	1.275e-09	2233838	clade	                                            Hologalegina
+0.0004488	2	0	1	2	1.275e-09	2233839	clade	                                              IRL clade
+0.0004488	2	0	1	2	1.974e-09	163742	tribe	                                                Trifolieae
+0.0004488	2	0	1	2	4.442e-09	3898	genus	                                                  Trifolium
+0.0004488	2	0	1	2	4.442e-09	57577	species	                                                    Trifolium pratense
+0.0004488	2	0	1	2	4.442e-09	1000691156	assembly	                                                      GCF_020283565.1 Trifolium pratense cultivar=HEN17-A07
+0.0004488	2	2	1	2	3.236e-05	1000691237	sequence	                                                        NW_025721074.1 Trifolium pratense cultivar HEN17-A07 unplaced genomic scaffold, ARS_RC_1.1 scaffold_92, whole genome shotgun sequence
+0.0004488	2	0	2	2	1.742e-09	2231387	clade	                                          dalbergioids sensu lato
+0.0004488	2	0	2	2	1.742e-09	163725	tribe	                                            Dalbergieae
+0.0004488	2	0	2	2	1.742e-09	2231390	clade	                                              Pterocarpus clade
+0.0004488	2	2	2	2	1.742e-09	3817	genus	                                                Arachis
+0.01391	62	0	222	2.14	2.365e-07	71239	order	                                  Cucurbitales
+0.01391	62	0	222	2.14	2.365e-07	3650	family	                                    Cucurbitaceae
+0.01391	62	0	221	2.14	1.268e-06	1003878	tribe	                                      Cucurbiteae
+0.01391	62	0	221	2.14	1.268e-06	3660	genus	                                        Cucurbita
+0.01391	62	0	221	2.14	1.268e-06	3663	species	                                          Cucurbita pepo
+0.01391	62	0	221	2.14	1.268e-06	3664	subspecies	                                            Cucurbita pepo subsp. pepo
+0.01391	62	0	221	2.14	1.268e-06	1000261502	assembly	                                              GCF_002806865.1 Cucurbita pepo subsp. pepo cultivar=mu-cu-16
+0.003591	16	16	68	2.18	0.04674	1000264037	sequence	                                                NW_019648946.1 Cucurbita pepo subsp. pepo cultivar mu-cu-16 unplaced genomic scaffold, ASM280686v2 Cp4.1_scaffold002921, whole genome shotgun sequence
+0.002244	10	10	65	2	0.3714	1000275677	sequence	                                                NW_019660586.1 Cucurbita pepo subsp. pepo cultivar mu-cu-16 unplaced genomic scaffold, ASM280686v2 Cp4.1_scaffold014776, whole genome shotgun sequence
+0.002244	10	10	45	2.36	0.1765	1000272848	sequence	                                                NW_019657757.1 Cucurbita pepo subsp. pepo cultivar mu-cu-16 unplaced genomic scaffold, ASM280686v2 Cp4.1_scaffold011886, whole genome shotgun sequence
+0.001795	8	8	27	2	0.06767	1000269828	sequence	                                                NW_019654737.1 Cucurbita pepo subsp. pepo cultivar mu-cu-16 unplaced genomic scaffold, ASM280686v2 Cp4.1_scaffold008829, whole genome shotgun sequence
+0.001795	8	8	8	2.25	0.008256	1000261962	sequence	                                                NW_019646871.1 Cucurbita pepo subsp. pepo cultivar mu-cu-16 unplaced genomic scaffold, ASM280686v2 Cp4.1_scaffold000647, whole genome shotgun sequence
+0.0008977	4	4	3	2	0.01091	1000273385	sequence	                                                NW_019658294.1 Cucurbita pepo subsp. pepo cultivar mu-cu-16 unplaced genomic scaffold, ASM280686v2 Cp4.1_scaffold012433, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.006826	1000274650	sequence	                                                NW_019659559.1 Cucurbita pepo subsp. pepo cultivar mu-cu-16 unplaced genomic scaffold, ASM280686v2 Cp4.1_scaffold013726, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.005305	1000271157	sequence	                                                NW_019656066.1 Cucurbita pepo subsp. pepo cultivar mu-cu-16 unplaced genomic scaffold, ASM280686v2 Cp4.1_scaffold010178, whole genome shotgun sequence
+0.0004488	2	2	1	2	0.005814	1000286286	sequence	                                                NW_019671195.1 Cucurbita pepo subsp. pepo cultivar mu-cu-16 unplaced genomic scaffold, ASM280686v2 Cp4.1_scaffold025544, whole genome shotgun sequence
+0.001346	6	0	4	4	2.183e-09	3744	order	                                  Rosales
+0.001346	6	0	2	6	1.63e-09	3745	family	                                    Rosaceae
+0.001346	6	0	2	6	4.191e-09	171638	subfamily	                                      Rosoideae
+0.001346	6	0	2	6	1.274e-08	721789	tribe	                                        Potentilleae
+0.001346	6	0	2	6	1.274e-08	1184124	subtribe	                                          Fragariinae
+0.001346	6	0	2	6	1.274e-08	3746	genus	                                            Fragaria
+0.001346	6	0	2	6	1.274e-08	57918	species	                                              Fragaria vesca
+0.001346	6	0	2	6	1.274e-08	101020	subspecies	                                                Fragaria vesca subsp. vesca
+0.001346	6	0	2	6	1.274e-08	1000660545	assembly	                                                  GCF_000184155.1 Fragaria vesca subsp. vesca
+0.001346	6	6	2	6	0.0122	1000661342	sequence	                                                    NW_004441253.1 Fragaria vesca subsp. vesca unplaced genomic scaffold, FraVesHawaii_1.0 scf0510782, whole genome shotgun sequence
+5.508	24544	10	184411	1.97	5.063e-05	91836	clade	                                malvids
+5.504	24528	0	184358	1.97	0.0001699	3699	order	                                  Brassicales
+5.504	24528	152	184358	1.97	0.0001699	3700	family	                                    Brassicaceae
+5.451	24290	498	180528	1.98	0.0004039	980083	tribe	                                      Camelineae
+5.337	23782	0	174125	1.97	0.001834	3701	genus	                                        Arabidopsis
+5.337	23782	0	174125	1.97	0.001834	3702	species	                                          Arabidopsis thaliana
+5.337	23782	1020	174125	1.97	0.001834	1000691247	assembly	                                            GCF_000001735.4 Arabidopsis thaliana ecotype=Columbia
+1.316	5864	5864	42387	1.98	0.001784	1000691248	sequence	                                              NC_003070.9 Arabidopsis thaliana chromosome 1 sequence
+1.128	5028	5028	35271	2.04	0.001661	1000691252	sequence	                                              NC_003076.8 Arabidopsis thaliana chromosome 5 sequence
+1.022	4556	4556	32024	2.01	0.001726	1000691250	sequence	                                              NC_003074.8 Arabidopsis thaliana chromosome 3 sequence
+0.8393	3740	3740	25928	2.03	0.001783	1000691251	sequence	                                              NC_003075.7 Arabidopsis thaliana chromosome 4 sequence
+0.7949	3542	3542	24591	2	0.001609	1000691249	sequence	                                              NC_003071.7 Arabidopsis thaliana chromosome 2 sequence
+0.004039	18	18	115	2	0.003721	1000691254	sequence	                                              NC_000932.1 Arabidopsis thaliana chloroplast, complete genome
+0.003142	14	14	96	2	0.001992	1000691253	sequence	                                              NC_037304.1 Arabidopsis thaliana ecotype Col-0 mitochondrion, complete genome
+0.002244	10	0	32	2	9.188e-08	71323	genus	                                        Camelina
+0.002244	10	0	32	2	9.188e-08	90675	species	                                          Camelina sativa
+0.002244	10	2	32	2	9.188e-08	1000798738	assembly	                                            GCF_000633955.1 Camelina sativa cultivar=DH55
+0.0004488	2	2	4	2	3.314e-07	1000798757	sequence	                                              NC_025703.1 Camelina sativa cultivar DH55 chromosome 19, Cs, whole genome shotgun sequence
+0.0004488	2	2	2	2	1.451e-07	1000798742	sequence	                                              NC_025688.1 Camelina sativa cultivar DH55 chromosome 4, Cs, whole genome shotgun sequence
+0.0004488	2	2	1	2	8.364e-08	1000798748	sequence	                                              NC_025694.1 Camelina sativa cultivar DH55 chromosome 10, Cs, whole genome shotgun sequence
+0.0004488	2	2	1	2	6.269e-08	1000798743	sequence	                                              NC_025689.1 Camelina sativa cultivar DH55 chromosome 5, Cs, whole genome shotgun sequence
+0.0193	86	0	263	2.73	4.139e-07	981071	tribe	                                      Brassiceae
+0.0193	86	8	263	2.73	4.139e-07	3705	genus	                                        Brassica
+0.01661	74	0	234	2.82	2.551e-06	3712	species	                                          Brassica oleracea
+0.01661	74	0	234	2.82	2.551e-06	109376	varietas	                                            Brassica oleracea var. oleracea
+0.01661	74	0	234	2.82	2.551e-06	1000616814	assembly	                                              GCF_000695525.1 Brassica oleracea var. oleracea cultivar=TO1000
+0.01661	74	74	234	2.82	0.4098	1000625167	sequence	                                                NW_013625758.1 Brassica oleracea var. oleracea cultivar TO1000 unplaced genomic scaffold, BOL UnpScaffold09237, whole genome shotgun sequence
+0.0004488	2	0	6	2	3.537e-08	3708	species	                                          Brassica napus
+0.0004488	2	0	6	2	3.537e-08	1000569174	assembly	                                            GCF_020379485.1 Brassica napus cultivar=Da-Ae
+0.0004488	2	2	5	2	9.203e-07	1000569360	sequence	                                              NC_063440.1 Brassica napus cultivar Da-Ae chromosome A7, Da-Ae, whole genome shotgun sequence
+0.0004488	2	0	4	2	6.547e-08	3711	species	                                          Brassica rapa
+0.0004488	2	0	4	2	6.547e-08	1000379061	assembly	                                            GCF_000309985.2 Brassica rapa cultivar=Chiifu-401-42
+0.0004488	2	2	4	2	9.157e-07	1000379067	sequence	                                              NC_024799.2 Brassica rapa cultivar Chiifu-401-42 chromosome A05, CAAS_Brap_v3.01, whole genome shotgun sequence
+0.0008977	4	0	5	2	3.477e-09	41938	order	                                  Malvales
+0.0008977	4	0	5	2	3.477e-09	3629	family	                                    Malvaceae
+0.0008977	4	0	5	2	4.11e-09	214907	subfamily	                                      Malvoideae
+0.0008977	4	0	5	2	4.11e-09	3633	genus	                                        Gossypium
+0.0008977	4	0	5	2	4.11e-09	3635	species	                                          Gossypium hirsutum
+0.0008977	4	2	5	2	4.11e-09	1000241568	assembly	                                            GCF_007990345.1 Gossypium hirsutum
+0.0004488	2	2	1	2	2.049e-08	1000241573	sequence	                                              NC_053428.1 Gossypium hirsutum isolate 1008001.06 chromosome A05, Gossypium_hirsutum_v2.1, whole genome shotgun sequence
+0.0004488	2	0	4	2	4.358e-09	41944	order	                                  Myrtales
+0.0004488	2	0	4	2	5.731e-09	3931	family	                                    Myrtaceae
+0.0004488	2	0	4	2	5.731e-09	1699513	subfamily	                                      Myrtoideae
+0.0004488	2	0	4	2	1.544e-08	1699523	tribe	                                        Myrteae
+0.0004488	2	0	4	2	1.544e-08	1705102	clade	                                          Australasian group
+0.0004488	2	0	4	2	1.544e-08	178132	genus	                                            Rhodamnia
+0.0004488	2	0	4	2	1.544e-08	178133	species	                                              Rhodamnia argentea
+0.0004488	2	0	4	2	1.544e-08	1000691255	assembly	                                                GCF_020921035.1 Rhodamnia argentea
+0.0004488	2	2	4	2	1.679e-07	1000691258	sequence	                                                  NC_063152.1 Rhodamnia argentea isolate NSW1041297 chromosome 3, ASM2092103v1, whole genome shotgun sequence
+5.647	25162	8	194935	1.95	1.937e-05	71274	clade	                              asterids
+5.642	25142	0	194843	1.95	6.012e-05	91882	clade	                                campanulids
+5.642	25142	0	194843	1.95	6.512e-05	4209	order	                                  Asterales
+5.642	25142	8	194843	1.95	6.512e-05	4210	family	                                    Asteraceae
+5.64	25132	10	194751	1.95	0.0001418	102804	subfamily	                                      Asteroideae
+5.637	25120	0	194655	1.94	0.0001793	911341	clade	                                        Heliantheae alliance
+5.637	25120	0	194655	1.94	0.0001793	102814	tribe	                                          Heliantheae
+5.637	25120	0	194655	1.94	0.0001793	4231	genus	                                            Helianthus
+5.637	25120	0	194655	1.94	0.0001793	4232	species	                                              Helianthus annuus
+5.637	25120	13164	194655	1.94	0.0001793	1000226363	assembly	                                                GCF_002127325.2 Helianthus annuus cultivar=XRQ/B
+0.1809	806	806	4854	2.01	7.869e-05	1000226372	sequence	                                                  NC_035441.2 Helianthus annuus cultivar XRQ/B chromosome 9, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1782	794	794	4466	2.01	7.019e-05	1000226379	sequence	                                                  NC_035448.2 Helianthus annuus cultivar XRQ/B chromosome 16, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1759	784	784	4737	2.05	8.09e-05	1000226374	sequence	                                                  NC_035443.2 Helianthus annuus cultivar XRQ/B chromosome 11, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.175	780	780	4615	2.01	7.751e-05	1000226380	sequence	                                                  NC_035449.2 Helianthus annuus cultivar XRQ/B chromosome 17, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1737	774	774	4535	1.99	7.373e-05	1000226367	sequence	                                                  NC_035436.2 Helianthus annuus cultivar XRQ/B chromosome 4, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1728	770	770	4570	2	8.032e-05	1000226378	sequence	                                                  NC_035447.2 Helianthus annuus cultivar XRQ/B chromosome 15, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1706	760	760	4564	1.98	8.159e-05	1000226376	sequence	                                                  NC_035445.2 Helianthus annuus cultivar XRQ/B chromosome 13, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1625	724	724	4446	1.99	7.888e-05	1000226373	sequence	                                                  NC_035442.2 Helianthus annuus cultivar XRQ/B chromosome 10, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1593	710	710	4390	1.97	8.067e-05	1000226366	sequence	                                                  NC_035435.2 Helianthus annuus cultivar XRQ/B chromosome 3, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1531	682	682	3946	2	7.548e-05	1000226377	sequence	                                                  NC_035446.2 Helianthus annuus cultivar XRQ/B chromosome 14, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1522	678	678	3931	1.99	7.265e-05	1000226368	sequence	                                                  NC_035437.2 Helianthus annuus cultivar XRQ/B chromosome 5, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1495	666	666	3961	1.97	7.51e-05	1000226365	sequence	                                                  NC_035434.2 Helianthus annuus cultivar XRQ/B chromosome 2, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1445	644	644	3901	2.01	7.884e-05	1000226375	sequence	                                                  NC_035444.2 Helianthus annuus cultivar XRQ/B chromosome 12, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1432	638	638	3445	2.03	6.643e-05	1000226371	sequence	                                                  NC_035440.2 Helianthus annuus cultivar XRQ/B chromosome 8, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1297	578	578	3455	2.03	7.327e-05	1000226364	sequence	                                                  NC_035433.2 Helianthus annuus cultivar XRQ/B chromosome 1, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1293	576	576	3376	2.01	7.643e-05	1000226370	sequence	                                                  NC_035439.2 Helianthus annuus cultivar XRQ/B chromosome 7, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.1266	564	564	3302	1.98	7.44e-05	1000226369	sequence	                                                  NC_035438.2 Helianthus annuus cultivar XRQ/B chromosome 6, HanXRQr2.0-SUNRISE, whole genome shotgun sequence
+0.0004488	2	2	43	2	0.001633	1000226401	sequence	                                                  NW_023395537.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c021, whole genome shotgun sequence
+0.0004488	2	2	28	2	0.003279	1000226520	sequence	                                                  NW_023395656.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c140, whole genome shotgun sequence
+0.0004488	2	2	21	2	0.007075	1000226531	sequence	                                                  NW_023395667.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c151, whole genome shotgun sequence
+0.0004488	2	2	21	2	0.001343	1000226419	sequence	                                                  NW_023395555.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c039, whole genome shotgun sequence
+0.0004488	2	2	17	2	0.003453	1000226456	sequence	                                                  NW_023395592.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c076, whole genome shotgun sequence
+0.0004488	2	2	16	2	0.001902	1000226425	sequence	                                                  NW_023395561.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c045, whole genome shotgun sequence
+0.0004488	2	2	13	2	0.0007045	1000226405	sequence	                                                  NW_023395541.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c025, whole genome shotgun sequence
+0.0004488	2	2	10	2	0.0005953	1000226388	sequence	                                                  NW_023395524.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c008, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.003157	1000226493	sequence	                                                  NW_023395629.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c113, whole genome shotgun sequence
+0.0004488	2	2	8	2	3.715e-05	1000226381	sequence	                                                  NW_023395517.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c001, whole genome shotgun sequence
+0.0004488	2	2	7	2	4.505e-05	1000226382	sequence	                                                  NW_023395518.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c002, whole genome shotgun sequence
+0.0004488	2	2	6	2	0.001695	1000226473	sequence	                                                  NW_023395609.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c093, whole genome shotgun sequence
+0.0004488	2	2	5	2	0.001552	1000226413	sequence	                                                  NW_023395549.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c033, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.0004837	1000226430	sequence	                                                  NW_023395566.1 Helianthus annuus cultivar XRQ/B unplaced genomic scaffold, HanXRQr2.0-SUNRISE HanXRQChr00c050, whole genome shotgun sequence
+0.0004488	2	0	3	2	1.044e-08	102809	tribe	                                        Astereae
+0.0004488	2	0	3	2	1.044e-08	877976	clade	                                          North American clade
+0.0004488	2	0	3	2	1.044e-08	2841728	subtribe	                                            Conyzinae
+0.0004488	2	0	3	2	1.044e-08	41574	genus	                                              Erigeron
+0.0004488	2	0	3	2	1.044e-08	72917	species	                                                Erigeron canadensis
+0.0004488	2	0	3	2	1.044e-08	1000690744	assembly	                                                  GCF_010389155.1 Erigeron canadensis
+0.0004488	2	2	3	2	7.621e-08	1000690745	sequence	                                                    NC_057761.1 Erigeron canadensis isolate Cc75 chromosome 1, C_canadensis_v1, whole genome shotgun sequence
+0.0004488	2	0	7	2	1.637e-08	219103	subfamily	                                      Carduoideae
+0.0004488	2	0	7	2	1.637e-08	102818	tribe	                                        Cardueae
+0.0004488	2	0	7	2	1.637e-08	742010	subtribe	                                          Carduinae
+0.0004488	2	0	7	2	1.637e-08	4264	genus	                                            Cynara
+0.0004488	2	0	7	2	1.637e-08	4265	species	                                              Cynara cardunculus
+0.0004488	2	0	7	2	1.637e-08	309979	subspecies	                                                Cynara cardunculus subsp. cardunculus
+0.0004488	2	0	7	2	1.637e-08	59895	varietas	                                                  Cynara cardunculus var. scolymus
+0.0004488	2	0	7	2	1.637e-08	1000207256	assembly	                                                    GCF_001531365.2 Cynara cardunculus var. scolymus
+0.0004488	2	2	4	2	1.816e-07	1000207261	sequence	                                                      NC_037532.1 Cynara cardunculus var. scolymus isolate 2C chromosome LG 5, CcrdV1, whole genome shotgun sequence
+0.002693	12	0	52	2.12	8.052e-09	91888	clade	                                lamiids
+0.001346	6	0	15	2	1.009e-08	4143	order	                                  Lamiales
+0.0008977	4	0	12	2	1.952e-08	4136	family	                                    Lamiaceae
+0.0008977	4	0	12	2	1.952e-08	216706	subfamily	                                      Nepetoideae
+0.0008977	4	0	12	2	1.952e-08	216718	tribe	                                        Mentheae
+0.0008977	4	0	12	2	1.952e-08	2836339	subtribe	                                          Salviinae
+0.0008977	4	0	12	2	1.952e-08	21880	genus	                                            Salvia
+0.0008977	4	0	12	2	3.07e-08	2026555	subgenus	                                              Salvia subgen. Calosphace
+0.0008977	4	0	12	2	3.07e-08	2026556	clade	                                                core Calosphace
+0.0008977	4	0	12	2	3.07e-08	180675	species	                                                  Salvia splendens
+0.0008977	4	0	12	2	3.07e-08	1000257080	assembly	                                                    GCF_004379255.1 Salvia splendens
+0.0004488	2	2	8	2	0.0008736	1000257540	sequence	                                                      NW_024598974.1 Salvia splendens isolate huo1 unplaced genomic scaffold, SspV2 ctg330, whole genome shotgun sequence
+0.0004488	2	2	4	2	0.0005958	1000257167	sequence	                                                      NW_024598601.1 Salvia splendens isolate huo1 unplaced genomic scaffold, SspV2 ctg1058, whole genome shotgun sequence
+0.0004488	2	0	3	2	4.489e-09	4144	family	                                    Oleaceae
+0.0004488	2	0	3	2	4.489e-09	426106	tribe	                                      Oleeae
+0.0004488	2	0	3	2	4.489e-09	4145	genus	                                        Olea
+0.0004488	2	0	3	2	4.489e-09	4146	species	                                          Olea europaea
+0.0004488	2	0	3	2	4.489e-09	158383	subspecies	                                            Olea europaea subsp. europaea
+0.0004488	2	0	3	2	4.489e-09	158386	varietas	                                              Olea europaea var. sylvestris
+0.0004488	2	0	3	2	4.489e-09	1000166029	assembly	                                                GCF_002742605.1 Olea europaea var. sylvestris
+0.0004488	2	2	3	2	0.001389	1000171753	sequence	                                                  NW_019233015.1 Olea europaea var. sylvestris unplaced genomic scaffold, O_europaea_v1 scaffold15420, whole genome shotgun sequence
+0.0008977	4	0	26	2.23	7.692e-08	4055	order	                                  Gentianales
+0.0008977	4	0	26	2.23	7.692e-08	24966	family	                                    Rubiaceae
+0.0008977	4	0	26	2.23	7.692e-08	169618	subfamily	                                      Ixoroideae
+0.0008977	4	0	26	2.23	7.692e-08	1968429	clade	                                        Gardenieae complex
+0.0008977	4	0	26	2.23	7.692e-08	1968428	clade	                                          Bertiereae - Coffeeae clade
+0.0008977	4	0	26	2.23	7.692e-08	169640	tribe	                                            Coffeeae
+0.0008977	4	0	26	2.23	7.692e-08	13442	genus	                                              Coffea
+0.0008977	4	0	26	2.23	7.692e-08	49369	species	                                                Coffea eugenioides
+0.0008977	4	0	26	2.23	7.692e-08	1000375530	assembly	                                                  GCF_003713205.1 Coffea eugenioides
+0.0008977	4	4	26	2.23	0.01457	1000376779	sequence	                                                    NW_020862605.1 Coffea eugenioides isolate CCC68of unplaced genomic scaffold, Ceug_1.0 ScVebR1_2144;HRSCAF=3122, whole genome shotgun sequence
+0.0004488	2	0	11	2	2.375e-09	4069	order	                                  Solanales
+0.0004488	2	0	11	2	2.527e-09	4070	family	                                    Solanaceae
+0.0004488	2	0	11	2	3.407e-09	424551	subfamily	                                      Solanoideae
+0.0004488	2	0	6	2	5.783e-09	424574	tribe	                                        Solaneae
+0.0004488	2	0	6	2	5.783e-09	4107	genus	                                          Solanum
+0.0004488	2	0	6	2	5.783e-09	49274	subgenus	                                            Solanum subgen. Lycopersicon
+0.0004488	2	0	1	2	2.384e-09	4081	species	                                              Solanum lycopersicum
+0.0004488	2	0	1	2	2.384e-09	1000258259	assembly	                                                GCF_000188115.5 Solanum lycopersicum cultivar=Heinz 1706
+0.0004488	2	2	1	2	2.058e-08	1000258260	sequence	                                                  NC_015438.3 Solanum lycopersicum cultivar Heinz 1706 chromosome 1, SL3.0, whole genome shotgun sequence
+0.0008977	4	0	6	2.33	1.694e-08	3524	order	                              Caryophyllales
+0.0008977	4	0	6	2.33	1.694e-08	1804623	family	                                Chenopodiaceae
+0.0008977	4	0	6	2.33	1.694e-08	1804621	subfamily	                                  Betoideae
+0.0008977	4	0	6	2.33	1.694e-08	3554	genus	                                    Beta
+0.0008977	4	0	6	2.33	1.694e-08	161934	species	                                      Beta vulgaris
+0.0008977	4	0	6	2.33	1.694e-08	3555	subspecies	                                        Beta vulgaris subsp. vulgaris
+0.0008977	4	0	6	2.33	1.694e-08	1000492164	assembly	                                          GCF_002917755.1 Beta vulgaris subsp. vulgaris cultivar=EL10
+0.0008977	4	4	6	2.33	6.153e-06	1000492179	sequence	                                            NW_026017084.1 Beta vulgaris subsp. vulgaris cultivar EL10 unplaced genomic scaffold, EL10_1.0 Scaffold_0006, whole genome shotgun sequence
+0.001795	8	0	54	2	4.88e-08	232378	order	                        Proteales
+0.001795	8	0	54	2	4.88e-08	4328	family	                          Proteaceae
+0.001795	8	0	54	2	1.042e-07	4329	genus	                            Macadamia
+0.001795	8	0	54	2	1.042e-07	60698	species	                              Macadamia integrifolia
+0.001795	8	0	54	2	1.042e-07	1000222830	assembly	                                GCF_013358625.1 Macadamia integrifolia cultivar=HAES 741
+0.0008977	4	4	43	2	0.0197	1000224681	sequence	                                  NW_024869885.1 Macadamia integrifolia cultivar HAES 741 unplaced genomic scaffold, SCU_Mint_v3 scaffold3848, whole genome shotgun sequence
+0.0004488	2	2	9	2	0.01347	1000224917	sequence	                                  NW_024870121.1 Macadamia integrifolia cultivar HAES 741 unplaced genomic scaffold, SCU_Mint_v3 scaffold4086, whole genome shotgun sequence
+0.0004488	2	2	2	2	0.001352	1000224741	sequence	                                  NW_024869945.1 Macadamia integrifolia cultivar HAES 741 unplaced genomic scaffold, SCU_Mint_v3 scaffold3907, whole genome shotgun sequence
+0.0008977	4	0	23	2	1.615e-09	4447	clade	                        Liliopsida
+0.0008977	4	0	23	2	1.615e-09	1437197	subclass	                          Petrosaviidae
+0.0008977	4	0	23	2	1.738e-09	4734	clade	                            commelinids
+0.0004488	2	0	15	2	1.427e-09	38820	order	                              Poales
+0.0004488	2	0	15	2	1.462e-09	4479	family	                                Poaceae
+0.0004488	2	2	13	2	1.517e-09	359160	clade	                                  BOP clade
+0.0004488	2	0	4	2	2.57e-09	4618	order	                              Zingiberales
+0.0004488	2	0	4	2	3.172e-09	4642	family	                                Zingiberaceae
+0.0004488	2	0	4	2	3.172e-09	4650	genus	                                  Zingiber
+0.0004488	2	0	4	2	3.172e-09	94328	species	                                    Zingiber officinale
+0.0004488	2	0	4	2	3.172e-09	1000008204	assembly	                                      GCF_018446385.1 Zingiber officinale cultivar=Zhangliang
+0.0004488	2	2	2	2	3.826e-08	1000008208	sequence	                                        NC_055989.1 Zingiber officinale cultivar Zhangliang chromosome 2B, Zo_v1.1, whole genome shotgun sequence
+0.005835	26	0	109	2.86	3.6e-07	261007	order	                      Nymphaeales
+0.005835	26	0	109	2.86	3.6e-07	4410	family	                        Nymphaeaceae
+0.005835	26	0	109	2.86	3.6e-07	4418	genus	                          Nymphaea
+0.005835	26	0	109	2.86	3.6e-07	210225	species	                            Nymphaea colorata
+0.005835	26	0	109	2.86	3.6e-07	1000708277	assembly	                              GCF_008831285.1 Nymphaea colorata
+0.005835	26	26	106	2.83	2.991e-06	1000708278	sequence	                                NC_045138.1 Nymphaea colorata isolate Beijing-Zhang1983 chromosome 1, ASM883128v1, whole genome shotgun sequence
+0.001795	8	0	20	2	1.926e-07	3041	phylum	        Chlorophyta
+0.001346	6	0	18	2	7.271e-07	1035538	class	          Mamiellophyceae
+0.001346	6	0	18	2	7.271e-07	13792	order	            Mamiellales
+0.001346	6	0	18	2	7.271e-07	1525212	family	              Bathycoccaceae
+0.0008977	4	0	4	2	3.519e-07	70447	genus	                Ostreococcus
+0.0008977	4	0	4	2	3.519e-07	70448	species	                  Ostreococcus tauri
+0.0008977	4	0	4	2	3.519e-07	1000798715	assembly	                    GCF_000214015.3 Ostreococcus tauri strain=RCC4221
+0.0004488	2	2	3	2	5.205e-05	1000798737	sequence	                      NC_008289.1 Ostreococcus tauri chloroplast, complete genome
+0.0004488	2	2	1	2	3.347e-05	1000798736	sequence	                      NC_008290.1 Ostreococcus tauri mitochondrion, complete genome
+0.0004488	2	0	9	2	6.723e-07	41874	genus	                Bathycoccus
+0.0004488	2	0	9	2	6.723e-07	41875	species	                  Bathycoccus prasinos
+0.0004488	2	0	9	2	6.723e-07	1000256170	assembly	                    GCF_002220235.1 Bathycoccus prasinos strain=RCC 1105
+0.0004488	2	2	9	2	0.0001844	1000256191	sequence	                      NC_024811.1 Bathycoccus prasinos chloroplast, complete genome
+0.0004488	2	0	2	2	2.529e-08	2692248	clade	          core chlorophytes
+0.0004488	2	0	2	2	2.529e-08	3166	class	            Chlorophyceae
+0.0004488	2	0	2	2	2.529e-08	2812636	clade	              CS clade
+0.0004488	2	0	2	2	2.529e-08	3042	order	                Chlamydomonadales
+0.0004488	2	0	2	2	2.529e-08	3051	family	                  Chlamydomonadaceae
+0.0004488	2	0	2	2	2.529e-08	3052	genus	                    Chlamydomonas
+0.0004488	2	0	2	2	2.529e-08	3055	species	                      Chlamydomonas reinhardtii
+0.0004488	2	0	2	2	2.529e-08	1000256192	assembly	                        GCF_000002595.2 Chlamydomonas reinhardtii strain=CC-503 cw92 mt+
+0.0004488	2	2	2	2	0.000164	1000256235	sequence	                          NW_025061556.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ unplaced genomic scaffold scaffold_43, whole genome shotgun sequence

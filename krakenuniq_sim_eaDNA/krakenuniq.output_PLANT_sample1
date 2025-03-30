@@ -1,0 +1,142 @@
+# KrakenUniq v0.7.3 DATE:2022-07-25T09:59:04Z DB:/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/Test_Sample/genomes/DBDIR_PLANT DB_SIZE:501484808956 WD:/crex/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/Test_Sample/Loxodonta_Human_Microbes
+# CL:perl /proj/uppstore2018095/private/NBIS_Demo/KrakenUniq_v0.7.3/KrakenUniq/krakenuniq --db /proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/Test_Sample/genomes/DBDIR_PLANT --fastq-input sample.trimmed.fastq.gz --threads 16 --output sequences.krakenuniq_PLANT --report-file krakenuniq.output_PLANT --preload
+
+%	reads	taxReads	kmers	dup	cov	taxID	rank	taxName
+99.99	255014	255014	3866709	1.02	NA	0	no rank	unclassified
+0.01215	31	0	122	1.33	2.919e-09	1	no rank	root
+0.01215	31	0	122	1.33	2.919e-09	131567	no rank	  cellular organisms
+0.01215	31	0	122	1.33	2.919e-09	2759	superkingdom	    Eukaryota
+0.01215	31	2	122	1.33	2.919e-09	33090	kingdom	      Viridiplantae
+0.01059	27	0	84	1.48	2.015e-09	35493	phylum	        Streptophyta
+0.01059	27	0	84	1.48	2.015e-09	131221	subphylum	          Streptophytina
+0.01059	27	1	84	1.48	2.015e-09	3193	clade	            Embryophyta
+0.01019	26	0	72	1.47	1.74e-09	58023	clade	              Tracheophyta
+0.01019	26	0	72	1.47	1.74e-09	78536	clade	                Euphyllophyta
+0.01019	26	0	72	1.47	1.74e-09	58024	clade	                  Spermatophyta
+0.01019	26	0	72	1.47	1.74e-09	3398	class	                    Magnoliopsida
+0.00941	24	3	67	1.51	1.631e-09	1437183	clade	                      Mesangiospermae
+0.007058	18	0	53	1.62	2.17e-09	71240	clade	                        eudicotyledons
+0.007058	18	0	53	1.62	2.17e-09	91827	clade	                          Gunneridae
+0.007058	18	1	53	1.62	2.17e-09	1437201	clade	                            Pentapetalae
+0.004313	11	0	27	1.52	1.929e-09	71275	clade	                              rosids
+0.002353	6	1	10	1.3	1.014e-09	91835	clade	                                fabids
+0.001176	3	0	3	1.33	6.719e-10	72025	order	                                  Fabales
+0.001176	3	0	3	1.33	6.719e-10	3803	family	                                    Fabaceae
+0.001176	3	0	3	1.33	6.719e-10	3814	subfamily	                                      Papilionoideae
+0.001176	3	0	3	1.33	6.719e-10	2231393	clade	                                        50 kb inversion clade
+0.001176	3	0	3	1.33	1.037e-09	2231382	clade	                                          NPAAA clade
+0.001176	3	0	3	1.33	1.424e-09	2233855	clade	                                            indigoferoid/millettioid clade
+0.001176	3	0	3	1.33	1.424e-09	163735	tribe	                                              Phaseoleae
+0.001176	3	0	3	1.33	3.558e-09	3913	genus	                                                Vigna
+0.001176	3	0	3	1.33	1.198e-08	3914	species	                                                  Vigna angularis
+0.001176	3	0	3	1.33	1.198e-08	1000572342	assembly	                                                    GCF_001190045.1 Vigna angularis cultivar=Jingnong 6
+0.0007842	2	2	1	2	5.984e-08	1000572351	sequence	                                                      NC_030645.1 Vigna angularis cultivar Jingnong 6 chromosome 9, Vigan1.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	9.835e-08	1000572349	sequence	                                                      NC_030643.1 Vigna angularis cultivar Jingnong 6 chromosome 7, Vigan1.1, whole genome shotgun sequence
+0.0007842	2	0	2	2	1.092e-09	3744	order	                                  Rosales
+0.0007842	2	0	2	2	1.63e-09	3745	family	                                    Rosaceae
+0.0007842	2	0	2	2	4.191e-09	171638	subfamily	                                      Rosoideae
+0.0007842	2	0	2	2	1.274e-08	721789	tribe	                                        Potentilleae
+0.0007842	2	0	2	2	1.274e-08	1184124	subtribe	                                          Fragariinae
+0.0007842	2	0	2	2	1.274e-08	3746	genus	                                            Fragaria
+0.0007842	2	0	2	2	1.274e-08	57918	species	                                              Fragaria vesca
+0.0007842	2	0	2	2	1.274e-08	101020	subspecies	                                                Fragaria vesca subsp. vesca
+0.0007842	2	0	2	2	1.274e-08	1000660545	assembly	                                                  GCF_000184155.1 Fragaria vesca subsp. vesca
+0.0007842	2	2	2	2	0.0122	1000661342	sequence	                                                    NW_004441253.1 Fragaria vesca subsp. vesca unplaced genomic scaffold, FraVesHawaii_1.0 scf0510782, whole genome shotgun sequence
+0.00196	5	0	17	1.65	4.668e-09	91836	clade	                                malvids
+0.001176	3	0	11	2	1.014e-08	3699	order	                                  Brassicales
+0.001176	3	0	11	2	1.014e-08	3700	family	                                    Brassicaceae
+0.001176	3	0	11	2	1.731e-08	981071	tribe	                                      Brassiceae
+0.001176	3	0	11	2	1.731e-08	3705	genus	                                        Brassica
+0.001176	3	0	11	2	1.199e-07	3712	species	                                          Brassica oleracea
+0.001176	3	0	11	2	1.199e-07	109376	varietas	                                            Brassica oleracea var. oleracea
+0.001176	3	0	11	2	1.199e-07	1000616814	assembly	                                              GCF_000695525.1 Brassica oleracea var. oleracea cultivar=TO1000
+0.001176	3	3	11	2	0.01926	1000625167	sequence	                                                NW_013625758.1 Brassica oleracea var. oleracea cultivar TO1000 unplaced genomic scaffold, BOL UnpScaffold09237, whole genome shotgun sequence
+0.0003921	1	0	4	1	2.782e-09	41938	order	                                  Malvales
+0.0003921	1	0	4	1	2.782e-09	3629	family	                                    Malvaceae
+0.0003921	1	0	4	1	3.288e-09	214907	subfamily	                                      Malvoideae
+0.0003921	1	0	4	1	3.288e-09	3633	genus	                                        Gossypium
+0.0003921	1	0	4	1	3.288e-09	3635	species	                                          Gossypium hirsutum
+0.0003921	1	0	4	1	3.288e-09	1000241568	assembly	                                            GCF_007990345.1 Gossypium hirsutum
+0.0003921	1	1	4	1	0.000586	1000241805	sequence	                                              NW_024402981.1 Gossypium hirsutum isolate 1008001.06 unplaced genomic scaffold, Gossypium_hirsutum_v2.1 scaffold_370, whole genome shotgun sequence
+0.0003921	1	0	2	1	2.179e-09	41944	order	                                  Myrtales
+0.0003921	1	0	2	1	9.102e-09	3928	family	                                    Lythraceae
+0.0003921	1	0	2	1	9.102e-09	22662	genus	                                      Punica
+0.0003921	1	0	2	1	9.102e-09	22663	species	                                        Punica granatum
+0.0003921	1	1	2	1	9.102e-09	1000220798	assembly	                                          GCF_007655135.1 Punica granatum
+0.001568	4	0	12	2.08	3.389e-08	3524	order	                              Caryophyllales
+0.001568	4	0	12	2.08	3.389e-08	1804623	family	                                Chenopodiaceae
+0.001568	4	0	12	2.08	3.389e-08	1804621	subfamily	                                  Betoideae
+0.001568	4	0	12	2.08	3.389e-08	3554	genus	                                    Beta
+0.001568	4	0	12	2.08	3.389e-08	161934	species	                                      Beta vulgaris
+0.001568	4	0	12	2.08	3.389e-08	3555	subspecies	                                        Beta vulgaris subsp. vulgaris
+0.001568	4	0	12	2.08	3.389e-08	1000492164	assembly	                                          GCF_002917755.1 Beta vulgaris subsp. vulgaris cultivar=EL10
+0.001568	4	4	12	2.08	1.231e-05	1000492179	sequence	                                            NW_026017084.1 Beta vulgaris subsp. vulgaris cultivar EL10 unplaced genomic scaffold, EL10_1.0 Scaffold_0006, whole genome shotgun sequence
+0.0007842	2	0	5	1	4.968e-10	71274	clade	                              asterids
+0.0007842	2	0	5	1	7.743e-10	91888	clade	                                lamiids
+0.0007842	2	0	5	1	3.362e-09	4143	order	                                  Lamiales
+0.0003921	1	0	4	1	5.985e-09	4144	family	                                    Oleaceae
+0.0003921	1	0	4	1	5.985e-09	426106	tribe	                                      Oleeae
+0.0003921	1	0	4	1	5.985e-09	4145	genus	                                        Olea
+0.0003921	1	0	4	1	5.985e-09	4146	species	                                          Olea europaea
+0.0003921	1	0	4	1	5.985e-09	158383	subspecies	                                            Olea europaea subsp. europaea
+0.0003921	1	0	4	1	5.985e-09	158386	varietas	                                              Olea europaea var. sylvestris
+0.0003921	1	0	4	1	5.985e-09	1000166029	assembly	                                                GCF_002742605.1 Olea europaea var. sylvestris
+0.0003921	1	1	4	1	0.001852	1000171753	sequence	                                                  NW_019233015.1 Olea europaea var. sylvestris unplaced genomic scaffold, O_europaea_v1 scaffold15420, whole genome shotgun sequence
+0.0003921	1	0	1	1	1.626e-09	4136	family	                                    Lamiaceae
+0.0003921	1	0	1	1	1.626e-09	216706	subfamily	                                      Nepetoideae
+0.0003921	1	0	1	1	1.626e-09	216718	tribe	                                        Mentheae
+0.0003921	1	0	1	1	1.626e-09	2836339	subtribe	                                          Salviinae
+0.0003921	1	0	1	1	1.626e-09	21880	genus	                                            Salvia
+0.0003921	1	0	1	1	2.559e-09	2026555	subgenus	                                              Salvia subgen. Calosphace
+0.0003921	1	0	1	1	2.559e-09	2026556	clade	                                                core Calosphace
+0.0003921	1	0	1	1	2.559e-09	180675	species	                                                  Salvia splendens
+0.0003921	1	0	1	1	2.559e-09	1000257080	assembly	                                                    GCF_004379255.1 Salvia splendens
+0.0003921	1	1	1	1	0.0002332	1000258047	sequence	                                                      NW_024599481.1 Salvia splendens isolate huo1 unplaced genomic scaffold, SspV2 ctg804, whole genome shotgun sequence
+0.001176	3	0	7	1	4.916e-10	4447	clade	                        Liliopsida
+0.001176	3	0	7	1	4.916e-10	1437197	subclass	                          Petrosaviidae
+0.001176	3	0	7	1	5.288e-10	4734	clade	                            commelinids
+0.001176	3	0	7	1	6.658e-10	38820	order	                              Poales
+0.001176	3	0	7	1	6.822e-10	4479	family	                                Poaceae
+0.001176	3	0	7	1	8.167e-10	359160	clade	                                  BOP clade
+0.001176	3	0	7	1	8.641e-10	147368	subfamily	                                    Pooideae
+0.0007842	2	0	3	1	4.353e-10	1648038	no rank	                                      Triticodae
+0.0007842	2	0	3	1	4.353e-10	147389	tribe	                                        Triticeae
+0.0003921	1	0	1	1	1.922e-10	1648030	subtribe	                                          Triticinae
+0.0003921	1	0	1	1	2.625e-10	4564	genus	                                            Triticum
+0.0003921	1	0	1	1	1.444e-09	4572	species	                                              Triticum urartu
+0.0003921	1	0	1	1	1.444e-09	1000328022	assembly	                                                GCF_003073215.2 Triticum urartu cultivar=G1812
+0.0003921	1	1	1	1	9.847e-09	1000328024	sequence	                                                  NC_053023.1 Triticum urartu cultivar G1812 chromosome 2, Tu2.1, whole genome shotgun sequence
+0.0003921	1	0	1	1	6.139e-10	1648017	subtribe	                                          Hordeinae
+0.0003921	1	0	1	1	6.139e-10	4512	genus	                                            Hordeum
+0.0003921	1	0	1	1	6.139e-10	4513	species	                                              Hordeum vulgare
+0.0003921	1	0	1	1	6.139e-10	112509	subspecies	                                                Hordeum vulgare subsp. vulgare
+0.0003921	1	0	1	1	6.139e-10	1000165678	assembly	                                                  GCF_904849725.1 Hordeum vulgare subsp. vulgare
+0.0003921	1	1	1	1	4.289e-09	1000165680	sequence	                                                    NC_058519.1 Hordeum vulgare subsp. vulgare chromosome 2H, MorexV3_pseudomolecules_assembly, whole genome shotgun sequence
+0.0003921	1	0	4	1	4.066e-09	1648037	no rank	                                      Poodae
+0.0003921	1	0	4	1	4.066e-09	147387	tribe	                                        Poeae
+0.0003921	1	0	4	1	4.066e-09	1652081	clade	                                          Poeae Chloroplast Group 2 (Poeae type)
+0.0003921	1	0	4	1	4.066e-09	2948571	clade	                                            Loliodinae
+0.0003921	1	0	4	1	4.066e-09	640630	subtribe	                                              Loliinae
+0.0003921	1	0	4	1	4.066e-09	4520	genus	                                                Lolium
+0.0003921	1	0	4	1	4.066e-09	89674	species	                                                  Lolium rigidum
+0.0003921	1	0	4	1	4.066e-09	1000227387	assembly	                                                    GCF_022539505.1 Lolium rigidum
+0.0003921	1	1	4	1	2.722e-08	1000227390	sequence	                                                      NC_061510.1 Lolium rigidum isolate FL_2022 chromosome 3, APGP_CSIRO_Lrig_0.1, whole genome shotgun sequence
+0.0007842	2	0	4	1	1.321e-08	261007	order	                      Nymphaeales
+0.0007842	2	0	4	1	1.321e-08	4410	family	                        Nymphaeaceae
+0.0007842	2	0	4	1	1.321e-08	4418	genus	                          Nymphaea
+0.0007842	2	0	4	1	1.321e-08	210225	species	                            Nymphaea colorata
+0.0007842	2	1	4	1	1.321e-08	1000708277	assembly	                              GCF_008831285.1 Nymphaea colorata
+0.0003921	1	1	2	1	6.121e-07	1000708292	sequence	                                NW_022204507.1 Nymphaea colorata isolate Beijing-Zhang1983 unplaced genomic scaffold, ASM883128v1 scaffold0001, whole genome shotgun sequence
+0.0007842	2	0	14	1	1.348e-07	3041	phylum	        Chlorophyta
+0.0003921	1	0	10	1	1.265e-07	2692248	clade	          core chlorophytes
+0.0003921	1	0	10	1	1.265e-07	3166	class	            Chlorophyceae
+0.0003921	1	0	10	1	1.265e-07	2812636	clade	              CS clade
+0.0003921	1	0	10	1	1.265e-07	3042	order	                Chlamydomonadales
+0.0003921	1	0	10	1	1.265e-07	3051	family	                  Chlamydomonadaceae
+0.0003921	1	0	10	1	1.265e-07	3052	genus	                    Chlamydomonas
+0.0003921	1	0	10	1	1.265e-07	3055	species	                      Chlamydomonas reinhardtii
+0.0003921	1	0	10	1	1.265e-07	1000256192	assembly	                        GCF_000002595.2 Chlamydomonas reinhardtii strain=CC-503 cw92 mt+
+0.0003921	1	1	10	1	1.389e-06	1000256204	sequence	                          NC_057015.1 Chlamydomonas reinhardtii strain CC-503 cw92 mt+ chromosome 12, whole genome shotgun sequence
+0.0003921	1	0	4	1	1.616e-07	1035538	class	          Mamiellophyceae
+0.0003921	1	0	4	1	1.616e-07	13792	order	            Mamiellales
+0.0003921	1	1	4	1	1.616e-07	1525212	family	              Bathycoccaceae

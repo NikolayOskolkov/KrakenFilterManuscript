@@ -1,0 +1,621 @@
+# KrakenUniq v0.7.3 DATE:2022-10-19T10:17:16Z DB:/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/sedaDNA/genomes/DBDIR_VERTEBRATE_OTHER DB_SIZE:1826690923384 WD:/crex/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/sedaDNA/Loxodonta_Human_Microbes
+# CL:perl /proj/uppstore2018095/private/NBIS_Demo/KrakenUniq_v0.7.3/KrakenUniq/krakenuniq --db /proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/sedaDNA/genomes/DBDIR_VERTEBRATE_OTHER --fastq-input sample.trimmed.fastq.gz --threads 19 --output sequences.krakenuniq_VERTEBRATE_OTHER --report-file krakenuniq.output_VERTEBRATE_OTHER --preload
+
+%	reads	taxReads	kmers	dup	cov	taxID	rank	taxName
+99.7	254270	254270	3864297	1.02	NA	0	no rank	unclassified
+0.3039	775	0	2794	1.26	1.835e-08	1	no rank	root
+0.3039	775	0	2794	1.26	1.835e-08	131567	no rank	  cellular organisms
+0.3039	775	0	2794	1.26	1.835e-08	2759	superkingdom	    Eukaryota
+0.3039	775	0	2794	1.26	1.835e-08	33154	clade	      Opisthokonta
+0.3039	775	0	2794	1.26	1.835e-08	33208	kingdom	        Metazoa
+0.3039	775	0	2794	1.26	1.835e-08	6072	clade	          Eumetazoa
+0.3039	775	0	2794	1.26	1.835e-08	33213	clade	            Bilateria
+0.3039	775	0	2794	1.26	1.835e-08	33511	clade	              Deuterostomia
+0.3039	775	0	2794	1.26	1.835e-08	7711	phylum	                Chordata
+0.3039	775	0	2794	1.26	1.835e-08	89593	subphylum	                  Craniata
+0.3039	775	1	2794	1.26	1.835e-08	7742	clade	                    Vertebrata
+0.3031	773	4	2763	1.26	1.823e-08	7776	clade	                      Gnathostomata
+0.2984	761	0	2656	1.27	1.928e-08	117570	clade	                        Teleostomi
+0.2984	761	15	2656	1.27	1.928e-08	117571	clade	                          Euteleostomi
+0.1517	387	1	769	1.82	1.249e-08	7898	superclass	                            Actinopterygii
+0.1106	282	0	408	2.42	8.88e-08	1338366	class	                              Cladistia
+0.1106	282	0	408	2.42	8.88e-08	8288	order	                                Polypteriformes
+0.1106	282	34	408	2.42	8.88e-08	8289	family	                                  Polypteridae
+0.0596	152	0	214	2.35	1.01e-07	27686	genus	                                    Erpetoichthys
+0.0596	152	0	214	2.35	1.01e-07	27687	species	                                      Erpetoichthys calabaricus
+0.0596	152	10	214	2.35	1.01e-07	1000672122	assembly	                                        GCF_900747795.1 Erpetoichthys calabaricus
+0.01372	35	35	19	6.32	2.418e-07	1000672156	sequence	                                          NC_041406.1 Erpetoichthys calabaricus chromosome 13, fErpCal1.1, whole genome shotgun sequence
+0.008234	21	21	31	1.68	2.885e-07	1000672152	sequence	                                          NC_041402.1 Erpetoichthys calabaricus chromosome 9, fErpCal1.1, whole genome shotgun sequence
+0.005881	15	15	12	2.58	1.098e-07	1000672150	sequence	                                          NC_041400.1 Erpetoichthys calabaricus chromosome 7, fErpCal1.1, whole genome shotgun sequence
+0.005489	14	14	28	1.36	2.431e-07	1000672147	sequence	                                          NC_041399.1 Erpetoichthys calabaricus chromosome 6, fErpCal1.1, whole genome shotgun sequence
+0.005097	13	13	18	2.39	3.15e-07	1000672160	sequence	                                          NC_041408.1 Erpetoichthys calabaricus chromosome 15, fErpCal1.1, whole genome shotgun sequence
+0.003921	10	10	12	2.5	7.179e-08	1000672132	sequence	                                          NC_041396.1 Erpetoichthys calabaricus chromosome 3, fErpCal1.1, whole genome shotgun sequence
+0.002745	7	7	2	4	2.133e-08	1000672155	sequence	                                          NC_041405.1 Erpetoichthys calabaricus chromosome 12, fErpCal1.1, whole genome shotgun sequence
+0.00196	5	5	11	2.36	1.696e-07	1000672159	sequence	                                          NC_041407.1 Erpetoichthys calabaricus chromosome 14, fErpCal1.1, whole genome shotgun sequence
+0.001568	4	4	10	1	5.918e-08	1000672134	sequence	                                          NC_041397.1 Erpetoichthys calabaricus chromosome 4, fErpCal1.1, whole genome shotgun sequence
+0.001176	3	3	13	1	5.338e-06	1000672127	sequence	                                          NW_021316598.1 Erpetoichthys calabaricus chromosome 2 unlocalized genomic scaffold, fErpCal1.1 scaffold_44_arrow_ctg1, whole genome shotgun sequence
+0.001176	3	3	12	1	2.206e-07	1000672163	sequence	                                          NC_041411.1 Erpetoichthys calabaricus chromosome 18, fErpCal1.1, whole genome shotgun sequence
+0.001176	3	3	5	1	4.467e-08	1000672151	sequence	                                          NC_041401.1 Erpetoichthys calabaricus chromosome 8, fErpCal1.1, whole genome shotgun sequence
+0.0007842	2	2	3	2.33	0.0001764	1000673807	sequence	                                          NW_021318262.1 Erpetoichthys calabaricus unplaced genomic scaffold, fErpCal1.1, whole genome shotgun sequence
+0.0007842	2	2	2	1	1.033e-08	1000672123	sequence	                                          NC_041394.1 Erpetoichthys calabaricus chromosome 1, fErpCal1.1, whole genome shotgun sequence
+0.0007842	2	2	2	1	1.079e-08	1000672126	sequence	                                          NC_041395.1 Erpetoichthys calabaricus chromosome 2, fErpCal1.1, whole genome shotgun sequence
+0.0003921	1	1	13	1.38	5.899e-05	1000672913	sequence	                                          NW_021317368.1 Erpetoichthys calabaricus unplaced genomic scaffold, fErpCal1.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.015e-08	1000672153	sequence	                                          NC_041403.1 Erpetoichthys calabaricus chromosome 10, fErpCal1.1, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.102e-05	1000672726	sequence	                                          NW_021317182.1 Erpetoichthys calabaricus unplaced genomic scaffold, fErpCal1.1, whole genome shotgun sequence
+0.03764	96	0	112	2.62	5.118e-08	8290	genus	                                    Polypterus
+0.03764	96	0	112	2.62	5.118e-08	55291	species	                                      Polypterus senegalus
+0.03764	96	2	112	2.62	5.118e-08	1000515561	assembly	                                        GCF_016835505.1 Polypterus senegalus
+0.01255	32	32	11	10.7	1.34e-07	1000515576	sequence	                                          NC_053168.1 Polypterus senegalus isolate Bchr_013 chromosome 15, ASM1683550v1, whole genome shotgun sequence
+0.005097	13	13	15	3.53	1.296e-07	1000515567	sequence	                                          NC_053159.1 Polypterus senegalus isolate Bchr_013 chromosome 6, ASM1683550v1, whole genome shotgun sequence
+0.004313	11	11	13	2.23	7.279e-08	1000515564	sequence	                                          NC_053156.1 Polypterus senegalus isolate Bchr_013 chromosome 3, ASM1683550v1, whole genome shotgun sequence
+0.002745	7	7	12	2	1.924e-07	1000515577	sequence	                                          NC_053169.1 Polypterus senegalus isolate Bchr_013 chromosome 16, ASM1683550v1, whole genome shotgun sequence
+0.002745	7	7	17	1.06	1.576e-07	1000515570	sequence	                                          NC_053162.1 Polypterus senegalus isolate Bchr_013 chromosome 9, ASM1683550v1, whole genome shotgun sequence
+0.001568	4	4	8	1	3.987e-08	1000515562	sequence	                                          NC_053154.1 Polypterus senegalus isolate Bchr_013 chromosome 1, ASM1683550v1, whole genome shotgun sequence
+0.001568	4	4	3	1.67	3.045e-08	1000515572	sequence	                                          NC_053164.1 Polypterus senegalus isolate Bchr_013 chromosome 11, ASM1683550v1, whole genome shotgun sequence
+0.001176	3	3	12	1	6.359e-08	1000515563	sequence	                                          NC_053155.1 Polypterus senegalus isolate Bchr_013 chromosome 2, ASM1683550v1, whole genome shotgun sequence
+0.001176	3	3	4	1	3.858e-08	1000515573	sequence	                                          NC_053165.1 Polypterus senegalus isolate Bchr_013 chromosome 12, ASM1683550v1, whole genome shotgun sequence
+0.0007842	2	2	6	1.5	6.874e-08	1000515575	sequence	                                          NC_053167.1 Polypterus senegalus isolate Bchr_013 chromosome 14, ASM1683550v1, whole genome shotgun sequence
+0.0007842	2	2	3	1	5.026e-08	1000515579	sequence	                                          NC_053171.1 Polypterus senegalus isolate Bchr_013 chromosome 18, ASM1683550v1, whole genome shotgun sequence
+0.0007842	2	2	1	2	1.603e-08	1000515578	sequence	                                          NC_053170.1 Polypterus senegalus isolate Bchr_013 chromosome 17, ASM1683550v1, whole genome shotgun sequence
+0.0007842	2	2	2	1	1.629e-08	1000515566	sequence	                                          NC_053158.1 Polypterus senegalus isolate Bchr_013 chromosome 5, ASM1683550v1, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.76e-08	1000515568	sequence	                                          NC_053160.1 Polypterus senegalus isolate Bchr_013 chromosome 7, ASM1683550v1, whole genome shotgun sequence
+0.0003921	1	1	1	1	9.186e-09	1000515569	sequence	                                          NC_053161.1 Polypterus senegalus isolate Bchr_013 chromosome 8, ASM1683550v1, whole genome shotgun sequence
+0.04078	104	2	323	1.15	5.669e-09	186623	class	                              Actinopteri
+0.02745	70	0	277	1.07	5.052e-09	41665	subclass	                                Neopterygii
+0.02666	68	3	275	1.07	5.087e-09	32443	infraclass	                                  Teleostei
+0.02353	60	1	257	1.05	4.897e-09	1489341	clade	                                    Osteoglossocephalai
+0.01333	34	1	153	1.03	2.952e-09	186625	no rank	                                      Clupeocephala
+0.008234	21	2	71	1.06	1.729e-09	1489388	cohort	                                        Euteleosteomorpha
+0.005881	15	0	48	1.02	1.484e-09	123365	clade	                                          Neoteleostei
+0.005881	15	0	48	1.02	1.484e-09	123366	clade	                                            Eurypterygia
+0.005881	15	0	48	1.02	1.484e-09	123367	clade	                                              Ctenosquamata
+0.005881	15	1	48	1.02	1.484e-09	123368	clade	                                                Acanthomorphata
+0.005489	14	0	46	1.02	1.44e-09	123369	clade	                                                  Euacanthomorphacea
+0.005097	13	5	44	1.02	1.406e-09	1489872	clade	                                                    Percomorphaceae
+0.001568	4	0	12	1	1.074e-09	1489908	clade	                                                      Ovalentaria
+0.001176	3	0	10	1	1.413e-09	1489913	superorder	                                                        Atherinomorphae
+0.0007842	2	0	6	1	9.313e-09	8075	order	                                                          Atheriniformes
+0.0007842	2	0	6	1	9.313e-09	30700	family	                                                            Melanotaeniidae
+0.0007842	2	0	6	1	9.313e-09	32459	genus	                                                              Melanotaenia
+0.0007842	2	0	6	1	9.313e-09	1250792	species	                                                                Melanotaenia boesemani
+0.0007842	2	0	6	1	9.313e-09	1000640538	assembly	                                                                  GCF_017639745.1 Melanotaenia boesemani
+0.0007842	2	2	6	1	2.378e-07	1000640552	sequence	                                                                    NC_055686.1 Melanotaenia boesemani isolate fMelBoe1 chromosome 5, fMelBoe1.pri, whole genome shotgun sequence
+0.0003921	1	0	4	1	7.517e-10	28738	order	                                                          Cyprinodontiformes
+0.0003921	1	0	3	1	8.588e-10	8087	suborder	                                                            Cyprinodontoidei
+0.0003921	1	0	1	1	5.363e-10	8079	family	                                                              Poeciliidae
+0.0003921	1	0	1	1	5.363e-10	586240	subfamily	                                                                Poeciliinae
+0.0003921	1	0	1	1	2.363e-09	33527	genus	                                                                  Gambusia
+0.0003921	1	0	1	1	2.363e-09	33528	species	                                                                    Gambusia affinis
+0.0003921	1	0	1	1	2.363e-09	1000929352	assembly	                                                                      GCF_019740435.1 Gambusia affinis
+0.0003921	1	1	1	1	6.438e-08	1000929370	sequence	                                                                        NC_057885.1 Gambusia affinis linkage group LG18, SWU_Gaff_1.0, whole genome shotgun sequence
+0.0003921	1	0	2	1	1.728e-09	1489920	clade	                                                        Blenniimorphae
+0.0003921	1	0	2	1	1.728e-09	1489921	order	                                                          Blenniiformes
+0.0003921	1	0	2	1	3.321e-09	123349	suborder	                                                            Gobiesocoidei
+0.0003921	1	0	2	1	3.321e-09	63826	family	                                                              Gobiesocidae
+0.0003921	1	0	2	1	3.321e-09	557415	subfamily	                                                                Gobiesocinae
+0.0003921	1	0	2	1	3.321e-09	210581	genus	                                                                  Gouania
+0.0003921	1	0	2	1	3.321e-09	441366	species	                                                                    Gouania willdenowi
+0.0003921	1	0	2	1	3.321e-09	1000268688	assembly	                                                                      GCF_900634775.1 Gouania willdenowi
+0.0003921	1	1	2	1	2.126e-07	1000268690	sequence	                                                                        NC_041045.1 Gouania willdenowi chromosome 2, fGouWil2.1, whole genome shotgun sequence
+0.001176	3	0	16	1	1.355e-09	1489922	clade	                                                      Eupercaria
+0.0003921	1	0	10	1	1.622e-09	8111	order	                                                        Perciformes
+0.0003921	1	0	10	1	1.304e-08	8100	suborder	                                                          Cottioidei
+0.0003921	1	0	10	1	2.744e-08	1490020	infraorder	                                                            Gasterosteales
+0.0003921	1	0	10	1	2.744e-08	69291	family	                                                              Gasterosteidae
+0.0003921	1	0	10	1	2.744e-08	69292	genus	                                                                Gasterosteus
+0.0003921	1	0	10	1	2.744e-08	69293	species	                                                                  Gasterosteus aculeatus
+0.0003921	1	0	10	1	2.744e-08	481459	subspecies	                                                                    Gasterosteus aculeatus aculeatus
+0.0003921	1	0	10	1	2.744e-08	1000528109	assembly	                                                                      GCF_016920845.1 Gasterosteus aculeatus aculeatus strain=Lake Benthic
+0.0003921	1	1	10	1	6.131e-07	1000528121	sequence	                                                                        NC_053223.1 Gasterosteus aculeatus aculeatus strain Lake Benthic chromosome 12, GAculeatus_UGA_version5, whole genome shotgun sequence
+0.0003921	1	0	4	1	1.366e-08	31022	order	                                                        Tetraodontiformes
+0.0003921	1	0	4	1	1.366e-08	31028	suborder	                                                          Tetraodontoidei
+0.0003921	1	0	4	1	1.366e-08	32517	superfamily	                                                            Tetradontoidea
+0.0003921	1	0	4	1	1.366e-08	31031	family	                                                              Tetraodontidae
+0.0003921	1	0	4	1	1.366e-08	31032	genus	                                                                Takifugu
+0.0003921	1	0	4	1	1.366e-08	31033	species	                                                                  Takifugu rubripes
+0.0003921	1	0	4	1	1.366e-08	1000667334	assembly	                                                                    GCF_901000725.2 Takifugu rubripes
+0.0003921	1	1	4	1	3.387e-07	1000667336	sequence	                                                                      NC_042286.1 Takifugu rubripes chromosome 2, fTakRub1.2, whole genome shotgun sequence
+0.0003921	1	0	2	1	3.928e-09	1545895	order	                                                        Chaetodontiformes
+0.0003921	1	0	2	1	3.928e-09	30828	family	                                                          Chaetodontidae
+0.0003921	1	0	2	1	3.928e-09	109904	genus	                                                            Chelmon
+0.0003921	1	0	2	1	3.928e-09	109905	species	                                                              Chelmon rostratus
+0.0003921	1	0	2	1	3.928e-09	1000532618	assembly	                                                                GCF_017976325.1 Chelmon rostratus
+0.0003921	1	1	2	1	1.111e-07	1000532638	sequence	                                                                  NC_055677.1 Chelmon rostratus isolate fCheRos1 chromosome 20, fCheRos1.pri, whole genome shotgun sequence
+0.0003921	1	0	1	1	3.035e-10	1489904	clade	                                                      Carangaria
+0.0003921	1	0	1	1	1.796e-09	1489906	order	                                                        Istiophoriformes
+0.0003921	1	0	1	1	1.796e-09	8243	family	                                                          Xiphiidae
+0.0003921	1	0	1	1	1.796e-09	8244	genus	                                                            Xiphias
+0.0003921	1	0	1	1	1.796e-09	8245	species	                                                              Xiphias gladius
+0.0003921	1	0	1	1	1.796e-09	1000407589	assembly	                                                                GCF_016859285.1 Xiphias gladius breed=wild, /ecotype=Sanya
+0.0003921	1	1	1	1	4.703e-08	1000407592	sequence	                                                                  NC_053402.1 Xiphias gladius isolate SHS-SW01 ecotype Sanya breed wild chromosome 3, ASM1685928v1, whole genome shotgun sequence
+0.0003921	1	0	1	1	1.592e-09	181483	clade	                                                    Holocentrimorphaceae
+0.0003921	1	0	1	1	1.592e-09	1490028	order	                                                      Holocentriformes
+0.0003921	1	0	1	1	1.592e-09	47697	family	                                                        Holocentridae
+0.0003921	1	0	1	1	1.592e-09	47698	subfamily	                                                          Myripristinae
+0.0003921	1	0	1	1	1.592e-09	47699	genus	                                                            Myripristis
+0.0003921	1	0	1	1	1.592e-09	586833	species	                                                              Myripristis murdjan
+0.0003921	1	0	1	1	1.592e-09	1000398557	assembly	                                                                GCF_902150065.1 Myripristis murdjan
+0.0003921	1	1	1	1	4.115e-08	1000398569	sequence	                                                                  NC_043991.1 Myripristis murdjan chromosome 12, fMyrMur1.1, whole genome shotgun sequence
+0.001176	3	0	13	1.23	1.549e-09	41705	clade	                                          Protacanthopterygii
+0.0007842	2	0	9	1.33	1.168e-09	8006	order	                                            Salmoniformes
+0.0007842	2	1	9	1.33	1.168e-09	8015	family	                                              Salmonidae
+0.0003921	1	0	5	1.6	7.67e-10	504568	subfamily	                                                Salmoninae
+0.0003921	1	0	1	1	7.774e-10	8028	genus	                                                  Salmo
+0.0003921	1	0	1	1	1.934e-09	8030	species	                                                    Salmo salar
+0.0003921	1	0	1	1	1.934e-09	1000779827	assembly	                                                      GCF_905237065.1 Salmo salar
+0.0003921	1	1	1	1	7.76e-08	1000779844	sequence	                                                        NC_059458.1 Salmo salar chromosome ssa17, Ssal_v3.1, whole genome shotgun sequence
+0.0003921	1	0	4	1	5.913e-09	8007	order	                                            Esociformes
+0.0003921	1	0	4	1	5.913e-09	8008	family	                                              Esocidae
+0.0003921	1	0	4	1	5.913e-09	8009	genus	                                                Esox
+0.0003921	1	0	4	1	5.913e-09	8010	species	                                                  Esox lucius
+0.0003921	1	0	4	1	5.913e-09	1000409072	assembly	                                                    GCF_011004845.1 Esox lucius
+0.0003921	1	1	4	1	1.159e-07	1000409091	sequence	                                                      NC_047587.1 Esox lucius isolate fEsoLuc1 chromosome 19, fEsoLuc1.pri, whole genome shotgun sequence
+0.0003921	1	0	1	1	3.314e-09	1489798	clade	                                          Stomiati
+0.0003921	1	0	1	1	3.314e-09	41711	order	                                            Osmeriformes
+0.0003921	1	0	1	1	3.314e-09	8012	family	                                              Osmeridae
+0.0003921	1	0	1	1	3.314e-09	182238	subfamily	                                                Hypomesinae
+0.0003921	1	0	1	1	3.314e-09	137519	genus	                                                  Hypomesus
+0.0003921	1	0	1	1	3.314e-09	137520	species	                                                    Hypomesus transpacificus
+0.0003921	1	0	1	1	3.314e-09	1000905876	assembly	                                                      GCF_021917145.1 Hypomesus transpacificus
+0.0003921	1	1	1	1	1.931e-06	1000906241	sequence	                                                        NW_025814033.1 Hypomesus transpacificus isolate Combined female unplaced genomic scaffold, fHypTra1 scaffold_60, whole genome shotgun sequence
+0.004705	12	0	59	1	5.496e-09	186634	cohort	                                        Otomorpha
+0.003529	9	0	43	1	4.719e-09	32519	subcohort	                                          Ostariophysi
+0.002745	7	0	31	1	3.598e-09	186626	clade	                                            Otophysi
+0.001568	4	0	20	1	4.553e-09	186628	superorder	                                              Characiphysae
+0.0007842	2	0	15	1	6.898e-09	7995	order	                                                Siluriformes
+0.0007842	2	0	15	1	6.898e-09	1489793	suborder	                                                  Siluroidei
+0.0007842	2	0	15	1	2.863e-08	30989	family	                                                    Siluridae
+0.0007842	2	0	15	1	2.863e-08	94992	genus	                                                      Silurus
+0.0007842	2	0	15	1	2.863e-08	175797	species	                                                        Silurus meridionalis
+0.0007842	2	0	15	1	2.863e-08	1000640251	assembly	                                                          GCF_014805685.1 Silurus meridionalis
+0.0003921	1	1	9	1	5.212e-07	1000640262	sequence	                                                            NC_060894.1 Silurus meridionalis isolate SWU-2019-XX chromosome 11, ASM1480568v1, whole genome shotgun sequence
+0.0003921	1	1	4	1	2.325e-07	1000640265	sequence	                                                            NC_060897.1 Silurus meridionalis isolate SWU-2019-XX chromosome 14, ASM1480568v1, whole genome shotgun sequence
+0.0003921	1	0	3	1	1.702e-09	7991	order	                                                Characiformes
+0.0003921	1	0	3	1	1.702e-09	1489739	suborder	                                                  Characoidei
+0.0003921	1	0	3	1	3.481e-09	7992	family	                                                    Characidae
+0.0003921	1	0	3	1	3.481e-09	42595	subfamily	                                                      Stethaprioninae
+0.0003921	1	0	3	1	3.481e-09	7993	genus	                                                        Astyanax
+0.0003921	1	0	3	1	3.481e-09	7994	species	                                                          Astyanax mexicanus
+0.0003921	1	0	3	1	3.481e-09	1000640632	assembly	                                                            GCF_000372685.2 Astyanax mexicanus
+0.0003921	1	1	3	1	5.822e-08	1000640635	sequence	                                                              NC_035899.1 Astyanax mexicanus chromosome 3, Astyanax_mexicanus-2.0, whole genome shotgun sequence
+0.0003921	1	0	2	1	4.428e-09	8002	order	                                                Gymnotiformes
+0.0003921	1	0	2	1	4.428e-09	1489620	suborder	                                                  Gymnotoidei
+0.0003921	1	0	2	1	4.428e-09	30771	family	                                                    Gymnotidae
+0.0003921	1	0	2	1	4.428e-09	8004	genus	                                                      Electrophorus
+0.0003921	1	0	2	1	4.428e-09	8005	species	                                                        Electrophorus electricus
+0.0003921	1	0	2	1	4.428e-09	1000904822	assembly	                                                          GCF_013358815.1 Electrophorus electricus
+0.0003921	1	1	2	1	1.144e-07	1000904846	sequence	                                                            NC_049548.1 Electrophorus electricus isolate fEleEle1 chromosome 14, fEleEle1.pri, whole genome shotgun sequence
+0.001176	3	0	11	1	2.607e-09	186627	superorder	                                              Cypriniphysae
+0.001176	3	0	11	1	2.607e-09	7952	order	                                                Cypriniformes
+0.001176	3	0	11	1	2.607e-09	30727	suborder	                                                  Cyprinoidei
+0.001176	3	0	11	1	4.258e-09	7953	family	                                                    Cyprinidae
+0.001176	3	1	11	1	5.236e-09	2743694	subfamily	                                                      Cyprininae
+0.0003921	1	0	4	1	3.807e-09	7961	genus	                                                        Cyprinus
+0.0003921	1	0	4	1	3.807e-09	7962	species	                                                          Cyprinus carpio
+0.0003921	1	0	4	1	3.807e-09	1000346983	assembly	                                                            GCF_018340385.1 Cyprinus carpio
+0.0003921	1	1	4	1	3.191e-07	1000347029	sequence	                                                              NC_056617.1 Cyprinus carpio isolate SPL01 chromosome B21, ASM1834038v1, whole genome shotgun sequence
+0.0003921	1	0	2	1	2.035e-09	7956	genus	                                                        Carassius
+0.0003921	1	0	2	1	2.035e-09	7957	species	                                                          Carassius auratus
+0.0003921	1	0	2	1	2.035e-09	1000020706	assembly	                                                            GCF_003368295.1 Carassius auratus strain=Wakin
+0.0003921	1	1	2	1	1.413e-07	1000020734	sequence	                                                              NC_039270.1 Carassius auratus strain Wakin chromosome 28, ASM336829v1, whole genome shotgun sequence
+0.0007842	2	0	12	1	2.416e-08	186633	clade	                                            Anotophysi
+0.0007842	2	0	12	1	2.416e-08	29140	order	                                              Gonorynchiformes
+0.0007842	2	0	12	1	2.416e-08	186632	suborder	                                                Chanoidei
+0.0007842	2	0	12	1	2.416e-08	29142	family	                                                  Chanidae
+0.0007842	2	0	12	1	2.416e-08	29143	genus	                                                    Chanos
+0.0007842	2	0	12	1	2.416e-08	29144	species	                                                      Chanos chanos
+0.0007842	2	0	12	1	2.416e-08	1000531212	assembly	                                                        GCF_902362185.1 Chanos chanos
+0.0003921	1	1	8	1	2.338e-07	1000531219	sequence	                                                          NC_044501.1 Chanos chanos chromosome 7, fChaCha1.1, whole genome shotgun sequence
+0.0003921	1	1	1	1	2.159e-08	1000531215	sequence	                                                          NC_044497.1 Chanos chanos chromosome 3, fChaCha1.1, whole genome shotgun sequence
+0.001176	3	0	16	1	9.872e-09	282425	subcohort	                                          Clupei
+0.001176	3	0	16	1	9.872e-09	32446	order	                                            Clupeiformes
+0.0007842	2	0	14	1	3.387e-08	1489459	suborder	                                              Denticipitoidei
+0.0007842	2	0	14	1	3.387e-08	299319	family	                                                Denticipitidae
+0.0007842	2	0	14	1	3.387e-08	299320	genus	                                                  Denticeps
+0.0007842	2	0	14	1	3.387e-08	299321	species	                                                    Denticeps clupeoides
+0.0007842	2	0	14	1	3.387e-08	1000768589	assembly	                                                      GCF_900700375.1 Denticeps clupeoides
+0.0003921	1	1	12	1	7.224e-07	1000768598	sequence	                                                        NC_041715.1 Denticeps clupeoides chromosome 9, fDenClu1.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.189e-07	1000768601	sequence	                                                        NC_041718.1 Denticeps clupeoides chromosome 12, fDenClu1.1, whole genome shotgun sequence
+0.0003921	1	0	2	1	1.657e-09	1489460	suborder	                                              Clupeoidei
+0.0003921	1	0	2	1	1.657e-09	55118	family	                                                Clupeidae
+0.0003921	1	0	2	1	3.986e-09	7948	subfamily	                                                  Clupeinae
+0.0003921	1	0	2	1	3.986e-09	7949	genus	                                                    Clupea
+0.0003921	1	0	2	1	3.986e-09	7950	species	                                                      Clupea harengus
+0.0003921	1	0	2	1	3.986e-09	1000674008	assembly	                                                        GCF_900700415.2 Clupea harengus
+0.0003921	1	1	2	1	1.018e-07	1000674015	sequence	                                                          NC_045158.1 Clupea harengus chromosome 7, Ch_v2.0.2, whole genome shotgun sequence
+0.009802	25	0	101	1.09	1.551e-07	1489343	clade	                                      Osteoglossocephala
+0.009802	25	0	101	1.09	1.551e-07	31089	clade	                                        Osteoglossomorpha
+0.009802	25	0	101	1.09	1.551e-07	41712	order	                                          Osteoglossiformes
+0.009802	25	0	101	1.09	1.551e-07	27723	family	                                            Osteoglossidae
+0.009802	25	0	101	1.09	1.551e-07	27726	genus	                                              Scleropages
+0.009802	25	0	101	1.09	1.551e-07	113540	species	                                                Scleropages formosus
+0.009802	25	3	101	1.09	1.551e-07	1000784223	assembly	                                                  GCF_900964775.1 Scleropages formosus
+0.00196	5	5	12	1.25	3.307e-07	1000784225	sequence	                                                    NC_041807.1 Scleropages formosus chromosome 2, fSclFor1.1, whole genome shotgun sequence
+0.001568	4	4	9	1.44	3.463e-07	1000784233	sequence	                                                    NC_041815.1 Scleropages formosus chromosome 10, fSclFor1.1, whole genome shotgun sequence
+0.0007842	2	2	8	1	2.661e-07	1000784229	sequence	                                                    NC_041811.1 Scleropages formosus chromosome 6, fSclFor1.1, whole genome shotgun sequence
+0.0007842	2	2	6	1	3.798e-07	1000784248	sequence	                                                    NC_041830.1 Scleropages formosus chromosome 25, fSclFor1.1, whole genome shotgun sequence
+0.0007842	2	2	4	1.25	1.958e-07	1000784245	sequence	                                                    NC_041827.1 Scleropages formosus chromosome 22, fSclFor1.1, whole genome shotgun sequence
+0.0007842	2	2	5	1	1.793e-07	1000784231	sequence	                                                    NC_041813.1 Scleropages formosus chromosome 8, fSclFor1.1, whole genome shotgun sequence
+0.0003921	1	1	5	1	1.113e-07	1000784224	sequence	                                                    NC_041806.1 Scleropages formosus chromosome 1, fSclFor1.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	8.711e-08	1000784240	sequence	                                                    NC_041822.1 Scleropages formosus chromosome 17, fSclFor1.1, whole genome shotgun sequence
+0.0003921	1	1	1	1	4.694e-08	1000784241	sequence	                                                    NC_041823.1 Scleropages formosus chromosome 18, fSclFor1.1, whole genome shotgun sequence
+0.0003921	1	1	1	1	4.287e-08	1000784237	sequence	                                                    NC_041819.1 Scleropages formosus chromosome 14, fSclFor1.1, whole genome shotgun sequence
+0.0003921	1	1	1	1	3.109e-08	1000784226	sequence	                                                    NC_041808.1 Scleropages formosus chromosome 3, fSclFor1.1, whole genome shotgun sequence
+0.00196	5	0	7	1.43	4.459e-09	1489340	clade	                                    Elopocephalai
+0.00196	5	0	7	1.43	4.459e-09	186624	clade	                                      Elopocephala
+0.00196	5	0	7	1.43	4.459e-09	32521	clade	                                        Elopomorpha
+0.00196	5	0	7	1.43	9.245e-09	7933	order	                                          Anguilliformes
+0.00196	5	0	7	1.43	9.245e-09	7934	family	                                            Anguillidae
+0.00196	5	0	7	1.43	9.245e-09	7935	genus	                                              Anguilla
+0.00196	5	0	7	1.43	9.245e-09	7936	species	                                                Anguilla anguilla
+0.00196	5	0	7	1.43	9.245e-09	1000686247	assembly	                                                  GCF_013347855.1 Anguilla anguilla
+0.001568	4	4	3	2	4.497e-08	1000686248	sequence	                                                    NC_049201.1 Anguilla anguilla isolate fAngAng1 chromosome 1, fAngAng1.pri, whole genome shotgun sequence
+0.0003921	1	1	3	1	6.977e-08	1000686256	sequence	                                                    NC_049209.1 Anguilla anguilla isolate fAngAng1 chromosome 9, fAngAng1.pri, whole genome shotgun sequence
+0.0007842	2	0	1	2	1.292e-09	1489100	infraclass	                                  Holostei
+0.0007842	2	0	1	2	1.292e-09	7914	order	                                    Semionotiformes
+0.0007842	2	0	1	2	1.292e-09	7915	family	                                      Lepisosteidae
+0.0007842	2	0	1	2	1.292e-09	7916	genus	                                        Lepisosteus
+0.0007842	2	0	1	2	1.292e-09	7918	species	                                          Lepisosteus oculatus
+0.0007842	2	2	1	2	1.292e-09	1000015363	assembly	                                            GCF_000242695.1 Lepisosteus oculatus
+0.01255	32	0	44	1.64	2.05e-08	32440	subclass	                                Chondrostei
+0.01255	32	0	44	1.64	2.05e-08	7899	order	                                  Acipenseriformes
+0.01255	32	1	44	1.64	2.05e-08	186622	suborder	                                    Acipenseroidei
+0.01176	30	0	32	1.88	3.137e-08	7900	family	                                      Acipenseridae
+0.01176	30	0	32	1.88	3.137e-08	124129	subfamily	                                        Acipenserinae
+0.01176	30	0	32	1.88	3.137e-08	124130	tribe	                                          Acipenserini
+0.01176	30	0	32	1.88	3.137e-08	7901	genus	                                            Acipenser
+0.01176	30	0	32	1.88	3.137e-08	7906	species	                                              Acipenser ruthenus
+0.01176	30	11	32	1.88	3.137e-08	1000878557	assembly	                                                GCF_010645085.1 Acipenser ruthenus
+0.00196	5	5	4	3.5	1.618e-05	1000881428	sequence	                                                  NW_023263456.1 Acipenser ruthenus isolate Gen_M01 unplaced genomic scaffold, ASM1064508v1 ste_502, whole genome shotgun sequence
+0.00196	5	5	3	2.33	1.946e-05	1000881713	sequence	                                                  NW_023263741.1 Acipenser ruthenus isolate Gen_M01 unplaced genomic scaffold, ASM1064508v1 ste_771, whole genome shotgun sequence
+0.001568	4	4	11	1.55	4.708e-05	1000881526	sequence	                                                  NW_023263554.1 Acipenser ruthenus isolate Gen_M01 unplaced genomic scaffold, ASM1064508v1 ste_600, whole genome shotgun sequence
+0.0003921	1	1	3	1	1.584e-05	1000881666	sequence	                                                  NW_023263694.1 Acipenser ruthenus isolate Gen_M01 unplaced genomic scaffold, ASM1064508v1 ste_728, whole genome shotgun sequence
+0.0003921	1	1	2	1	9.843e-06	1000881612	sequence	                                                  NW_023263640.1 Acipenser ruthenus isolate Gen_M01 unplaced genomic scaffold, ASM1064508v1 ste_679, whole genome shotgun sequence
+0.0003921	1	1	1	1	7.753e-06	1000881955	sequence	                                                  NW_023263983.1 Acipenser ruthenus isolate Gen_M01 unplaced genomic scaffold, ASM1064508v1 ste_994, whole genome shotgun sequence
+0.0003921	1	1	1	1	7.833e-06	1000881859	sequence	                                                  NW_023263887.1 Acipenser ruthenus isolate Gen_M01 unplaced genomic scaffold, ASM1064508v1 ste_905, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.694e-08	1000878558	sequence	                                                  NC_048323.1 Acipenser ruthenus isolate Gen_M01 chromosome 1, ASM1064508v1, whole genome shotgun sequence
+0.0003921	1	0	7	1	6.65e-09	7911	family	                                      Polyodontidae
+0.0003921	1	0	7	1	6.65e-09	186619	subfamily	                                        Polyodontinae
+0.0003921	1	0	7	1	6.65e-09	186621	tribe	                                          Polyodontini
+0.0003921	1	0	7	1	6.65e-09	7912	genus	                                            Polyodon
+0.0003921	1	0	7	1	6.65e-09	7913	species	                                              Polyodon spathula
+0.0003921	1	0	7	1	6.65e-09	1000386208	assembly	                                                GCF_017654505.1 Polyodon spathula
+0.0003921	1	1	1	1	8.651e-07	1000386260	sequence	                                                  NC_054585.1 Polyodon spathula isolate WHYD16114869_AA chromosome 52, ASM1765450v1, whole genome shotgun sequence
+0.1408	359	0	1693	1.04	2.222e-08	8287	superclass	                            Sarcopterygii
+0.1408	359	5	1693	1.04	2.222e-08	1338369	clade	                              Dipnotetrapodomorpha
+0.1337	341	17	1577	1.05	2.872e-08	32523	clade	                                Tetrapoda
+0.1161	296	0	1318	1.04	3.491e-08	32524	clade	                                  Amniota
+0.1161	296	0	1318	1.04	3.491e-08	8457	clade	                                    Sauropsida
+0.1161	296	21	1318	1.04	3.491e-08	32561	clade	                                      Sauria
+0.06273	160	0	333	1.16	4.12e-08	8504	class	                                        Lepidosauria
+0.06273	160	0	333	1.16	4.12e-08	8509	order	                                          Squamata
+0.06273	160	4	333	1.16	4.12e-08	1329961	clade	                                            Bifurcata
+0.05528	141	0	282	1.19	4.202e-08	1329950	clade	                                              Unidentata
+0.05528	141	3	282	1.19	4.202e-08	1329912	clade	                                                Episquamata
+0.04117	105	0	182	1.18	4.741e-08	1329911	clade	                                                  Toxicofera
+0.03921	100	0	168	1.2	6.215e-08	8511	suborder	                                                    Iguania
+0.02	51	0	62	1.44	5.117e-08	2024747	family	                                                      Dactyloidae
+0.02	51	0	62	1.44	5.117e-08	28376	genus	                                                        Anolis
+0.02	51	0	62	1.44	5.117e-08	28377	species	                                                          Anolis carolinensis
+0.02	51	18	62	1.44	5.117e-08	1000390616	assembly	                                                            GCF_000090745.1 Anolis carolinensis
+0.002745	7	7	15	1.13	8.233e-08	1000390617	sequence	                                                              NC_014776.1 Anolis carolinensis chromosome 1, AnoCar2.0, whole genome shotgun sequence
+0.002353	6	6	6	1.5	1.564e-06	1000390635	sequence	                                                              NW_003338745.1 Anolis carolinensis unplaced genomic scaffold, AnoCar2.0 chrUn0006, whole genome shotgun sequence
+0.001568	4	4	1	4	2.43e-06	1000390910	sequence	                                                              NW_003339020.1 Anolis carolinensis unplaced genomic scaffold, AnoCar2.0 chrUn0281, whole genome shotgun sequence
+0.001176	3	3	5	1	3.572e-08	1000390619	sequence	                                                              NC_014778.1 Anolis carolinensis chromosome 3, AnoCar2.0, whole genome shotgun sequence
+0.001176	3	3	4	1	2.886e-08	1000390618	sequence	                                                              NC_014777.1 Anolis carolinensis chromosome 2, AnoCar2.0, whole genome shotgun sequence
+0.001176	3	3	1	3	1.526e-06	1000390856	sequence	                                                              NW_003338966.1 Anolis carolinensis unplaced genomic scaffold, AnoCar2.0 chrUn0227, whole genome shotgun sequence
+0.0003921	1	1	6	1	5.748e-08	1000390621	sequence	                                                              NC_014780.1 Anolis carolinensis chromosome 5, AnoCar2.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.057e-05	1000391097	sequence	                                                              NW_003339207.1 Anolis carolinensis unplaced genomic scaffold, AnoCar2.0 chrUn0468, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.576e-06	1000390724	sequence	                                                              NW_003338834.1 Anolis carolinensis unplaced genomic scaffold, AnoCar2.0 chrUn0095, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.585e-06	1000390723	sequence	                                                              NW_003338833.1 Anolis carolinensis unplaced genomic scaffold, AnoCar2.0 chrUn0094, whole genome shotgun sequence
+0.0003921	1	1	1	1	0.0002484	1000395951	sequence	                                                              NW_003344061.1 Anolis carolinensis unplaced genomic scaffold, AnoCar2.0 chrUn5322, whole genome shotgun sequence
+0.0003921	1	1	1	1	5.672e-07	1000390655	sequence	                                                              NW_003338765.1 Anolis carolinensis unplaced genomic scaffold, AnoCar2.0 chrUn0026, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.665e-07	1000390632	sequence	                                                              NW_003338742.1 Anolis carolinensis unplaced genomic scaffold, AnoCar2.0 chrUn0003, whole genome shotgun sequence
+0.01921	49	0	102	1.06	6.876e-08	2024743	family	                                                      Phrynosomatidae
+0.01921	49	0	102	1.06	6.876e-08	42425	subfamily	                                                        Phrynosomatinae
+0.01921	49	0	102	1.06	6.876e-08	8518	genus	                                                          Sceloporus
+0.01921	49	0	102	1.06	6.876e-08	8520	species	                                                            Sceloporus undulatus
+0.01921	49	10	102	1.06	6.876e-08	1000712037	assembly	                                                              GCF_019175285.1 Sceloporus undulatus ecotype=Alabama
+0.005489	14	14	21	1.29	7.13e-08	1000712038	sequence	                                                                NC_056522.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Alabama chromosome 1, SceUnd_v1.1, whole genome shotgun sequence
+0.003529	9	9	19	1	7.382e-08	1000712039	sequence	                                                                NC_056523.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Alabama chromosome 2, SceUnd_v1.1, whole genome shotgun sequence
+0.00196	5	5	14	1	7.166e-08	1000712041	sequence	                                                                NC_056525.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Alabama chromosome 4, SceUnd_v1.1, whole genome shotgun sequence
+0.00196	5	5	8	1	3.75e-08	1000712040	sequence	                                                                NC_056524.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Alabama chromosome 3, SceUnd_v1.1, whole genome shotgun sequence
+0.0007842	2	2	9	1	6.533e-08	1000712043	sequence	                                                                NC_056527.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Alabama chromosome 6, SceUnd_v1.1, whole genome shotgun sequence
+0.0007842	2	2	6	1	3.864e-08	1000712042	sequence	                                                                NC_056526.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Alabama chromosome 5, SceUnd_v1.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	0.002389	1000754436	sequence	                                                                NW_024845321.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Alabama unplaced genomic scaffold, SceUnd_v1.1 scaffold_42411, whole genome shotgun sequence
+0.0003921	1	1	1	1	0.0006549	1000718256	sequence	                                                                NW_024809141.1 Sceloporus undulatus isolate JIND9_A2432 ecotype Alabama unplaced genomic scaffold, SceUnd_v1.1 scaffold_6222, whole genome shotgun sequence
+0.00196	5	0	14	1	1.233e-08	8570	infraorder	                                                    Serpentes
+0.00196	5	0	14	1	1.233e-08	34989	superfamily	                                                      Colubroidea
+0.00196	5	0	14	1	1.233e-08	8578	family	                                                        Colubridae
+0.00196	5	0	14	1	1.233e-08	169862	subfamily	                                                          Natricinae
+0.00196	5	0	14	1	1.233e-08	34999	genus	                                                            Thamnophis
+0.00196	5	0	14	1	1.233e-08	35005	species	                                                              Thamnophis elegans
+0.00196	5	2	14	1	1.233e-08	1000711555	assembly	                                                                GCF_009769535.1 Thamnophis elegans
+0.001176	3	3	7	1	7.084e-08	1000711559	sequence	                                                                  NC_045544.1 Thamnophis elegans isolate rThaEle1 chromosome 4, rThaEle1.pri, whole genome shotgun sequence
+0.01294	33	0	88	1.23	3.07e-08	1329976	clade	                                                  Laterata
+0.01294	33	0	88	1.23	3.07e-08	1329975	clade	                                                    Lacertibaenia
+0.01294	33	0	88	1.23	3.07e-08	8522	family	                                                      Lacertidae
+0.01294	33	9	88	1.23	3.07e-08	162266	subfamily	                                                        Lacertinae
+0.003921	10	0	34	1.29	3.989e-08	141678	genus	                                                          Zootoca
+0.003921	10	0	34	1.29	3.989e-08	8524	species	                                                            Zootoca vivipara
+0.003921	10	2	34	1.29	3.989e-08	1000686302	assembly	                                                              GCF_011800845.1 Zootoca vivipara
+0.001568	4	4	30	1.23	0.01748	1000695088	sequence	                                                                NW_023286228.1 Zootoca vivipara isolate ELT05324 unplaced genomic scaffold, UG_Zviv_1 Contig17203, whole genome shotgun sequence
+0.0007842	2	2	1	3	1.466e-08	1000686305	sequence	                                                                NC_048607.1 Zootoca vivipara isolate ELT05324 linkage group LG3, UG_Zviv_1, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.829e-08	1000686309	sequence	                                                                NC_048611.1 Zootoca vivipara isolate ELT05324 linkage group LG7, UG_Zviv_1, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.725e-08	1000686306	sequence	                                                                NC_048608.1 Zootoca vivipara isolate ELT05324 linkage group LG4, UG_Zviv_1, whole genome shotgun sequence
+0.003137	8	0	14	1	1.697e-08	8523	genus	                                                          Lacerta
+0.003137	8	0	14	1	1.697e-08	80427	species	                                                            Lacerta agilis
+0.003137	8	1	14	1	1.697e-08	1000358145	assembly	                                                              GCF_009819535.1 Lacerta agilis
+0.0007842	2	2	3	1	8.359e-08	1000358156	sequence	                                                                NC_046322.1 Lacerta agilis isolate rLacAgi1 chromosome 11, rLacAgi1.pri, whole genome shotgun sequence
+0.0003921	1	1	3	1	4.281e-08	1000358147	sequence	                                                                NC_046313.1 Lacerta agilis isolate rLacAgi1 chromosome 2, rLacAgi1.pri, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.902e-08	1000358148	sequence	                                                                NC_046314.1 Lacerta agilis isolate rLacAgi1 chromosome 3, rLacAgi1.pri, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.574e-08	1000358146	sequence	                                                                NC_046312.1 Lacerta agilis isolate rLacAgi1 chromosome 1, rLacAgi1.pri, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.804e-08	1000358151	sequence	                                                                NC_046317.1 Lacerta agilis isolate rLacAgi1 chromosome 6, rLacAgi1.pri, whole genome shotgun sequence
+0.0003921	1	1	1	1	4.183e-08	1000358161	sequence	                                                                NC_046327.1 Lacerta agilis isolate rLacAgi1 chromosome 16, rLacAgi1.pri, whole genome shotgun sequence
+0.002353	6	0	10	1	1.167e-08	42163	genus	                                                          Podarcis
+0.002353	6	0	10	1	1.167e-08	64176	species	                                                            Podarcis muralis
+0.002353	6	0	10	1	1.167e-08	1000675799	assembly	                                                              GCF_004329235.1 Podarcis muralis ecotype=yellow
+0.0003921	1	1	2	1	5.85e-08	1000675811	sequence	                                                                NC_041323.1 Podarcis muralis ecotype yellow chromosome 12, PodMur_1.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	4.709e-08	1000675809	sequence	                                                                NC_041321.1 Podarcis muralis ecotype yellow chromosome 10, PodMur_1.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	4.54e-08	1000675808	sequence	                                                                NC_041320.1 Podarcis muralis ecotype yellow chromosome 9, PodMur_1.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	3.356e-08	1000675803	sequence	                                                                NC_041315.1 Podarcis muralis ecotype yellow chromosome 4, PodMur_1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.948e-08	1000675806	sequence	                                                                NC_041318.1 Podarcis muralis ecotype yellow chromosome 7, PodMur_1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.273e-08	1000675800	sequence	                                                                NC_041312.1 Podarcis muralis ecotype yellow chromosome 1, PodMur_1.0, whole genome shotgun sequence
+0.005881	15	0	29	1	2.121e-08	8560	infraorder	                                              Gekkota
+0.005881	15	0	29	1	2.121e-08	1329929	family	                                                Sphaerodactylidae
+0.005881	15	0	29	1	2.121e-08	53271	genus	                                                  Sphaerodactylus
+0.005881	15	0	29	1	2.121e-08	933632	species	                                                    Sphaerodactylus townsendi
+0.005881	15	0	29	1	2.121e-08	1000525418	assembly	                                                      GCF_021028975.2 Sphaerodactylus townsendi
+0.00196	5	5	10	1	7.258e-08	1000525420	sequence	                                                        NC_059426.1 Sphaerodactylus townsendi isolate TG3544 linkage group LG02, MPM_Stown_v2.3, whole genome shotgun sequence
+0.001176	3	3	5	1	3.708e-08	1000525421	sequence	                                                        NC_059427.1 Sphaerodactylus townsendi isolate TG3544 linkage group LG03, MPM_Stown_v2.3, whole genome shotgun sequence
+0.0007842	2	2	4	1	5.531e-08	1000525427	sequence	                                                        NC_059433.1 Sphaerodactylus townsendi isolate TG3544 linkage group LG09, MPM_Stown_v2.3, whole genome shotgun sequence
+0.0007842	2	2	2	1	1.348e-08	1000525419	sequence	                                                        NC_059425.1 Sphaerodactylus townsendi isolate TG3544 linkage group LG01, MPM_Stown_v2.3, whole genome shotgun sequence
+0.0003921	1	1	4	1	4.045e-08	1000525424	sequence	                                                        NC_059430.1 Sphaerodactylus townsendi isolate TG3544 linkage group LG06, MPM_Stown_v2.3, whole genome shotgun sequence
+0.0003921	1	1	2	1	4.43e-08	1000525430	sequence	                                                        NC_059436.1 Sphaerodactylus townsendi isolate TG3544 linkage group LG12, MPM_Stown_v2.3, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.661e-08	1000525422	sequence	                                                        NC_059428.1 Sphaerodactylus townsendi isolate TG3544 linkage group LG04, MPM_Stown_v2.3, whole genome shotgun sequence
+0.04509	115	21	678	1	2.286e-08	1329799	clade	                                        Archelosauria
+0.02039	52	0	249	1	2.689e-08	2841271	subclass	                                          Testudinata
+0.02039	52	0	249	1	2.689e-08	8459	order	                                            Testudines
+0.02039	52	0	249	1	2.689e-08	8464	suborder	                                              Cryptodira
+0.02039	52	14	249	1	2.689e-08	1579337	clade	                                                Durocryptodira
+0.00941	24	10	96	1	1.777e-08	8486	superfamily	                                                  Testudinoidea
+0.003137	8	2	19	1	1.039e-08	8476	family	                                                    Emydidae
+0.00196	5	0	13	1	2.052e-08	8477	genus	                                                      Chrysemys
+0.00196	5	0	13	1	2.052e-08	8479	species	                                                        Chrysemys picta
+0.00196	5	0	13	1	2.052e-08	8478	subspecies	                                                          Chrysemys picta bellii
+0.00196	5	0	13	1	2.052e-08	1000269423	assembly	                                                            GCF_000241765.4 Chrysemys picta bellii
+0.001568	4	4	12	1	0.025	1000317577	sequence	                                                              NW_024933836.1 Chrysemys picta bellii isolate RCT428 unplaced genomic scaffold, Chrysemys_picta_BioNano-3.0.4 Scaffold48197, whole genome shotgun sequence
+0.0003921	1	1	1	1	0.003584	1000339864	sequence	                                                              NW_024956123.1 Chrysemys picta bellii isolate RCT428 unplaced genomic scaffold, Chrysemys_picta_BioNano-3.0.4 Scaffold70488, whole genome shotgun sequence
+0.0003921	1	0	2	1	3.483e-09	34902	genus	                                                      Trachemys
+0.0003921	1	0	2	1	3.483e-09	34903	species	                                                        Trachemys scripta
+0.0003921	1	0	2	1	3.483e-09	31138	subspecies	                                                          Trachemys scripta elegans
+0.0003921	1	0	2	1	3.483e-09	1000901034	assembly	                                                            GCF_013100865.1 Trachemys scripta elegans
+0.0003921	1	1	1	1	2.644e-08	1000901039	sequence	                                                              NC_048302.1 Trachemys scripta elegans isolate TJP31775 chromosome 5, CAS_Tse_1.0, whole genome shotgun sequence
+0.001176	3	0	11	1	8.981e-09	8487	family	                                                    Testudinidae
+0.001176	3	0	11	1	8.981e-09	38771	genus	                                                      Gopherus
+0.001176	3	0	11	1	8.981e-09	1825980	species	                                                        Gopherus evgoodei
+0.001176	3	0	11	1	8.981e-09	1000783839	assembly	                                                          GCF_007399415.2 Gopherus evgoodei ecotype=Sinaloan lineage
+0.0003921	1	1	6	1	1.027e-07	1000783848	sequence	                                                            NC_044330.1 Gopherus evgoodei ecotype Sinaloan lineage chromosome 9, rGopEvg1_v1.p, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.551e-08	1000783844	sequence	                                                            NC_044326.1 Gopherus evgoodei ecotype Sinaloan lineage chromosome 5, rGopEvg1_v1.p, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.286e-08	1000783841	sequence	                                                            NC_044323.1 Gopherus evgoodei ecotype Sinaloan lineage chromosome 2, rGopEvg1_v1.p, whole genome shotgun sequence
+0.001176	3	0	8	1	4.533e-09	328320	family	                                                    Geoemydidae
+0.001176	3	0	8	1	4.533e-09	328321	subfamily	                                                      Geoemydinae
+0.001176	3	0	8	1	4.533e-09	74925	genus	                                                        Mauremys
+0.001176	3	0	8	1	1.285e-08	74926	species	                                                          Mauremys mutica
+0.001176	3	0	8	1	1.285e-08	1000606190	assembly	                                                            GCF_020497125.1 Mauremys mutica ecotype=Southern
+0.0007842	2	2	6	1	6.203e-08	1000606191	sequence	                                                              NC_059072.1 Mauremys mutica isolate MM-2020 ecotype Southern chromosome 1, ASM2049712v1, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.972e-07	1000606212	sequence	                                                              NC_059093.1 Mauremys mutica isolate MM-2020 ecotype Southern chromosome 22, ASM2049712v1, whole genome shotgun sequence
+0.005489	14	0	57	1	1.673e-08	1579336	clade	                                                  Americhelydia
+0.005489	14	5	57	1	1.673e-08	27791	superfamily	                                                    Chelonioidea
+0.002353	6	0	24	1	1.245e-08	8465	family	                                                      Cheloniidae
+0.001568	4	0	7	1	9.269e-09	8466	genus	                                                        Caretta
+0.001568	4	0	7	1	9.269e-09	8467	species	                                                          Caretta caretta
+0.001568	4	0	7	1	9.269e-09	1000405580	assembly	                                                            GCF_023653815.1 Caretta caretta
+0.0003921	1	1	3	1	3.27e-08	1000405582	sequence	                                                              NC_064474.1 Caretta caretta isolate SJ_126:Eziel1 chromosome 2, GSC_CCare_1.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.661e-08	1000405581	sequence	                                                              NC_064473.1 Caretta caretta isolate SJ_126:Eziel1 chromosome 1, GSC_CCare_1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	3.738e-08	1000405591	sequence	                                                              NC_064483.1 Caretta caretta isolate SJ_126:Eziel1 chromosome 11, GSC_CCare_1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	3.263e-08	1000405590	sequence	                                                              NC_064482.1 Caretta caretta isolate SJ_126:Eziel1 chromosome 10, GSC_CCare_1.0, whole genome shotgun sequence
+0.0007842	2	0	17	1	2.278e-08	8468	genus	                                                        Chelonia
+0.0007842	2	0	17	1	2.278e-08	8469	species	                                                          Chelonia mydas
+0.0007842	2	0	17	1	2.278e-08	1000758496	assembly	                                                            GCF_015237465.2 Chelonia mydas
+0.0003921	1	1	12	1	2.664e-07	1000758502	sequence	                                                              NC_051246.2 Chelonia mydas isolate rCheMyd1 chromosome 6, rCheMyd1.pri.v2, whole genome shotgun sequence
+0.0003921	1	1	1	1	8.355e-09	1000758497	sequence	                                                              NC_057849.1 Chelonia mydas isolate rCheMyd1 chromosome 1, rCheMyd1.pri.v2, whole genome shotgun sequence
+0.001176	3	0	13	1	1.143e-08	27792	family	                                                      Dermochelyidae
+0.001176	3	0	13	1	1.143e-08	27793	genus	                                                        Dermochelys
+0.001176	3	0	13	1	1.143e-08	27794	species	                                                          Dermochelys coriacea
+0.001176	3	0	13	1	1.143e-08	1000398516	assembly	                                                            GCF_009764565.3 Dermochelys coriacea
+0.0003921	1	1	5	1	2.74e-08	1000398517	sequence	                                                              NC_050068.2 Dermochelys coriacea isolate rDerCor1 chromosome 1, rDerCor1.pri.v4, whole genome shotgun sequence
+0.0003921	1	1	3	1	3.189e-07	1000398554	sequence	                                                              NC_050093.1 Dermochelys coriacea isolate rDerCor1 chromosome 26, rDerCor1.pri.v4, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.103e-07	1000398543	sequence	                                                              NC_050082.1 Dermochelys coriacea isolate rDerCor1 chromosome 15, rDerCor1.pri.v4, whole genome shotgun sequence
+0.01647	42	0	250	1	1.226e-08	8492	clade	                                          Archosauria
+0.01647	42	0	250	1	1.226e-08	436486	clade	                                            Dinosauria
+0.01647	42	0	250	1	1.226e-08	436489	clade	                                              Saurischia
+0.01647	42	0	250	1	1.226e-08	436491	clade	                                                Theropoda
+0.01647	42	0	250	1	1.226e-08	436492	clade	                                                  Coelurosauria
+0.01647	42	0	250	1	1.226e-08	8782	class	                                                    Aves
+0.01647	42	13	250	1	1.226e-08	8825	infraclass	                                                      Neognathae
+0.004313	11	1	81	1	1.283e-08	1549675	superorder	                                                        Galloanserae
+0.003137	8	1	58	1	1.732e-08	8976	order	                                                          Galliformes
+0.001568	4	1	7	1	2.852e-09	9005	family	                                                            Phasianidae
+0.0007842	2	0	5	1	6.986e-09	466544	subfamily	                                                              Perdicinae
+0.0007842	2	0	5	1	6.986e-09	9090	genus	                                                                Coturnix
+0.0007842	2	0	5	1	6.986e-09	93934	species	                                                                  Coturnix japonica
+0.0007842	2	0	5	1	6.986e-09	1000532648	assembly	                                                                    GCF_001577835.2 Coturnix japonica
+0.0003921	1	1	3	1	1.771e-07	1000533368	sequence	                                                                      NC_029524.1 Coturnix japonica isolate 7356 chromosome 9, Coturnix japonica 2.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	3.075e-08	1000533217	sequence	                                                                      NC_029519.1 Coturnix japonica isolate 7356 chromosome 4, Coturnix japonica 2.1, whole genome shotgun sequence
+0.0003921	1	0	1	1	1.153e-09	9072	subfamily	                                                              Phasianinae
+0.0003921	1	0	1	1	1.153e-09	9030	genus	                                                                Gallus
+0.0003921	1	1	1	1	1.153e-09	9031	species	                                                                  Gallus gallus
+0.001176	3	0	15	1	1.842e-08	8990	family	                                                            Numididae
+0.001176	3	0	15	1	1.842e-08	8995	genus	                                                              Numida
+0.001176	3	0	15	1	1.842e-08	8996	species	                                                                Numida meleagris
+0.001176	3	0	15	1	1.842e-08	1000358244	assembly	                                                                  GCF_002078875.1 Numida meleagris breed=g44 Domestic line
+0.0003921	1	1	9	1	7.769e-08	1000358246	sequence	                                                                    NC_034410.1 Numida meleagris isolate 19003 breed g44 Domestic line chromosome 2, NumMel1.0, whole genome shotgun sequence
+0.0003921	1	1	3	1	1.962e-08	1000358245	sequence	                                                                    NC_034409.1 Numida meleagris isolate 19003 breed g44 Domestic line chromosome 1, NumMel1.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.567e-08	1000358249	sequence	                                                                    NC_034412.1 Numida meleagris isolate 19003 breed g44 Domestic line chromosome 4, NumMel1.0, whole genome shotgun sequence
+0.0007842	2	0	10	1	3.397e-09	8826	order	                                                          Anseriformes
+0.0007842	2	0	10	1	3.397e-09	8830	family	                                                            Anatidae
+0.0007842	2	0	10	1	1.447e-08	2068722	subfamily	                                                              Anserinae
+0.0007842	2	0	10	1	1.447e-08	8867	genus	                                                                Cygnus
+0.0007842	2	0	10	1	1.447e-08	8869	species	                                                                  Cygnus olor
+0.0007842	2	0	10	1	1.447e-08	1000390444	assembly	                                                                    GCF_009769625.2 Cygnus olor
+0.0003921	1	1	6	1	1.197e-07	1000390488	sequence	                                                                      NC_049198.1 Cygnus olor isolate bCygOlo1 chromosome Z, bCygOlo1.pri.v2, whole genome shotgun sequence
+0.0003921	1	1	4	1	4.061e-08	1000390447	sequence	                                                                      NC_049170.1 Cygnus olor isolate bCygOlo1 chromosome 2, bCygOlo1.pri.v2, whole genome shotgun sequence
+0.004313	11	3	37	1	4.203e-09	9126	order	                                                        Passeriformes
+0.001176	3	0	10	1	3.808e-09	175121	superfamily	                                                          Passeroidea
+0.001176	3	0	10	1	7.783e-09	37611	family	                                                            Estrildidae
+0.001176	3	0	10	1	7.783e-09	40155	subfamily	                                                              Estrildinae
+0.0007842	2	0	7	1	1.239e-08	59728	genus	                                                                Taeniopygia
+0.0007842	2	0	7	1	1.239e-08	59729	species	                                                                  Taeniopygia guttata
+0.0007842	2	0	7	1	1.239e-08	1000677961	assembly	                                                                    GCF_003957565.2 Taeniopygia guttata
+0.0003921	1	1	6	1	9.446e-08	1000677962	sequence	                                                                      NC_044211.2 Taeniopygia guttata isolate Blue55 chromosome 1, bTaeGut1.4.pri, whole genome shotgun sequence
+0.0003921	1	1	1	1	9.363e-08	1000677974	sequence	                                                                      NC_044223.2 Taeniopygia guttata isolate Blue55 chromosome 11, bTaeGut1.4.pri, whole genome shotgun sequence
+0.0003921	1	0	3	1	5.315e-09	40156	genus	                                                                Lonchura
+0.0003921	1	0	3	1	5.315e-09	40157	species	                                                                  Lonchura striata
+0.0003921	1	0	3	1	5.315e-09	299123	subspecies	                                                                    Lonchura striata domestica
+0.0003921	1	0	3	1	5.315e-09	1000902806	assembly	                                                                      GCF_005870125.1 Lonchura striata domestica
+0.0003921	1	1	3	1	3.605e-08	1000902809	sequence	                                                                        NC_042567.1 Lonchura striata domestica isolate Mets1 chromosome 2, lonStrDom2, whole genome shotgun sequence
+0.0007842	2	0	5	1	6.628e-09	9183	family	                                                          Turdidae
+0.0007842	2	0	5	1	6.628e-09	9184	genus	                                                            Catharus
+0.0007842	2	0	5	1	6.628e-09	91951	species	                                                              Catharus ustulatus
+0.0007842	2	0	5	1	6.628e-09	1000269262	assembly	                                                                GCF_009819885.2 Catharus ustulatus
+0.0003921	1	1	4	1	3.591e-08	1000269263	sequence	                                                                  NC_046221.1 Catharus ustulatus isolate bCatUst1 chromosome 1, bCatUst1.pri.v2, whole genome shotgun sequence
+0.0003921	1	1	1	1	2.093e-08	1000269303	sequence	                                                                  NC_046262.2 Catharus ustulatus isolate bCatUst1 chromosome Z, bCatUst1.pri.v2, whole genome shotgun sequence
+0.0007842	2	0	4	1	4.463e-09	114313	family	                                                          Pipridae
+0.0007842	2	0	4	1	4.463e-09	196026	genus	                                                            Chiroxiphia
+0.0007842	2	0	4	1	4.463e-09	296741	species	                                                              Chiroxiphia lanceolata
+0.0007842	2	0	4	1	4.463e-09	1000901173	assembly	                                                                GCF_009829145.1 Chiroxiphia lanceolata
+0.0003921	1	1	3	1	2.318e-08	1000901174	sequence	                                                                  NC_045637.1 Chiroxiphia lanceolata isolate bChiLan1 chromosome 1, bChiLan1.pri, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.582e-08	1000901178	sequence	                                                                  NC_045641.1 Chiroxiphia lanceolata isolate bChiLan1 chromosome 5, bChiLan1.pri, whole genome shotgun sequence
+0.0003921	1	0	5	1	6.468e-09	2116661	superfamily	                                                          Sylvioidea
+0.0003921	1	0	5	1	6.468e-09	43148	family	                                                            Hirundinidae
+0.0003921	1	0	5	1	6.468e-09	43149	genus	                                                              Hirundo
+0.0003921	1	0	5	1	6.468e-09	43150	species	                                                                Hirundo rustica
+0.0003921	1	0	5	1	6.468e-09	1000901456	assembly	                                                                  GCF_015227805.1 Hirundo rustica
+0.0003921	1	1	5	1	3.311e-07	1000901485	sequence	                                                                    NC_053461.1 Hirundo rustica isolate bHirRus1 chromosome 12, bHirRus1.pri.v2, whole genome shotgun sequence
+0.001176	3	0	18	1	2.056e-08	2607030	clade	                                                        Caprimulgimorphae
+0.001176	3	0	18	1	2.056e-08	8892	order	                                                          Apodiformes
+0.001176	3	0	18	1	2.056e-08	9242	family	                                                            Trochilidae
+0.001176	3	0	18	1	2.056e-08	9243	genus	                                                              Calypte
+0.001176	3	0	18	1	2.056e-08	9244	species	                                                                Calypte anna
+0.001176	3	0	18	1	2.056e-08	1000667538	assembly	                                                                  GCF_003957555.1 Calypte anna
+0.0007842	2	2	17	1	1.013e-07	1000667539	sequence	                                                                    NC_044244.1 Calypte anna isolate BGI_N300 chromosome 1, bCalAnn1_v1.p, whole genome shotgun sequence
+0.0003921	1	1	1	1	3.811e-08	1000667549	sequence	                                                                    NC_044254.1 Calypte anna isolate BGI_N300 chromosome 8, bCalAnn1_v1.p, whole genome shotgun sequence
+0.0007842	2	0	24	1	2.467e-08	2558200	order	                                                        Accipitriformes
+0.0007842	2	0	24	1	2.467e-08	56259	family	                                                          Accipitridae
+0.0007842	2	0	24	1	2.467e-08	8955	subfamily	                                                            Accipitrinae
+0.0007842	2	0	24	1	2.467e-08	8960	genus	                                                              Aquila
+0.0007842	2	0	24	1	2.467e-08	8962	species	                                                                Aquila chrysaetos
+0.0007842	2	0	24	1	2.467e-08	223781	subspecies	                                                                  Aquila chrysaetos chrysaetos
+0.0007842	2	0	24	1	2.467e-08	1000589485	assembly	                                                                    GCF_900496995.4 Aquila chrysaetos chrysaetos
+0.0003921	1	1	21	1	3.434e-07	1000589489	sequence	                                                                      NC_044007.1 Aquila chrysaetos chrysaetos chromosome 4, bAquChr1.4, whole genome shotgun sequence
+0.0003921	1	1	3	1	5.806e-07	1000589512	sequence	                                                                      NC_054457.1 Aquila chrysaetos chrysaetos chromosome W, bAquChr1.4, whole genome shotgun sequence
+0.0007842	2	0	2	1	1.44e-09	8948	order	                                                        Falconiformes
+0.0007842	2	0	2	1	1.44e-09	8949	family	                                                          Falconidae
+0.0007842	2	2	2	1	1.44e-09	8952	genus	                                                            Falco
+0.01098	28	0	67	1.28	3.907e-09	8292	class	                                  Amphibia
+0.009018	23	2	52	1.37	6.262e-09	8445	order	                                    Gymnophiona
+0.003137	8	0	15	1.6	6.763e-09	264006	family	                                      Dermophiidae
+0.003137	8	0	15	1.6	6.763e-09	260994	genus	                                        Geotrypetes
+0.003137	8	0	15	1.6	6.763e-09	260995	species	                                          Geotrypetes seraphini
+0.003137	8	0	15	1.6	6.763e-09	1000531047	assembly	                                            GCF_902459505.1 Geotrypetes seraphini
+0.00196	5	5	5	2.8	6.374e-08	1000531058	sequence	                                              NC_047094.1 Geotrypetes seraphini chromosome 11, aGeoSer1.1, whole genome shotgun sequence
+0.0003921	1	1	1	1	9.483e-09	1000531055	sequence	                                              NC_047091.1 Geotrypetes seraphini chromosome 8, aGeoSer1.1, whole genome shotgun sequence
+0.0003921	1	1	1	1	6.654e-09	1000531052	sequence	                                              NC_047088.1 Geotrypetes seraphini chromosome 5, aGeoSer1.1, whole genome shotgun sequence
+0.0003921	1	1	1	1	4.418e-09	1000531050	sequence	                                              NC_047086.1 Geotrypetes seraphini chromosome 3, aGeoSer1.1, whole genome shotgun sequence
+0.002745	7	0	16	1.62	6.077e-09	1277737	family	                                      Siphonopidae
+0.002745	7	0	16	1.62	6.077e-09	264009	genus	                                        Microcaecilia
+0.002745	7	0	16	1.62	6.077e-09	1415580	species	                                          Microcaecilia unicolor
+0.002745	7	0	16	1.62	6.077e-09	1000777181	assembly	                                            GCF_901765095.1 Microcaecilia unicolor
+0.0007842	2	2	5	2.4	1.205e-08	1000777182	sequence	                                              NC_044031.1 Microcaecilia unicolor chromosome 1, aMicUni1.1, whole genome shotgun sequence
+0.0007842	2	2	3	2	1.054e-08	1000777184	sequence	                                              NC_044033.1 Microcaecilia unicolor chromosome 3, aMicUni1.1, whole genome shotgun sequence
+0.0007842	2	2	6	1	1.681e-08	1000777183	sequence	                                              NC_044032.1 Microcaecilia unicolor chromosome 2, aMicUni1.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.029e-08	1000777186	sequence	                                              NC_044035.1 Microcaecilia unicolor chromosome 5, aMicUni1.1, whole genome shotgun sequence
+0.002353	6	0	15	1	4.374e-09	30380	family	                                      Rhinatrematidae
+0.002353	6	0	15	1	4.374e-09	194407	genus	                                        Rhinatrema
+0.002353	6	0	15	1	4.374e-09	194408	species	                                          Rhinatrema bivittatum
+0.002353	6	0	15	1	4.374e-09	1000915843	assembly	                                            GCF_901001135.1 Rhinatrema bivittatum
+0.0007842	2	2	5	1	9.718e-09	1000915844	sequence	                                              NC_042615.1 Rhinatrema bivittatum chromosome 1, aRhiBiv1.1, whole genome shotgun sequence
+0.0003921	1	1	4	1	2.052e-08	1000915850	sequence	                                              NC_042621.1 Rhinatrema bivittatum chromosome 7, aRhiBiv1.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	3.663e-08	1000915856	sequence	                                              NC_042627.1 Rhinatrema bivittatum chromosome 13, aRhiBiv1.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	5.445e-09	1000915846	sequence	                                              NC_042617.1 Rhinatrema bivittatum chromosome 3, aRhiBiv1.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	4.016e-09	1000915845	sequence	                                              NC_042616.1 Rhinatrema bivittatum chromosome 2, aRhiBiv1.1, whole genome shotgun sequence
+0.00196	5	0	14	1	1.583e-09	41666	superorder	                                    Batrachia
+0.00196	5	1	14	1	1.583e-09	8342	order	                                      Anura
+0.001176	3	0	11	1	1.839e-09	8416	suborder	                                        Neobatrachia
+0.0007842	2	0	6	1	2.833e-09	30352	superfamily	                                          Ranoidea
+0.0007842	2	0	6	1	2.833e-09	8397	family	                                            Ranidae
+0.0007842	2	0	6	1	2.833e-09	8399	genus	                                              Rana
+0.0007842	2	0	6	1	2.833e-09	121175	subgenus	                                                Rana
+0.0007842	2	0	6	1	2.833e-09	8407	species	                                                  Rana temporaria
+0.0007842	2	0	6	1	2.833e-09	1000902180	assembly	                                                    GCF_905171775.1 Rana temporaria
+0.0007842	2	2	6	1	1.785e-08	1000902181	sequence	                                                      NC_053489.1 Rana temporaria chromosome 1, aRanTem1.1, whole genome shotgun sequence
+0.0003921	1	0	5	1	1.296e-09	8417	superfamily	                                          Hyloidea
+0.0003921	1	0	5	1	1.296e-09	8382	family	                                            Bufonidae
+0.0003921	1	1	5	1	1.296e-09	8383	genus	                                              Bufo
+0.0003921	1	0	2	1	6.994e-10	30319	superfamily	                                        Pipoidea
+0.0003921	1	0	2	1	6.994e-10	8352	family	                                          Pipidae
+0.0003921	1	0	2	1	6.994e-10	8360	subfamily	                                            Xenopodinae
+0.0003921	1	0	2	1	6.994e-10	8353	genus	                                              Xenopus
+0.0003921	1	0	2	1	1.071e-09	262014	subgenus	                                                Xenopus
+0.0003921	1	0	2	1	1.071e-09	8355	species	                                                  Xenopus laevis
+0.0003921	1	0	2	1	1.071e-09	1000929296	assembly	                                                    GCF_017654675.1 Xenopus laevis strain=J_2021
+0.0003921	1	1	2	1	1.516e-08	1000929298	sequence	                                                      NC_054372.1 Xenopus laevis strain J_2021 chromosome 1S, Xenopus_laevis_v10.1, whole genome shotgun sequence
+0.005097	13	0	34	1	1.598e-09	7878	subclass	                                Dipnomorpha
+0.005097	13	0	34	1	1.598e-09	118077	superorder	                                  Ceratodontae
+0.005097	13	0	34	1	1.598e-09	2823314	order	                                    Ceratodontiformes
+0.005097	13	0	34	1	1.598e-09	7879	suborder	                                      Lepidosirenoidei
+0.005097	13	0	34	1	1.598e-09	7884	family	                                        Protopteridae
+0.005097	13	0	34	1	1.598e-09	7885	genus	                                          Protopterus
+0.005097	13	0	34	1	1.598e-09	7888	species	                                            Protopterus annectens
+0.005097	13	1	34	1	1.598e-09	1000593220	assembly	                                              GCF_019279795.1 Protopterus annectens
+0.0007842	2	2	2	1	2.144e-09	1000593222	sequence	                                                NC_056726.1 Protopterus annectens isolate FY-2018-M chromosome 1.part1, PAN1.0, whole genome shotgun sequence
+0.0003921	1	1	4	1	4.413e-09	1000593240	sequence	                                                NC_056744.1 Protopterus annectens isolate FY-2018-M chromosome 10.part0, PAN1.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.998e-09	1000593231	sequence	                                                NC_056735.1 Protopterus annectens isolate FY-2018-M chromosome 5.part0, PAN1.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.099e-09	1000593225	sequence	                                                NC_056729.1 Protopterus annectens isolate FY-2018-M chromosome 2.part1, PAN1.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.015e-09	1000593224	sequence	                                                NC_056728.1 Protopterus annectens isolate FY-2018-M chromosome 2.part0, PAN1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	2.231e-09	1000593246	sequence	                                                NC_056750.1 Protopterus annectens isolate FY-2018-M chromosome 16.part0, PAN1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.001e-09	1000593239	sequence	                                                NC_056743.1 Protopterus annectens isolate FY-2018-M chromosome 9.part0, PAN1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	3.849e-09	1000593236	sequence	                                                NC_056740.1 Protopterus annectens isolate FY-2018-M chromosome 7.part1, PAN1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.962e-09	1000593230	sequence	                                                NC_056734.1 Protopterus annectens isolate FY-2018-M chromosome 4.part1, PAN1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.088e-09	1000593228	sequence	                                                NC_056732.1 Protopterus annectens isolate FY-2018-M chromosome 3.part1, PAN1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.008e-09	1000593221	sequence	                                                NC_056725.1 Protopterus annectens isolate FY-2018-M chromosome 1.part0, PAN1.0, whole genome shotgun sequence
+0.003137	8	0	42	1	3.047e-09	7777	class	                        Chondrichthyes
+0.003137	8	0	42	1	3.047e-09	7778	subclass	                          Elasmobranchii
+0.002745	7	0	31	1	2.519e-09	119203	infraclass	                            Selachii
+0.002745	7	0	31	1	2.519e-09	119197	clade	                              Galeomorphii
+0.002745	7	0	31	1	2.519e-09	119195	superorder	                                Galeoidea
+0.00196	5	1	22	1	3.257e-09	30503	order	                                  Orectolobiformes
+0.0007842	2	0	11	1	5.608e-09	378069	family	                                    Stegostomatidae
+0.0007842	2	0	11	1	5.608e-09	378070	genus	                                      Stegostoma
+0.0007842	2	0	11	1	5.608e-09	378071	species	                                        Stegostoma fasciatum
+0.0007842	2	0	11	1	5.608e-09	1000670855	assembly	                                          GCF_022316705.1 Stegostoma fasciatum
+0.0003921	1	1	5	1	6.85e-08	1000670862	sequence	                                            NC_063390.1 Stegostoma fasciatum isolate 6-17 chromosome 7, sSteFas1.1, whole genome shotgun sequence
+0.0003921	1	1	4	1	5.048e-08	1000670861	sequence	                                            NC_063389.1 Stegostoma fasciatum isolate 6-17 chromosome 6, sSteFas1.1, whole genome shotgun sequence
+0.0007842	2	0	7	1	2.723e-09	40580	family	                                    Hemiscylliidae
+0.0007842	2	0	7	1	2.723e-09	34767	genus	                                      Chiloscyllium
+0.0007842	2	0	7	1	2.723e-09	36176	species	                                        Chiloscyllium plagiosum
+0.0007842	2	0	7	1	2.723e-09	1000410569	assembly	                                          GCF_004010195.1 Chiloscyllium plagiosum
+0.0003921	1	1	4	1	5.554e-08	1000410579	sequence	                                            NC_057719.1 Chiloscyllium plagiosum isolate BGI_BamShark_2017 chromosome 10, ASM401019v2, whole genome shotgun sequence
+0.0003921	1	1	3	1	1.516e-07	1000410608	sequence	                                            NC_057748.1 Chiloscyllium plagiosum isolate BGI_BamShark_2017 chromosome 39, ASM401019v2, whole genome shotgun sequence
+0.0007842	2	0	7	1	2.521e-09	30496	order	                                  Lamniformes
+0.0007842	2	0	7	1	2.521e-09	7850	family	                                    Alopiidae
+0.0007842	2	0	7	1	2.521e-09	7844	subfamily	                                      Lamninae
+0.0007842	2	0	7	1	2.521e-09	13396	genus	                                        Carcharodon
+0.0007842	2	0	7	1	2.521e-09	13397	species	                                          Carcharodon carcharias
+0.0007842	2	1	7	1	2.521e-09	1000589819	assembly	                                            GCF_017639515.1 Carcharodon carcharias
+0.0003921	1	1	3	1	2.13e-08	1000589827	sequence	                                              NC_054470.1 Carcharodon carcharias isolate sCarCar2 chromosome 4, sCarCar2.pri, whole genome shotgun sequence
+0.0003921	1	0	11	1	7.467e-09	117893	superorder	                            Batoidea
+0.0003921	1	0	11	1	7.467e-09	7858	order	                              Rajiformes
+0.0003921	1	0	11	1	7.467e-09	30475	family	                                Rajidae
+0.0003921	1	0	11	1	7.467e-09	117853	genus	                                  Amblyraja
+0.0003921	1	0	11	1	7.467e-09	386614	species	                                    Amblyraja radiata
+0.0003921	1	0	11	1	7.467e-09	1000514223	assembly	                                      GCF_010909765.2 Amblyraja radiata
+0.0003921	1	1	6	1	2.239e-07	1000514245	sequence	                                        NC_045977.1 Amblyraja radiata isolate CabotCenter1 chromosome 22, sAmbRad1.1.pri, whole genome shotgun sequence
+0.0003921	1	0	2	1	3.138e-09	1476529	clade	                      Cyclostomata
+0.0003921	1	0	2	1	3.138e-09	117569	class	                        Hyperoartia
+0.0003921	1	0	2	1	3.138e-09	7745	order	                          Petromyzontiformes
+0.0003921	1	0	2	1	3.138e-09	7746	family	                            Petromyzontidae
+0.0003921	1	0	2	1	3.138e-09	7756	genus	                              Petromyzon
+0.0003921	1	0	2	1	3.138e-09	7757	species	                                Petromyzon marinus
+0.0003921	1	1	2	1	3.138e-09	1000637125	assembly	                                  GCF_010993605.1 Petromyzon marinus

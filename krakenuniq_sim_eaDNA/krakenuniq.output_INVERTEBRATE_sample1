@@ -1,0 +1,225 @@
+# KrakenUniq v0.7.3 DATE:2022-07-25T11:27:53Z DB:/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/Test_Sample/genomes/DBDIR_INVERTEBRATE DB_SIZE:461052793972 WD:/crex/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/Test_Sample/Loxodonta_Human_Microbes
+# CL:perl /proj/uppstore2018095/private/NBIS_Demo/KrakenUniq_v0.7.3/KrakenUniq/krakenuniq --db /proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/Test_Sample/genomes/DBDIR_INVERTEBRATE --fastq-input sample.trimmed.fastq.gz --threads 16 --output sequences.krakenuniq_INVERTEBRATE --report-file krakenuniq.output_INVERTEBRATE --preload
+
+%	reads	taxReads	kmers	dup	cov	taxID	rank	taxName
+99.98	255001	255001	3866709	1.02	NA	0	no rank	unclassified
+0.01725	44	0	178	1.18	4.633e-09	1	no rank	root
+0.01725	44	0	178	1.18	4.633e-09	131567	no rank	  cellular organisms
+0.01725	44	0	178	1.18	4.633e-09	2759	superkingdom	    Eukaryota
+0.01725	44	0	178	1.18	4.633e-09	33154	clade	      Opisthokonta
+0.01725	44	0	178	1.18	4.633e-09	33208	kingdom	        Metazoa
+0.01725	44	0	178	1.18	4.633e-09	6072	clade	          Eumetazoa
+0.01647	42	0	172	1.19	4.583e-09	33213	clade	            Bilateria
+0.01529	39	1	162	1.18	4.474e-09	33317	clade	              Protostomia
+0.01215	31	0	127	1.19	4.146e-09	1206794	clade	                Ecdysozoa
+0.01215	31	0	127	1.19	4.16e-09	88770	clade	                  Panarthropoda
+0.01215	31	3	127	1.19	4.16e-09	6656	phylum	                    Arthropoda
+0.009018	23	0	104	1.21	3.814e-09	197563	clade	                      Mandibulata
+0.009018	23	1	104	1.21	3.814e-09	197562	clade	                        Pancrustacea
+0.006665	17	0	74	1.11	3.018e-09	6960	subphylum	                          Hexapoda
+0.006665	17	0	74	1.11	3.018e-09	50557	class	                            Insecta
+0.006665	17	0	74	1.11	3.018e-09	85512	clade	                              Dicondylia
+0.006665	17	0	74	1.11	3.018e-09	7496	subclass	                                Pterygota
+0.006665	17	2	74	1.11	3.018e-09	33340	infraclass	                                  Neoptera
+0.005489	14	2	67	1.1	4.094e-09	33392	cohort	                                    Endopterygota
+0.003137	8	0	49	1.08	8.94e-09	7147	order	                                      Diptera
+0.002745	7	0	48	1.08	1.397e-08	7203	suborder	                                        Brachycera
+0.002745	7	0	48	1.08	1.802e-08	43733	infraorder	                                          Muscomorpha
+0.002745	7	0	48	1.08	1.802e-08	480118	clade	                                            Eremoneura
+0.002745	7	0	48	1.08	1.802e-08	480117	clade	                                              Cyclorrhapha
+0.002745	7	0	48	1.08	1.802e-08	43738	no rank	                                                Schizophora
+0.002745	7	0	48	1.08	1.981e-08	43741	no rank	                                                  Acalyptratae
+0.001568	4	0	36	1.08	1.087e-07	43745	superfamily	                                                    Diopsoidea
+0.001568	4	0	36	1.08	1.087e-07	139644	family	                                                      Diopsidae
+0.001568	4	0	36	1.08	1.087e-07	139679	genus	                                                        Teleopsis
+0.001568	4	0	36	1.08	1.087e-07	139649	species	                                                          Teleopsis dalmanni
+0.001568	4	2	36	1.08	1.087e-07	1000200016	assembly	                                                            GCF_002237135.1 Teleopsis dalmanni
+0.0007842	2	2	34	1.03	0.005816	1000202720	sequence	                                                              NW_024034083.1 Teleopsis dalmanni isolate 2A unplaced genomic scaffold, ASM223713v2 unscaffolded_contig_2701, whole genome shotgun sequence
+0.001176	3	0	8	1.12	4.743e-09	43746	superfamily	                                                    Ephydroidea
+0.001176	3	0	8	1.12	4.743e-09	7214	family	                                                      Drosophilidae
+0.001176	3	0	8	1.12	4.743e-09	43845	subfamily	                                                        Drosophilinae
+0.001176	3	0	8	1.12	4.743e-09	46877	tribe	                                                          Drosophilini
+0.001176	3	0	8	1.12	4.743e-09	7215	genus	                                                            Drosophila
+0.001176	3	1	7	1.14	5.21e-09	32341	subgenus	                                                              Sophophora
+0.0003921	1	0	4	1	4.475e-09	32346	species group	                                                                melanogaster group
+0.0003921	1	0	4	1	3.102e-08	32347	species subgroup	                                                                  ananassae subgroup
+0.0003921	1	0	4	1	3.102e-08	545632	no rank	                                                                    ananassae species complex
+0.0003921	1	0	4	1	3.102e-08	7217	species	                                                                      Drosophila ananassae
+0.0003921	1	0	4	1	3.102e-08	1000032792	assembly	                                                                        GCF_017639315.1 Drosophila ananassae strain=14024-0371.13
+0.0003921	1	1	4	1	5.648e-05	1000032798	sequence	                                                                          NW_025319042.1 Drosophila ananassae strain 14024-0371.13 chromosome 4 unlocalized genomic scaffold, ASM1763931v2 tig00000073, whole genome shotgun sequence
+0.0003921	1	0	1	1	3.303e-09	32355	species group	                                                                obscura group
+0.0003921	1	0	1	1	5.029e-09	32358	species subgroup	                                                                  pseudoobscura subgroup
+0.0003921	1	0	1	1	1.155e-08	7229	species	                                                                    Drosophila miranda
+0.0003921	1	0	1	1	1.155e-08	1000072285	assembly	                                                                      GCF_003369915.1 Drosophila miranda strain=MSH22
+0.0003921	1	1	1	1	6.958e-08	1000072288	sequence	                                                                        NC_046675.1 Drosophila miranda strain MSH22 chromosome 2, D.miranda_PacBio2.1, whole genome shotgun sequence
+0.0003921	1	0	1	1	4.889e-10	7148	suborder	                                        Nematocera
+0.0003921	1	0	1	1	5.457e-10	43786	infraorder	                                          Culicomorpha
+0.0003921	1	0	1	1	5.457e-10	41827	superfamily	                                            Culicoidea
+0.0003921	1	1	1	1	5.457e-10	7157	family	                                              Culicidae
+0.0007842	2	0	4	1	1.017e-09	7399	order	                                      Hymenoptera
+0.0003921	1	0	3	1	9.228e-10	7400	suborder	                                        Apocrita
+0.0003921	1	0	3	1	1.853e-09	7434	infraorder	                                          Aculeata
+0.0003921	1	0	3	1	4.4e-09	34735	superfamily	                                            Apoidea
+0.0003921	1	0	2	1	3.856e-09	7458	family	                                              Apidae
+0.0003921	1	0	2	1	3.856e-09	70987	subfamily	                                                Apinae
+0.0003921	1	0	2	1	5.473e-09	83311	tribe	                                                  Bombini
+0.0003921	1	1	2	1	5.473e-09	28641	genus	                                                    Bombus
+0.0003921	1	0	1	1	1.467e-09	85772	superfamily	                                        Tenthredinoidea
+0.0003921	1	0	1	1	1.828e-09	52632	family	                                          Diprionidae
+0.0003921	1	0	1	1	1.828e-09	410274	subfamily	                                            Diprioninae
+0.0003921	1	0	1	1	2.764e-09	270857	genus	                                              Neodiprion
+0.0003921	1	0	1	1	2.166e-08	2872261	species	                                                Neodiprion fabricii
+0.0003921	1	0	1	1	2.166e-08	1000182540	assembly	                                                  GCF_021155785.1 Neodiprion fabricii
+0.0003921	1	1	1	1	1.337e-07	1000182542	sequence	                                                    NC_060240.1 Neodiprion fabricii isolate iyNeoFabr1 chromosome 2, iyNeoFabr1.1, whole genome shotgun sequence
+0.0007842	2	0	2	1	3.363e-10	85604	superorder	                                      Amphiesmenoptera
+0.0007842	2	0	2	1	3.363e-10	7088	order	                                        Lepidoptera
+0.0007842	2	0	2	1	3.363e-10	41191	suborder	                                          Glossata
+0.0007842	2	0	2	1	3.363e-10	41196	infraorder	                                            Neolepidoptera
+0.0007842	2	0	2	1	3.363e-10	41197	parvorder	                                              Heteroneura
+0.0007842	2	0	2	1	3.363e-10	37567	clade	                                                Ditrysia
+0.0007842	2	0	2	1	3.719e-10	104431	clade	                                                  Obtectomera
+0.0003921	1	0	1	1	8.245e-10	37570	superfamily	                                                    Noctuoidea
+0.0003921	1	0	1	1	8.245e-10	7100	family	                                                      Noctuidae
+0.0003921	1	0	1	1	1.525e-09	95182	subfamily	                                                        Amphipyrinae
+0.0003921	1	0	1	1	1.525e-09	7106	genus	                                                          Spodoptera
+0.0003921	1	0	1	1	3.009e-09	7108	species	                                                            Spodoptera frugiperda
+0.0003921	1	0	1	1	3.009e-09	1000194464	assembly	                                                              GCF_011064685.2 Spodoptera frugiperda
+0.0003921	1	1	1	1	8.381e-08	1000194471	sequence	                                                                NC_049716.1 Spodoptera frugiperda isolate Faw-zju chromosome 7, ZJU_Sfru_1.0, whole genome shotgun sequence
+0.0003921	1	0	1	1	2.831e-10	37572	superfamily	                                                    Papilionoidea
+0.0003921	1	0	1	1	4.949e-10	33415	family	                                                      Nymphalidae
+0.0003921	1	0	1	1	1.084e-09	42282	subfamily	                                                        Satyrinae
+0.0003921	1	0	1	1	1.084e-09	127320	tribe	                                                          Satyrini
+0.0003921	1	0	1	1	2.64e-09	366209	subtribe	                                                            Parargina
+0.0003921	1	0	1	1	2.64e-09	111932	genus	                                                              Pararge
+0.0003921	1	0	1	1	2.64e-09	116150	species	                                                                Pararge aegeria
+0.0003921	1	0	1	1	2.64e-09	1000096232	assembly	                                                                  GCF_905163445.1 Pararge aegeria
+0.0003921	1	1	1	1	1.18e-07	1000096267	sequence	                                                                    NC_053202.1 Pararge aegeria chromosome 23, ilParAegt1.1, whole genome shotgun sequence
+0.0003921	1	0	1	2	1.81e-10	33341	cohort	                                    Polyneoptera
+0.0003921	1	0	1	2	1.81e-10	6993	order	                                      Orthoptera
+0.0003921	1	0	1	2	1.81e-10	7001	suborder	                                        Caelifera
+0.0003921	1	0	1	2	1.81e-10	1955150	infraorder	                                          Acrididea
+0.0003921	1	0	1	2	1.81e-10	70910	no rank	                                            Acridomorpha
+0.0003921	1	0	1	2	1.81e-10	92621	superfamily	                                              Acridoidea
+0.0003921	1	0	1	2	1.81e-10	7002	family	                                                Acrididae
+0.0003921	1	0	1	2	1.81e-10	37267	subfamily	                                                  Cyrtacanthacridinae
+0.0003921	1	0	1	2	1.81e-10	7008	genus	                                                    Schistocerca
+0.0003921	1	0	1	2	1.81e-10	274613	species	                                                      Schistocerca piceifrons
+0.0003921	1	0	1	2	1.81e-10	1000001182	assembly	                                                        GCF_021461385.2 Schistocerca piceifrons
+0.0003921	1	1	1	2	1.194e-09	1000001183	sequence	                                                          NC_060138.1 Schistocerca piceifrons isolate TAMUIC-IGC-003096 chromosome 1, iqSchPice1.1, whole genome shotgun sequence
+0.00196	5	0	23	1.39	8.357e-09	6657	subphylum	                          Crustacea
+0.00196	5	0	23	1.39	9.222e-09	2172821	superclass	                            Multicrustacea
+0.00196	5	0	23	1.39	9.222e-09	6681	class	                              Malacostraca
+0.00196	5	0	23	1.39	9.222e-09	72041	subclass	                                Eumalacostraca
+0.00196	5	0	23	1.39	9.222e-09	6682	superorder	                                  Eucarida
+0.00196	5	0	23	1.39	9.222e-09	6683	order	                                    Decapoda
+0.00196	5	0	23	1.39	2.649e-08	6684	suborder	                                      Dendrobranchiata
+0.00196	5	0	23	1.39	2.649e-08	111520	superfamily	                                        Penaeoidea
+0.00196	5	0	23	1.39	2.649e-08	6685	family	                                          Penaeidae
+0.00196	5	0	23	1.39	2.649e-08	133894	genus	                                            Penaeus
+0.00196	5	0	23	1.39	2.649e-08	6687	species	                                              Penaeus monodon
+0.00196	5	0	23	1.39	2.649e-08	1000097482	assembly	                                                GCF_015228065.1 Penaeus monodon
+0.001568	4	4	21	1.43	0.001583	1000123147	sequence	                                                  NW_023664224.1 Penaeus monodon isolate SGIC_2016 unplaced genomic scaffold, NSTDA_Pmon_1 PmonScaffold_8908, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.462e-07	1000097517	sequence	                                                  NC_051420.1 Penaeus monodon isolate SGIC_2016 chromosome 35, NSTDA_Pmon_1, whole genome shotgun sequence
+0.00196	5	0	7	1	2.15e-09	6843	subphylum	                      Chelicerata
+0.00196	5	0	7	1	2.15e-09	6854	class	                        Arachnida
+0.00196	5	0	7	1	2.15e-09	6933	subclass	                          Acari
+0.00196	5	0	7	1	2.15e-09	6934	superorder	                            Parasitiformes
+0.00196	5	0	7	1	2.15e-09	6935	order	                              Ixodida
+0.00196	5	0	7	1	2.15e-09	297308	superfamily	                                Ixodoidea
+0.00196	5	0	7	1	2.15e-09	6939	family	                                  Ixodidae
+0.00196	5	0	7	1	2.15e-09	426437	subfamily	                                    Rhipicephalinae
+0.001568	4	0	6	1	3.56e-09	34630	genus	                                      Rhipicephalus
+0.001568	4	0	6	1	3.56e-09	6940	subgenus	                                        Boophilus
+0.001568	4	0	6	1	3.56e-09	6941	species	                                          Rhipicephalus microplus
+0.001568	4	1	6	1	3.56e-09	1000065078	assembly	                                            GCF_013339725.1 Rhipicephalus microplus
+0.0003921	1	1	3	1	0.00051	1000066510	sequence	                                              NW_023608511.1 Rhipicephalus microplus isolate Rmic-2018 unplaced genomic scaffold, ASM1333972v1 Seq2299, whole genome shotgun sequence
+0.0003921	1	1	1	1	0.0003556	1000068460	sequence	                                              NW_023610461.1 Rhipicephalus microplus isolate Rmic-2018 unplaced genomic scaffold, ASM1333972v1 Seq4081, whole genome shotgun sequence
+0.0003921	1	1	1	1	0.0001485	1000071414	sequence	                                              NW_023613415.1 Rhipicephalus microplus isolate Rmic-2018 unplaced genomic scaffold, ASM1333972v1 Seq687, whole genome shotgun sequence
+0.0003921	1	0	1	1	6.377e-10	34619	genus	                                      Dermacentor
+0.0003921	1	0	1	1	6.377e-10	543639	species	                                        Dermacentor silvarum
+0.0003921	1	0	1	1	6.377e-10	1000017112	assembly	                                          GCF_013339745.1 Dermacentor silvarum
+0.0003921	1	1	1	1	3.733e-09	1000017113	sequence	                                            NC_051154.1 Dermacentor silvarum isolate Dsil-2018 chromosome 1, ASM1333974v1, whole genome shotgun sequence
+0.002745	7	0	26	1.04	4.661e-09	2697495	clade	                Spiralia
+0.002745	7	0	26	1.04	4.661e-09	1206795	clade	                  Lophotrochozoa
+0.002745	7	1	26	1.04	4.911e-09	6447	phylum	                    Mollusca
+0.001176	3	0	15	1	9.397e-09	6605	class	                      Cephalopoda
+0.001176	3	0	15	1	9.397e-09	6606	subclass	                        Coleoidea
+0.001176	3	0	15	1	9.397e-09	215451	superorder	                          Octopodiformes
+0.001176	3	0	15	1	9.397e-09	6638	order	                            Octopoda
+0.001176	3	0	15	1	9.397e-09	6646	suborder	                              Incirrata
+0.001176	3	0	15	1	9.397e-09	6647	family	                                Octopodidae
+0.001176	3	0	15	1	9.397e-09	6643	genus	                                  Octopus
+0.001176	3	0	15	1	9.397e-09	2607531	species	                                    Octopus sinensis
+0.001176	3	0	15	1	9.397e-09	1000018778	assembly	                                      GCF_006345805.1 Octopus sinensis
+0.0003921	1	1	3	1	1.562e-07	1000018798	sequence	                                        NC_043016.1 Octopus sinensis linkage group LG20, ASM634580v1, whole genome shotgun sequence
+0.0003921	1	1	3	1	0.000774	1000030650	sequence	                                        NW_021835401.1 Octopus sinensis unplaced genomic scaffold, ASM634580v1 Contig17890, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.535e-08	1000018787	sequence	                                        NC_043005.1 Octopus sinensis linkage group LG9, ASM634580v1, whole genome shotgun sequence
+0.0007842	2	0	7	1.14	2.678e-09	6544	class	                      Bivalvia
+0.0007842	2	0	7	1.14	2.678e-09	2785011	subclass	                        Autobranchia
+0.0003921	1	0	4	1.25	3.522e-09	6599	clade	                          Heteroconchia
+0.0003921	1	0	4	1.25	3.522e-09	735337	infraclass	                            Euheterodonta
+0.0003921	1	0	4	1.25	3.522e-09	2785015	superorder	                              Imparidentia
+0.0003921	1	0	4	1.25	3.522e-09	2908833	clade	                                Neoheterodontei
+0.0003921	1	0	4	1.25	3.522e-09	6580	order	                                  Venerida
+0.0003921	1	0	4	1.25	3.522e-09	74489	superfamily	                                    Veneroidea
+0.0003921	1	0	4	1.25	3.522e-09	6592	family	                                      Veneridae
+0.0003921	1	0	4	1.25	3.522e-09	6595	genus	                                        Mercenaria
+0.0003921	1	0	4	1.25	3.522e-09	6596	species	                                          Mercenaria mercenaria
+0.0003921	1	0	4	1.25	3.522e-09	1000125069	assembly	                                            GCF_014805675.1 Mercenaria mercenaria
+0.0003921	1	1	3	1	5.602e-08	1000125075	sequence	                                              NC_059310.1 Mercenaria mercenaria isolate YKG-2019 chromosome 5, ASM1480567v1.1, whole genome shotgun sequence
+0.0003921	1	0	3	1	2.03e-09	6545	clade	                          Pteriomorphia
+0.0003921	1	0	3	1	3.43e-09	6562	order	                            Ostreida
+0.0003921	1	0	3	1	3.43e-09	98302	superfamily	                              Ostreoidea
+0.0003921	1	0	3	1	3.43e-09	6563	family	                                Ostreidae
+0.0003921	1	0	3	1	3.43e-09	6564	genus	                                  Crassostrea
+0.0003921	1	0	3	1	7.051e-09	29159	species	                                    Crassostrea gigas
+0.0003921	1	0	3	1	7.051e-09	1000000202	assembly	                                      GCF_902806645.1 Crassostrea gigas
+0.0003921	1	1	3	1	7.909e-08	1000000203	sequence	                                        NC_047559.1 Crassostrea gigas linkage group 1, cgigas_uk_roslin_v1, whole genome shotgun sequence
+0.0003921	1	0	3	1	2.768e-09	6448	class	                      Gastropoda
+0.0003921	1	0	3	1	4.183e-09	2219556	subclass	                        Neomphalina
+0.0003921	1	0	3	1	4.183e-09	216274	superfamily	                          Neomphaloidea
+0.0003921	1	0	3	1	4.183e-09	55007	family	                            Peltospiridae
+0.0003921	1	0	3	1	4.183e-09	1735270	genus	                              Gigantopelta
+0.0003921	1	0	3	1	4.183e-09	1735272	species	                                Gigantopelta aegis
+0.0003921	1	0	3	1	4.183e-09	1000183634	assembly	                                  GCF_016097555.1 Gigantopelta aegis
+0.0003921	1	1	3	1	1.172e-07	1000183649	sequence	                                    NC_054713.1 Gigantopelta aegis isolate Gae_Host chromosome 15, Gae_host_genome, whole genome shotgun sequence
+0.001176	3	0	7	1.14	5.309e-09	33511	clade	              Deuterostomia
+0.0007842	2	0	6	1.17	7.165e-09	7586	phylum	                Echinodermata
+0.0007842	2	0	6	1.17	7.165e-09	133551	clade	                  Eleutherozoa
+0.0003921	1	0	3	1.33	5.729e-09	7624	superclass	                    Echinozoa
+0.0003921	1	0	3	1.33	5.729e-09	7625	class	                      Echinoidea
+0.0003921	1	0	3	1.33	5.729e-09	7638	subclass	                        Euechinoidea
+0.0003921	1	0	3	1.33	5.729e-09	7674	superorder	                          Echinacea
+0.0003921	1	0	3	1.33	5.729e-09	31184	order	                            Temnopleuroida
+0.0003921	1	0	3	1.33	5.729e-09	31185	family	                              Toxopneustidae
+0.0003921	1	0	3	1.33	5.729e-09	7652	genus	                                Lytechinus
+0.0003921	1	0	3	1.33	5.729e-09	7654	species	                                  Lytechinus variegatus
+0.0003921	1	0	3	1.33	5.729e-09	1000139654	assembly	                                    GCF_018143015.1 Lytechinus variegatus
+0.0003921	1	1	2	1	6.366e-08	1000139661	sequence	                                      NC_054746.1 Lytechinus variegatus isolate NC3 chromosome 7, Lvar_3.0, whole genome shotgun sequence
+0.0003921	1	0	3	1	9.562e-09	7587	superclass	                    Asterozoa
+0.0003921	1	0	3	1	9.562e-09	7588	class	                      Asteroidea
+0.0003921	1	0	3	1	9.562e-09	41242	superorder	                        Forcipulatacea
+0.0003921	1	0	3	1	9.562e-09	7599	order	                          Forcipulatida
+0.0003921	1	0	3	1	9.562e-09	7600	family	                            Asteriidae
+0.0003921	1	0	3	1	9.562e-09	7601	genus	                              Asterias
+0.0003921	1	0	3	1	9.562e-09	7604	species	                                Asterias rubens
+0.0003921	1	0	3	1	9.562e-09	1000206390	assembly	                                  GCF_902459465.1 Asterias rubens
+0.0003921	1	1	3	1	2.336e-07	1000206402	sequence	                                    NC_047072.1 Asterias rubens chromosome 11, eAstRub1.3, whole genome shotgun sequence
+0.0003921	1	0	1	1	2.079e-09	7711	phylum	                Chordata
+0.0003921	1	0	1	1	2.591e-09	7735	subphylum	                  Cephalochordata
+0.0003921	1	0	1	1	2.591e-09	2682552	class	                    Leptocardii
+0.0003921	1	0	1	1	2.591e-09	2682553	order	                      Amphioxiformes
+0.0003921	1	0	1	1	2.591e-09	7736	family	                        Branchiostomidae
+0.0003921	1	0	1	1	2.591e-09	7737	genus	                          Branchiostoma
+0.0003921	1	0	1	1	2.591e-09	7739	species	                            Branchiostoma floridae
+0.0003921	1	0	1	1	2.591e-09	1000061284	assembly	                              GCF_000003815.2 Branchiostoma floridae strain=S238N-H82
+0.0003921	1	1	1	1	3.714e-08	1000061286	sequence	                                NC_049980.1 Branchiostoma floridae strain S238N-H82 chromosome 2, Bfl_VNyyK, whole genome shotgun sequence
+0.0007842	2	0	6	1	6.707e-09	6073	phylum	            Cnidaria
+0.0007842	2	0	6	1	1.233e-08	6101	class	              Anthozoa
+0.0007842	2	0	6	1	1.233e-08	6102	subclass	                Hexacorallia
+0.0007842	2	0	6	1	3.512e-08	6103	order	                  Actiniaria
+0.0007842	2	0	6	1	3.512e-08	45349	family	                    Edwardsiidae
+0.0007842	2	0	6	1	3.512e-08	45350	genus	                      Nematostella
+0.0007842	2	0	6	1	3.512e-08	45351	species	                        Nematostella vectensis
+0.0007842	2	0	6	1	3.512e-08	1000183560	assembly	                          GCF_932526225.1 Nematostella vectensis
+0.0007842	2	2	6	1	5.904e-07	1000183568	sequence	                            NC_064041.1 Nematostella vectensis chromosome 8, jaNemVect1.1, whole genome shotgun sequence

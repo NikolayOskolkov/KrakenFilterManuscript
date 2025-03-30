@@ -1,0 +1,619 @@
+# KrakenUniq v0.7.3 DATE:2022-10-19T09:04:41Z DB:/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/sedaDNA/genomes/DBDIR_VERTEBRATE_MAMMALIAN DB_SIZE:1398065884864 WD:/crex/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/sedaDNA/Loxodonta_Human_Microbes
+# CL:perl /proj/uppstore2018095/private/NBIS_Demo/KrakenUniq_v0.7.3/KrakenUniq/krakenuniq --db /proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/sedaDNA/genomes/DBDIR_VERTEBRATE_MAMMALIAN --fastq-input sample.trimmed.fastq.gz --threads 19 --output sequences.krakenuniq_VERTEBRATE_MAMMALIAN --report-file krakenuniq.output_VERTEBRATE_MAMMALIAN --preload
+
+%	reads	taxReads	kmers	dup	cov	taxID	rank	taxName
+45.34	115630	115630	1829138	1.04	NA	0	no rank	unclassified
+54.66	139415	0	2012357	1.02	1.727e-05	1	no rank	root
+54.66	139415	0	2012357	1.02	1.727e-05	131567	no rank	  cellular organisms
+54.66	139415	0	2012357	1.02	1.727e-05	2759	superkingdom	    Eukaryota
+54.66	139415	0	2012357	1.02	1.727e-05	33154	clade	      Opisthokonta
+54.66	139415	0	2012357	1.02	1.727e-05	33208	kingdom	        Metazoa
+54.66	139415	0	2012357	1.02	1.727e-05	6072	clade	          Eumetazoa
+54.66	139415	0	2012357	1.02	1.727e-05	33213	clade	            Bilateria
+54.66	139415	0	2012357	1.02	1.727e-05	33511	clade	              Deuterostomia
+54.66	139415	0	2012357	1.02	1.727e-05	7711	phylum	                Chordata
+54.66	139415	0	2012357	1.02	1.727e-05	89593	subphylum	                  Craniata
+54.66	139415	0	2012357	1.02	1.727e-05	7742	clade	                    Vertebrata
+54.66	139415	0	2012357	1.02	1.727e-05	7776	clade	                      Gnathostomata
+54.66	139415	0	2012357	1.02	1.727e-05	117570	clade	                        Teleostomi
+54.66	139415	0	2012357	1.02	1.727e-05	117571	clade	                          Euteleostomi
+54.66	139415	0	2012357	1.02	1.727e-05	8287	superclass	                            Sarcopterygii
+54.66	139415	0	2012357	1.02	1.727e-05	1338369	clade	                              Dipnotetrapodomorpha
+54.66	139415	0	2012357	1.02	1.727e-05	32523	clade	                                Tetrapoda
+54.66	139415	0	2012357	1.02	1.727e-05	32524	clade	                                  Amniota
+54.66	139415	49	2012357	1.02	1.727e-05	40674	class	                                    Mammalia
+54.64	139365	47	2010724	1.02	1.769e-05	32525	clade	                                      Theria
+54.62	139317	1094	2009746	1.02	1.989e-05	9347	clade	                                        Eutheria
+54.05	137858	0	1967694	1.02	0.0008426	311790	superorder	                                          Afrotheria
+54.05	137858	0	1967694	1.02	0.0008426	9779	order	                                            Proboscidea
+54.05	137858	0	1967694	1.02	0.0008426	9780	family	                                              Elephantidae
+54.05	137858	0	1967694	1.02	0.0008426	9784	genus	                                                Loxodonta
+54.05	137858	0	1967694	1.02	0.0008426	9785	species	                                                  Loxodonta africana
+54.05	137858	16739	1967694	1.02	0.0008426	1000029323	assembly	                                                    GCF_000001905.1 Loxodonta africana
+2.4	6122	6122	82330	1	0.0008729	1000029324	sequence	                                                      NW_003573420.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_0, whole genome shotgun sequence
+2.008	5121	5121	68367	1.02	0.0008538	1000029325	sequence	                                                      NW_003573421.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_1, whole genome shotgun sequence
+1.965	5012	5012	67681	1	0.0008716	1000029326	sequence	                                                      NW_003573422.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_2, whole genome shotgun sequence
+1.873	4776	4776	63687	1	0.0008416	1000029327	sequence	                                                      NW_003573423.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_3, whole genome shotgun sequence
+1.862	4750	4750	63117	1.01	0.0008698	1000029328	sequence	                                                      NW_003573424.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_4, whole genome shotgun sequence
+1.822	4647	4647	61110	1.02	0.000831	1000029329	sequence	                                                      NW_003573425.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_5, whole genome shotgun sequence
+1.719	4385	4385	57666	1	0.0008636	1000029331	sequence	                                                      NW_003573427.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_7, whole genome shotgun sequence
+1.709	4359	4359	60342	1	0.0008651	1000029330	sequence	                                                      NW_003573426.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_6, whole genome shotgun sequence
+1.559	3977	3977	53049	1.02	0.0008374	1000029332	sequence	                                                      NW_003573428.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_8, whole genome shotgun sequence
+1.495	3812	3812	51689	1.01	0.0008347	1000029333	sequence	                                                      NW_003573429.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_9, whole genome shotgun sequence
+1.312	3346	3346	46047	1.01	0.0008958	1000029334	sequence	                                                      NW_003573430.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_10, whole genome shotgun sequence
+1.24	3162	3162	43261	1.01	0.0008717	1000029336	sequence	                                                      NW_003573432.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_12, whole genome shotgun sequence
+1.218	3106	3106	42051	1	0.0008524	1000029335	sequence	                                                      NW_003573431.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_11, whole genome shotgun sequence
+1.113	2839	2839	38054	1.02	0.0008282	1000029337	sequence	                                                      NW_003573433.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_13, whole genome shotgun sequence
+1.028	2623	2623	35580	1	0.0008852	1000029339	sequence	                                                      NW_003573435.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_15, whole genome shotgun sequence
+1.023	2610	2610	34248	1.02	0.0008537	1000029338	sequence	                                                      NW_003573434.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_14, whole genome shotgun sequence
+0.9669	2466	2466	33334	1	0.0009147	1000029343	sequence	                                                      NW_003573439.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_19, whole genome shotgun sequence
+0.9508	2425	2425	33061	1	0.000867	1000029340	sequence	                                                      NW_003573436.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_16, whole genome shotgun sequence
+0.9265	2363	2363	31420	1.01	0.0008521	1000029341	sequence	                                                      NW_003573437.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_17, whole genome shotgun sequence
+0.9253	2360	2360	31985	1	0.0008766	1000029342	sequence	                                                      NW_003573438.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_18, whole genome shotgun sequence
+0.8159	2081	2081	27019	1	0.0008214	1000029345	sequence	                                                      NW_003573441.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_21, whole genome shotgun sequence
+0.8124	2072	2072	27708	1.01	0.0008017	1000029344	sequence	                                                      NW_003573440.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_20, whole genome shotgun sequence
+0.7983	2036	2036	27413	1	0.0008544	1000029346	sequence	                                                      NW_003573442.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_22, whole genome shotgun sequence
+0.7818	1994	1994	27133	1	0.0009134	1000029347	sequence	                                                      NW_003573443.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_23, whole genome shotgun sequence
+0.6654	1697	1697	24018	1.02	0.0009067	1000029352	sequence	                                                      NW_003573448.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_28, whole genome shotgun sequence
+0.665	1696	1696	22090	1.02	0.000841	1000029351	sequence	                                                      NW_003573447.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_27, whole genome shotgun sequence
+0.6583	1679	1679	22723	1	0.000863	1000029350	sequence	                                                      NW_003573446.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_26, whole genome shotgun sequence
+0.6571	1676	1676	23030	1.01	0.0008754	1000029349	sequence	                                                      NW_003573445.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_25, whole genome shotgun sequence
+0.5971	1523	1523	20981	1	0.0008712	1000029353	sequence	                                                      NW_003573449.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_29, whole genome shotgun sequence
+0.5674	1447	1447	19134	1	0.0008441	1000029355	sequence	                                                      NW_003573451.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_31, whole genome shotgun sequence
+0.5364	1368	1368	18514	1	0.0008615	1000029354	sequence	                                                      NW_003573450.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_30, whole genome shotgun sequence
+0.4964	1266	1266	17052	1.02	0.0008569	1000029358	sequence	                                                      NW_003573454.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_34, whole genome shotgun sequence
+0.4744	1210	1210	16189	1	0.0008521	1000029357	sequence	                                                      NW_003573453.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_33, whole genome shotgun sequence
+0.4548	1160	1160	16515	1	0.0008907	1000029360	sequence	                                                      NW_003573456.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_36, whole genome shotgun sequence
+0.4321	1102	1102	15160	1	0.000894	1000029361	sequence	                                                      NW_003573457.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_37, whole genome shotgun sequence
+0.4242	1082	1082	13817	1.01	0.0007983	1000029359	sequence	                                                      NW_003573455.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_35, whole genome shotgun sequence
+0.4227	1078	1078	13964	1	0.0008542	1000029362	sequence	                                                      NW_003573458.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_38, whole genome shotgun sequence
+0.3835	978	978	13688	1	0.000874	1000029365	sequence	                                                      NW_003573461.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_41, whole genome shotgun sequence
+0.3678	938	938	12813	1.01	0.0008804	1000029364	sequence	                                                      NW_003573460.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_40, whole genome shotgun sequence
+0.3662	934	934	12060	1.01	0.000854	1000029366	sequence	                                                      NW_003573462.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_42, whole genome shotgun sequence
+0.3435	876	876	11997	1	0.0008666	1000029368	sequence	                                                      NW_003573464.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_44, whole genome shotgun sequence
+0.338	862	862	11417	1	0.0008018	1000029367	sequence	                                                      NW_003573463.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_43, whole genome shotgun sequence
+0.3345	853	853	11835	1.01	0.0008916	1000029371	sequence	                                                      NW_003573467.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_47, whole genome shotgun sequence
+0.3317	846	846	11777	1.02	0.0008759	1000029373	sequence	                                                      NW_003573469.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_49, whole genome shotgun sequence
+0.3286	838	838	12163	1	0.0008623	1000029369	sequence	                                                      NW_003573465.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_45, whole genome shotgun sequence
+0.3286	838	838	11216	1.01	0.0008524	1000029372	sequence	                                                      NW_003573468.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_48, whole genome shotgun sequence
+0.3184	812	812	10662	1	0.0008673	1000029375	sequence	                                                      NW_003573471.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_51, whole genome shotgun sequence
+0.3145	802	802	11045	1	0.0008852	1000029376	sequence	                                                      NW_003573472.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_52, whole genome shotgun sequence
+0.305	778	778	10712	1.02	0.0008702	1000029374	sequence	                                                      NW_003573470.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_50, whole genome shotgun sequence
+0.3011	768	768	9828	1	0.0007957	1000029370	sequence	                                                      NW_003573466.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_46, whole genome shotgun sequence
+0.2937	749	749	10208	1	0.0008827	1000029377	sequence	                                                      NW_003573473.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_53, whole genome shotgun sequence
+0.2901	740	740	10216	1	0.0009023	1000029379	sequence	                                                      NW_003573475.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_55, whole genome shotgun sequence
+0.2874	733	733	9750	1	0.0009132	1000029378	sequence	                                                      NW_003573474.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_54, whole genome shotgun sequence
+0.2827	721	721	10046	1	0.0008815	1000029381	sequence	                                                      NW_003573477.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_57, whole genome shotgun sequence
+0.2607	665	665	9312	1	0.0008459	1000029383	sequence	                                                      NW_003573479.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_59, whole genome shotgun sequence
+0.2603	664	664	9271	1	0.000875	1000029382	sequence	                                                      NW_003573478.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_58, whole genome shotgun sequence
+0.2478	632	632	8882	1	0.0009007	1000029386	sequence	                                                      NW_003573482.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_62, whole genome shotgun sequence
+0.2462	628	628	8212	1	0.0008335	1000029384	sequence	                                                      NW_003573480.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_60, whole genome shotgun sequence
+0.2294	585	585	7350	1	0.0008189	1000029387	sequence	                                                      NW_003573483.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_63, whole genome shotgun sequence
+0.2215	565	565	7891	1	0.0009227	1000029393	sequence	                                                      NW_003573489.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_69, whole genome shotgun sequence
+0.216	551	551	7087	1	0.0008079	1000029392	sequence	                                                      NW_003573488.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_68, whole genome shotgun sequence
+0.1627	415	415	5391	1	0.0008235	1000029400	sequence	                                                      NW_003573496.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_76, whole genome shotgun sequence
+0.1498	382	382	4934	1	0.0008685	1000029404	sequence	                                                      NW_003573500.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_80, whole genome shotgun sequence
+0.1357	346	346	4424	1	0.0008617	1000029407	sequence	                                                      NW_003573503.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_83, whole genome shotgun sequence
+0.1035	264	264	3452	1	0.0007626	1000029412	sequence	                                                      NW_003573508.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_88, whole genome shotgun sequence
+0.08391	214	214	2701	1	0.0007555	1000029425	sequence	                                                      NW_003573521.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_101, whole genome shotgun sequence
+0.05764	147	147	1982	1	0.0008027	1000029433	sequence	                                                      NW_003573529.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_109, whole genome shotgun sequence
+0.03411	87	87	1296	1	0.0009786	1000029461	sequence	                                                      NW_003573557.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_137, whole genome shotgun sequence
+0.01843	47	47	220	1	8.595e-06	1000029348	sequence	                                                      NW_003573444.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_24, whole genome shotgun sequence
+0.01412	36	36	510	1	0.0008067	1000029482	sequence	                                                      NW_003573578.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_158, whole genome shotgun sequence
+0.01098	28	28	415	1	0.00106	1000029504	sequence	                                                      NW_003573600.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_180, whole genome shotgun sequence
+0.009018	23	23	99	1	5.148e-06	1000029356	sequence	                                                      NW_003573452.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_32, whole genome shotgun sequence
+0.008626	22	22	84	1	9.403e-06	1000029385	sequence	                                                      NW_003573481.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_61, whole genome shotgun sequence
+0.005881	15	15	51	1	5.25e-06	1000029380	sequence	                                                      NW_003573476.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_56, whole genome shotgun sequence
+0.004705	12	12	47	1	3.001e-06	1000029363	sequence	                                                      NW_003573459.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_39, whole genome shotgun sequence
+0.003921	10	10	33	1	3.81e-06	1000029391	sequence	                                                      NW_003573487.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_67, whole genome shotgun sequence
+0.003921	10	10	31	1	3.225e-06	1000029389	sequence	                                                      NW_003573485.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_65, whole genome shotgun sequence
+0.003921	10	10	23	1	4.509e-06	1000029405	sequence	                                                      NW_003573501.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_81, whole genome shotgun sequence
+0.003529	9	9	43	1	7.537e-06	1000029402	sequence	                                                      NW_003573498.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_78, whole genome shotgun sequence
+0.003529	9	9	23	1	2.99e-06	1000029399	sequence	                                                      NW_003573495.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_75, whole genome shotgun sequence
+0.003529	9	9	20	1	2.229e-06	1000029390	sequence	                                                      NW_003573486.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_66, whole genome shotgun sequence
+0.003137	8	8	34	1	5.712e-06	1000029401	sequence	                                                      NW_003573497.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_77, whole genome shotgun sequence
+0.003137	8	8	26	1	6.83e-06	1000029409	sequence	                                                      NW_003573505.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_85, whole genome shotgun sequence
+0.002745	7	7	23	1	2.672e-06	1000029394	sequence	                                                      NW_003573490.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_70, whole genome shotgun sequence
+0.002745	7	7	18	1	3.352e-06	1000029408	sequence	                                                      NW_003573504.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_84, whole genome shotgun sequence
+0.002745	7	7	14	1	3.769e-06	1000029416	sequence	                                                      NW_003573512.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_92, whole genome shotgun sequence
+0.002353	6	6	32	1	4.139e-06	1000029398	sequence	                                                      NW_003573494.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_74, whole genome shotgun sequence
+0.002353	6	6	27	1	3.425e-06	1000029395	sequence	                                                      NW_003573491.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_71, whole genome shotgun sequence
+0.002353	6	6	17	1	7.499e-06	1000029438	sequence	                                                      NW_003573534.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_114, whole genome shotgun sequence
+0.00196	5	5	32	1	9.009e-06	1000029421	sequence	                                                      NW_003573517.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_97, whole genome shotgun sequence
+0.00196	5	5	25	1	4.118e-06	1000029403	sequence	                                                      NW_003573499.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_79, whole genome shotgun sequence
+0.00196	5	5	23	1	4.877e-06	1000029410	sequence	                                                      NW_003573506.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_86, whole genome shotgun sequence
+0.00196	5	5	23	1	6.75e-06	1000029424	sequence	                                                      NW_003573520.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_100, whole genome shotgun sequence
+0.00196	5	5	20	1	2.093e-06	1000029388	sequence	                                                      NW_003573484.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_64, whole genome shotgun sequence
+0.00196	5	5	20	1	5.69e-06	1000029422	sequence	                                                      NW_003573518.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_98, whole genome shotgun sequence
+0.00196	5	5	19	1	5.397e-06	1000029414	sequence	                                                      NW_003573510.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_90, whole genome shotgun sequence
+0.00196	5	5	17	1	4.795e-06	1000029417	sequence	                                                      NW_003573513.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_93, whole genome shotgun sequence
+0.00196	5	5	16	1	4e-06	1000029415	sequence	                                                      NW_003573511.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_91, whole genome shotgun sequence
+0.00196	5	5	16	1	2.033e-06	1000029397	sequence	                                                      NW_003573493.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_73, whole genome shotgun sequence
+0.00196	5	5	7	1	3.327e-06	1000029441	sequence	                                                      NW_003573537.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_117, whole genome shotgun sequence
+0.001568	4	4	19	1	2.1e-05	1000029457	sequence	                                                      NW_003573553.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_133, whole genome shotgun sequence
+0.001568	4	4	19	1	8.587e-06	1000029440	sequence	                                                      NW_003573536.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_116, whole genome shotgun sequence
+0.001568	4	4	11	1	3.054e-06	1000029418	sequence	                                                      NW_003573514.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_94, whole genome shotgun sequence
+0.001568	4	4	6	1	2.708e-06	1000029430	sequence	                                                      NW_003573526.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_106, whole genome shotgun sequence
+0.001176	3	3	13	1	5.831e-06	1000029439	sequence	                                                      NW_003573535.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_115, whole genome shotgun sequence
+0.001176	3	3	12	1	7.816e-06	1000029452	sequence	                                                      NW_003573548.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_128, whole genome shotgun sequence
+0.001176	3	3	11	1	3.128e-06	1000029420	sequence	                                                      NW_003573516.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_96, whole genome shotgun sequence
+0.001176	3	3	11	1	3.146e-06	1000029423	sequence	                                                      NW_003573519.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_99, whole genome shotgun sequence
+0.001176	3	3	10	1	4.198e-06	1000029431	sequence	                                                      NW_003573527.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_107, whole genome shotgun sequence
+0.001176	3	3	10	1	3.853e-06	1000029437	sequence	                                                      NW_003573533.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_113, whole genome shotgun sequence
+0.001176	3	3	5	1.2	1.773e-05	1000029517	sequence	                                                      NW_003573613.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_193, whole genome shotgun sequence
+0.0007842	2	2	15	1	2.952e-06	1000029406	sequence	                                                      NW_003573502.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_82, whole genome shotgun sequence
+0.0007842	2	2	10	1	3.355e-06	1000029427	sequence	                                                      NW_003573523.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_103, whole genome shotgun sequence
+0.0007842	2	2	8	1	4.57e-06	1000029450	sequence	                                                      NW_003573546.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_126, whole genome shotgun sequence
+0.0007842	2	2	8	1	2.095e-06	1000029411	sequence	                                                      NW_003573507.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_87, whole genome shotgun sequence
+0.0007842	2	2	8	1	7.447e-06	1000029472	sequence	                                                      NW_003573568.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_148, whole genome shotgun sequence
+0.0007842	2	2	8	1	3.93e-05	1000029518	sequence	                                                      NW_003573614.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_194, whole genome shotgun sequence
+0.0007842	2	2	8	1	5.005e-06	1000029451	sequence	                                                      NW_003573547.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_127, whole genome shotgun sequence
+0.0007842	2	2	7	1	5.573e-06	1000029458	sequence	                                                      NW_003573554.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_134, whole genome shotgun sequence
+0.0007842	2	2	7	1	2.134e-06	1000029426	sequence	                                                      NW_003573522.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_102, whole genome shotgun sequence
+0.0007842	2	2	7	1	2.684e-06	1000029429	sequence	                                                      NW_003573525.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_105, whole genome shotgun sequence
+0.0007842	2	2	6	1	8.521e-06	1000029473	sequence	                                                      NW_003573569.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_149, whole genome shotgun sequence
+0.0007842	2	2	6	1	2.904e-05	1000029506	sequence	                                                      NW_003573602.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_182, whole genome shotgun sequence
+0.0007842	2	2	5	1	2.225e-06	1000029436	sequence	                                                      NW_003573532.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_112, whole genome shotgun sequence
+0.0007842	2	2	5	1	1.402e-05	1000029484	sequence	                                                      NW_003573580.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_160, whole genome shotgun sequence
+0.0007842	2	2	5	1	4.153e-06	1000029462	sequence	                                                      NW_003573558.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_138, whole genome shotgun sequence
+0.0007842	2	2	4	1	1.943e-06	1000029443	sequence	                                                      NW_003573539.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_119, whole genome shotgun sequence
+0.0007842	2	2	4	1	2.021e-05	1000029527	sequence	                                                      NW_003573623.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_203, whole genome shotgun sequence
+0.0007842	2	2	3	1	8.788e-06	1000029485	sequence	                                                      NW_003573581.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_161, whole genome shotgun sequence
+0.0007842	2	2	3	1	1.404e-05	1000029513	sequence	                                                      NW_003573609.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_189, whole genome shotgun sequence
+0.0007842	2	2	2	1	2.426e-06	1000029463	sequence	                                                      NW_003573559.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_139, whole genome shotgun sequence
+0.0003921	1	1	16	1	8.262e-06	1000029442	sequence	                                                      NW_003573538.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_118, whole genome shotgun sequence
+0.0003921	1	1	14	1	0.001011	1000029789	sequence	                                                      NW_003573885.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_465, whole genome shotgun sequence
+0.0003921	1	1	14	1	1.302e-05	1000029476	sequence	                                                      NW_003573572.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_152, whole genome shotgun sequence
+0.0003921	1	1	10	1	4.711e-06	1000029435	sequence	                                                      NW_003573531.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_111, whole genome shotgun sequence
+0.0003921	1	1	9	1	7.861e-06	1000029455	sequence	                                                      NW_003573551.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_131, whole genome shotgun sequence
+0.0003921	1	1	8	1	0.001271	1000030695	sequence	                                                      NW_003574791.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_1372, whole genome shotgun sequence
+0.0003921	1	1	7	1	3.893e-06	1000029448	sequence	                                                      NW_003573544.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_124, whole genome shotgun sequence
+0.0003921	1	1	7	1	3.12e-05	1000029548	sequence	                                                      NW_003573644.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_224, whole genome shotgun sequence
+0.0003921	1	1	7	1	5.091e-05	1000029552	sequence	                                                      NW_003573648.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_228, whole genome shotgun sequence
+0.0003921	1	1	6	1	3.411e-06	1000029453	sequence	                                                      NW_003573549.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_129, whole genome shotgun sequence
+0.0003921	1	1	6	1	8.783e-06	1000029490	sequence	                                                      NW_003573586.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_166, whole genome shotgun sequence
+0.0003921	1	1	6	1	3.997e-05	1000029524	sequence	                                                      NW_003573620.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_200, whole genome shotgun sequence
+0.0003921	1	1	6	1	9.405e-06	1000029487	sequence	                                                      NW_003573583.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_163, whole genome shotgun sequence
+0.0003921	1	1	6	1	7.82e-06	1000029479	sequence	                                                      NW_003573575.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_155, whole genome shotgun sequence
+0.0003921	1	1	6	1	0.0002114	1000029833	sequence	                                                      NW_003573929.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_509, whole genome shotgun sequence
+0.0003921	1	1	5	1	1.308e-05	1000029489	sequence	                                                      NW_003573585.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_165, whole genome shotgun sequence
+0.0003921	1	1	5	1	3.611e-05	1000029567	sequence	                                                      NW_003573663.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_243, whole genome shotgun sequence
+0.0003921	1	1	5	1	6.387e-05	1000029590	sequence	                                                      NW_003573686.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_266, whole genome shotgun sequence
+0.0003921	1	1	5	1	0.0001284	1000029711	sequence	                                                      NW_003573807.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_387, whole genome shotgun sequence
+0.0003921	1	1	5	1	4.83e-06	1000029464	sequence	                                                      NW_003573560.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_140, whole genome shotgun sequence
+0.0003921	1	1	5	1	1.258e-06	1000029413	sequence	                                                      NW_003573509.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_89, whole genome shotgun sequence
+0.0003921	1	1	4	1	8.723e-05	1000029659	sequence	                                                      NW_003573755.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_335, whole genome shotgun sequence
+0.0003921	1	1	4	1	3.535e-06	1000029459	sequence	                                                      NW_003573555.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_135, whole genome shotgun sequence
+0.0003921	1	1	4	1	2.899e-06	1000029456	sequence	                                                      NW_003573552.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_132, whole genome shotgun sequence
+0.0003921	1	1	4	1	3.646e-06	1000029460	sequence	                                                      NW_003573556.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_136, whole genome shotgun sequence
+0.0003921	1	1	4	1	1.549e-06	1000029428	sequence	                                                      NW_003573524.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_104, whole genome shotgun sequence
+0.0003921	1	1	4	1	0.0007644	1000029939	sequence	                                                      NW_003574035.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_615, whole genome shotgun sequence
+0.0003921	1	1	4	1	0.0003151	1000030134	sequence	                                                      NW_003574230.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_811, whole genome shotgun sequence
+0.0003921	1	1	4	1	2.747e-05	1000029580	sequence	                                                      NW_003573676.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_256, whole genome shotgun sequence
+0.0003921	1	1	4	1	4.279e-05	1000029577	sequence	                                                      NW_003573673.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_253, whole genome shotgun sequence
+0.0003921	1	1	3	1	6.542e-06	1000029500	sequence	                                                      NW_003573596.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_176, whole genome shotgun sequence
+0.0003921	1	1	3	1	4.815e-06	1000029467	sequence	                                                      NW_003573563.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_143, whole genome shotgun sequence
+0.0003921	1	1	3	1	0.000489	1000030238	sequence	                                                      NW_003574334.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_915, whole genome shotgun sequence
+0.0003921	1	1	3	1	2.74e-06	1000029469	sequence	                                                      NW_003573565.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_145, whole genome shotgun sequence
+0.0003921	1	1	3	1	2.719e-05	1000029570	sequence	                                                      NW_003573666.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_246, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.012e-06	1000029471	sequence	                                                      NW_003573567.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_147, whole genome shotgun sequence
+0.0003921	1	1	2	1	4.032e-06	1000029502	sequence	                                                      NW_003573598.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_178, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.76e-05	1000029564	sequence	                                                      NW_003573660.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_240, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.097e-05	1000029536	sequence	                                                      NW_003573632.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_212, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.404e-05	1000029532	sequence	                                                      NW_003573628.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_208, whole genome shotgun sequence
+0.0003921	1	1	2	1	3.811e-06	1000029493	sequence	                                                      NW_003573589.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_169, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.222e-06	1000029446	sequence	                                                      NW_003573542.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_122, whole genome shotgun sequence
+0.0003921	1	1	2	1	0.0001871	1000029912	sequence	                                                      NW_003574008.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_588, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.031e-05	1000029521	sequence	                                                      NW_003573617.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_197, whole genome shotgun sequence
+0.0003921	1	1	2	1	5.979e-07	1000029419	sequence	                                                      NW_003573515.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_95, whole genome shotgun sequence
+0.0003921	1	1	1	1	4.174e-06	1000029512	sequence	                                                      NW_003573608.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_188, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.079e-05	1000029591	sequence	                                                      NW_003573687.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_267, whole genome shotgun sequence
+0.0003921	1	1	1	1	3.127e-06	1000029520	sequence	                                                      NW_003573616.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_196, whole genome shotgun sequence
+0.0003921	1	1	1	1	0.0001365	1000029905	sequence	                                                      NW_003574001.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_581, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.314e-06	1000029481	sequence	                                                      NW_003573577.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_157, whole genome shotgun sequence
+0.0003921	1	1	1	1	5.594e-05	1000030049	sequence	                                                      NW_003574145.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_725, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.655e-06	1000029468	sequence	                                                      NW_003573564.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_144, whole genome shotgun sequence
+0.0003921	1	1	1	1	0.0001962	1000030246	sequence	                                                      NW_003574342.1 Loxodonta africana isolate ISIS603380 unplaced genomic scaffold, Loxafr3.0 scaffold_923, whole genome shotgun sequence
+0.1333	340	35	2162	1.05	2.244e-08	1437010	clade	                                          Boreoeutheria
+0.07959	203	33	1297	1.08	2.78e-08	314145	superorder	                                            Laurasiatheria
+0.0345	88	4	630	1.14	3.649e-08	91561	order	                                              Artiodactyla
+0.02588	66	0	514	1.17	1.05e-07	2653789	suborder	                                                Whippomorpha
+0.02588	66	8	514	1.17	1.05e-07	9721	infraorder	                                                  Cetacea
+0.02196	56	2	460	1.19	1.463e-07	9722	parvorder	                                                    Odontoceti
+0.02078	53	0	438	1.2	4.282e-07	9750	family	                                                      Physeteridae
+0.02078	53	0	438	1.2	4.282e-07	9753	genus	                                                        Physeter
+0.02078	53	0	438	1.2	4.282e-07	9755	species	                                                          Physeter catodon
+0.02078	53	15	438	1.2	4.282e-07	1000046959	assembly	                                                            GCF_002837175.2 Physeter catodon
+0.01215	31	31	280	1.12	0.08081	1000049738	sequence	                                                              NW_021148044.1 Physeter catodon isolate SW-GA unplaced genomic scaffold, ASM283717v2 random_2759, whole genome shotgun sequence
+0.001568	4	4	12	1.25	0.01523	1000054062	sequence	                                                              NW_021152368.1 Physeter catodon isolate SW-GA unplaced genomic scaffold, ASM283717v2 random_7083, whole genome shotgun sequence
+0.0007842	2	2	4	1	8.696e-08	1000046977	sequence	                                                              NC_041231.1 Physeter catodon isolate SW-GA chromosome 18, ASM283717v2, whole genome shotgun sequence
+0.0003921	1	1	2	1	3.507e-08	1000046973	sequence	                                                              NC_041227.1 Physeter catodon isolate SW-GA chromosome 14, ASM283717v2, whole genome shotgun sequence
+0.0003921	1	0	6	1	7.804e-09	9740	family	                                                      Phocoenidae
+0.0003921	1	0	6	1	7.804e-09	9741	genus	                                                        Phocoena
+0.0003921	1	0	6	1	7.804e-09	42100	species	                                                          Phocoena sinus
+0.0003921	1	0	6	1	7.804e-09	1000190678	assembly	                                                            GCF_008692025.1 Phocoena sinus
+0.0003921	1	1	1	1	2.748e-08	1000190686	sequence	                                                              NC_045770.1 Phocoena sinus isolate mPhoSin1 chromosome 8, mPhoSin1.pri, whole genome shotgun sequence
+0.0007842	2	0	10	1	1.033e-08	9761	parvorder	                                                    Mysticeti
+0.0007842	2	0	10	1	1.033e-08	9765	family	                                                      Balaenopteridae
+0.0007842	2	0	10	1	1.033e-08	9766	genus	                                                        Balaenoptera
+0.0007842	2	0	10	1	1.033e-08	9771	species	                                                          Balaenoptera musculus
+0.0007842	2	0	10	1	1.033e-08	1000198788	assembly	                                                            GCF_009873245.2 Balaenoptera musculus
+0.0003921	1	1	3	1	4.287e-08	1000198790	sequence	                                                              NC_045786.1 Balaenoptera musculus isolate JJ_BM4_2016_0621 chromosome 2, mBalMus1.pri.v3, whole genome shotgun sequence
+0.0003921	1	1	1	1	2.19e-08	1000198796	sequence	                                                              NC_045792.1 Balaenoptera musculus isolate JJ_BM4_2016_0621 chromosome 8, mBalMus1.pri.v3, whole genome shotgun sequence
+0.002745	7	0	44	1	5.931e-09	9845	suborder	                                                Ruminantia
+0.002745	7	0	44	1	5.931e-09	35500	infraorder	                                                  Pecora
+0.001568	4	0	33	1	6.276e-09	9895	family	                                                    Bovidae
+0.0007842	2	1	18	1	7.89e-09	9963	subfamily	                                                      Caprinae
+0.0003921	1	0	3	1	3.481e-09	9922	genus	                                                        Capra
+0.0003921	1	0	3	1	3.481e-09	9925	species	                                                          Capra hircus
+0.0003921	1	0	3	1	3.481e-09	1000100506	assembly	                                                            GCF_001704415.2 Capra hircus breed=San Clemente
+0.0003921	1	1	1	1	2.73e-08	1000100511	sequence	                                                              NC_030812.1 Capra hircus breed San Clemente chromosome 5, ASM170441v1, whole genome shotgun sequence
+0.0007842	2	1	12	1	4.643e-09	27592	subfamily	                                                      Bovinae
+0.0003921	1	0	6	1	4.917e-09	9903	genus	                                                        Bos
+0.0003921	1	0	3	1	2.258e-08	30522	species	                                                          Bos indicus x Bos taurus
+0.0003921	1	0	3	1	2.258e-08	1000329527	assembly	                                                            GCF_003369695.1 Bos indicus x Bos taurus breed=Angus x Brahman F1 hybrid
+0.0003921	1	1	3	1	6.184e-07	1000329538	sequence	                                                              NC_040086.1 Bos indicus x Bos taurus breed Angus x Brahman F1 hybrid chromosome 11, Bos_hybrid_MaternalHap_v2.0, whole genome shotgun sequence
+0.001176	3	0	9	1	5.321e-09	9850	family	                                                    Cervidae
+0.001176	3	0	9	1	5.321e-09	34878	subfamily	                                                      Cervinae
+0.001176	3	3	9	1	5.321e-09	9859	genus	                                                        Cervus
+0.002353	6	0	27	1	1.324e-08	9834	suborder	                                                Tylopoda
+0.002353	6	0	27	1	1.324e-08	9835	family	                                                  Camelidae
+0.002353	6	6	27	1	1.324e-08	9836	genus	                                                    Camelus
+0.00196	5	0	26	1	9.343e-09	35497	suborder	                                                Suina
+0.00196	5	1	26	1	9.343e-09	9821	family	                                                  Suidae
+0.001176	3	0	10	1	1.097e-08	9822	genus	                                                    Sus
+0.001176	3	0	10	1	1.097e-08	9823	species	                                                      Sus scrofa
+0.001176	3	0	10	1	1.097e-08	1000099841	assembly	                                                        GCF_000003025.6 Sus scrofa breed=Duroc
+0.0003921	1	1	3	1	5.72e-08	1000099850	sequence	                                                          NC_010451.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 9, Sscrofa11.1, whole genome shotgun sequence
+0.0003921	1	1	2	1	3.568e-08	1000099843	sequence	                                                          NC_010444.4 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 2, Sscrofa11.1, whole genome shotgun sequence
+0.0003921	1	1	1	1	2.54e-08	1000099846	sequence	                                                          NC_010447.5 Sus scrofa isolate TJ Tabasco breed Duroc chromosome 5, Sscrofa11.1, whole genome shotgun sequence
+0.0003921	1	0	7	1	7.801e-09	41425	genus	                                                    Phacochoerus
+0.0003921	1	0	7	1	7.801e-09	41426	species	                                                      Phacochoerus africanus
+0.0003921	1	0	7	1	7.801e-09	1000190483	assembly	                                                        GCF_016906955.1 Phacochoerus africanus
+0.0003921	1	1	3	1	5.758e-08	1000190494	sequence	                                                          NC_062554.1 Phacochoerus africanus isolate WHEZ1 chromosome 11, ROS_Pafr_v1, whole genome shotgun sequence
+0.01843	47	2	242	1	1.216e-08	33554	order	                                              Carnivora
+0.009802	25	3	130	1	9.832e-09	379584	suborder	                                                Caniformia
+0.003137	8	0	36	1	2.884e-08	9709	family	                                                  Phocidae
+0.003137	8	0	36	1	2.884e-08	1907176	genus	                                                    Neomonachus
+0.003137	8	0	36	1	2.884e-08	29088	species	                                                      Neomonachus schauinslandi
+0.003137	8	0	36	1	2.884e-08	1000031676	assembly	                                                        GCF_002201575.2 Neomonachus schauinslandi
+0.0007842	2	2	17	1	1.726e-07	1000031680	sequence	                                                          NC_058406.1 Neomonachus schauinslandi chromosome 4, ASM220157v2, whole genome shotgun sequence
+0.0007842	2	2	7	1	7.435e-08	1000031681	sequence	                                                          NC_058407.1 Neomonachus schauinslandi chromosome 5, ASM220157v2, whole genome shotgun sequence
+0.0003921	1	1	3	1	3.933e-08	1000031684	sequence	                                                          NC_058410.1 Neomonachus schauinslandi chromosome 8, ASM220157v2, whole genome shotgun sequence
+0.0003921	1	1	1	1	3.057e-08	1000031691	sequence	                                                          NC_058417.1 Neomonachus schauinslandi chromosome 15, ASM220157v2, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.196e-08	1000031682	sequence	                                                          NC_058408.1 Neomonachus schauinslandi chromosome 6, ASM220157v2, whole genome shotgun sequence
+0.0003921	1	1	1	1	9.534e-09	1000031678	sequence	                                                          NC_058404.1 Neomonachus schauinslandi chromosome 2, ASM220157v2, whole genome shotgun sequence
+0.00196	5	1	23	1	8.278e-09	9608	family	                                                  Canidae
+0.001568	4	0	10	1	1.089e-08	9625	genus	                                                    Vulpes
+0.001568	4	0	10	1	1.089e-08	494514	species	                                                      Vulpes lagopus
+0.001568	4	0	10	1	1.089e-08	1000465839	assembly	                                                        GCF_018345385.1 Vulpes lagopus strain=Blue_001
+0.0003921	1	1	2	1	9.723e-08	1000465858	sequence	                                                          NC_054842.1 Vulpes lagopus strain Blue_001 chromosome 19, ASM1834538v1, whole genome shotgun sequence
+0.0003921	1	1	2	1	8.204e-08	1000465863	sequence	                                                          NC_054847.1 Vulpes lagopus strain Blue_001 chromosome 24, ASM1834538v1, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.437e-08	1000465841	sequence	                                                          NC_054825.1 Vulpes lagopus strain Blue_001 chromosome 2, ASM1834538v1, whole genome shotgun sequence
+0.0003921	1	1	1	1	5.81e-08	1000465860	sequence	                                                          NC_054844.1 Vulpes lagopus strain Blue_001 chromosome 21, ASM1834538v1, whole genome shotgun sequence
+0.00196	5	0	22	1	3.97e-09	9655	family	                                                  Mustelidae
+0.0007842	2	0	13	1	9.633e-09	1008252	subfamily	                                                    Melinae
+0.0007842	2	0	13	1	9.633e-09	9661	genus	                                                      Meles
+0.0007842	2	0	13	1	9.633e-09	9662	species	                                                        Meles meles
+0.0007842	2	0	13	1	9.633e-09	1000406985	assembly	                                                          GCF_922984935.1 Meles meles
+0.0003921	1	1	4	1	4.711e-08	1000406988	sequence	                                                            NC_060068.1 Meles meles chromosome 3, mMelMel3.1 paternal haplotype, whole genome shotgun sequence
+0.0003921	1	1	1	1	2.204e-08	1000406999	sequence	                                                            NC_060079.1 Meles meles chromosome 14, mMelMel3.1 paternal haplotype, whole genome shotgun sequence
+0.0007842	2	0	6	1	2.631e-09	169418	subfamily	                                                    Mustelinae
+0.0003921	1	0	3	1	3.024e-09	2902005	genus	                                                      Neogale
+0.0003921	1	0	3	1	3.024e-09	452646	species	                                                        Neogale vison
+0.0003921	1	0	3	1	3.024e-09	1000134305	assembly	                                                          GCF_020171115.1 Neogale vison
+0.0003921	1	1	2	1	2.312e-08	1000134308	sequence	                                                            NC_058093.1 Neovison vison isolate M4711 chromosome 3, ASM_NN_V1, whole genome shotgun sequence
+0.0003921	1	0	3	1	3.191e-09	9665	genus	                                                      Mustela
+0.0003921	1	0	3	1	3.191e-09	36723	species	                                                        Mustela erminea
+0.0003921	1	0	3	1	3.191e-09	1000460338	assembly	                                                          GCF_009829155.1 Mustela erminea
+0.0003921	1	1	1	1	1.215e-08	1000460339	sequence	                                                            NC_045614.1 Mustela erminea isolate mMusErm1 chromosome 1, mMusErm1.Pri, whole genome shotgun sequence
+0.0003921	1	0	2	1	1.798e-09	169417	subfamily	                                                    Lutrinae
+0.0003921	1	0	2	1	1.798e-09	9656	genus	                                                      Lutra
+0.0003921	1	0	2	1	1.798e-09	9657	species	                                                        Lutra lutra
+0.0003921	1	0	2	1	1.798e-09	1000462854	assembly	                                                          GCF_902655055.1 Lutra lutra
+0.0003921	1	1	1	1	1.112e-08	1000462857	sequence	                                                            NC_062280.1 Lutra lutra chromosome 3, mLutLut1.2, whole genome shotgun sequence
+0.0007842	2	0	22	1	1.33e-08	9632	family	                                                  Ursidae
+0.0007842	2	0	22	1	1.33e-08	9645	genus	                                                    Ailuropoda
+0.0007842	2	0	22	1	1.33e-08	9646	species	                                                      Ailuropoda melanoleuca
+0.0007842	2	0	22	1	1.33e-08	1000332822	assembly	                                                        GCF_002007445.2 Ailuropoda melanoleuca
+0.0003921	1	1	10	1	9.877e-08	1000332825	sequence	                                                          NC_048220.1 Ailuropoda melanoleuca isolate Jingjing chromosome 3, ASM200744v2, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.641e-08	1000332833	sequence	                                                          NC_048228.1 Ailuropoda melanoleuca isolate Jingjing chromosome 11, ASM200744v2, whole genome shotgun sequence
+0.0007842	2	0	5	1	3.866e-09	9702	family	                                                  Otariidae
+0.0007842	2	0	5	1	3.866e-09	9703	genus	                                                    Zalophus
+0.0007842	2	0	5	1	3.866e-09	9704	species	                                                      Zalophus californianus
+0.0007842	2	0	5	1	3.866e-09	1000190435	assembly	                                                        GCF_009762305.2 Zalophus californianus
+0.0003921	1	1	1	1	2.918e-08	1000190451	sequence	                                                          NC_045610.1 Zalophus californianus isolate mZalCal1 chromosome 16, mZalCal1.pri.v2, whole genome shotgun sequence
+0.0003921	1	1	1	1	9.759e-09	1000190439	sequence	                                                          NC_045598.1 Zalophus californianus isolate mZalCal1 chromosome 4, mZalCal1.pri.v2, whole genome shotgun sequence
+0.007842	20	0	97	1	1.481e-08	379583	suborder	                                                Feliformia
+0.005881	15	8	64	1	1.365e-08	9681	family	                                                  Felidae
+0.00196	5	2	23	1	9.146e-09	338152	subfamily	                                                    Felinae
+0.0003921	1	0	4	1	9.841e-09	13124	genus	                                                      Lynx
+0.0003921	1	0	4	1	9.841e-09	61383	species	                                                        Lynx canadensis
+0.0003921	1	0	4	1	9.841e-09	1000046904	assembly	                                                          GCF_007474595.2 Lynx canadensis
+0.0003921	1	1	2	1	7.043e-08	1000046906	sequence	                                                            NC_044304.2 Lynx canadensis isolate LIC74 chromosome A2, mLynCan4.pri.v2, whole genome shotgun sequence
+0.0003921	1	0	3	1	6.141e-09	46841	genus	                                                      Leopardus
+0.0003921	1	0	3	1	6.141e-09	46844	species	                                                        Leopardus geoffroyi
+0.0003921	1	0	3	1	6.141e-09	1000161789	assembly	                                                          GCF_018350155.1 Leopardus geoffroyi
+0.0003921	1	1	2	1	9.055e-08	1000161827	sequence	                                                            NC_059343.1 Leopardus geoffroyi isolate Oge1 chromosome X, O.geoffroyi_Oge1_pat1.0, whole genome shotgun sequence
+0.0003921	1	0	2	1	3.207e-09	37028	genus	                                                      Prionailurus
+0.0003921	1	0	2	1	1.037e-08	61388	species	                                                        Prionailurus viverrinus
+0.0003921	1	0	2	1	1.037e-08	1000328957	assembly	                                                          GCF_022837055.1 Prionailurus viverrinus
+0.0003921	1	1	2	1	2.179e-07	1000328967	sequence	                                                            NC_062570.1 Prionailurus viverrinus isolate Anna chromosome D1, UM_Priviv_1.0, whole genome shotgun sequence
+0.0007842	2	0	7	1	8.194e-09	338153	subfamily	                                                    Pantherinae
+0.0007842	2	0	7	1	8.194e-09	9688	genus	                                                      Panthera
+0.0007842	2	0	4	1	1.637e-08	9689	species	                                                        Panthera leo
+0.0007842	2	0	4	1	1.637e-08	1000190743	assembly	                                                          GCF_018350215.1 Panthera leo
+0.0003921	1	1	3	1	1.733e-07	1000190745	sequence	                                                            NC_056680.1 Panthera leo isolate Ple1 chromosome A2, P.leo_Ple1_pat1.1, whole genome shotgun sequence
+0.0003921	1	1	1	1	6.638e-08	1000190753	sequence	                                                            NC_056684.1 Panthera leo isolate Ple1 chromosome B3, P.leo_Ple1_pat1.1, whole genome shotgun sequence
+0.00196	5	0	33	1	1.843e-08	9697	family	                                                  Herpestidae
+0.00196	5	0	33	1	1.843e-08	37031	genus	                                                    Suricata
+0.00196	5	0	33	1	1.843e-08	37032	species	                                                      Suricata suricatta
+0.00196	5	0	33	1	1.843e-08	1000199433	assembly	                                                        GCF_006229205.1 Suricata suricatta
+0.0007842	2	2	2	1	1.806e-08	1000199440	sequence	                                                          NC_043706.1 Suricata suricatta isolate VVHF042 chromosome 7, meerkat_22Aug2017_6uvM2_HiC, whole genome shotgun sequence
+0.0003921	1	1	10	1	8.468e-08	1000199438	sequence	                                                          NC_043704.1 Suricata suricatta isolate VVHF042 chromosome 5, meerkat_22Aug2017_6uvM2_HiC, whole genome shotgun sequence
+0.0003921	1	1	4	1	3.137e-08	1000199437	sequence	                                                          NC_043703.1 Suricata suricatta isolate VVHF042 chromosome 4, meerkat_22Aug2017_6uvM2_HiC, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.481e-08	1000199436	sequence	                                                          NC_043702.1 Suricata suricatta isolate VVHF042 chromosome 3, meerkat_22Aug2017_6uvM2_HiC, whole genome shotgun sequence
+0.00745	19	0	76	1	1.175e-08	9397	order	                                              Chiroptera
+0.00745	19	0	76	1	1.175e-08	30560	suborder	                                                Microchiroptera
+0.003921	10	0	28	1	1.635e-08	58055	family	                                                  Rhinolophidae
+0.003921	10	0	28	1	1.635e-08	186995	subfamily	                                                    Rhinolophinae
+0.003921	10	0	28	1	1.635e-08	49442	genus	                                                      Rhinolophus
+0.003921	10	0	28	1	1.635e-08	59479	species	                                                        Rhinolophus ferrumequinum
+0.003921	10	0	28	1	1.635e-08	1000162802	assembly	                                                          GCF_004115265.1 Rhinolophus ferrumequinum
+0.0007842	2	2	2	1	3.805e-08	1000162824	sequence	                                                            NC_046301.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 18, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0003921	1	1	6	1	8.637e-08	1000162816	sequence	                                                            NC_046295.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 12, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0003921	1	1	5	1	6.869e-08	1000162808	sequence	                                                            NC_046288.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 5, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0003921	1	1	4	1	5.104e-08	1000162813	sequence	                                                            NC_046292.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 9, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.472e-08	1000162812	sequence	                                                            NC_046291.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 8, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.206e-07	1000162821	sequence	                                                            NW_022680357.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 15 unlocalized genomic scaffold, mRhiFer1_v1.p scaffold_54_arrow_ctg1_1, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.136e-08	1000162807	sequence	                                                            NC_046287.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 4, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.194e-08	1000162810	sequence	                                                            NC_046289.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 6, mRhiFer1_v1.p, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.663e-08	1000162817	sequence	                                                            NC_046296.1 Rhinolophus ferrumequinum isolate MPI-CBG mRhiFer1 chromosome 13, mRhiFer1_v1.p, whole genome shotgun sequence
+0.002745	7	1	35	1	1.05e-08	9415	family	                                                  Phyllostomidae
+0.001176	3	0	20	1	1.214e-08	40238	subfamily	                                                    Phyllostominae
+0.001176	3	0	20	1	1.214e-08	9422	genus	                                                      Phyllostomus
+0.001176	3	0	20	1	1.214e-08	89673	species	                                                        Phyllostomus discolor
+0.001176	3	0	20	1	1.214e-08	1000061784	assembly	                                                          GCF_004126475.2 Phyllostomus discolor
+0.0003921	1	1	3	1	1.779e-08	1000061786	sequence	                                                            NC_040904.2 Phyllostomus discolor isolate MPI-MPIP mPhyDis1 chromosome 2, mPhyDis1.pri.v3, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.835e-08	1000061791	sequence	                                                            NC_040909.2 Phyllostomus discolor isolate MPI-MPIP mPhyDis1 chromosome 7, mPhyDis1.pri.v3, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.336e-08	1000061794	sequence	                                                            NC_040912.2 Phyllostomus discolor isolate MPI-MPIP mPhyDis1 chromosome 10, mPhyDis1.pri.v3, whole genome shotgun sequence
+0.001176	3	0	10	1	6.27e-09	40237	subfamily	                                                    Desmodontinae
+0.001176	3	0	10	1	6.27e-09	9429	genus	                                                      Desmodus
+0.001176	3	0	10	1	6.27e-09	9430	species	                                                        Desmodus rotundus
+0.001176	3	0	10	1	6.27e-09	1000000001	assembly	                                                          GCF_002940915.2 Desmodus rotundus
+0.0003921	1	1	5	1	1.703e-07	1000027237	sequence	                                                            NW_020093492.1 Desmodus rotundus isolate DRU21DN04 unplaced genomic scaffold, ASM294091v2 ScWXtkA_556, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.856e-07	1000025448	sequence	                                                            NW_020091527.1 Desmodus rotundus isolate DRU21DN04 unplaced genomic scaffold, ASM294091v2 ScWXtkA_205, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.751e-08	1000027071	sequence	                                                            NW_020093309.1 Desmodus rotundus isolate DRU21DN04 unplaced genomic scaffold, ASM294091v2 ScWXtkA_390, whole genome shotgun sequence
+0.0007842	2	0	6	1	4.269e-09	9431	family	                                                  Vespertilionidae
+0.0007842	2	0	6	1	4.269e-09	27671	genus	                                                    Pipistrellus
+0.0007842	2	0	6	1	4.269e-09	59472	species	                                                      Pipistrellus kuhlii
+0.0007842	2	0	6	1	4.269e-09	1000029120	assembly	                                                        GCF_014108245.1 Pipistrellus kuhlii
+0.0007842	2	2	3	1	2.053e-08	1000029232	sequence	                                                          NW_023425515.1 Pipistrellus kuhlii isolate mPipKuh1 unplaced genomic scaffold, mPipKuh1.p scaffold_m20_p_2, whole genome shotgun sequence
+0.006273	16	0	81	1	2.829e-08	9787	order	                                              Perissodactyla
+0.006273	16	0	81	1	2.829e-08	9788	family	                                                Equidae
+0.006273	16	11	81	1	2.829e-08	9789	genus	                                                  Equus
+0.0007842	2	0	15	1	2.72e-08	9796	species	                                                    Equus caballus
+0.0007842	2	0	15	1	2.72e-08	1000138836	assembly	                                                      GCF_002863925.1 Equus caballus breed=thoroughbred
+0.0003921	1	1	3	1	1.552e-07	1000138852	sequence	                                                        NC_009159.3 Equus caballus isolate Twilight breed thoroughbred chromosome 16, EquCab3.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	8.723e-08	1000138844	sequence	                                                        NC_009151.3 Equus caballus isolate Twilight breed thoroughbred chromosome 8, EquCab3.0, whole genome shotgun sequence
+0.0007842	2	0	5	1	2.41e-08	9793	species	                                                    Equus asinus
+0.0007842	2	0	5	1	2.41e-08	1000100455	assembly	                                                      GCF_016077325.2 Equus asinus breed=Dezhou
+0.0003921	1	1	3	1	1.538e-07	1000100457	sequence	                                                        NC_052178.1 Equus asinus breed Dezhou chromosome 2, ASM1607732v2, whole genome shotgun sequence
+0.0003921	1	1	2	1	4.542e-07	1000100469	sequence	                                                        NC_052190.1 Equus asinus breed Dezhou chromosome 14, ASM1607732v2, whole genome shotgun sequence
+0.0003921	1	0	7	1	3.506e-08	89248	species	                                                    Equus quagga
+0.0003921	1	0	7	1	3.506e-08	1000479592	assembly	                                                      GCF_021613505.1 Equus quagga
+0.0003921	1	1	2	1	3.017e-07	1000479608	sequence	                                                        NC_060282.1 Equus burchellii quagga isolate Etosha38 chromosome 16, UCLA_HA_Equagga_1.0, whole genome shotgun sequence
+0.03999	102	2	514	1	1.038e-08	314146	superorder	                                            Euarchontoglires
+0.02549	65	2	322	1	1.945e-08	9443	order	                                              Primates
+0.01647	42	0	225	1	1.734e-08	376913	suborder	                                                Haplorrhini
+0.01647	42	1	225	1	1.734e-08	314293	infraorder	                                                  Simiiformes
+0.01529	39	7	205	1	1.898e-08	9526	parvorder	                                                    Catarrhini
+0.00745	19	5	79	1	1.499e-08	314295	superfamily	                                                      Hominoidea
+0.004705	12	2	40	1	1.1e-08	9604	family	                                                        Hominidae
+0.003529	9	1	26	1	1.126e-08	207598	subfamily	                                                          Homininae
+0.001568	4	0	12	1	2.858e-08	9605	genus	                                                            Homo
+0.001568	4	0	12	1	2.858e-08	9606	species	                                                              Homo sapiens
+0.001568	4	4	12	1	2.858e-08	1000425964	assembly	                                                                GCF_000001405.40 Homo sapiens
+0.001176	3	1	6	1	9.854e-09	9596	genus	                                                            Pan
+0.0007842	2	0	2	1	1.215e-08	9598	species	                                                              Pan troglodytes
+0.0007842	2	0	2	1	1.215e-08	1000134489	assembly	                                                                GCF_002880755.1 Pan troglodytes
+0.0003921	1	1	1	1	1.013e-07	1000134493	sequence	                                                                  NC_036882.1 Pan troglodytes isolate Yerkes chimp pedigree #C0471 (Clint) chromosome 3, Clint_PTRv2, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.513e-07	1000134503	sequence	                                                                  NC_036889.1 Pan troglodytes isolate Yerkes chimp pedigree #C0471 (Clint) chromosome 10, Clint_PTRv2, whole genome shotgun sequence
+0.0003921	1	0	3	1	5.477e-09	9592	genus	                                                            Gorilla
+0.0003921	1	0	3	1	5.477e-09	9593	species	                                                              Gorilla gorilla
+0.0003921	1	0	3	1	5.477e-09	9595	subspecies	                                                                Gorilla gorilla gorilla
+0.0003921	1	0	3	1	5.477e-09	1000193301	assembly	                                                                  GCF_008122165.1 Gorilla gorilla gorilla breed=western lowland gorilla
+0.0003921	1	1	2	1	1.401e-07	1000193526	sequence	                                                                    NC_044618.1 Gorilla gorilla gorilla isolate Kamilah (stud number 0661) breed western lowland gorilla chromosome 16, Kamilah_GGO_v0, whole genome shotgun sequence
+0.0003921	1	0	7	1	7.024e-09	607660	subfamily	                                                          Ponginae
+0.0003921	1	0	7	1	7.024e-09	9599	genus	                                                            Pongo
+0.0003921	1	0	7	1	7.024e-09	9601	species	                                                              Pongo abelii
+0.0003921	1	0	7	1	7.024e-09	1000091997	assembly	                                                                GCF_002880775.1 Pongo abelii
+0.0003921	1	1	1	1	3.303e-08	1000092030	sequence	                                                                  NC_036917.1 Pongo abelii isolate Susie chromosome 14, Susie_PABv2, whole genome shotgun sequence
+0.0007842	2	0	20	1	1.84e-08	9577	family	                                                        Hylobatidae
+0.0007842	2	0	20	1	1.84e-08	325165	genus	                                                          Nomascus
+0.0007842	2	0	20	1	1.84e-08	61853	species	                                                            Nomascus leucogenys
+0.0007842	2	0	20	1	1.84e-08	1000089744	assembly	                                                              GCF_006542625.1 Nomascus leucogenys
+0.0003921	1	1	12	1	3.388e-07	1000089758	sequence	                                                                NC_044394.1 Nomascus leucogenys isolate Asia chromosome 14, Asia_NLE_v1, whole genome shotgun sequence
+0.0003921	1	1	4	1	1.127e-07	1000089761	sequence	                                                                NC_044397.1 Nomascus leucogenys isolate Asia chromosome 17, Asia_NLE_v1, whole genome shotgun sequence
+0.005097	13	0	82	1	1.718e-08	314294	superfamily	                                                      Cercopithecoidea
+0.005097	13	2	82	1	1.718e-08	9527	family	                                                        Cercopithecidae
+0.003137	8	4	41	1	1.965e-08	9528	subfamily	                                                          Cercopithecinae
+0.0007842	2	0	7	1	2.61e-08	9564	genus	                                                            Theropithecus
+0.0007842	2	0	7	1	2.61e-08	9565	species	                                                              Theropithecus gelada
+0.0007842	2	0	7	1	2.61e-08	1000061889	assembly	                                                                GCF_003255815.1 Theropithecus gelada
+0.0003921	1	1	2	1	1.376e-07	1000061898	sequence	                                                                  NC_037676.1 Theropithecus gelada isolate Dixy chromosome 8, Tgel_1.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.001e-07	1000061911	sequence	                                                                  NC_037689.1 Theropithecus gelada isolate Dixy chromosome X, Tgel_1.0, whole genome shotgun sequence
+0.0003921	1	0	10	1	1.468e-08	9539	genus	                                                            Macaca
+0.0003921	1	0	10	1	5.63e-08	9544	species	                                                              Macaca mulatta
+0.0003921	1	0	10	1	5.63e-08	1000462899	assembly	                                                                GCF_003339765.1 Macaca mulatta
+0.0003921	1	1	10	1	9.929e-07	1000462954	sequence	                                                                  NC_041757.1 Macaca mulatta isolate AG07107 chromosome 4, Mmul_10, whole genome shotgun sequence
+0.0003921	1	0	5	1	1.76e-08	9554	genus	                                                            Papio
+0.0003921	1	0	5	1	1.76e-08	9555	species	                                                              Papio anubis
+0.0003921	1	0	5	1	1.76e-08	1000412959	assembly	                                                                GCF_008728515.1 Papio anubis
+0.0003921	1	1	5	1	2.501e-07	1000412960	sequence	                                                                  NC_044976.1 Papio anubis isolate 15944 chromosome 1, Panubis1.0, whole genome shotgun sequence
+0.001176	3	1	24	1	1.236e-08	9569	subfamily	                                                          Colobinae
+0.0007842	2	0	10	1	1.232e-08	542827	genus	                                                            Rhinopithecus
+0.0007842	2	0	10	1	1.232e-08	61622	species	                                                              Rhinopithecus roxellana
+0.0007842	2	0	10	1	1.232e-08	1000476121	assembly	                                                                GCF_007565055.1 Rhinopithecus roxellana
+0.0003921	1	1	4	1	1.78e-07	1000476142	sequence	                                                                  NC_044569.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 21, ASM756505v1, whole genome shotgun sequence
+0.0003921	1	1	3	1	5.479e-08	1000476123	sequence	                                                                  NC_044550.1 Rhinopithecus roxellana isolate Shanxi Qingling chromosome 2, ASM756505v1, whole genome shotgun sequence
+0.0007842	2	0	17	1	8.579e-09	9479	parvorder	                                                    Platyrrhini
+0.0007842	2	0	17	1	8.579e-09	9498	family	                                                      Cebidae
+0.0007842	2	0	17	1	8.579e-09	9480	subfamily	                                                        Callitrichinae
+0.0007842	2	0	17	1	8.579e-09	9481	genus	                                                          Callithrix
+0.0007842	2	0	17	1	8.579e-09	1965096	subgenus	                                                            Callithrix
+0.0007842	2	0	17	1	8.579e-09	9483	species	                                                              Callithrix jacchus
+0.0007842	2	0	17	1	8.579e-09	1000161837	assembly	                                                                GCF_009663435.1 Callithrix jacchus strain=cj1700
+0.0003921	1	1	9	1	9.597e-08	1000161850	sequence	                                                                  NC_048392.1 Callithrix jacchus strain cj1700 chromosome 10, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.0003921	1	1	3	1	8.14e-08	1000161867	sequence	                                                                  NC_048403.1 Callithrix jacchus strain cj1700 chromosome 21, Callithrix_jacchus_cj1700_1.1, whole genome shotgun sequence
+0.008234	21	0	89	1	2.511e-08	376911	suborder	                                                Strepsirrhini
+0.008234	21	2	89	1	2.511e-08	376915	infraorder	                                                  Lemuriformes
+0.003921	10	0	49	1	2.704e-08	30615	family	                                                    Cheirogaleidae
+0.003921	10	0	49	1	2.704e-08	13149	genus	                                                      Microcebus
+0.003921	10	0	49	1	2.704e-08	30608	species	                                                        Microcebus murinus
+0.003921	10	1	49	1	2.704e-08	1000077198	assembly	                                                          GCF_000165445.2 Microcebus murinus
+0.001176	3	3	4	1	6.893e-08	1000079819	sequence	                                                            NC_033674.1 Microcebus murinus isolate mixed chromosome 15, Mmur_3.0, whole genome shotgun sequence
+0.0007842	2	2	22	1	1.858e-07	1000078428	sequence	                                                            NC_033667.1 Microcebus murinus isolate mixed chromosome 8, Mmur_3.0, whole genome shotgun sequence
+0.0003921	1	1	4	1	7.536e-08	1000080596	sequence	                                                            NC_033679.1 Microcebus murinus isolate mixed chromosome 20, Mmur_3.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.232e-08	1000078144	sequence	                                                            NC_033665.1 Microcebus murinus isolate mixed chromosome 6, Mmur_3.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.962e-08	1000077431	sequence	                                                            NC_033661.1 Microcebus murinus isolate mixed chromosome 2, Mmur_3.0, whole genome shotgun sequence
+0.0003921	1	1	2	1	1.084e-07	1000080839	sequence	                                                            NC_033681.1 Microcebus murinus isolate mixed chromosome 22, Mmur_3.0, whole genome shotgun sequence
+0.003529	9	0	32	1	1.978e-08	9445	family	                                                    Lemuridae
+0.003529	9	0	32	1	1.978e-08	9446	genus	                                                      Lemur
+0.003529	9	0	32	1	1.978e-08	9447	species	                                                        Lemur catta
+0.003529	9	0	32	1	1.978e-08	1000190798	assembly	                                                          GCF_020740605.2 Lemur catta
+0.0003921	1	1	6	1	7.577e-08	1000190806	sequence	                                                            NC_059135.1 Lemur catta isolate mLemCat1 chromosome 8, mLemCat1.pri, whole genome shotgun sequence
+0.0003921	1	1	6	1	8.064e-08	1000190804	sequence	                                                            NC_059133.1 Lemur catta isolate mLemCat1 chromosome 6, mLemCat1.pri, whole genome shotgun sequence
+0.0003921	1	1	4	1	3.569e-08	1000190800	sequence	                                                            NC_059129.1 Lemur catta isolate mLemCat1 chromosome 2, mLemCat1.pri, whole genome shotgun sequence
+0.0003921	1	1	3	1	3.921e-08	1000190818	sequence	                                                            NC_059138.1 Lemur catta isolate mLemCat1 chromosome 11, mLemCat1.pri, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.114e-08	1000190801	sequence	                                                            NC_059130.1 Lemur catta isolate mLemCat1 chromosome 3, mLemCat1.pri, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.509e-08	1000190807	sequence	                                                            NC_059136.1 Lemur catta isolate mLemCat1 chromosome 9, mLemCat1.pri, whole genome shotgun sequence
+0.0003921	1	1	1	1	8.868e-08	1000190833	sequence	                                                            NC_059152.1 Lemur catta isolate mLemCat1 chromosome 25, mLemCat1.pri, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.268e-08	1000190805	sequence	                                                            NC_059134.1 Lemur catta isolate mLemCat1 chromosome 7, mLemCat1.pri, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.182e-08	1000190803	sequence	                                                            NC_059132.1 Lemur catta isolate mLemCat1 chromosome 5, mLemCat1.pri, whole genome shotgun sequence
+0.01372	35	0	168	1.01	5.102e-09	314147	clade	                                              Glires
+0.01059	27	0	127	1.02	4.339e-09	9989	order	                                                Rodentia
+0.005489	14	1	65	1.03	2.743e-09	1963758	suborder	                                                  Myomorpha
+0.003921	10	1	45	1.04	2.083e-09	337687	clade	                                                    Muroidea
+0.00196	5	0	30	1	2.61e-09	10066	family	                                                      Muridae
+0.00196	5	1	30	1	2.61e-09	39107	subfamily	                                                        Murinae
+0.0007842	2	0	3	1	6.438e-10	10088	genus	                                                          Mus
+0.0003921	1	0	2	1	6.837e-10	862507	subgenus	                                                            Mus
+0.0003921	1	0	2	1	1.61e-09	10089	species	                                                              Mus caroli
+0.0003921	1	0	2	1	1.61e-09	1000130925	assembly	                                                                GCF_900094665.1 Mus caroli
+0.0003921	1	1	2	1	4.522e-08	1000130948	sequence	                                                                  NC_034587.1 Mus caroli chromosome 18, CAROLI_EIJ_v1.1, whole genome shotgun sequence
+0.0003921	1	0	1	1	6.474e-10	862508	subgenus	                                                            Coelomys
+0.0003921	1	0	1	1	6.474e-10	10093	species	                                                              Mus pahari
+0.0003921	1	0	1	1	6.474e-10	1000097259	assembly	                                                                GCF_900095145.1 Mus pahari
+0.0003921	1	1	1	1	2.086e-08	1000097282	sequence	                                                                  NC_034608.1 Mus pahari chromosome 19, PAHARI_EIJ_v1.1, whole genome shotgun sequence
+0.0003921	1	0	10	1	3.283e-09	10114	genus	                                                          Rattus
+0.0003921	1	0	9	1	7.893e-09	10117	species	                                                            Rattus rattus
+0.0003921	1	0	9	1	7.893e-09	1000191127	assembly	                                                              GCF_011064425.1 Rattus rattus
+0.0003921	1	1	9	1	0.0001702	1000191179	sequence	                                                                NW_022651169.1 Rattus rattus isolate New Zealand unplaced genomic scaffold, Rrattus_CSIRO_v1 PGA_scaffold_52, whole genome shotgun sequence
+0.0003921	1	0	3	1	1.728e-09	30639	genus	                                                          Mastomys
+0.0003921	1	0	3	1	1.728e-09	35658	species	                                                            Mastomys coucha
+0.0003921	1	0	3	1	1.728e-09	1000199404	assembly	                                                              GCF_008632895.1 Mastomys coucha
+0.0003921	1	1	1	1	1.286e-08	1000199416	sequence	                                                                NW_022196900.1 Mastomys coucha isolate ucsf_1 unplaced genomic scaffold, UCSF_Mcou_1 pScaffold18, whole genome shotgun sequence
+0.001568	4	0	13	1.15	1.297e-09	337677	family	                                                      Cricetidae
+0.0007842	2	0	7	1.29	2.075e-09	39087	subfamily	                                                        Arvicolinae
+0.0007842	2	0	3	1.67	1.834e-09	10049	genus	                                                          Arvicola
+0.0007842	2	0	3	1.67	1.834e-09	1047088	species	                                                            Arvicola amphibius
+0.0007842	2	0	3	1.67	1.834e-09	1000134089	assembly	                                                              GCF_903992535.2 Arvicola amphibius
+0.0007842	2	2	2	2	5.067e-08	1000134104	sequence	                                                                NC_052061.1 Arvicola amphibius chromosome 15, mArvAmp1.2, whole genome shotgun sequence
+0.0003921	1	0	3	1	1.626e-09	10026	subfamily	                                                        Cricetinae
+0.0003921	1	0	3	1	1.626e-09	10028	genus	                                                          Cricetulus
+0.0003921	1	0	3	1	1.626e-09	10029	species	                                                            Cricetulus griseus
+0.0003921	1	0	3	1	1.626e-09	1000406337	assembly	                                                              GCF_003668045.3 Cricetulus griseus strain=17A/GY
+0.0003921	1	1	1	1	5.489e-09	1000406342	sequence	                                                                NC_048597.1 Cricetulus griseus strain 17A/GY chromosome 4, alternate assembly CriGri-PICRH-1.0, whole genome shotgun sequence
+0.0003921	1	0	3	1	6.362e-10	337963	subfamily	                                                        Neotominae
+0.0003921	1	0	2	1	7.143e-10	10040	genus	                                                          Peromyscus
+0.0003921	1	0	2	1	1.913e-09	10041	species	                                                            Peromyscus leucopus
+0.0003921	1	0	2	1	1.913e-09	1000424106	assembly	                                                              GCF_004664715.2 Peromyscus leucopus breed=LL Stock
+0.0003921	1	1	2	1	3.363e-08	1000424111	sequence	                                                                NC_051067.1 Peromyscus leucopus breed LL Stock chromosome 5, UCI_PerLeu_2.1, whole genome shotgun sequence
+0.001176	3	0	17	1	8.168e-09	1963761	superfamily	                                                    Dipodoidea
+0.001176	3	0	17	1	8.168e-09	30648	family	                                                      Dipodidae
+0.001176	3	0	17	1	8.168e-09	35737	subfamily	                                                        Dipodinae
+0.001176	3	0	17	1	8.168e-09	48867	genus	                                                          Jaculus
+0.001176	3	0	17	1	8.168e-09	51337	species	                                                            Jaculus jaculus
+0.001176	3	0	17	1	8.168e-09	1000163022	assembly	                                                              GCF_020740685.1 Jaculus jaculus
+0.0003921	1	1	3	1	3.756e-08	1000163035	sequence	                                                                NC_059113.1 Jaculus jaculus isolate mJacJac1 chromosome 12, mJacJac1.mat.Y.cur, whole genome shotgun sequence
+0.0003921	1	1	2	1	2.02e-08	1000163032	sequence	                                                                NC_059110.1 Jaculus jaculus isolate mJacJac1 chromosome 9, mJacJac1.mat.Y.cur, whole genome shotgun sequence
+0.0003921	1	1	1	1	8.251e-09	1000163028	sequence	                                                                NC_059107.1 Jaculus jaculus isolate mJacJac1 chromosome 6, mJacJac1.mat.Y.cur, whole genome shotgun sequence
+0.003529	9	0	46	1	1.13e-08	33553	suborder	                                                  Sciuromorpha
+0.003529	9	4	46	1	1.13e-08	55153	family	                                                    Sciuridae
+0.001176	3	0	17	1	7.982e-09	9991	subfamily	                                                      Sciurinae
+0.001176	3	0	17	1	7.982e-09	337752	tribe	                                                        Sciurini
+0.001176	3	0	17	1	7.982e-09	2895726	genus	                                                          Neosciurus
+0.001176	3	0	17	1	7.982e-09	30640	species	                                                            Neosciurus carolinensis
+0.001176	3	0	17	1	7.982e-09	1000460433	assembly	                                                              GCF_902686445.1 Neosciurus carolinensis
+0.0007842	2	2	5	1	4.109e-08	1000460440	sequence	                                                                NC_062219.1 Neosciurus carolinensis chromosome 7, mSciCar1.2, whole genome shotgun sequence
+0.0003921	1	1	5	1	4.312e-08	1000460441	sequence	                                                                NC_062220.1 Neosciurus carolinensis chromosome 8, mSciCar1.2, whole genome shotgun sequence
+0.0007842	2	0	16	1	8.441e-09	337726	subfamily	                                                      Xerinae
+0.0007842	2	0	16	1	8.441e-09	337730	tribe	                                                        Marmotini
+0.0007842	2	0	16	1	8.441e-09	1141640	genus	                                                          Ictidomys
+0.0007842	2	0	16	1	8.441e-09	43179	species	                                                            Ictidomys tridecemlineatus
+0.0007842	2	0	16	1	8.441e-09	1000039771	assembly	                                                              GCF_016881025.1 Ictidomys tridecemlineatus
+0.0003921	1	1	10	1	1.115e-07	1000039889	sequence	                                                                NW_024405058.1 Ictidomys tridecemlineatus isolate GS200 unplaced genomic scaffold, HiC_Itri_2 Itri11, whole genome shotgun sequence
+0.0003921	1	1	1	1	2.197e-08	1000044180	sequence	                                                                NW_024409349.1 Ictidomys tridecemlineatus isolate GS200 unplaced genomic scaffold, HiC_Itri_2 Itri16, whole genome shotgun sequence
+0.001568	4	0	16	1	1.07e-08	1963757	suborder	                                                  Castorimorpha
+0.001568	4	0	16	1	1.07e-08	10015	family	                                                    Heteromyidae
+0.001568	4	0	16	1	1.07e-08	38663	subfamily	                                                      Perognathinae
+0.001568	4	0	16	1	1.07e-08	37442	genus	                                                        Perognathus
+0.001568	4	0	16	1	1.07e-08	38669	species	                                                          Perognathus longimembris
+0.001568	4	0	16	1	1.07e-08	214514	subspecies	                                                            Perognathus longimembris pacificus
+0.001568	4	0	16	1	1.07e-08	1000184254	assembly	                                                              GCF_023159225.1 Perognathus longimembris pacificus
+0.0007842	2	2	6	1	2.093e-07	1000184276	sequence	                                                                NC_063182.1 Perognathus longimembris pacificus isolate PPM17 chromosome 22, ASM2315922v1, whole genome shotgun sequence
+0.0003921	1	1	3	1	2.524e-08	1000184256	sequence	                                                                NC_063162.1 Perognathus longimembris pacificus isolate PPM17 chromosome 2, ASM2315922v1, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.476e-08	1000184259	sequence	                                                                NC_063165.1 Perognathus longimembris pacificus isolate PPM17 chromosome 5, ASM2315922v1, whole genome shotgun sequence
+0.003137	8	0	39	1	1.067e-08	9975	order	                                                Lagomorpha
+0.002353	6	0	30	1	1.514e-08	9979	family	                                                  Leporidae
+0.002353	6	0	30	1	1.514e-08	9984	genus	                                                    Oryctolagus
+0.002353	6	0	30	1	1.514e-08	9986	species	                                                      Oryctolagus cuniculus
+0.002353	6	0	30	1	1.514e-08	1000158547	assembly	                                                        GCF_000003625.3 Oryctolagus cuniculus breed=Thorbecke inbred
+0.0007842	2	2	8	1	6.901e-08	1000158550	sequence	                                                          NC_013671.1 Oryctolagus cuniculus breed Thorbecke inbred chromosome 3, OryCun2.0, whole genome shotgun sequence
+0.0003921	1	1	11	1	6.083e-06	1000158608	sequence	                                                          NW_003159363.1 Oryctolagus cuniculus breed Thorbecke inbred unplaced genomic scaffold, OryCun2.0 chrUn0039, whole genome shotgun sequence
+0.0003921	1	1	4	1	6.027e-08	1000158551	sequence	                                                          NC_013672.1 Oryctolagus cuniculus breed Thorbecke inbred chromosome 4, OryCun2.0, whole genome shotgun sequence
+0.0003921	1	1	3	1	4.726e-08	1000158558	sequence	                                                          NC_013679.1 Oryctolagus cuniculus breed Thorbecke inbred chromosome 11, OryCun2.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	1.162e-08	1000158556	sequence	                                                          NC_013677.1 Oryctolagus cuniculus breed Thorbecke inbred chromosome 9, OryCun2.0, whole genome shotgun sequence
+0.0007842	2	0	8	1	4.802e-09	9976	family	                                                  Ochotonidae
+0.0007842	2	0	8	1	4.802e-09	9977	genus	                                                    Ochotona
+0.0007842	2	0	8	1	4.802e-09	9978	species	                                                      Ochotona princeps
+0.0007842	2	0	8	1	4.802e-09	1000466769	assembly	                                                        GCF_014633375.1 Ochotona princeps
+0.0003921	1	1	4	1	9.4e-08	1000466778	sequence	                                                          NC_050544.1 Ochotona princeps isolate UAM:Mamm:113957 chromosome 9, OchPri4.0, whole genome shotgun sequence
+0.0003921	1	1	1	1	4.693e-08	1000466800	sequence	                                                          NC_050566.1 Ochotona princeps isolate UAM:Mamm:113957 chromosome 11A, OchPri4.0, whole genome shotgun sequence
+0.009802	25	0	132	1	5.7e-08	9348	superorder	                                          Xenarthra
+0.009802	25	0	132	1	5.7e-08	948950	order	                                            Pilosa
+0.009802	25	0	132	1	5.7e-08	948953	suborder	                                              Folivora
+0.009802	25	0	132	1	5.7e-08	227508	family	                                                Megalonychidae
+0.009802	25	0	132	1	5.7e-08	9357	genus	                                                  Choloepus
+0.009802	25	0	132	1	5.7e-08	27675	species	                                                    Choloepus didactylus
+0.009802	25	3	132	1	5.7e-08	1000061637	assembly	                                                      GCF_015220235.1 Choloepus didactylus
+0.001176	3	3	22	1	2.043e-07	1000061648	sequence	                                                        NC_051314.1 Choloepus didactylus isolate mChoDid1 chromosome 8, mChoDid1.pri, whole genome shotgun sequence
+0.0007842	2	2	13	1	1.329e-07	1000061713	sequence	                                                        NC_051334.1 Choloepus didactylus isolate mChoDid1 chromosome X, mChoDid1.pri, whole genome shotgun sequence
+0.0007842	2	2	12	1	1.672e-07	1000061665	sequence	                                                        NC_051319.1 Choloepus didactylus isolate mChoDid1 chromosome 13, mChoDid1.pri, whole genome shotgun sequence
+0.0007842	2	2	7	1	7.03e-08	1000061650	sequence	                                                        NC_051315.1 Choloepus didactylus isolate mChoDid1 chromosome 9, mChoDid1.pri, whole genome shotgun sequence
+0.0007842	2	2	4	1	6.024e-08	1000061652	sequence	                                                        NC_051317.1 Choloepus didactylus isolate mChoDid1 chromosome 11, mChoDid1.pri, whole genome shotgun sequence
+0.0007842	2	2	3	1	4.753e-08	1000061670	sequence	                                                        NC_051322.1 Choloepus didactylus isolate mChoDid1 chromosome 16, mChoDid1.pri, whole genome shotgun sequence
+0.0003921	1	1	13	1	1.156e-07	1000061646	sequence	                                                        NC_051312.1 Choloepus didactylus isolate mChoDid1 chromosome 6, mChoDid1.pri, whole genome shotgun sequence
+0.0003921	1	1	11	1	9.524e-08	1000061647	sequence	                                                        NC_051313.1 Choloepus didactylus isolate mChoDid1 chromosome 7, mChoDid1.pri, whole genome shotgun sequence
+0.0003921	1	1	7	1	3.784e-08	1000061638	sequence	                                                        NC_051307.1 Choloepus didactylus isolate mChoDid1 chromosome 1, mChoDid1.pri, whole genome shotgun sequence
+0.0003921	1	1	6	1	8.002e-08	1000061668	sequence	                                                        NC_051320.1 Choloepus didactylus isolate mChoDid1 chromosome 14, mChoDid1.pri, whole genome shotgun sequence
+0.0003921	1	1	6	1	1.037e-07	1000061671	sequence	                                                        NC_051323.1 Choloepus didactylus isolate mChoDid1 chromosome 17, mChoDid1.pri, whole genome shotgun sequence
+0.0003921	1	1	4	1	2.441e-08	1000061640	sequence	                                                        NC_051309.1 Choloepus didactylus isolate mChoDid1 chromosome 3, mChoDid1.pri, whole genome shotgun sequence
+0.0003921	1	1	3	1	4.545e-08	1000061669	sequence	                                                        NC_051321.1 Choloepus didactylus isolate mChoDid1 chromosome 15, mChoDid1.pri, whole genome shotgun sequence
+0.0003921	1	1	3	1	4.067e-08	1000061663	sequence	                                                        NC_051318.1 Choloepus didactylus isolate mChoDid1 chromosome 12, mChoDid1.pri, whole genome shotgun sequence
+0.0003921	1	1	1	1	8.09e-09	1000061642	sequence	                                                        NC_051311.1 Choloepus didactylus isolate mChoDid1 chromosome 5, mChoDid1.pri, whole genome shotgun sequence
+0.0003921	1	0	21	1.1	1.666e-09	9263	clade	                                        Metatheria
+0.0003921	1	0	11	1	4.485e-09	38607	order	                                          Microbiotheria
+0.0003921	1	0	11	1	4.485e-09	30660	family	                                            Microbiotheriidae
+0.0003921	1	0	11	1	4.485e-09	33561	genus	                                              Dromiciops
+0.0003921	1	0	11	1	4.485e-09	33562	species	                                                Dromiciops gliroides
+0.0003921	1	0	11	1	4.485e-09	1000409482	assembly	                                                  GCF_019393635.1 Dromiciops gliroides
+0.0003921	1	1	4	1	7.141e-09	1000409483	sequence	                                                    NC_057861.1 Dromiciops gliroides isolate mDroGli1 chromosome 1, mDroGli1.pri, whole genome shotgun sequence
+0.0003921	1	0	5	1	1.768e-09	9254	clade	                                      Prototheria
+0.0003921	1	0	5	1	1.768e-09	9255	order	                                        Monotremata
+0.0003921	1	0	1	1	7.225e-10	9259	family	                                          Tachyglossidae
+0.0003921	1	0	1	1	7.225e-10	9260	genus	                                            Tachyglossus
+0.0003921	1	0	1	1	7.225e-10	9261	species	                                              Tachyglossus aculeatus
+0.0003921	1	0	1	1	7.225e-10	1000130614	assembly	                                                GCF_015852505.1 Tachyglossus aculeatus
+0.0003921	1	1	1	1	2.164e-08	1000130625	sequence	                                                  NC_052076.1 Tachyglossus aculeatus isolate mTacAcu1 chromosome 11, mTacAcu1.pri, whole genome shotgun sequence

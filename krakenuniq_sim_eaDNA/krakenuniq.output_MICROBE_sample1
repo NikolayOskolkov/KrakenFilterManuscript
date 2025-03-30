@@ -1,0 +1,150 @@
+# KrakenUniq v0.7.3 DATE:2022-07-26T06:36:08Z DB:/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/Test_Sample/genomes/DBDIR_MICROBE DB_SIZE:374811341068 WD:/crex/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/Test_Sample/Loxodonta_Human_Microbes
+# CL:perl /proj/uppstore2018095/private/NBIS_Demo/KrakenUniq_v0.7.3/KrakenUniq/krakenuniq --db /proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/Test_Sample/genomes/DBDIR_MICROBE --fastq-input sample.trimmed.fastq.gz --threads 16 --output sequences.krakenuniq_MICROBE --report-file krakenuniq.output_MICROBE --preload
+
+%	reads	taxReads	kmers	dup	cov	taxID	rank	taxName
+94.19	240226	240226	3681146	1.02	431.7	0	no rank	unclassified
+5.81	14819	2	215841	1.01	6.91e-06	1	no rank	root
+5.809	14815	0	215758	1.01	6.973e-06	131567	no rank	  cellular organisms
+5.809	14815	21	215758	1.01	7.33e-06	2	superkingdom	    Bacteria
+5.799	14790	8	215353	1.01	1.945e-05	1783272	clade	      Terrabacteria group
+5.795	14781	17	215039	1.01	5.216e-05	1239	phylum	        Firmicutes
+5.788	14762	1	215017	1.01	0.0002363	186801	class	          Clostridia
+5.788	14761	15	214899	1.01	0.0002636	186802	order	            Eubacteriales
+5.782	14746	22	214646	1.01	0.000748	31979	family	              Clostridiaceae
+5.773	14724	3443	214357	1.01	0.0008863	1485	genus	                Clostridium
+4.381	11173	10886	141602	1.02	0.00556	1491	species	                  Clostridium botulinum
+0.02901	74	0	450	1.03	0.0004226	36826	no rank	                    Clostridium botulinum A
+0.02901	74	0	450	1.03	0.0004311	498214	strain	                      Clostridium botulinum A3 str. Loch Maree
+0.02901	74	0	450	1.03	0.0004311	1000085642	assembly	                        GCF_000019545.1 Clostridium botulinum A3 str. Loch Maree
+0.02862	73	73	444	1.03	0.0004493	1000085643	sequence	                          NC_010520.1 Clostridium botulinum A3 str. Loch Maree, complete sequence
+0.0003921	1	1	6	1	0.0001078	1000085644	sequence	                          NC_010418.1 Clostridium botulinum A3 str. Loch Maree plasmid pCLK, complete sequence
+0.01529	39	0	209	1	0.0001199	36827	no rank	                    Clostridium botulinum B
+0.01529	39	0	209	1	0.0004392	591968	strain	                      Clostridium botulinum B1
+0.01529	39	0	209	1	0.0004392	498213	no rank	                        Clostridium botulinum B1 str. Okra
+0.01529	39	0	209	1	0.0004392	1000110573	assembly	                          GCF_000019305.1 Clostridium botulinum B1 str. Okra
+0.01529	39	39	209	1	0.0004564	1000110574	sequence	                            NC_010516.1 Clostridium botulinum B1 str. Okra, complete sequence
+0.01255	32	0	257	1.01	0.0005665	36831	no rank	                    Clostridium botulinum F
+0.01255	32	0	257	1.01	0.0005665	441772	strain	                      Clostridium botulinum F str. Langeland
+0.01255	32	0	257	1.01	0.0005665	1000111801	assembly	                        GCF_000017065.1 Clostridium botulinum F str. Langeland
+0.01255	32	32	257	1.01	0.0005693	1000111802	sequence	                          NC_009699.1 Clostridium botulinum F str. Langeland, complete sequence
+0.01176	30	0	106	1.1	0.0001476	1000067633	assembly	                    GCF_016838665.1 Clostridium botulinum strain=IBCA10-7060
+0.01176	30	30	106	1.1	0.0001476	1000067634	sequence	                      NZ_CP069280.1 Clostridium botulinum strain IBCA10-7060 chromosome, complete genome
+0.008626	22	0	177	1	0.0005702	941968	strain	                    Clostridium botulinum H04402 065
+0.008626	22	0	177	1	0.0005702	1000098572	assembly	                      GCF_000253195.1 Clostridium botulinum H04402 065
+0.008626	22	22	177	1	0.0005702	1000098573	sequence	                        NC_017299.1 Clostridium botulinum H04402 065, complete sequence
+0.005097	13	0	119	1	0.0001547	1000104456	assembly	                    GCF_003017225.1 Clostridium botulinum strain=RF5
+0.005097	13	13	119	1	0.0001547	1000104457	sequence	                      NZ_CP027779.1 Clostridium botulinum strain RF5 chromosome, complete genome
+0.004705	12	0	45	1	0.000315	1000071472	assembly	                    GCF_002866045.1 Clostridium botulinum strain=BrDura
+0.004705	12	12	45	1	0.0003152	1000071473	sequence	                      NZ_CP014151.1 Clostridium botulinum strain BrDura chromosome, complete genome
+0.004313	11	0	84	1.06	0.0003988	1000039509	assembly	                    GCF_000829015.1 Clostridium botulinum strain=111
+0.004313	11	11	84	1.06	0.0003988	1000039510	sequence	                      NZ_AP014696.1 Clostridium botulinum strain 111 chromosome, complete genome
+0.003921	10	0	83	1.1	0.0005207	1000045822	assembly	                    GCF_001879605.1 Clostridium botulinum strain=CDC_69094
+0.003921	10	10	83	1.1	0.0005207	1000045823	sequence	                      NZ_CP013246.1 Clostridium botulinum strain CDC_69094 chromosome, complete genome
+0.003921	10	0	55	1.04	0.0002719	1000054548	assembly	                    GCF_001921965.1 Clostridium botulinum strain=F160
+0.003921	10	10	55	1.04	0.0002754	1000054549	sequence	                      NZ_CP013705.1 Clostridium botulinum strain F160 chromosome, complete genome
+0.002745	7	0	33	1.24	0.0004253	1000081899	assembly	                    GCF_003058445.1 Clostridium botulinum strain=CFSAN064329
+0.002745	7	7	33	1.24	0.0004264	1000081900	sequence	                      NZ_CP028859.1 Clostridium botulinum strain CFSAN064329 chromosome, complete genome
+0.002353	6	0	30	1	0.0002992	1000109114	assembly	                    GCF_001921985.1 Clostridium botulinum strain=F634
+0.002353	6	6	30	1	0.0003997	1000109115	sequence	                      NZ_CP013707.1 Clostridium botulinum strain F634 chromosome, complete genome
+0.001568	4	0	25	1	0.0002697	1000037012	assembly	                    GCF_022833145.1 Clostridium botulinum strain=ST7B
+0.001568	4	4	25	1	0.0003065	1000037013	sequence	                      NZ_CP050251.1 Clostridium botulinum strain ST7B chromosome, complete genome
+0.001176	3	0	51	1	0.0004483	1000099394	assembly	                    GCF_002865825.1 Clostridium botulinum strain=A634
+0.001176	3	3	51	1	0.0005297	1000099395	sequence	                      NZ_CP013845.1 Clostridium botulinum strain A634 chromosome, complete genome
+0.001176	3	0	14	1	0.0001713	1000110282	assembly	                    GCF_002866225.1 Clostridium botulinum strain=B609
+0.001176	3	3	14	1	0.0002302	1000110283	sequence	                      NZ_CP014174.1 Clostridium botulinum strain B609 chromosome, complete genome
+0.001176	3	0	9	1	6.405e-05	1000070896	assembly	                    GCF_001921945.1 Clostridium botulinum strain=AM282
+0.0007842	2	2	7	1	8.934e-05	1000070897	sequence	                      NZ_CP013683.1 Clostridium botulinum strain AM282 chromosome, complete genome
+0.0003921	1	1	2	1	3.217e-05	1000070898	sequence	                      NZ_CP013684.1 Clostridium botulinum strain AM282 plasmid pRSJ10_1, complete sequence
+0.0007842	2	0	15	1	0.0001855	1000094761	assembly	                    GCF_002865805.1 Clostridium botulinum strain=AM1051
+0.0007842	2	2	15	1	0.0001859	1000094762	sequence	                      NZ_CP013841.1 Clostridium botulinum strain AM1051 chromosome, complete genome
+0.0007842	2	0	5	1	7.738e-05	1000068662	assembly	                    GCF_001921905.1 Clostridium botulinum strain=F1425
+0.0007842	2	2	5	1	7.738e-05	1000068663	sequence	                      NZ_CP013686.1 Clostridium botulinum strain F1425 chromosome, complete genome
+0.0003921	1	0	15	1	0.0001536	1000113474	assembly	                    GCF_002865885.1 Clostridium botulinum strain=B305
+0.0003921	1	1	15	1	0.0001537	1000113475	sequence	                      NZ_CP013850.1 Clostridium botulinum strain B305 chromosome, complete genome
+0.0003921	1	0	8	1	0.0005591	1000039550	assembly	                    GCF_003017195.1 Clostridium botulinum strain=Mfbjulcb6
+0.0003921	1	1	8	1	0.0005591	1000039551	sequence	                      NZ_CP027778.1 UNVERIFIED_CONTAM: Clostridium botulinum strain Mfbjulcb6 chromosome, complete genome
+0.0003921	1	0	7	1	8.862e-05	1000030911	assembly	                    GCF_002865745.1 Clostridium botulinum strain=B742
+0.0003921	1	1	7	1	8.862e-05	1000030912	sequence	                      NZ_CP013843.1 Clostridium botulinum strain B742 chromosome, complete genome
+0.0003921	1	0	1	1	1.829e-05	1000063109	assembly	                    GCF_002865765.1 Clostridium botulinum strain=Mauritius
+0.0003921	1	1	1	1	1.829e-05	1000063110	sequence	                      NZ_CP013849.1 Clostridium botulinum strain Mauritius chromosome, complete genome
+0.03764	96	43	550	1.04	0.0001274	1509	species	                  Clostridium sporogenes
+0.01098	28	0	162	1.06	0.000167	1000048695	assembly	                    GCF_001889325.1 Clostridium sporogenes strain=CDC_1632
+0.01098	28	28	162	1.06	0.000167	1000048696	sequence	                      NZ_CP013243.1 Clostridium sporogenes strain CDC_1632 chromosome, complete genome
+0.009018	23	0	128	1.03	0.0001606	1000108547	assembly	                    GCF_001886775.1 Clostridium sporogenes strain=CDC_67071
+0.009018	23	23	128	1.03	0.0001644	1000108548	sequence	                      NZ_CP013242.1 Clostridium sporogenes strain CDC_67071 chromosome, complete genome
+0.0003921	1	0	8	1	3.477e-05	1000047473	assembly	                    GCF_021495975.1 Clostridium sporogenes strain=LHA6
+0.0003921	1	1	8	1	3.477e-05	1000047474	sequence	                      NZ_CP090904.1 Clostridium sporogenes strain LHA6 chromosome, complete genome
+0.0003921	1	0	3	1	1.37e-05	1000107082	assembly	                    GCF_020099295.1 Clostridium sporogenes strain=FDAARGOS_1491
+0.0003921	1	1	3	1	1.37e-05	1000107083	sequence	                      NZ_CP083649.1 Clostridium sporogenes strain FDAARGOS_1491 chromosome, complete genome
+0.0007842	2	0	7	1	2.658e-06	394958	species	                  Clostridium taeniosporum
+0.0007842	2	0	7	1	2.658e-06	1000051067	assembly	                    GCF_001735765.2 Clostridium taeniosporum strain=1/k
+0.0007842	2	2	7	1	2.861e-06	1000051068	sequence	                      NZ_CP017253.2 Clostridium taeniosporum strain 1/k chromosome, complete genome
+0.0007842	2	0	6	1	7.507e-07	1501	species	                  Clostridium pasteurianum
+0.0007842	2	0	6	1	1.393e-06	86416	strain	                    Clostridium pasteurianum BC1
+0.0007842	2	0	6	1	1.393e-06	1000060366	assembly	                      GCF_000389635.1 Clostridium pasteurianum BC1
+0.0007842	2	2	6	1	1.407e-06	1000060367	sequence	                        NC_021182.1 Clostridium pasteurianum BC1, complete sequence
+0.0003921	1	0	4	1	1.425e-06	1548	species	                  Clostridium scatologenes
+0.0003921	1	0	4	1	1.425e-06	1000079099	assembly	                    GCF_000968375.1 Clostridium scatologenes strain=ATCC 25775
+0.0003921	1	1	4	1	1.425e-06	1000079100	sequence	                      NZ_CP009933.1 Clostridium scatologenes strain ATCC 25775 chromosome, complete genome
+0.0003921	1	1	3	1	6.373e-07	169679	species	                  Clostridium saccharobutylicum
+0.0003921	1	0	3	1	7.698e-07	1513	species	                  Clostridium tetani
+0.0003921	1	0	2	1	6.202e-06	212717	strain	                    Clostridium tetani E88
+0.0003921	1	0	2	1	6.202e-06	1000100462	assembly	                      GCF_000007625.1 Clostridium tetani E88 strain=Massachusetts substr. E88
+0.0003921	1	1	2	1	6.729e-06	1000100463	sequence	                        NC_004557.1 Clostridium tetani E88, complete sequence
+0.0003921	1	0	3	1	2.39e-07	1502	species	                  Clostridium perfringens
+0.0003921	1	0	3	1	5.641e-06	1000055314	assembly	                    GCF_022429605.1 Clostridium perfringens strain=Qinghai-1
+0.0003921	1	1	3	1	5.839e-06	1000055315	sequence	                      NZ_CP092481.1 Clostridium perfringens strain Qinghai-1 chromosome, complete genome
+0.0003921	1	0	2	1	4.879e-07	29341	species	                  Clostridium argentinense
+0.0003921	1	0	2	1	4.879e-07	1000097416	assembly	                    GCF_002074155.1 Clostridium argentinense strain=89G
+0.0003921	1	1	2	1	5.022e-07	1000097417	sequence	                      NZ_CP014176.1 Clostridium argentinense strain 89G chromosome, complete genome
+0.0003921	1	0	1	1	2.716e-08	2614128	no rank	                  unclassified Clostridium
+0.0003921	1	0	1	1	4.441e-07	1970093	species	                    Clostridium sp. 001
+0.0003921	1	0	1	1	4.441e-07	1000054683	assembly	                      GCF_019056555.1 Clostridium sp. 001
+0.0003921	1	1	1	1	4.441e-07	1000054684	sequence	                        NZ_CP020473.1 Clostridium sp. 001 chromosome, complete genome
+0.0003921	1	1	1	1	3.531e-07	1504	species	                  Clostridium septicum
+0.0003921	1	1	1	1	2.748e-07	1488	species	                  Clostridium acetobutylicum
+0.0007842	2	0	6	1	1.977e-09	91061	class	          Bacilli
+0.0007842	2	0	4	1	4.785e-09	186826	order	            Lactobacillales
+0.0003921	1	0	3	1	7.708e-08	186828	family	              Carnobacteriaceae
+0.0003921	1	0	3	1	2.512e-07	1470540	genus	                Jeotgalibaca
+0.0003921	1	0	3	1	1.419e-06	1868793	species	                  Jeotgalibaca porci
+0.0003921	1	0	3	1	1.419e-06	1000100405	assembly	                    GCF_011299095.1 Jeotgalibaca porci strain=CCUG 69148
+0.0003921	1	1	3	1	1.444e-06	1000100406	sequence	                      NZ_CP049889.1 Jeotgalibaca porci strain CCUG 69148 chromosome, complete genome
+0.0003921	1	0	1	1	2.576e-09	33958	family	              Lactobacillaceae
+0.0003921	1	0	1	1	5.137e-08	2767887	genus	                Ligilactobacillus
+0.0003921	1	1	1	1	1.464e-07	1624	species	                  Ligilactobacillus salivarius
+0.0003921	1	0	1	1	8.711e-09	544448	phylum	        Tenericutes
+0.0003921	1	0	1	1	9.694e-09	31969	class	          Mollicutes
+0.0003921	1	0	1	1	1.801e-08	2085	order	            Mycoplasmatales
+0.0003921	1	1	1	1	1.801e-08	2092	family	              Mycoplasmataceae
+0.001568	4	0	10	1	6.79e-10	1224	phylum	      Proteobacteria
+0.0007842	2	1	5	1	6.905e-10	1236	class	        Gammaproteobacteria
+0.0003921	1	0	3	1	1.601e-09	91347	order	          Enterobacterales
+0.0003921	1	0	3	1	3.209e-09	543	family	            Enterobacteriaceae
+0.0003921	1	0	3	1	4.376e-08	590	genus	              Salmonella
+0.0003921	1	0	3	1	5.614e-08	28901	species	                Salmonella enterica
+0.0003921	1	0	3	1	1.482e-07	59201	subspecies	                  Salmonella enterica subsp. enterica
+0.0003921	1	0	3	1	4.293e-06	90371	no rank	                    Salmonella enterica subsp. enterica serovar Typhimurium
+0.0003921	1	0	3	1	0.0009702	1000042866	assembly	                      GCF_009497835.1 Salmonella enterica subsp. enterica serovar Typhimurium strain=SL26
+0.0003921	1	1	3	1	0.004615	1000042867	sequence	                        NZ_CP032490.1 Salmonella enterica subsp. enterica serovar Typhimurium strain SL26 chromosome, complete genome
+0.0007842	2	0	5	1	5.145e-09	68525	subphylum	        delta/epsilon subdivisions
+0.0007842	2	0	5	1	1.516e-08	29547	class	          Epsilonproteobacteria
+0.0007842	2	0	5	1	1.59e-08	213849	order	            Campylobacterales
+0.0003921	1	0	4	1	1.363e-07	2771471	family	              Thiovulaceae
+0.0003921	1	0	4	1	1.501e-07	202746	genus	                Sulfurimonas
+0.0003921	1	0	4	1	1.906e-06	2590022	species	                  Sulfurimonas lithotrophica
+0.0003921	1	0	4	1	1.906e-06	1000046524	assembly	                    GCF_009258225.1 Sulfurimonas lithotrophica strain=GYSZ_1
+0.0003921	1	1	4	1	1.921e-06	1000046525	sequence	                      NZ_CP043617.1 Sulfurimonas lithotrophica strain GYSZ_1 chromosome, complete genome
+0.0003921	1	0	1	1	1.509e-08	2808963	family	              Arcobacteraceae
+0.0003921	1	1	1	1	4.67e-08	2321111	genus	                Aliarcobacter
+0.0007842	2	0	1	2	3.653e-09	10239	superkingdom	  Viruses
+0.0007842	2	0	1	2	5.609e-09	2731341	clade	    Duplodnaviria
+0.0007842	2	0	1	2	5.609e-09	2731360	kingdom	      Heunggongvirae
+0.0007842	2	0	1	2	6.059e-09	2731618	phylum	        Uroviricota
+0.0007842	2	0	1	2	6.059e-09	2731619	class	          Caudoviricetes
+0.0007842	2	0	1	2	5.645e-07	2943001	family	            Casjensviridae
+0.0007842	2	0	1	2	3.03e-06	1623283	genus	              Chivirus
+0.0007842	2	0	1	2	0.0001879	1005056	species	                Chivirus iEPS5
+0.0007842	2	0	1	2	0.000309	2500149	no rank	                  Salmonella phage TS13
+0.0007842	2	0	1	2	0.000309	1000015964	assembly	                    GCF_014190375.1 Salmonella phage TS13
+0.0007842	2	2	1	2	0.000309	1000015965	sequence	                      NC_053004.1 Salmonella phage TS13, complete genome
