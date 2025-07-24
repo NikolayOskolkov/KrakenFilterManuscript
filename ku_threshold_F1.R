@@ -435,3 +435,30 @@ for(s in 1:10)#length(sample_vector)
 average_cor <- Reduce("+", cor_mat) / length(cor_mat)
 pheatmap(average_cor,display_numbers=TRUE,fontsize = 20)
 
+
+#sessionInfo()
+#R version 4.2.3 (2023-03-15)
+#Platform: x86_64-pc-linux-gnu (64-bit)
+#Running under: Ubuntu 18.04.6 LTS
+
+#Matrix products: default
+#BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+#LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+
+#locale:
+#  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C               LC_TIME=sv_SE.UTF-8        LC_COLLATE=en_US.UTF-8    
+#[5] LC_MONETARY=sv_SE.UTF-8    LC_MESSAGES=en_US.UTF-8    LC_PAPER=sv_SE.UTF-8       LC_NAME=C                 
+#[9] LC_ADDRESS=C               LC_TELEPHONE=C             LC_MEASUREMENT=sv_SE.UTF-8 LC_IDENTIFICATION=C       
+
+#attached base packages:
+#  [1] stats     graphics  grDevices utils     datasets  methods   base     
+
+#other attached packages:
+#  [1] viridis_0.6.3      viridisLite_0.4.2  matrixStats_0.63.0 pheatmap_1.0.12   
+
+#loaded via a namespace (and not attached):
+#  [1] fansi_1.0.5        dplyr_1.1.2        utf8_1.2.4         grid_4.2.3         R6_2.5.1           lifecycle_1.0.4   
+#[7] gtable_0.3.4       magrittr_2.0.3     scales_1.3.0       pillar_1.9.0       ggplot2_3.4.3      rlang_1.1.6       
+#[13] cli_3.6.5          rstudioapi_0.14    generics_0.1.3     vctrs_0.6.5        RColorBrewer_1.1-3 tools_4.2.3       
+#[19] glue_1.6.2         munsell_0.5.0      compiler_4.2.3     pkgconfig_2.0.3    colorspace_2.1-0   tidyselect_1.2.0  
+#[25] gridExtra_2.3      tibble_3.2.1      
