@@ -1,6 +1,20 @@
+# To run the script and reproduce the figures from the manuscript
+
+# Refining filtering criteria for accurate taxonomic classification of ancient metagenomic data
+# Nikolay Oskolkov
+# bioRxiv 2025.03.31.646431; doi: https://doi.org/10.1101/2025.03.31.646431 
+
+# please clone the repository https://github.com/NikolayOskolkov/KrakenFilterManuscript and navigate to 
+# https://github.com/NikolayOskolkov/KrakenFilterManuscript/krakenuniq_sim_eaDNA
+
+
 ################################################ GROUND TRUTH MAIN AMETA ANALYSIS ###################################################
 library("pheatmap")
-gt_path<-"/home/nikolay/WABI/A_Gotherstrom/gargammel/gargammel/data_and_lists_for_16_species_simulation/"
+
+#gt_path<-"/home/nikolay/WABI/A_Gotherstrom/gargammel/gargammel/data_and_lists_for_16_species_simulation/"
+gt_path<-"path_to_cloned_github_repo/krakenuniq_sim_eaDNA/"
+
+
 ground_truth_matrix<-read.delim(paste0(gt_path,"ground_truth_number_of_reads.txt"),row.names=1,header=TRUE,sep="\t")
 #rownames(ground_truth_matrix)<-gsub("\\.fa","",rownames(ground_truth_matrix))
 ground_truth_matrix<-ground_truth_matrix[order(rownames(ground_truth_matrix)),]
@@ -21,10 +35,12 @@ colSums(ground_truth_matrix_binary)
 
 ################################################# KRAKENUNIQ MAIN AMETA ANALYSIS ####################################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_eaDNA/"
+
 library("matrixStats")
-max_kmers<-10000; step_kmers<-50
-max_taxReads<-300; step_taxReads<-10
+max_kmers<-10000; step_kmers<-100
+max_taxReads<-300; step_taxReads<-50
 kmers_vector<-seq(from=0,to=max_kmers,by=step_kmers)
 taxReads_vector<-seq(from=0,to=max_taxReads,by=step_taxReads)
 sample_vector<-seq(from=1,to=2,by=1)
@@ -82,10 +98,13 @@ sd_across_samples
 mean_across_samples[1,29]
 sd_across_samples[1,29]
 
-filled.contour(mean_across_samples,plot.axes= {
+library("viridis")
+
+filled.contour(mean_across_samples^10,plot.axes= {
   axis(2,at=as.numeric(colnames(mean_across_samples))/max_kmers,labels=as.numeric(colnames(mean_across_samples)))
   axis(1,at=as.numeric(rownames(mean_across_samples))/max_taxReads,las=2,labels=as.numeric(rownames(mean_across_samples)))},
-  nlevels=30,color.palette=terrain.colors,main="F1-score average across samples: sedaDNA dataset",xlab="Number of taxReads",
+  nlevels=30,color.palette=viridis,main="F1-score averaged across samples: env / sedaDNA dataset",
+  xlab="Number of reads assigned to txon",
   ylab="Number of unique k-mers")
 
 mtext(paste0("kmers_max = ",colnames(mean_across_samples)[which(mean_across_samples==max(mean_across_samples), arr.ind=T)[,"col"]][1],
@@ -97,7 +116,9 @@ mtext(paste0("kmers_max = ",colnames(mean_across_samples)[which(mean_across_samp
 
 ################################################# KRAKENUNIQ FILTER K ####################################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_eaDNA/"
+
 library("matrixStats")
 par(mfrow=c(2,3))
 
@@ -144,7 +165,9 @@ rowSds(F1_matrix[which(rowMeans(F1_matrix)==max(rowMeans(F1_matrix))),])[1]
 
 ################################################# KRAKENUNIQ FILTER C ####################################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_eaDNA/"
+
 library("matrixStats")
 
 kmers_vector<-seq(from=0,to=0.005,by=0.00001)
@@ -191,7 +214,9 @@ rowSds(F1_matrix[which(rowMeans(F1_matrix)==max(rowMeans(F1_matrix))),])[1]
 
 ################################################# KRAKENUNIQ FILTER R ####################################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_eaDNA/"
+
 library("matrixStats")
 
 kmers_vector<-seq(from=0,to=1000,by=10)
@@ -237,7 +262,9 @@ rowSds(F1_matrix[which(rowMeans(F1_matrix)==max(rowMeans(F1_matrix))),])[1]
 
 ################################################# KRAKENUNIQ FILTER K/R ####################################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_eaDNA/"
+
 library("matrixStats")
 
 ratio_vector<-seq(from=0,to=100,by=0.5)
@@ -283,7 +310,9 @@ sd(as.numeric(F1_matrix[which(rowMeans(F1_matrix)==max(rowMeans(F1_matrix))),]))
 
 ################################################# KRAKENUNIQ FILTER (K/R)*C ####################################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_eaDNA/"
+
 library("matrixStats")
 
 ratio_vector<-seq(from=0,to=0.1,by=0.0005)
@@ -331,7 +360,9 @@ rowSds(F1_matrix[which(rowMeans(F1_matrix)==max(rowMeans(F1_matrix))),])[1]
 
 ################################################# KRAKENUNIQ FILTER (K/R)*dexp(C) ##################################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_eaDNA/"
+
 library("matrixStats")
 
 ratio_vector<-seq(from=0,to=100,by=1)
@@ -374,10 +405,13 @@ mtext(paste0("((K / R) * dexp(C))_max = ",names(rowMeans(F1_matrix))[rowMeans(F1
 mean(as.numeric(F1_matrix[which(rowMeans(F1_matrix)==max(rowMeans(F1_matrix))),]))
 sd(as.numeric(F1_matrix[which(rowMeans(F1_matrix)==max(rowMeans(F1_matrix))),]))
 
+
 ################################################ CORRELATION BETWEEN QUALITY FILTERS #################################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
-sample_vector<-seq(from=1,to=2,by=1)
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_sedaDNA_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_eaDNA/"
+
+sample_vector<-seq(from=1,to=2,by=1); cor_mat<-list()
 for(s in 1:2)#length(sample_vector)
 {
   print(paste0("Working with Sample",sample_vector[s]))
@@ -391,4 +425,31 @@ for(s in 1:2)#length(sample_vector)
   cor_mat[[s]]<-cor(subset(krakenuniq,select=c("%","reads","taxReads","kmers","cov","dup")),method="spearman")
 }
 average_cor <- Reduce("+", cor_mat) / length(cor_mat)
-pheatmap(average_cor,display_numbers=TRUE)
+pheatmap(average_cor,display_numbers=TRUE,fontsize = 20)
+
+
+#sessionInfo()
+#R version 4.2.3 (2023-03-15)
+#Platform: x86_64-pc-linux-gnu (64-bit)
+#Running under: Ubuntu 18.04.6 LTS
+
+#Matrix products: default
+#BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+#LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+
+#locale:
+#  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C               LC_TIME=sv_SE.UTF-8        LC_COLLATE=en_US.UTF-8     LC_MONETARY=sv_SE.UTF-8   
+#[6] LC_MESSAGES=en_US.UTF-8    LC_PAPER=sv_SE.UTF-8       LC_NAME=C                  LC_ADDRESS=C               LC_TELEPHONE=C            
+#[11] LC_MEASUREMENT=sv_SE.UTF-8 LC_IDENTIFICATION=C       
+
+#attached base packages:
+#  [1] stats     graphics  grDevices utils     datasets  methods   base     
+
+#other attached packages:
+#  [1] ggplot2_3.4.3      viridis_0.6.3      viridisLite_0.4.2  matrixStats_0.63.0 pheatmap_1.0.12   
+
+#loaded via a namespace (and not attached):
+#  [1] rstudioapi_0.14    magrittr_2.0.3     tidyselect_1.2.0   munsell_0.5.0      colorspace_2.1-0   R6_2.5.1           rlang_1.1.6       
+#[8] fansi_1.0.5        dplyr_1.1.2        tools_4.2.3        grid_4.2.3         gtable_0.3.4       utf8_1.2.4         cli_3.6.5         
+#[15] withr_2.5.0        tibble_3.2.1       lifecycle_1.0.4    gridExtra_2.3      farver_2.1.1       RColorBrewer_1.1-3 vctrs_0.6.5       
+#[22] glue_1.6.2         labeling_0.4.2     compiler_4.2.3     pillar_1.9.0       generics_0.1.3     scales_1.3.0       pkgconfig_2.0.3
