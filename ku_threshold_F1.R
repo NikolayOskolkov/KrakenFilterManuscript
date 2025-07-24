@@ -1,7 +1,19 @@
+# To run the script and reproduce the figures from the manuscript
+
+# Refining filtering criteria for accurate taxonomic classification of ancient metagenomic data
+# Nikolay Oskolkov
+# bioRxiv 2025.03.31.646431; doi: https://doi.org/10.1101/2025.03.31.646431 
+
+# please clone the repository https://github.com/NikolayOskolkov/KrakenFilterManuscript and navigate to 
+# https://github.com/NikolayOskolkov/KrakenFilterManuscript/krakenuniq_sim_regular_microbial
+
 ################################################ GROUND TRUTH MAIN AMETA ANALYSIS ###################################
 
 library("pheatmap")
-gt_path<-"/home/nikolay/WABI/A_Gotherstrom/gargammel/gargammel/data_and_lists_for_main_aMeta_analysis/"
+
+#gt_path<-"/home/nikolay/WABI/A_Gotherstrom/gargammel/gargammel/data_and_lists_for_main_aMeta_analysis/"
+gt_path<-"path_to_cloned_github_repo/krakenuniq_sim_regular_microbial/"
+
 ground_truth_matrix<-read.delim(paste0(gt_path,"ground_truth_number_of_reads.txt"),row.names=1,header=TRUE,sep="\t")
 rownames(ground_truth_matrix)<-gsub("\\.fa","",rownames(ground_truth_matrix))
 ground_truth_matrix<-ground_truth_matrix[order(rownames(ground_truth_matrix)),]
@@ -22,9 +34,11 @@ colSums(ground_truth_matrix_binary)
 
 ################################################# KRAKENUNIQ MAIN AMETA ANALYSIS ###################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_regular_microbial/"
+
 library("matrixStats")
-max_kmers<-10000; step_kmers<-1000
+max_kmers<-10000; step_kmers<-100
 max_taxReads<-300; step_taxReads<-50
 kmers_vector<-seq(from=0,to=max_kmers,by=step_kmers)
 taxReads_vector<-seq(from=0,to=max_taxReads,by=step_taxReads)
@@ -84,24 +98,28 @@ sd_across_samples
 mean_across_samples[1,4]
 sd_across_samples[1,4]
 
-filled.contour(mean_across_samples,plot.axes= {
+library("viridis")
+
+filled.contour(mean_across_samples^6,plot.axes= {
   axis(2,at=as.numeric(colnames(mean_across_samples))/max_kmers,labels=as.numeric(colnames(mean_across_samples)))
   axis(1,at=as.numeric(rownames(mean_across_samples))/max_taxReads,las=2,
        labels=as.numeric(rownames(mean_across_samples)))},
-  nlevels=30,color.palette=terrain.colors,
-  main="F1-score average across samples: regular microbes dataset",xlab="Number of taxReads",
+  nlevels=20,color.palette=viridis,
+  main="F1-score averaged across samples: regular microbes dataset",xlab="Number of reads assigned to a taxon",
   ylab="Number of unique k-mers")
 
 mtext(paste0("kmers_max = ",
-             colnames(mean_across_samples)[which(mean_across_samples==max(mean_across_samples), arr.ind=T)[,"col"]],
+             colnames(mean_across_samples)[which(mean_across_samples==max(mean_across_samples), arr.ind=T)[,"col"]][1],
              ", taxReads_max = ",
-             rownames(mean_across_samples)[which(mean_across_samples==max(mean_across_samples), arr.ind=T)[,"row"]],
+             rownames(mean_across_samples)[which(mean_across_samples==max(mean_across_samples), arr.ind=T)[,"row"]][1],
              ", F1_max = ",max(mean_across_samples)))
 
 
 ################################################# KRAKENUNIQ FILTER K ##############################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_regular_microbial/"
+
 library("matrixStats")
 par(mfrow=c(2,3))
 
@@ -151,7 +169,9 @@ rowSds(F1_matrix[which(rowMeans(F1_matrix)==max(rowMeans(F1_matrix))),])[1]
 
 ################################################# KRAKENUNIQ FILTER C #############################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_regular_microbial/"
+
 library("matrixStats")
 
 kmers_vector<-seq(from=0,to=0.005,by=0.00001)
@@ -198,7 +218,9 @@ mtext(paste0("C_max = ",names(rowMeans(F1_matrix))[rowMeans(F1_matrix)==max(rowM
 
 ################################################# KRAKENUNIQ FILTER R #############################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_regular_microbial/"
+
 library("matrixStats")
 
 kmers_vector<-seq(from=0,to=1000,by=10)
@@ -245,7 +267,9 @@ mtext(paste0("R_max = ",names(rowMeans(F1_matrix))[rowMeans(F1_matrix)==max(rowM
 
 ################################################# KRAKENUNIQ FILTER K/R #############################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_regular_microbial/"
+
 library("matrixStats")
 
 ratio_vector<-seq(from=0,to=100,by=0.5)
@@ -292,7 +316,9 @@ mtext(paste0("(K / R)_max = ",names(rowMeans(F1_matrix))[rowMeans(F1_matrix)==ma
 
 ################################################# KRAKENUNIQ FILTER (K/R)*C #######################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_regular_microbial/"
+
 library("matrixStats")
 
 ratio_vector<-seq(from=0,to=0.1,by=0.0005)
@@ -339,7 +365,9 @@ mtext(paste0("((K / R) * C)_max = ",names(rowMeans(F1_matrix))[rowMeans(F1_matri
 
 ################################################# KRAKENUNIQ FILTER (K/R)*dexp(C) ####################################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_regular_microbial/"
+
 library("matrixStats")
 
 ratio_vector<-seq(from=0,to=100,by=1)
@@ -387,7 +415,9 @@ mtext(paste0("((K / R) * dexp(C))_max = ",
 
 ################################################ CORRELATION BETWEEN QUALITY FILTERS #############################
 
-ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+#ku_path<-"/home/nikolay/WABI/A_Gotherstrom/KrakenUniq/krakenuniq_aMeta_simulations_unfiltered/"
+ku_path<-"path_to_cloned_github_repo/krakenuniq_sim_regular_microbial/"
+
 sample_vector<-seq(from=1,to=10,by=1)
 cor_mat<-list()
 for(s in 1:10)#length(sample_vector)
@@ -403,5 +433,5 @@ for(s in 1:10)#length(sample_vector)
   cor_mat[[s]]<-cor(subset(krakenuniq,select=c("%","reads","taxReads","kmers","cov","dup")),method="spearman")
 }
 average_cor <- Reduce("+", cor_mat) / length(cor_mat)
-pheatmap(average_cor,display_numbers=TRUE)
+pheatmap(average_cor,display_numbers=TRUE,fontsize = 20)
 
