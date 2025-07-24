@@ -1,0 +1,18 @@
+Sample1	Sample2
+Homo sapiens	77464	15337
+Loxodonta africana	159755	15500
+Pipistrellus kuhlii	0	15178
+Sus scrofa	0	15005
+Crocodylus porosus	0	15026
+Gallus gallus	0	13511
+Salmo trutta	0	13403
+Arabidopsis thaliana	0	15252
+Helianthus annuus	0	14732
+Populus trichocarpa	0	15710
+Cherax quadricarinatus	0	14391
+Octopus sinensis	0	13008
+Papilio machaon	0	15432
+Clostridium botulinum	17826	13116
+Streptosporangium roseum	0	13851
+Yersinia pestis	0	13503
+
