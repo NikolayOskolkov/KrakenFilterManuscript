@@ -18,3 +18,4 @@ To reproduce the figures from the manuscript, please clone the github repository
      4) ku_threshold_plot.R to reproduce Figure 4
      5) optimal_kmer_vs_seqdepth.R to reproduce Supplementary Figure 8
      6) kraken2_vs_krakenuniq_filters.R to reproduce Supplementary Figures 6 and 7
+     7) stats.R to reproduce Supplementary Figure 8
