@@ -14,8 +14,9 @@ To reproduce the figures from the manuscript, please clone the github repository
 
      1) ku_threshold_F1.R to reproduce Figures 2, 3 and 5
      2) ku_threshold_F1_pathogen.R to reproduce Supplementary Figures 1a, 2 and 4
-     3) ku_threshold_F1_sedadna.R to reproduce Supplementary Figures 1b, 3 and 5
+     3) ku_threshold_F1_sedadna.R to reproduce Supplementary Figures 1b, 3, 5 and 10
      4) ku_threshold_plot.R to reproduce Figure 4
      5) optimal_kmer_vs_seqdepth.R to reproduce Supplementary Figure 8
      6) kraken2_vs_krakenuniq_filters.R to reproduce Supplementary Figures 6 and 7
-     7) stats.R to reproduce Supplementary Figure 8
+     7) stats.R to reproduce Supplementary Figure 9
+     8) real_samples_test.R to reproduce Supplementary Figure 11
