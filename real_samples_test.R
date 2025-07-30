@@ -70,6 +70,30 @@ arrows(x0=kmers_vector, y0=rowMeans(F1_matrix_ku)-rowSds(F1_matrix_ku), x1=kmers
        code=3, angle=90, length=0.03, col="darkblue")
 
 
+#sessionInfo()
+#R version 4.2.3 (2023-03-15)
+#Platform: x86_64-pc-linux-gnu (64-bit)
+#Running under: Ubuntu 18.04.6 LTS
 
+#Matrix products: default
+#BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+#LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+
+#locale:
+#  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C               LC_TIME=sv_SE.UTF-8        LC_COLLATE=en_US.UTF-8    
+#[5] LC_MONETARY=sv_SE.UTF-8    LC_MESSAGES=en_US.UTF-8    LC_PAPER=sv_SE.UTF-8       LC_NAME=C                 
+#[9] LC_ADDRESS=C               LC_TELEPHONE=C             LC_MEASUREMENT=sv_SE.UTF-8 LC_IDENTIFICATION=C       
+
+#attached base packages:
+#  [1] stats     graphics  grDevices utils     datasets  methods   base     
+
+#other attached packages:
+#  [1] ggplot2_3.4.3      viridis_0.6.3      viridisLite_0.4.2  matrixStats_0.63.0 pheatmap_1.0.12   
+
+#loaded via a namespace (and not attached):
+#  [1] rstudioapi_0.14    magrittr_2.0.3     tidyselect_1.2.0   munsell_0.5.0      colorspace_2.1-0   R6_2.5.1           rlang_1.1.6       
+#[8] fansi_1.0.5        dplyr_1.1.2        tools_4.2.3        grid_4.2.3         gtable_0.3.4       utf8_1.2.4         cli_3.6.5         
+#[15] withr_2.5.0        tibble_3.2.1       lifecycle_1.0.4    gridExtra_2.3      farver_2.1.1       RColorBrewer_1.1-3 vctrs_0.6.5       
+#[22] glue_1.6.2         labeling_0.4.2     compiler_4.2.3     pillar_1.9.0       generics_0.1.3     scales_1.3.0       pkgconfig_2.0.3   
 
 
